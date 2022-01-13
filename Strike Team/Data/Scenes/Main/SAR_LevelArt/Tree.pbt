@@ -35213,488 +35213,6 @@ Objects {
   }
 }
 Objects {
-  Id: 15664482587985701202
-  Name: "SAR_Plastic Container"
-  Transform {
-    Location {
-      X: 5379.99609
-      Y: 9704.1709
-      Z: 2.26358032
-    }
-    Rotation {
-      Yaw: 0.212685272
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 728393700732652711
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 976260505690867141
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1671440995973735463
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2188534552773033863
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2861705277083395841
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2903699622858844085
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3300470116919326782
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3545768540742671906
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3593243620919193398
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3685792703808696423
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4038562425167167582
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4378350474384003587
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4486262956200993471
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5174660683043004675
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Plastic Container"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5825.81885
-            Y: 9521.56738
-            Z: 105.607178
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 43.708271
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5415963846203428939
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5856803663308808899
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6506744038487862531
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7531815893978732138
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8108090804749457474
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8125643616820736058
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9347229531763147725
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11556645078416662130
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12271161263313951274
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13115246248375386385
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13180758933643730863
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13373971284878838124
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13822759973632562104
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13996569811320587910
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17351539629395126435
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18009577860967134746
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18432167320432983714
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5392455809090379132
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 6090449183627947555
   Name: "Corrugated Sheet Medium"
   Transform {
@@ -43943,52 +43461,6 @@ Objects {
   }
 }
 Objects {
-  Id: 18212502373262984400
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -1440.00024
-      Y: 9078.94141
-      Z: -4.99996948
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 13096649054480764770
   Name: "Simple Crate 150cm"
   Transform {
@@ -44695,62 +44167,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7676021192377965160
-  Name: "SAR_Antenna 2"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11499602539280894888
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Antenna 2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6319.2666
-            Y: 8373.53613
-            Z: 11.0762711
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.255513042
-            Y: 0.255513042
-            Z: 0.255513042
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 18.4319134
-            Yaw: 0.374434799
-            Roll: -1.79498255
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6363991226564515595
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 2573508560856917291
   Name: "SAR_TrashCan"
   Transform {
@@ -44860,8 +44276,11 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  CameraCollidable {
+  Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -44885,45 +44304,11 @@ Objects {
             Yaw: -90.7129211
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.02612662
-            Y: 1.02612662
-            Z: 1.02612662
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5844585477050518955
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:medium"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12056169230858519920
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1.71423459
-            Y: 18.4670696
-          }
-        }
       }
     }
     TemplateAsset {
       Id: 8559018484838499271
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -46344,54 +45729,13 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  CameraCollidable {
+  Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 2984713565194555632
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:medium"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5403846837857928284
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:medium"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5804690056114912069
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:medium"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6208426331454818653
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:medium"
-          }
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 8689398725498774398
       value {
@@ -46412,55 +45756,11 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15003626760923624510
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:medium"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15717996564273414057
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:medium"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18082383891840641974
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:medium"
-          }
-        }
       }
     }
     TemplateAsset {
       Id: 8492150673855688629
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -47229,571 +46529,6 @@ Objects {
     }
     TemplateAsset {
       Id: 3147139735242523546
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16361520840829789015
-  Name: "SAR_Plastic Container"
-  Transform {
-    Location {
-      X: 5327.30615
-      Y: 9830.55762
-      Z: 2.26345825
-    }
-    Rotation {
-      Yaw: 32.8486404
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5174660683043004675
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Plastic Container"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6730
-            Y: 9255
-            Z: 100
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90.9109802
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5392455809090379132
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11549035125796345911
-  Name: "SAR_Plastic Container"
-  Transform {
-    Location {
-      X: 5617.51172
-      Y: 9590.34863
-      Z: 2.26351929
-    }
-    Rotation {
-      Yaw: 32.8486404
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 728393700732652711
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 976260505690867141
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1671440995973735463
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2188534552773033863
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2861705277083395841
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2903699622858844085
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3300470116919326782
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3545768540742671906
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3593243620919193398
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3685792703808696423
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4038562425167167582
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4378350474384003587
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4486262956200993471
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5174660683043004675
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Plastic Container"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6538.67
-            Y: 9255
-            Z: 30
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 89.0876312
-            Yaw: 179.998596
-            Roll: 89.9974213
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5415963846203428939
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5856803663308808899
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6506744038487862531
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7531815893978732138
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8108090804749457474
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 7.0897789
-            Y: -0.392725945
-            Z: 1.23977661e-05
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8125643616820736058
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9347229531763147725
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11556645078416662130
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12271161263313951274
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13115246248375386385
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13180758933643730863
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13373971284878838124
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13822759973632562104
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13996569811320587910
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17351539629395126435
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18009577860967134746
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18432167320432983714
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5392455809090379132
     }
   }
   NetworkRelevanceDistance {
@@ -58679,506 +57414,6 @@ Objects {
     }
     TemplateAsset {
       Id: 10949753034564775285
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 2047815498968516532
-  Name: "SAR_Plastic Container"
-  Transform {
-    Location {
-      X: 5466.06445
-      Y: 8036.60596
-      Z: 2.26351929
-    }
-    Rotation {
-      Yaw: 32.8486252
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 728393700732652711
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 976260505690867141
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1671440995973735463
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2188534552773033863
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2861705277083395841
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2903699622858844085
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3300470116919326782
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3545768540742671906
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3593243620919193398
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3685792703808696423
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4038562425167167582
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4378350474384003587
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4486262956200993471
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5174660683043004675
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Plastic Container"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5690.88
-            Y: 9625.4
-            Z: 2.26348877
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 32.8486404
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5415963846203428939
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5856803663308808899
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6506744038487862531
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7531815893978732138
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8108090804749457474
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -0.323773921
-            Y: -0.274190634
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8125643616820736058
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9347229531763147725
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11556645078416662130
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12271161263313951274
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13115246248375386385
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13180758933643730863
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13373971284878838124
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13822759973632562104
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13996569811320587910
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17351539629395126435
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18009577860967134746
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18432167320432983714
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5392455809090379132
     }
   }
   NetworkRelevanceDistance {
@@ -111161,6 +109396,20 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 8640698428808496686
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.177
+            G: 0.0706687123
+            B: 0.0589409918
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11809706110926740078
       value {
         Overrides {
@@ -111179,6 +109428,34 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -179.999985
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12674967866453052518
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.177
+            G: 0.0706687123
+            B: 0.0589409918
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13146388993531840529
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.177
+            G: 0.0706687123
+            B: 0.0589409918
+            A: 1
           }
         }
       }
@@ -194172,44 +192449,27 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  ChildIds: 14596971958906174799
-  ChildIds: 7329134624244728823
+  ChildIds: 10797433894243510022
+  ChildIds: 2976168137319172780
+  ChildIds: 699580232814919903
+  ChildIds: 10447803273715426960
+  ChildIds: 5452688727275733209
+  ChildIds: 5534725289146645739
+  ChildIds: 3376406835017977337
+  ChildIds: 1252208274683994144
+  ChildIds: 1827453268617339075
+  ChildIds: 51135252996620640
+  ChildIds: 4652506042376478300
+  ChildIds: 10733130618891538767
+  ChildIds: 17392938464785000859
+  ChildIds: 3265755812955561810
+  ChildIds: 392746907613395039
+  ChildIds: 4930823673823030174
+  ChildIds: 3008911622596100278
+  ChildIds: 3251584183685227169
+  ChildIds: 15129473295987529986
+  ChildIds: 11811255270165494786
   ChildIds: 11069992146886583549
-  ChildIds: 4379708726484769830
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 4379708726484769830
-  Name: "Frame"
-  Transform {
-    Location {
-      X: 14.1421375
-      Y: 35.3553429
-      Z: 65
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18087017608715274295
   ChildIds: 503226099374409756
   ChildIds: 10794946233911763566
   ChildIds: 13014661592686630296
@@ -194235,13 +192495,13 @@ Objects {
   Name: "Frame Large Straight"
   Transform {
     Location {
-      X: -194.339584
-      Y: -200.661072
-      Z: 340.000122
+      X: -180.197449
+      Y: -165.305756
+      Z: 405.000122
     }
     Rotation {
-      Yaw: -45
-      Roll: -179.999969
+      Yaw: -44.9999962
+      Roll: -179.999954
     }
     Scale {
       X: 1
@@ -194249,7 +192509,7 @@ Objects {
       Z: 3.700001
     }
   }
-  ParentId: 4379708726484769830
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -194305,13 +192565,13 @@ Objects {
   Name: "Frame Large Straight"
   Transform {
     Location {
-      X: 201.150665
-      Y: 194.829193
-      Z: 310.000122
+      X: 215.292801
+      Y: 230.184509
+      Z: 375.000122
     }
     Rotation {
-      Yaw: -45
-      Roll: -90
+      Yaw: -45.0000038
+      Roll: -90.0000076
     }
     Scale {
       X: 1
@@ -194319,7 +192579,7 @@ Objects {
       Z: 5.59999895
     }
   }
-  ParentId: 4379708726484769830
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -194375,12 +192635,13 @@ Objects {
   Name: "Frame Large Straight"
   Transform {
     Location {
-      X: -194.829163
-      Y: -201.150665
-      Z: 0.000122070312
+      X: -180.687042
+      Y: -165.795319
+      Z: 65.0001068
     }
     Rotation {
-      Yaw: -45
+      Pitch: -6.83018879e-06
+      Yaw: -45.0000038
       Roll: 89.9999924
     }
     Scale {
@@ -194389,7 +192650,7 @@ Objects {
       Z: 5.59999895
     }
   }
-  ParentId: 4379708726484769830
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -194445,12 +192706,12 @@ Objects {
   Name: "Frame Large Straight"
   Transform {
     Location {
-      X: 200.660736
-      Y: 194.339264
-      Z: -29.999939
+      X: 214.802856
+      Y: 229.69458
+      Z: 35.0000458
     }
     Rotation {
-      Yaw: -45
+      Yaw: -44.9999962
     }
     Scale {
       X: 1
@@ -194458,7 +192719,7 @@ Objects {
       Z: 3.70000124
     }
   }
-  ParentId: 4379708726484769830
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -194594,71 +192855,26 @@ Objects {
   }
 }
 Objects {
-  Id: 7329134624244728823
-  Name: "SAR_FlourescentLightBillboard"
-  Transform {
-    Location {
-      X: -42.4264145
-      Y: -91.9239
-      Z: 412.426331
-    }
-    Rotation {
-      Yaw: 45.0000114
-    }
-    Scale {
-      X: 0.643666625
-      Y: 0.643666625
-      Z: 0.643666625
-    }
-  }
-  ParentId: 18087017608715274295
-  ChildIds: 4652506042376478300
-  ChildIds: 10733130618891538767
-  ChildIds: 17392938464785000859
-  ChildIds: 3265755812955561810
-  ChildIds: 392746907613395039
-  ChildIds: 4930823673823030174
-  ChildIds: 3008911622596100278
-  ChildIds: 3251584183685227169
-  ChildIds: 15129473295987529986
-  ChildIds: 11811255270165494786
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 11811255270165494786
   Name: "Area Light"
   Transform {
     Location {
-      X: -14.2926579
-      Y: 4.74670887
-      Z: 1.99841964
+      X: -51.0920944
+      Y: -96.2685776
+      Z: 413.712646
     }
     Rotation {
       Pitch: -90
-      Yaw: 20.5560398
-      Roll: 69.4438629
+      Yaw: -26.565033
+      Roll: 161.564987
     }
     Scale {
-      X: 1.55359936
-      Y: 1.55359936
-      Z: 1.55359936
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 7329134624244728823
+  ParentId: 18087017608715274295
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -194701,23 +192917,25 @@ Objects {
 }
 Objects {
   Id: 15129473295987529986
-  Name: "Cylinder - Polished"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -0.204284668
-      Y: -15.5883026
-      Z: 1.75869751
+      X: -35.4243927
+      Y: -99.1116714
+      Z: 413.55835
     }
     Rotation {
       Pitch: -90
+      Yaw: -153.434952
+      Roll: -161.565063
     }
     Scale {
-      X: 0.0827119276
-      Y: 0.0827118084
-      Z: 2.47397399
+      X: 0.053238906
+      Y: 0.0532388315
+      Z: 1.5924145
     }
   }
-  ParentId: 7329134624244728823
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -194765,25 +192983,25 @@ Objects {
 }
 Objects {
   Id: 3251584183685227169
-  Name: "Container - Rectangle Thin 01"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -0.385620117
-      Y: 0.785964966
-      Z: 10.6811523
+      X: -42.9595032
+      Y: -91.7416
+      Z: 419.301453
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -179.999954
+      Yaw: -134.999954
       Roll: -179.999954
     }
     Scale {
-      X: 2.59869409
-      Y: 0.429581523
-      Z: 0.139681205
+      X: 1.67269266
+      Y: 0.276507288
+      Z: 0.0899081305
     }
   }
-  ParentId: 7329134624244728823
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -194843,23 +193061,25 @@ Objects {
 }
 Objects {
   Id: 3008911622596100278
-  Name: "Cylinder - Polished"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -0.204284668
-      Y: 16.6646729
-      Z: 1.75869751
+      X: -50.1041107
+      Y: -84.4319458
+      Z: 413.55835
     }
     Rotation {
       Pitch: -90
+      Yaw: -153.434952
+      Roll: -161.565063
     }
     Scale {
-      X: 0.0827119276
-      Y: 0.0827118084
-      Z: 2.47397399
+      X: 0.053238906
+      Y: 0.0532388315
+      Z: 1.5924145
     }
   }
-  ParentId: 7329134624244728823
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -194907,23 +193127,25 @@ Objects {
 }
 Objects {
   Id: 4930823673823030174
-  Name: "Cylinder - Polished"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -0.204284668
-      Y: 0.21194458
-      Z: 1.75869751
+      X: -42.6157913
+      Y: -91.9202728
+      Z: 413.55835
     }
     Rotation {
       Pitch: -90
+      Yaw: -153.434952
+      Roll: -161.565063
     }
     Scale {
-      X: 0.0827119276
-      Y: 0.0827118084
-      Z: 2.47397399
+      X: 0.053238906
+      Y: 0.0532388315
+      Z: 1.5924145
     }
   }
-  ParentId: 7329134624244728823
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -194971,21 +193193,23 @@ Objects {
 }
 Objects {
   Id: 392746907613395039
-  Name: "Cube - Polished"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: 0.794372559
-      Y: 0.271728516
+      X: -42.1885185
+      Y: -91.4388
+      Z: 412.426331
     }
     Rotation {
+      Yaw: 45.0000229
     }
     Scale {
-      X: 2.55352163
-      Y: 0.789195776
-      Z: 0.0370401
+      X: 1.64361668
+      Y: 0.507979
+      Z: 0.0238414761
     }
   }
-  ParentId: 7329134624244728823
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -195032,25 +193256,25 @@ Objects {
 }
 Objects {
   Id: 3265755812955561810
-  Name: "Frame Large Straight"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -87.568222
-      Y: 54.3759842
-      Z: 3.84521532
+      X: -107.031044
+      Y: -107.031036
+      Z: 414.901367
     }
     Rotation {
       Pitch: -6.83018879e-06
-      Yaw: -1.22133293e-12
-      Roll: -89.9999466
+      Yaw: 45.0000191
+      Roll: -89.9999542
     }
     Scale {
-      X: 0.776799798
-      Y: 0.776799679
-      Z: 0.95996964
+      X: 0.500000119
+      Y: 0.5
+      Z: 0.617900431
     }
   }
-  ParentId: 7329134624244728823
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -195099,24 +193323,24 @@ Objects {
 }
 Objects {
   Id: 17392938464785000859
-  Name: "Frame Large Straight"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: 108.751945
-      Y: 54.3759727
-      Z: 3.84521532
+      X: -17.6776714
+      Y: -17.6776733
+      Z: 414.901367
     }
     Rotation {
-      Yaw: 2.41483613e-05
-      Roll: -89.9999619
+      Yaw: 45.0000496
+      Roll: -89.9999695
     }
     Scale {
-      X: 0.776799798
-      Y: 0.776799679
-      Z: 0.95996964
+      X: 0.500000119
+      Y: 0.5
+      Z: 0.617900431
     }
   }
-  ParentId: 7329134624244728823
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -195165,22 +193389,23 @@ Objects {
 }
 Objects {
   Id: 10733130618891538767
-  Name: "Frame Medium Outside Corner"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -87.5682373
-      Y: 71.7094727
-      Z: -15.5359936
+      X: -114.920227
+      Y: -99.141861
+      Z: 402.426331
     }
     Rotation {
+      Yaw: 45.0000229
     }
     Scale {
-      X: 0.776799679
-      Y: 0.776799679
-      Z: 0.776799679
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
     }
   }
-  ParentId: 7329134624244728823
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -195229,23 +193454,23 @@ Objects {
 }
 Objects {
   Id: 4652506042376478300
-  Name: "Frame Medium Outside Corner"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: 108.751945
-      Y: 69.9119644
-      Z: -15.5359936
+      X: -24.7487392
+      Y: -10.6066055
+      Z: 402.426331
     }
     Rotation {
-      Yaw: -3.41509394e-06
+      Yaw: 45.0000229
     }
     Scale {
-      X: 0.776799679
-      Y: 0.776799679
-      Z: 0.776799679
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
     }
   }
-  ParentId: 7329134624244728823
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -195293,71 +193518,26 @@ Objects {
   }
 }
 Objects {
-  Id: 14596971958906174799
-  Name: "SAR_FlourescentLightBillboard"
-  Transform {
-    Location {
-      X: 144.956909
-      Y: 95.4594269
-      Z: 412.426331
-    }
-    Rotation {
-      Yaw: 45.0000114
-    }
-    Scale {
-      X: 0.643666625
-      Y: 0.643666625
-      Z: 0.643666625
-    }
-  }
-  ParentId: 18087017608715274295
-  ChildIds: 10797433894243510022
-  ChildIds: 2976168137319172780
-  ChildIds: 699580232814919903
-  ChildIds: 10447803273715426960
-  ChildIds: 5452688727275733209
-  ChildIds: 5534725289146645739
-  ChildIds: 3376406835017977337
-  ChildIds: 1252208274683994144
-  ChildIds: 1827453268617339075
-  ChildIds: 51135252996620640
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 51135252996620640
   Name: "Area Light"
   Transform {
     Location {
-      X: -14.2926579
-      Y: 4.74670887
-      Z: 1.99841964
+      X: 136.291229
+      Y: 91.1147766
+      Z: 413.712646
     }
     Rotation {
       Pitch: -90
-      Yaw: 20.5560398
-      Roll: 69.4438629
+      Yaw: -26.565033
+      Roll: 161.564987
     }
     Scale {
-      X: 1.55359936
-      Y: 1.55359936
-      Z: 1.55359936
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 14596971958906174799
+  ParentId: 18087017608715274295
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -195400,23 +193580,25 @@ Objects {
 }
 Objects {
   Id: 1827453268617339075
-  Name: "Cylinder - Polished"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -0.204284668
-      Y: -15.5883026
-      Z: 1.75869751
+      X: 151.958923
+      Y: 88.2716675
+      Z: 413.55835
     }
     Rotation {
       Pitch: -90
+      Yaw: -153.434952
+      Roll: -161.565063
     }
     Scale {
-      X: 0.0827119276
-      Y: 0.0827118084
-      Z: 2.47397399
+      X: 0.053238906
+      Y: 0.0532388315
+      Z: 1.5924145
     }
   }
-  ParentId: 14596971958906174799
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -195464,25 +193646,25 @@ Objects {
 }
 Objects {
   Id: 1252208274683994144
-  Name: "Container - Rectangle Thin 01"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -0.385620117
-      Y: 0.785964966
-      Z: 10.6811523
+      X: 144.423798
+      Y: 95.6417389
+      Z: 419.301453
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -179.999954
+      Yaw: -134.999954
       Roll: -179.999954
     }
     Scale {
-      X: 2.59869409
-      Y: 0.429581523
-      Z: 0.139681205
+      X: 1.67269266
+      Y: 0.276507288
+      Z: 0.0899081305
     }
   }
-  ParentId: 14596971958906174799
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -195542,23 +193724,25 @@ Objects {
 }
 Objects {
   Id: 3376406835017977337
-  Name: "Cylinder - Polished"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -0.204284668
-      Y: 16.6646729
-      Z: 1.75869751
+      X: 137.279205
+      Y: 102.951385
+      Z: 413.55835
     }
     Rotation {
       Pitch: -90
+      Yaw: -153.434952
+      Roll: -161.565063
     }
     Scale {
-      X: 0.0827119276
-      Y: 0.0827118084
-      Z: 2.47397399
+      X: 0.053238906
+      Y: 0.0532388315
+      Z: 1.5924145
     }
   }
-  ParentId: 14596971958906174799
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -195606,23 +193790,25 @@ Objects {
 }
 Objects {
   Id: 5534725289146645739
-  Name: "Cylinder - Polished"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -0.204284668
-      Y: 0.21194458
-      Z: 1.75869751
+      X: 144.767517
+      Y: 95.4630585
+      Z: 413.55835
     }
     Rotation {
       Pitch: -90
+      Yaw: -153.434952
+      Roll: -161.565063
     }
     Scale {
-      X: 0.0827119276
-      Y: 0.0827118084
-      Z: 2.47397399
+      X: 0.053238906
+      Y: 0.0532388315
+      Z: 1.5924145
     }
   }
-  ParentId: 14596971958906174799
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -195670,21 +193856,23 @@ Objects {
 }
 Objects {
   Id: 5452688727275733209
-  Name: "Cube - Polished"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: 0.794372559
-      Y: 0.271728516
+      X: 145.194794
+      Y: 95.9445343
+      Z: 412.426331
     }
     Rotation {
+      Yaw: 45.0000229
     }
     Scale {
-      X: 2.55352163
-      Y: 0.789195776
-      Z: 0.0370401
+      X: 1.64361668
+      Y: 0.507979
+      Z: 0.0238414761
     }
   }
-  ParentId: 14596971958906174799
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -195731,25 +193919,25 @@ Objects {
 }
 Objects {
   Id: 10447803273715426960
-  Name: "Frame Large Straight"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -87.568222
-      Y: 54.3759842
-      Z: 3.84521532
+      X: 80.3522644
+      Y: 80.3522797
+      Z: 414.901367
     }
     Rotation {
       Pitch: -6.83018879e-06
-      Yaw: -1.22133293e-12
-      Roll: -89.9999466
+      Yaw: 45.0000191
+      Roll: -89.9999542
     }
     Scale {
-      X: 0.776799798
-      Y: 0.776799679
-      Z: 0.95996964
+      X: 0.500000119
+      Y: 0.5
+      Z: 0.617900431
     }
   }
-  ParentId: 14596971958906174799
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -195798,24 +193986,24 @@ Objects {
 }
 Objects {
   Id: 699580232814919903
-  Name: "Frame Large Straight"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: 108.751945
-      Y: 54.3759727
-      Z: 3.84521532
+      X: 169.705643
+      Y: 169.705658
+      Z: 414.901367
     }
     Rotation {
-      Yaw: 2.41483613e-05
-      Roll: -89.9999619
+      Yaw: 45.0000496
+      Roll: -89.9999695
     }
     Scale {
-      X: 0.776799798
-      Y: 0.776799679
-      Z: 0.95996964
+      X: 0.500000119
+      Y: 0.5
+      Z: 0.617900431
     }
   }
-  ParentId: 14596971958906174799
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -195864,23 +194052,23 @@ Objects {
 }
 Objects {
   Id: 2976168137319172780
-  Name: "Frame Medium Outside Corner"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: -87.568222
-      Y: 69.9119797
-      Z: -15.5359936
+      X: 73.2812
+      Y: 87.4233475
+      Z: 402.426331
     }
     Rotation {
-      Yaw: -6.83018879e-06
+      Yaw: 45.0000114
     }
     Scale {
-      X: 0.776799679
-      Y: 0.776799679
-      Z: 0.776799679
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
     }
   }
-  ParentId: 14596971958906174799
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"
@@ -195929,23 +194117,23 @@ Objects {
 }
 Objects {
   Id: 10797433894243510022
-  Name: "Frame Medium Outside Corner"
+  Name: "SAR_FlourescentLightBillboard"
   Transform {
     Location {
-      X: 108.751945
-      Y: 69.9119644
-      Z: -15.5359936
+      X: 162.634583
+      Y: 176.776733
+      Z: 402.426331
     }
     Rotation {
-      Yaw: -3.41509394e-06
+      Yaw: 45.0000229
     }
     Scale {
-      X: 0.776799679
-      Y: 0.776799679
-      Z: 0.776799679
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
     }
   }
-  ParentId: 14596971958906174799
+  ParentId: 18087017608715274295
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:id"

@@ -162843,7 +162843,11 @@ Objects {
   ChildIds: 6564934857468476524
   ChildIds: 18311378695599633946
   ChildIds: 764983956716568378
-  ChildIds: 17654370934907738594
+  ChildIds: 18373337948365153140
+  ChildIds: 12300921307844950295
+  ChildIds: 2748722294032563983
+  ChildIds: 7973691094248849168
+  ChildIds: 9431411492988500159
   ChildIds: 6181249955268940042
   ChildIds: 11446676373527695326
   ChildIds: 5841481166905437873
@@ -162881,7 +162885,50 @@ Objects {
   ChildIds: 8299969661351144209
   ChildIds: 2697514079424241265
   ChildIds: 12827775443934337705
-  ChildIds: 5889440270735892745
+  ChildIds: 17981167077830685275
+  ChildIds: 1838471723585867071
+  ChildIds: 16629826553909842771
+  ChildIds: 7761320283627624527
+  ChildIds: 784375238618337233
+  ChildIds: 6808942696992107150
+  ChildIds: 10422265476724592699
+  ChildIds: 9186620788564300544
+  ChildIds: 216893062903285561
+  ChildIds: 1320092505051468647
+  ChildIds: 6703181591742793479
+  ChildIds: 13260071218704642188
+  ChildIds: 17983718460853382205
+  ChildIds: 13925595970736653557
+  ChildIds: 4263153650380622813
+  ChildIds: 13884528801253012229
+  ChildIds: 9087245837108425888
+  ChildIds: 15825541390243166677
+  ChildIds: 15507725059796819834
+  ChildIds: 8655539927185877472
+  ChildIds: 13754900908413420620
+  ChildIds: 7630426704491474057
+  ChildIds: 18360069493055044331
+  ChildIds: 17498427073055537286
+  ChildIds: 8795398691079282355
+  ChildIds: 14556970196641894823
+  ChildIds: 17588179209560127598
+  ChildIds: 5809056547481138195
+  ChildIds: 883566753751060168
+  ChildIds: 7241767295079130631
+  ChildIds: 13841039229166822147
+  ChildIds: 18382751874679357898
+  ChildIds: 15867609040958396396
+  ChildIds: 11064248079167048343
+  ChildIds: 1357155652345093500
+  ChildIds: 17247521241732445104
+  ChildIds: 7590991027438875300
+  ChildIds: 15075960534071742686
+  ChildIds: 13619118120575996286
+  ChildIds: 4460007887800762783
+  ChildIds: 3281013318352616478
+  ChildIds: 11522505945570124883
+  ChildIds: 13172112694026112553
+  ChildIds: 11842414948363810413
   ChildIds: 2736846536614950437
   ChildIds: 8627860133436961721
   ChildIds: 5040762542100368003
@@ -163190,15 +163237,16 @@ Objects {
   }
 }
 Objects {
-  Id: 5889440270735892745
-  Name: "asd"
+  Id: 11842414948363810413
+  Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -423.780273
-      Y: 300.666504
-      Z: 64.9992065
+      X: 645
+      Y: 475
+      Z: 95.0007324
     }
     Rotation {
+      Yaw: 44.9999962
     }
     Scale {
       X: 1
@@ -163207,85 +163255,6 @@ Objects {
     }
   }
   ParentId: 2120837622264029899
-  ChildIds: 17981167077830685275
-  ChildIds: 1838471723585867071
-  ChildIds: 16629826553909842771
-  ChildIds: 7761320283627624527
-  ChildIds: 784375238618337233
-  ChildIds: 6808942696992107150
-  ChildIds: 10422265476724592699
-  ChildIds: 9186620788564300544
-  ChildIds: 216893062903285561
-  ChildIds: 1320092505051468647
-  ChildIds: 6703181591742793479
-  ChildIds: 13260071218704642188
-  ChildIds: 17983718460853382205
-  ChildIds: 13925595970736653557
-  ChildIds: 4263153650380622813
-  ChildIds: 13884528801253012229
-  ChildIds: 9087245837108425888
-  ChildIds: 15825541390243166677
-  ChildIds: 15507725059796819834
-  ChildIds: 8655539927185877472
-  ChildIds: 13754900908413420620
-  ChildIds: 7630426704491474057
-  ChildIds: 18360069493055044331
-  ChildIds: 17498427073055537286
-  ChildIds: 8795398691079282355
-  ChildIds: 14556970196641894823
-  ChildIds: 17588179209560127598
-  ChildIds: 5809056547481138195
-  ChildIds: 883566753751060168
-  ChildIds: 7241767295079130631
-  ChildIds: 13841039229166822147
-  ChildIds: 18382751874679357898
-  ChildIds: 15867609040958396396
-  ChildIds: 11064248079167048343
-  ChildIds: 1357155652345093500
-  ChildIds: 17247521241732445104
-  ChildIds: 7590991027438875300
-  ChildIds: 15075960534071742686
-  ChildIds: 13619118120575996286
-  ChildIds: 4460007887800762783
-  ChildIds: 3281013318352616478
-  ChildIds: 11522505945570124883
-  ChildIds: 13172112694026112553
-  ChildIds: 11842414948363810413
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11842414948363810413
-  Name: "Whitebox Wall 01 Half"
-  Transform {
-    Location {
-      X: 1068.78027
-      Y: 174.333496
-      Z: 30.0015259
-    }
-    Rotation {
-      Yaw: 45
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5889440270735892745
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -163333,9 +163302,8 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -326.219727
-      Y: -300.666504
-      Z: 35.0007935
+      X: -750
+      Z: 100
     }
     Rotation {
       Yaw: -135
@@ -163346,7 +163314,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -163396,9 +163364,9 @@ Objects {
   Name: "Craftsman Wall Interior 01 Corner"
   Transform {
     Location {
-      X: -826.219727
-      Y: 1064.3335
-      Z: 0.00109863281
+      X: -1250
+      Y: 1365
+      Z: 65.0003052
     }
     Rotation {
       Yaw: -135
@@ -163409,7 +163377,7 @@ Objects {
       Z: 1.01486087
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -163466,9 +163434,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -1216.21924
-      Y: 534.333496
-      Z: 629.090759
+      X: -1639.99951
+      Y: 835
+      Z: 694.089966
     }
     Rotation {
       Yaw: 44.9999924
@@ -163479,7 +163447,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -163526,9 +163494,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -1216.21924
-      Y: 534.333496
-      Z: 1080.00073
+      X: -1639.99951
+      Y: 835
+      Z: 1145
     }
     Rotation {
       Yaw: 44.9999924
@@ -163539,7 +163507,7 @@ Objects {
       Z: 0.160407722
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -163586,9 +163554,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 1068.78027
-      Y: 174.333496
-      Z: 30.0007935
+      X: 645
+      Y: 475
+      Z: 95
     }
     Rotation {
       Yaw: -135
@@ -163599,7 +163567,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -163660,7 +163628,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -163675,9 +163643,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 223.780273
-            Y: 1174.3335
-            Z: 710.000793
+            X: -200
+            Y: 1475
+            Z: 775
           }
         }
         Overrides {
@@ -163723,7 +163691,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -163738,9 +163706,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -221.219727
-            Y: 729.333496
-            Z: 710.000488
+            X: -645
+            Y: 1030
+            Z: 774.999695
           }
         }
         Overrides {
@@ -163772,9 +163740,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -771.219727
-      Y: -750.666504
-      Z: 650.000793
+      X: -1195
+      Y: -450
+      Z: 715
     }
     Rotation {
       Yaw: -135
@@ -163785,7 +163753,7 @@ Objects {
       Z: 1.9
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -163833,9 +163801,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 288.780273
-      Y: 1014.3335
-      Z: 30.0007935
+      X: -135
+      Y: 1315
+      Z: 95
     }
     Rotation {
       Yaw: -135
@@ -163846,7 +163814,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -163894,9 +163862,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 823.780273
-      Y: 1549.3335
-      Z: 30.0015259
+      X: 400
+      Y: 1850
+      Z: 95.0007324
     }
     Rotation {
       Yaw: -135
@@ -163907,7 +163875,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -163960,7 +163928,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -163975,9 +163943,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1398.78027
-            Y: 539.333496
-            Z: 765.000793
+            X: 975
+            Y: 840
+            Z: 830
           }
         }
         Overrides {
@@ -164043,7 +164011,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -164058,9 +164026,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 923.780273
-            Y: 54.3334961
-            Z: 765.000793
+            X: 500
+            Y: 355
+            Z: 830
           }
         }
         Overrides {
@@ -164112,13 +164080,13 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 663.780273
-      Y: 594.333496
-      Z: 600.000793
+      X: 240
+      Y: 895
+      Z: 665
     }
     Rotation {
       Pitch: 1.36603776e-05
-      Yaw: -45
+      Yaw: -44.9999962
     }
     Scale {
       X: 11.3000021
@@ -164126,7 +164094,7 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -164181,7 +164149,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -164196,9 +164164,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -761.219727
-            Y: -95.6665039
-            Z: 755.000793
+            X: -1185
+            Y: 205
+            Z: 820
           }
         }
         Overrides {
@@ -164244,7 +164212,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -164259,15 +164227,23 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1201.21973
-            Y: 514.333496
-            Z: 759.215
+            X: -1625
+            Y: 815
+            Z: 824.214233
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
             Yaw: 135
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -164285,9 +164261,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -1336.21973
-      Y: 414.333496
-      Z: 629.090637
+      X: -1760
+      Y: 715
+      Z: 694.089844
     }
     Rotation {
       Yaw: 44.9999924
@@ -164298,7 +164274,7 @@ Objects {
       Z: 0.896842
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -164345,9 +164321,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -946.219727
-      Y: 804.333496
-      Z: 629.090881
+      X: -1370
+      Y: 1105
+      Z: 694.090088
     }
     Rotation {
       Yaw: 44.9999924
@@ -164358,7 +164334,7 @@ Objects {
       Z: 0.896842
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -164405,12 +164381,12 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -813.171387
-      Y: 961.285156
-      Z: 618.305
+      X: -1236.95166
+      Y: 1261.95166
+      Z: 683.304199
     }
     Rotation {
-      Yaw: -45
+      Yaw: -44.9999962
     }
     Scale {
       X: 0.709124446
@@ -164418,7 +164394,7 @@ Objects {
       Z: 0.918266654
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -164465,9 +164441,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -873.351074
-      Y: 1021.46484
-      Z: 649.327759
+      X: -1297.13135
+      Y: 1322.13135
+      Z: 714.326965
     }
     Rotation {
       Yaw: 44.9999924
@@ -164478,7 +164454,7 @@ Objects {
       Z: 1.9
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -164525,14 +164501,14 @@ Objects {
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
-      X: -761.219727
-      Y: 949.333496
-      Z: 0.000793457031
+      X: -1185
+      Y: 1250
+      Z: 65
     }
     Rotation {
       Pitch: 1.36603776e-05
       Yaw: -44.9999695
-      Roll: -3.05175781e-05
+      Roll: -3.05175763e-05
     }
     Scale {
       X: 1
@@ -164540,7 +164516,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -164587,12 +164563,12 @@ Objects {
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
-      X: -471.219727
-      Y: 669.333496
-      Z: 10.0008545
+      X: -895
+      Y: 970
+      Z: 75.000061
     }
     Rotation {
-      Yaw: -45
+      Yaw: -44.9999962
     }
     Scale {
       X: 1
@@ -164600,7 +164576,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -164641,14 +164617,14 @@ Objects {
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
-      X: -846.219727
-      Y: 1034.3335
-      Z: 0.000793457031
+      X: -1270
+      Y: 1335
+      Z: 65
     }
     Rotation {
       Pitch: 1.36603776e-05
       Yaw: -44.9999695
-      Roll: -3.0517569e-05
+      Roll: -3.05175672e-05
     }
     Scale {
       X: 1
@@ -164656,7 +164632,7 @@ Objects {
       Z: 1.03509653
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -164703,9 +164679,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -1166.31982
-      Y: 724.233398
-      Z: 32.603363
+      X: -1590.1001
+      Y: 1024.8999
+      Z: 97.6025696
     }
     Rotation {
       Yaw: 44.9999924
@@ -164716,7 +164692,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -164766,9 +164742,9 @@ Objects {
   Name: "Whitebox Wall 01 Doorway"
   Transform {
     Location {
-      X: -821.219727
-      Y: 1029.3335
-      Z: 27.1491871
+      X: -1245
+      Y: 1330
+      Z: 92.1483917
     }
     Rotation {
       Yaw: -134.999863
@@ -164779,7 +164755,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -164829,9 +164805,9 @@ Objects {
   Name: "Craftsman Wall Interior 01 Corner"
   Transform {
     Location {
-      X: -1391.21973
-      Y: 499.333496
-      Z: 0.00109863281
+      X: -1815
+      Y: 800
+      Z: 65.0003052
     }
     Rotation {
       Yaw: -135
@@ -164842,7 +164818,7 @@ Objects {
       Z: 1.01486087
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -164899,9 +164875,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -1358.35107
-      Y: 426.464844
-      Z: 650.000793
+      X: -1782.13135
+      Y: 727.131348
+      Z: 715
     }
     Rotation {
       Yaw: 135
@@ -164912,7 +164888,7 @@ Objects {
       Z: 1.9
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -164959,9 +164935,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -1333.66992
-      Y: -218.216309
-      Z: 650.000793
+      X: -1757.4502
+      Y: 82.4501953
+      Z: 715
     }
     Rotation {
       Yaw: -179.999954
@@ -164972,7 +164948,7 @@ Objects {
       Z: 1.9
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -165024,7 +165000,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -165045,9 +165021,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1161.21973
-            Y: -405.666504
-            Z: 170.000793
+            X: -1585
+            Y: -105
+            Z: 235
           }
         }
         Overrides {
@@ -165079,9 +165055,9 @@ Objects {
   Name: "Craftsman Wall Interior 01 Corner"
   Transform {
     Location {
-      X: -1391.21973
-      Y: -190.666504
-      Z: 0.00122070312
+      X: -1815
+      Y: 110
+      Z: 65.0004272
     }
     Rotation {
       Yaw: -135
@@ -165092,7 +165068,7 @@ Objects {
       Z: 1.01486087
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -165149,9 +165125,9 @@ Objects {
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
-      X: -1375.79395
-      Y: 482.384277
-      Z: 25.0007935
+      X: -1799.57422
+      Y: 783.050781
+      Z: 90
     }
     Rotation {
       Pitch: 1.36603776e-05
@@ -165164,7 +165140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -165220,9 +165196,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -1396.21973
-      Y: 139.333496
-      Z: 35.0007
+      X: -1820
+      Y: 440
+      Z: 99.9999084
     }
     Rotation {
       Yaw: 89.9999542
@@ -165233,7 +165209,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -165283,9 +165259,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: 1558.78027
-      Y: 719.333496
-      Z: 650.000793
+      X: 1135
+      Y: 1020
+      Z: 715
     }
     Rotation {
       Pitch: 1.36603776e-05
@@ -165297,7 +165273,7 @@ Objects {
       Z: 1.9
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -165344,9 +165320,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 1633.78027
-      Y: 739.333496
-      Z: 30.0007935
+      X: 1210
+      Y: 1040
+      Z: 95
     }
     Rotation {
       Yaw: -135
@@ -165357,7 +165333,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -165404,9 +165380,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 938.780273
-      Y: 44.3334961
-      Z: 30.0007935
+      X: 515
+      Y: 345
+      Z: 95
     }
     Rotation {
       Yaw: -135
@@ -165417,7 +165393,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -165464,9 +165440,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 657.609863
-      Y: -236.836914
-      Z: 30.001
+      X: 233.82959
+      Y: 63.8295898
+      Z: 95.000206
     }
     Rotation {
       Yaw: -135
@@ -165477,7 +165453,7 @@ Objects {
       Z: 1.00000024
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -165524,9 +165500,9 @@ Objects {
   Name: "Craftsman Wall Interior 01 Corner"
   Transform {
     Location {
-      X: 193.780273
-      Y: -715.666504
-      Z: 0.000793457031
+      X: -230
+      Y: -415
+      Z: 65
     }
     Rotation {
       Yaw: -135
@@ -165537,7 +165513,7 @@ Objects {
       Z: 1.01486087
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -165594,9 +165570,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 118.780273
-      Y: -795.666504
-      Z: 30.0007935
+      X: -305
+      Y: -495
+      Z: 95
     }
     Rotation {
       Yaw: 135
@@ -165607,7 +165583,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -165654,9 +165630,9 @@ Objects {
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
-      X: -551.219727
-      Y: -470.666504
-      Z: 10.0007935
+      X: -975
+      Y: -170
+      Z: 75
     }
     Rotation {
       Yaw: 44.9999924
@@ -165667,7 +165643,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -165708,8 +165684,9 @@ Objects {
   Name: "Whitebox Wall 01 Doorway"
   Transform {
     Location {
-      X: -271.250977
-      Y: -190.70459
+      X: -695.03125
+      Y: 109.961914
+      Z: 64.9992065
     }
     Rotation {
       Yaw: -134.999863
@@ -165720,7 +165697,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -165776,9 +165753,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -316.219727
-      Y: -185.666504
-      Z: 650.000793
+      X: -740
+      Y: 115
+      Z: 715
     }
     Rotation {
       Yaw: -44.9999924
@@ -165789,7 +165766,7 @@ Objects {
       Z: 1.9
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -165836,9 +165813,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -1381.62793
-      Y: -193.688965
-      Z: 27.1480713
+      X: -1805.4082
+      Y: 106.977539
+      Z: 92.1472778
     }
     Rotation {
       Pitch: 2.73207552e-05
@@ -165850,7 +165827,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -165906,9 +165883,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -728.138184
-      Y: -702.584961
-      Z: 35.0007935
+      X: -1151.91846
+      Y: -401.918457
+      Z: 100
     }
     Rotation {
       Yaw: -135
@@ -165919,7 +165896,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -165969,9 +165946,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -1116.21973
-      Y: -490.666504
-      Z: 35.0007935
+      X: -1540
+      Y: -190
+      Z: 100
     }
     Rotation {
       Yaw: 135
@@ -165982,7 +165959,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 5889440270735892745
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -168544,56 +168521,16 @@ Objects {
   }
 }
 Objects {
-  Id: 17654370934907738594
-  Name: "Group"
-  Transform {
-    Location {
-      X: 65
-      Y: 825
-      Z: 75.0001831
-    }
-    Rotation {
-      Yaw: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2120837622264029899
-  ChildIds: 18373337948365153140
-  ChildIds: 12300921307844950295
-  ChildIds: 2748722294032563983
-  ChildIds: 7973691094248849168
-  ChildIds: 9431411492988500159
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 9431411492988500159
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 24.999979
-      Y: -30.0000172
-      Z: 345
+      X: 40
+      Y: 855
+      Z: 420.000183
     }
     Rotation {
-      Yaw: 135
+      Yaw: -44.9999619
     }
     Scale {
       X: 0.4
@@ -168601,7 +168538,7 @@ Objects {
       Z: 0.479849875
     }
   }
-  ParentId: 17654370934907738594
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -168649,12 +168586,12 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -165
-      Y: 160
-      Z: -0.910095215
+      X: 230
+      Y: 665
+      Z: 74.0900879
     }
     Rotation {
-      Yaw: 135
+      Yaw: -44.9999619
     }
     Scale {
       X: 0.518865049
@@ -168662,7 +168599,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17654370934907738594
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -168710,11 +168647,12 @@ Objects {
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
-      X: -80
-      Y: 85
+      X: 145
+      Y: 740
+      Z: 75.0001831
     }
     Rotation {
-      Yaw: -45
+      Yaw: 135.000031
     }
     Scale {
       X: 1
@@ -168722,7 +168660,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17654370934907738594
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -168764,12 +168702,12 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 334.533
-      Y: -339.533173
-      Z: -0.910095215
+      X: -269.533203
+      Y: 1164.53271
+      Z: 74.0900879
     }
     Rotation {
-      Yaw: 135
+      Yaw: -44.9999619
     }
     Scale {
       X: 0.594827175
@@ -168777,7 +168715,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17654370934907738594
+  ParentId: 2120837622264029899
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -168830,7 +168768,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17654370934907738594
+  ParentId: 2120837622264029899
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -168845,15 +168783,23 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -139.999878
-            Y: 149.999985
-            Z: 30
+            X: 205
+            Y: 675
+            Z: 105.000183
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -44.9999847
+            Yaw: 135.000046
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -169185,7 +169131,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8568697174726512881
+        Id: 16826264376886319022
       }
     }
   }

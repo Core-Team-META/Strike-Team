@@ -76,6 +76,13 @@ GlobalEntries {
   DateTime: "2021-03-04T11:48:15.235Z"
 }
 GlobalEntries {
+  Id: "94d3fd50c4824f019421895ec8dbf099"
+  Name: "Mucusinator"
+  ScoreFormatted: "4.0"
+  AdditionalData: "013020002"
+  DateTime: "2022-01-13T03:25:33.256Z"
+}
+GlobalEntries {
   Id: "901b7628983c4c8db4282f24afeda57a"
   Name: "Buckmonster"
   ScoreFormatted: "0.1"

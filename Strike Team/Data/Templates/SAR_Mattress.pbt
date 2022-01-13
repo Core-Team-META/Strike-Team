@@ -15,7 +15,7 @@ Assets {
             Z: 1.02612662
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
         ChildIds: 17403301919560532178
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -51,7 +51,6 @@ Assets {
         }
         ParentId: 2609095079914769209
         ChildIds: 12056169230858519920
-        ChildIds: 5844585477050518955
         ChildIds: 353864657202250971
         ChildIds: 16028112564784414758
         Collidable_v2 {
@@ -135,50 +134,6 @@ Assets {
             }
             BoundsScale: 1
           }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 5844585477050518955
-        Name: "Decal Stains Round 01"
-        Transform {
-          Location {
-            X: 6.66210938
-            Y: 27.9106445
-            Z: 37.6150436
-          }
-          Rotation {
-            Yaw: 1.29825748e-05
-          }
-          Scale {
-            X: 0.383506864
-            Y: 0.248897433
-            Z: -0.0746383145
-          }
-        }
-        ParentId: 17403301919560532178
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 8270742777843752984
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -341,15 +296,6 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_fan_terracotta_pots_002_uv"
-      }
-    }
-    Assets {
-      Id: 8270742777843752984
-      Name: "Decal Stains Round 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stain_round_001"
       }
     }
     PrimaryAssetId {

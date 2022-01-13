@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14751433072301531162
-  Name: "Pyramid - 6-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pyramid_sixsided_001"
-  }
-}
-Assets {
   Id: 10134057492958128464
   Name: "Ivy 05"
   PlatformAssetType: 1

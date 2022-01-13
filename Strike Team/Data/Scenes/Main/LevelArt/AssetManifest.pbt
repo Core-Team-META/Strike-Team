@@ -179,6 +179,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8270678220364927290
+  Name: "Hill 05"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_005"
+  }
+}
+Assets {
   Id: 8173247588564110467
   Name: "Bloom Post Process"
   PlatformAssetType: 6

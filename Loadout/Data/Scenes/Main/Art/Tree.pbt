@@ -1,6 +1,12298 @@
 Name: "Art"
 RootId: 7420455323421467140
 Objects {
+  Id: 9745906995052034165
+  Name: "WinterAdditionms"
+  Transform {
+    Location {
+      X: -3845.19312
+      Y: -5751.31152
+      Z: -3001.44336
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.33333325
+      Y: 3.33333325
+      Z: 3.33333325
+    }
+  }
+  ParentId: 7420455323421467140
+  ChildIds: 12852249299126871967
+  ChildIds: 7956958117058839233
+  ChildIds: 16830134287191618072
+  ChildIds: 11775063756993511589
+  ChildIds: 6306475803496613939
+  ChildIds: 1707452094767278888
+  ChildIds: 1329882706626028683
+  ChildIds: 7512957356794973915
+  ChildIds: 15693311253772261557
+  ChildIds: 9422330861629571594
+  ChildIds: 14473441319125489200
+  ChildIds: 6254642161214925824
+  ChildIds: 14569057185236232423
+  ChildIds: 10039745823024224020
+  ChildIds: 9644703460244508802
+  ChildIds: 8444234045202910349
+  ChildIds: 6123777623989690305
+  ChildIds: 9013298372072255076
+  ChildIds: 13318407627105031144
+  ChildIds: 5231618571725860835
+  ChildIds: 3786021571325822648
+  ChildIds: 12098577122602778014
+  ChildIds: 3530233829703670961
+  ChildIds: 1489030670194421675
+  ChildIds: 6808738578578871896
+  ChildIds: 14001338767692562746
+  ChildIds: 10541460549278833038
+  ChildIds: 16060538567982510325
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16060538567982510325
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: 941.123169
+      Y: 1100.05994
+      Z: 1017.80939
+    }
+    Rotation {
+      Pitch: 82.1368179
+      Yaw: 97.475296
+      Roll: 178.43103
+    }
+    Scale {
+      X: 1.1
+      Y: 1.1
+      Z: 1.1
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.342
+        G: 0.342
+        B: 0.342
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7610915698111144862
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5640447028195597347
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10541460549278833038
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: 978.83374
+      Y: 845.240967
+      Z: 1122.96863
+    }
+    Rotation {
+      Pitch: 89.8176041
+      Yaw: 1.36594663e-05
+      Roll: 180
+    }
+    Scale {
+      X: 1.1
+      Y: 1.1
+      Z: 1.1
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.342
+        G: 0.342
+        B: 0.342
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7610915698111144862
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5640447028195597347
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14001338767692562746
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: 974.580627
+      Y: 879.845
+      Z: 891.976318
+    }
+    Rotation {
+      Pitch: -90
+      Roll: -90
+    }
+    Scale {
+      X: 1.1
+      Y: 1.1
+      Z: 1.1
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.342
+        G: 0.342
+        B: 0.342
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7610915698111144862
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6054545846405523195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6808738578578871896
+  Name: "Spotlight"
+  Transform {
+    Location {
+      X: 611.411
+      Y: 896.177246
+      Z: 1175.6051
+    }
+    Rotation {
+      Pitch: -18.3640957
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9745906995052034165
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Light {
+    Intensity: 50
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 6000
+        SpotLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          InnerConeAngle: 67.1972275
+          OuterConeAngle: 80
+          Profile {
+            Value: "mc:espotlightprofile:basicspotlight"
+          }
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1489030670194421675
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 1064.9668
+      Y: 836.340088
+      Z: 881.970215
+    }
+    Rotation {
+      Yaw: 180
+      Roll: -90
+    }
+    Scale {
+      X: 0.271062821
+      Y: 1.14197326
+      Z: 1.14197421
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15152607375057108189
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3530233829703670961
+  Name: "Decal Office Desk Debris 01 (Variants)"
+  Transform {
+    Location {
+      X: 1146.73462
+      Y: 936.40448
+      Z: 1021.87476
+    }
+    Rotation {
+      Yaw: -97.4125366
+    }
+    Scale {
+      X: 0.798602521
+      Y: 0.798602521
+      Z: 0.798602521
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 5141153834432255673
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 12098577122602778014
+  Name: "Nature Wind Gusty Howling Whistle Loop 01 SFX"
+  Transform {
+    Location {
+      X: 712.028625
+      Y: 797.086609
+      Z: 993.280762
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9745906995052034165
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 2067574039502230290
+    }
+    AutoPlay: true
+    Volume: 0.5
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3786021571325822648
+  Name: "Cube"
+  Transform {
+    Location {
+      Y: 206.368652
+      Z: 646.663818
+    }
+    Rotation {
+      Yaw: 57.9852295
+    }
+    Scale {
+      X: 1
+      Y: 24.8523045
+      Z: 17.3058128
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7781339736668819777
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5231618571725860835
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -1271.44189
+      Y: -1424.60681
+      Z: 0.432189941
+    }
+    Rotation {
+      Yaw: 89.9999847
+      Roll: -90
+    }
+    Scale {
+      X: 21.5999947
+      Y: 59.7087746
+      Z: 1.49998903
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13318407627105031144
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 933.55719
+      Y: 1275.35229
+      Z: 777.846313
+    }
+    Rotation {
+      Pitch: 22.4999199
+      Yaw: -89.999939
+      Roll: 89.9999542
+    }
+    Scale {
+      X: 1.14197326
+      Y: 1.14197326
+      Z: 1.14197326
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16126682891163153101
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9013298372072255076
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -221.442017
+      Y: -1051.07654
+      Z: -49.5673218
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 18.6702576
+      Y: 20.7
+      Z: 1.5
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9470122086829852613
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6123777623989690305
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -221.442017
+      Y: -1051.07654
+      Z: 1025.43311
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 18.6702576
+      Y: 20.7
+      Z: 1.5
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9470122086829852613
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8444234045202910349
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -221.442017
+      Y: -174.60791
+      Z: 500.432983
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 0.450000018
+      Y: 20.7
+      Z: 26.8500061
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2030505589170198462
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9644703460244508802
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -221.442017
+      Y: -1051.07654
+      Z: 500.432983
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 18.6702576
+      Y: 20.7
+      Z: 1.5
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9470122086829852613
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10039745823024224020
+  Name: "Rock Pile 002"
+  Transform {
+    Location {
+      X: 1421.96655
+      Y: 1040.00403
+      Z: 891.087341
+    }
+    Rotation {
+      Yaw: 14.1095505
+    }
+    Scale {
+      X: 1.44475651
+      Y: 1.44475651
+      Z: 1.44475651
+    }
+  }
+  ParentId: 9745906995052034165
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3747663794841104317
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14569057185236232423
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 1739.53125
+      Y: 702.948853
+      Z: 860.433044
+    }
+    Rotation {
+      Yaw: 179.999954
+    }
+    Scale {
+      X: 10.2494411
+      Y: 10
+      Z: 1
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 4
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6254642161214925824
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 1227.24951
+      Y: 1203.53076
+      Z: 881.970215
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1.14197326
+      Y: 1.14197326
+      Z: 1.14197326
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15152607375057108189
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14473441319125489200
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 933.557129
+      Y: 1450.39368
+      Z: 1200.43323
+    }
+    Rotation {
+      Pitch: 22.4999332
+      Yaw: -89.9999619
+      Roll: 89.9999619
+    }
+    Scale {
+      X: 1.14197326
+      Y: 1.14197326
+      Z: 1.14197326
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16126682891163153101
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9422330861629571594
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 1030.36865
+      Y: 975.487915
+      Z: 910.519592
+    }
+    Rotation {
+      Pitch: 23.6114979
+      Yaw: -73.5314941
+      Roll: 20.566227
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1.36599994
+        G: 1.76753294
+        B: 2
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13650699884663610996
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 15693311253772261557
+  Name: "Snow Volume VFX"
+  Transform {
+    Location {
+      X: 741.310486
+      Y: 1070.41
+      Z: 1111.50049
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 4.57096195
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Emissive Boost"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Wind Speed"
+      Vector {
+        X: 10
+        Y: -150
+        Z: -25
+      }
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 2
+    }
+    Overrides {
+      Name: "bp:Life"
+      Float: 3
+    }
+    Overrides {
+      Name: "bp:Particle Scale Multiplier"
+      Float: 0.5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13432387574498218883
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7512957356794973915
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 1028.41431
+      Y: 1001.34766
+      Z: 910.519592
+    }
+    Rotation {
+      Roll: 13.8133774
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1.36599994
+        G: 1.76753294
+        B: 2
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13650699884663610996
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 1329882706626028683
+  Name: "Decal Stains Top 01"
+  Transform {
+    Location {
+      X: -96.4418945
+      Y: -124.606934
+      Z: 1066.35901
+    }
+    Rotation {
+      Yaw: -3.05175781e-05
+      Roll: 89.9999542
+    }
+    Scale {
+      X: 2.5
+      Y: 0.18206054
+      Z: 1.00000024
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 22
+        G: 22
+        B: 22
+        A: 0.8
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2915472046954970032
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 1707452094767278888
+  Name: "Decal Stains Top 01"
+  Transform {
+    Location {
+      X: -96.4418945
+      Y: -124.606201
+    }
+    Rotation {
+      Yaw: -3.05175763e-05
+      Roll: 89.9999619
+    }
+    Scale {
+      X: 2.5
+      Y: 0.18206054
+      Z: 1.00000024
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 22
+        G: 22
+        B: 22
+        A: 0.8
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2915472046954970032
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 6306475803496613939
+  Name: "Decal Stains Top 01"
+  Transform {
+    Location {
+      X: -96.4418945
+      Y: -124.606567
+      Z: 542.6521
+    }
+    Rotation {
+      Yaw: -3.05175763e-05
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 2.5
+      Y: 0.18206054
+      Z: 1.00000024
+    }
+  }
+  ParentId: 9745906995052034165
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 22
+        G: 22
+        B: 22
+        A: 0.8
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2915472046954970032
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 11775063756993511589
+  Name: "Office Cubicle - T-Shape Template"
+  Transform {
+    Location {
+      X: -571.441772
+      Y: -924.605713
+      Z: 0.433044434
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9745906995052034165
+  ChildIds: 10266618422288251619
+  ChildIds: 1129009598007797344
+  ChildIds: 4148213617607942591
+  ChildIds: 15375298421066530606
+  ChildIds: 7003371913271967238
+  ChildIds: 15901490833064548045
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4554444457286648293
+    SubobjectId: 16602136225659437044
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15901490833064548045
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      Y: 550
+      Z: 9.15527344e-05
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11775063756993511589
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6651364382828794711
+    SubobjectId: 9591652766782090566
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7003371913271967238
+  Name: "Office Cubicle Cabinet 02 - Template"
+  Transform {
+    Location {
+      Y: 340
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11775063756993511589
+  ChildIds: 2845484244074108154
+  ChildIds: 10648541687888376195
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9976669427501117754
+    SubobjectId: 5991544564139577131
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10648541687888376195
+  Name: "Office Cubicle Cabinet Door 01"
+  Transform {
+    Location {
+      X: -135
+      Y: 5
+      Z: 10
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7003371913271967238
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1884519533488252023
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16641237221470390929
+    SubobjectId: 4585663741206606976
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2845484244074108154
+  Name: "Office Cubicle Cabinet Door 01"
+  Transform {
+    Location {
+      X: -135
+      Y: 195
+      Z: 10
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7003371913271967238
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1884519533488252023
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6077664861801457204
+    SubobjectId: 10162990521829480485
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15375298421066530606
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -540
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11775063756993511589
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10516026386506885829
+    SubobjectId: 5233868575749625044
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4148213617607942591
+  Name: "Desk L-Shape"
+  Transform {
+    Location {
+      X: 120
+      Y: 215
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11775063756993511589
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14043368923819063039
+    SubobjectId: 1996801440218925294
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1129009598007797344
+  Name: "Desk L-Shape"
+  Transform {
+    Location {
+      X: -175
+      Y: 125
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11775063756993511589
+  ChildIds: 17316752388992475867
+  ChildIds: 12361057519801393492
+  ChildIds: 14982314093301122840
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12567019972794815479
+    SubobjectId: 8589780523359858150
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14982314093301122840
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 175
+      Y: 25
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1129009598007797344
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17675283751273116871
+    SubobjectId: 3177633794175552214
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12361057519801393492
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 175
+      Y: 125
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1129009598007797344
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8480208483207646614
+    SubobjectId: 12465331938004759431
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17316752388992475867
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: 175
+      Y: 225
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1129009598007797344
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10232816874917000844
+    SubobjectId: 6291604882555046045
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10266618422288251619
+  Name: "Cubicle Walls"
+  Transform {
+    Location {
+      X: -30
+      Y: 95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11775063756993511589
+  ChildIds: 16945863925572977769
+  ChildIds: 11692597430295835362
+  ChildIds: 5061589309548792143
+  ChildIds: 18144561386072118292
+  ChildIds: 12088326566723700009
+  ChildIds: 684944235738043352
+  ChildIds: 15717544667933902852
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11689006887531853752
+    SubobjectId: 8891706691984050601
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15717544667933902852
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 255
+      Z: 160.000031
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10266618422288251619
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5481361180029106806
+    SubobjectId: 10755639375409857639
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 684944235738043352
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: -120
+      Y: 465
+      Z: 110
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 10266618422288251619
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 12870377886410233578
+    SubobjectId: 7768363605204150523
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12088326566723700009
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 255
+      Z: 110.000031
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10266618422288251619
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15220205222421560839
+    SubobjectId: 750704721231675414
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 18144561386072118292
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 02"
+  Transform {
+    Location {
+      X: 30
+      Y: 55
+      Z: 160
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10266618422288251619
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7030364018984724878
+    SubobjectId: 13313448805505947551
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5061589309548792143
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 55
+      Z: 110.000031
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10266618422288251619
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 21203080166978901
+    SubobjectId: 15643629217445137220
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11692597430295835362
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: -95
+      Z: 159.999939
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10266618422288251619
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13377022593421336230
+    SubobjectId: 6986977315557384375
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16945863925572977769
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: -95
+      Z: 109.999939
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10266618422288251619
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4740080542470221217
+    SubobjectId: 10996145243047318448
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16830134287191618072
+  Name: "Office Cubicle - T-Shape Template"
+  Transform {
+    Location {
+      X: -521.442
+      Y: -199.605957
+      Z: 0.433044434
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9745906995052034165
+  ChildIds: 17191565117904076255
+  ChildIds: 15008834453431274910
+  ChildIds: 15065099485732871849
+  ChildIds: 2855265093304655849
+  ChildIds: 17146979722913323549
+  ChildIds: 10037300468270243714
+  ChildIds: 2291869839121228196
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4554444457286648293
+    SubobjectId: 16602136225659437044
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2291869839121228196
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -550
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16830134287191618072
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4064955891547082217
+    SubobjectId: 16229739601181930488
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10037300468270243714
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      Y: 550
+      Z: 9.15527344e-05
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16830134287191618072
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6651364382828794711
+    SubobjectId: 9591652766782090566
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17146979722913323549
+  Name: "Office Cubicle Cabinet 02 - Template"
+  Transform {
+    Location {
+      Y: 340
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16830134287191618072
+  ChildIds: 17059075783592002191
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9976669427501117754
+    SubobjectId: 5991544564139577131
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17059075783592002191
+  Name: "Office Cubicle Cabinet 02"
+  Transform {
+    Location {
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17146979722913323549
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14436456058292222270
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14681023844891051920
+    SubobjectId: 1364441781768763777
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2855265093304655849
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -540
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16830134287191618072
+  ChildIds: 11667074641975479910
+  ChildIds: 11446768298978910533
+  ChildIds: 14474395834356325262
+  ChildIds: 13430707936334162260
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10516026386506885829
+    SubobjectId: 5233868575749625044
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13430707936334162260
+  Name: "Office Cubicle Cabinet Drawer 01"
+  Transform {
+    Location {
+      X: 50
+      Y: 10
+      Z: 70
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2855265093304655849
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13040778394310070578
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 2308313096479624220
+    SubobjectId: 17967893003180618253
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14474395834356325262
+  Name: "Office Cubicle Cabinet Drawer 01"
+  Transform {
+    Location {
+      X: 50
+      Y: 10
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2855265093304655849
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13040778394310070578
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4099719404313616294
+    SubobjectId: 16264504754676294071
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11446768298978910533
+  Name: "Office Cubicle Cabinet Drawer 02"
+  Transform {
+    Location {
+      X: 50
+      Y: 10
+      Z: 10
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2855265093304655849
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5395169632223182426
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5044882416127717053
+    SubobjectId: 11479961465195745452
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11667074641975479910
+  Name: "Office Cubicle Cabinet 01"
+  Transform {
+    Location {
+      X: -7.62939453e-06
+      Z: -0.000106811523
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2855265093304655849
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 36268939630397418
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15363067499310678896
+    SubobjectId: 893566001755553121
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15065099485732871849
+  Name: "Desk L-Shape"
+  Transform {
+    Location {
+      X: 120
+      Y: 215
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16830134287191618072
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14043368923819063039
+    SubobjectId: 1996801440218925294
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15008834453431274910
+  Name: "Desk L-Shape"
+  Transform {
+    Location {
+      X: -175
+      Y: 125
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16830134287191618072
+  ChildIds: 16814956684250347499
+  ChildIds: 10366988242930199212
+  ChildIds: 1465286958501546273
+  ChildIds: 5341580452983641092
+  ChildIds: 17298877262828691298
+  ChildIds: 8420636548091677242
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12567019972794815479
+    SubobjectId: 8589780523359858150
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8420636548091677242
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: -175
+      Y: -125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15008834453431274910
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18142822531409022562
+    SubobjectId: 2493376823322538099
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17298877262828691298
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: -375
+      Y: -125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15008834453431274910
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8028932982147327495
+    SubobjectId: 13132076461794875414
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5341580452983641092
+  Name: "Office Cubicle Desk Top 01 - 1.5m"
+  Transform {
+    Location {
+      X: 25
+      Y: -125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15008834453431274910
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4137676688042850968
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17908757640271731417
+    SubobjectId: 2439457609556157640
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1465286958501546273
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 175
+      Y: 25
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15008834453431274910
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17675283751273116871
+    SubobjectId: 3177633794175552214
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10366988242930199212
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 175
+      Y: 125
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15008834453431274910
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8480208483207646614
+    SubobjectId: 12465331938004759431
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16814956684250347499
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: 175
+      Y: 225
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15008834453431274910
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10232816874917000844
+    SubobjectId: 6291604882555046045
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17191565117904076255
+  Name: "Cubicle Walls"
+  Transform {
+    Location {
+      X: -30
+      Y: 95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16830134287191618072
+  ChildIds: 2175750318404983218
+  ChildIds: 6464353548432603168
+  ChildIds: 8234446266827754774
+  ChildIds: 12287863073771318884
+  ChildIds: 8925013378372551559
+  ChildIds: 17875399815567743055
+  ChildIds: 80290023657740692
+  ChildIds: 6904935987980661030
+  ChildIds: 12796591421698738422
+  ChildIds: 16698128369054918257
+  ChildIds: 3023841740263976820
+  ChildIds: 13397791485624478007
+  ChildIds: 4483166264311171717
+  ChildIds: 17032377542957611141
+  ChildIds: 3875608894825324917
+  ChildIds: 6585955754803265025
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11689006887531853752
+    SubobjectId: 8891706691984050601
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6585955754803265025
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 02"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: 160
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 3230290741014797185
+    SubobjectId: 17691913558875039120
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3875608894825324917
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 255
+      Z: 160.000031
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5481361180029106806
+    SubobjectId: 10755639375409857639
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17032377542957611141
+  Name: "Office Cubicle Wall 01 - 2m Bottom 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: -3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4760954629731305810
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 9983102633333881435
+    SubobjectId: 6041890090947675210
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4483166264311171717
+  Name: "Office Cubicle Wall 01 - 2m Top 01"
+  Transform {
+    Location {
+      X: -520
+      Y: -95
+      Z: 160.000015
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2401522662930405389
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15223696516685870472
+    SubobjectId: 727171531866360729
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13397791485624478007
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: 110.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8728387753645683512
+    SubobjectId: 11561716196246670633
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3023841740263976820
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: -120
+      Y: 465
+      Z: 110
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 12870377886410233578
+    SubobjectId: 7768363605204150523
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16698128369054918257
+  Name: "Office Cubicle Wall 01 - 2m Bottom 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4760954629731305810
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1787196447514660197
+    SubobjectId: 13951980423487812468
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12796591421698738422
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: 110.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7361368138802993394
+    SubobjectId: 13797574213084210915
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6904935987980661030
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: -120
+      Y: -95
+      Z: 159.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 272791105287008430
+    SubobjectId: 15752227989016202943
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 80290023657740692
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: -120
+      Y: -95
+      Z: 109.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17188129040944316811
+    SubobjectId: 4024671873371324314
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17875399815567743055
+  Name: "Office Cubicle Wall 01 - 1.5m Bottom 01"
+  Transform {
+    Location {
+      X: -120
+      Y: -95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9897104086881807462
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18176955280508652223
+    SubobjectId: 2671625722898117806
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8925013378372551559
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 255
+      Z: 110.000031
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15220205222421560839
+    SubobjectId: 750704721231675414
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12287863073771318884
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 02"
+  Transform {
+    Location {
+      X: 30
+      Y: 55
+      Z: 160
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7030364018984724878
+    SubobjectId: 13313448805505947551
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8234446266827754774
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 55
+      Z: 110.000031
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 21203080166978901
+    SubobjectId: 15643629217445137220
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6464353548432603168
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: -95
+      Z: 159.999939
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13377022593421336230
+    SubobjectId: 6986977315557384375
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2175750318404983218
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: -95
+      Z: 109.999939
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17191565117904076255
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4740080542470221217
+    SubobjectId: 10996145243047318448
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7956958117058839233
+  Name: "Office Cubicle - T-Shape Template"
+  Transform {
+    Location {
+      X: -346.441895
+      Y: -799.606445
+      Z: 575.433044
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9745906995052034165
+  ChildIds: 12477059602309278802
+  ChildIds: 13724294575917006973
+  ChildIds: 11201712521350699615
+  ChildIds: 3155160993626658056
+  ChildIds: 9049542331587212129
+  ChildIds: 5894400950490317250
+  ChildIds: 11949029077013716873
+  ChildIds: 2927999519538363636
+  ChildIds: 11273423357027170273
+  ChildIds: 4035038519107529126
+  ChildIds: 4268281485374981474
+  ChildIds: 4196282760983018770
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4554444457286648293
+    SubobjectId: 16602136225659437044
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4196282760983018770
+  Name: "Office Cubicle Shelf 01"
+  Transform {
+    Location {
+      X: 365
+      Z: 160.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2383228183399448102
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8668720423098101036
+    SubobjectId: 11610133324222026557
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4268281485374981474
+  Name: "Office Cubicle Shelf 01"
+  Transform {
+    Location {
+      X: 165
+      Z: 160.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2383228183399448102
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 3652731035378377307
+    SubobjectId: 16997458499934329930
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4035038519107529126
+  Name: "Office Cubicle Shelf 01"
+  Transform {
+    Location {
+      Y: 350
+      Z: 160
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2383228183399448102
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7631822043480977730
+    SubobjectId: 12734961777908879187
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11273423357027170273
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -550
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4064955891547082217
+    SubobjectId: 16229739601181930488
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2927999519538363636
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: 15
+      Y: 550
+      Z: 9.15527344e-05
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15931549846672532544
+    SubobjectId: 309127523400817233
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11949029077013716873
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: 565
+      Z: 0.000152587891
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6011957424268083504
+    SubobjectId: 9961050441385508641
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5894400950490317250
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      Y: 550
+      Z: 9.15527344e-05
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6651364382828794711
+    SubobjectId: 9591652766782090566
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9049542331587212129
+  Name: "Office Cubicle Cabinet 02 - Template"
+  Transform {
+    Location {
+      Y: 340
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  ChildIds: 17334721959164841146
+  ChildIds: 2711827103244498386
+  ChildIds: 12911709395079401561
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9976669427501117754
+    SubobjectId: 5991544564139577131
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12911709395079401561
+  Name: "Office Cubicle Cabinet Door 01"
+  Transform {
+    Location {
+      X: -135
+      Y: 5
+      Z: 10
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9049542331587212129
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1884519533488252023
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16641237221470390929
+    SubobjectId: 4585663741206606976
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2711827103244498386
+  Name: "Office Cubicle Cabinet Door 01"
+  Transform {
+    Location {
+      X: -135
+      Y: 195
+      Z: 10
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9049542331587212129
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1884519533488252023
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6077664861801457204
+    SubobjectId: 10162990521829480485
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17334721959164841146
+  Name: "Office Cubicle Cabinet 02"
+  Transform {
+    Location {
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9049542331587212129
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14436456058292222270
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14681023844891051920
+    SubobjectId: 1364441781768763777
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3155160993626658056
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -540
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  ChildIds: 12577812688357032494
+  ChildIds: 14505075337151621391
+  ChildIds: 12433834074622416491
+  ChildIds: 10890968319640934935
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10516026386506885829
+    SubobjectId: 5233868575749625044
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10890968319640934935
+  Name: "Office Cubicle Cabinet Drawer 01"
+  Transform {
+    Location {
+      X: 50
+      Y: 10
+      Z: 70
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3155160993626658056
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13040778394310070578
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 2308313096479624220
+    SubobjectId: 17967893003180618253
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12433834074622416491
+  Name: "Office Cubicle Cabinet Drawer 01"
+  Transform {
+    Location {
+      X: 50
+      Y: 10
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3155160993626658056
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13040778394310070578
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4099719404313616294
+    SubobjectId: 16264504754676294071
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14505075337151621391
+  Name: "Office Cubicle Cabinet Drawer 02"
+  Transform {
+    Location {
+      X: 50
+      Y: 10
+      Z: 10
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3155160993626658056
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5395169632223182426
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5044882416127717053
+    SubobjectId: 11479961465195745452
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12577812688357032494
+  Name: "Office Cubicle Cabinet 01"
+  Transform {
+    Location {
+      X: -7.62939453e-06
+      Z: -0.000106811523
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3155160993626658056
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 36268939630397418
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15363067499310678896
+    SubobjectId: 893566001755553121
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11201712521350699615
+  Name: "Desk L-Shape"
+  Transform {
+    Location {
+      X: 120
+      Y: 215
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  ChildIds: 9179453397074348381
+  ChildIds: 6461452259036648354
+  ChildIds: 2376781702446543807
+  ChildIds: 14508383068820542451
+  ChildIds: 10704136736574865838
+  ChildIds: 17958483877272401774
+  ChildIds: 1971044462034115637
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14043368923819063039
+    SubobjectId: 1996801440218925294
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1971044462034115637
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: 245
+      Y: -215
+      Z: 9.15527344e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11201712521350699615
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1855386042257413276
+    SubobjectId: 13901950364803590797
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17958483877272401774
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 145
+      Y: -215
+      Z: -3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11201712521350699615
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 672848164538411605
+    SubobjectId: 14989226552940008516
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10704136736574865838
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 45
+      Y: -215
+      Z: -3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11201712521350699615
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5359881987510056335
+    SubobjectId: 10606014162344561566
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14508383068820542451
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: -105
+      Y: 135
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11201712521350699615
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 2360381141094680094
+    SubobjectId: 17983933040840718351
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2376781702446543807
+  Name: "Office Cubicle Desk Top 01 - 1.5m"
+  Transform {
+    Location {
+      X: -105
+      Y: -65
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11201712521350699615
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4137676688042850968
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1417391405585002428
+    SubobjectId: 14625884045454053805
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6461452259036648354
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: -105
+      Y: 235
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11201712521350699615
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 649053340264822257
+    SubobjectId: 15011596416550276064
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9179453397074348381
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: -105
+      Y: 335
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11201712521350699615
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1088399196984593025
+    SubobjectId: 15440807619623924880
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13724294575917006973
+  Name: "Desk L-Shape"
+  Transform {
+    Location {
+      X: -175
+      Y: 125
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  ChildIds: 9618436821584132028
+  ChildIds: 2605462225101793324
+  ChildIds: 9200371589513788356
+  ChildIds: 743444587653719407
+  ChildIds: 328580595843685309
+  ChildIds: 13232051135955144130
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12567019972794815479
+    SubobjectId: 8589780523359858150
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13232051135955144130
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: -175
+      Y: -125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13724294575917006973
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18142822531409022562
+    SubobjectId: 2493376823322538099
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 328580595843685309
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: -375
+      Y: -125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13724294575917006973
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8028932982147327495
+    SubobjectId: 13132076461794875414
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 743444587653719407
+  Name: "Office Cubicle Desk Top 01 - 1.5m"
+  Transform {
+    Location {
+      X: 25
+      Y: -125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13724294575917006973
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4137676688042850968
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17908757640271731417
+    SubobjectId: 2439457609556157640
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9200371589513788356
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 175
+      Y: 25
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13724294575917006973
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17675283751273116871
+    SubobjectId: 3177633794175552214
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2605462225101793324
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 175
+      Y: 125
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13724294575917006973
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8480208483207646614
+    SubobjectId: 12465331938004759431
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9618436821584132028
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: 175
+      Y: 225
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13724294575917006973
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10232816874917000844
+    SubobjectId: 6291604882555046045
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12477059602309278802
+  Name: "Cubicle Walls"
+  Transform {
+    Location {
+      X: -30
+      Y: 95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7956958117058839233
+  ChildIds: 5068918600980222206
+  ChildIds: 1116127954978951403
+  ChildIds: 15554242266119846637
+  ChildIds: 3044052941475460282
+  ChildIds: 11619323182938916170
+  ChildIds: 17599639435628063573
+  ChildIds: 7336902044214879550
+  ChildIds: 16067092511236807804
+  ChildIds: 14137953256688130410
+  ChildIds: 5496681794689104303
+  ChildIds: 385945601591612784
+  ChildIds: 6707700492576120026
+  ChildIds: 16054305417558998665
+  ChildIds: 4705147356667121884
+  ChildIds: 11847509560712504794
+  ChildIds: 3395522562137479699
+  ChildIds: 18162220017301386953
+  ChildIds: 16100746471133113614
+  ChildIds: 12539396052307914310
+  ChildIds: 9743439589795527455
+  ChildIds: 13688269913348862296
+  ChildIds: 10987842555745292727
+  ChildIds: 6709514665495109336
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11689006887531853752
+    SubobjectId: 8891706691984050601
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6709514665495109336
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 395
+      Y: -95
+      Z: 160.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7798807175324759389
+    SubobjectId: 13071957658036964172
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10987842555745292727
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 595
+      Y: -95
+      Z: 160.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6623087002063527177
+    SubobjectId: 9420386364119229208
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13688269913348862296
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 395
+      Y: -95
+      Z: 110.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14453649155135773686
+    SubobjectId: 1281182451820684775
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9743439589795527455
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 395
+      Y: -95
+      Z: 110.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16989478176892209387
+    SubobjectId: 3644750849750284026
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12539396052307914310
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 195
+      Y: -95
+      Z: 109.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10200981353098371788
+    SubobjectId: 6107773397206146269
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16100746471133113614
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 195
+      Y: -95
+      Z: 159.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14535762294968515532
+    SubobjectId: 1219181640821966301
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 18162220017301386953
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 45
+      Y: 465
+      Z: 110
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 9879222168004949473
+    SubobjectId: 5784888896145525744
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3395522562137479699
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 02"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: 160
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 3230290741014797185
+    SubobjectId: 17691913558875039120
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11847509560712504794
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 255
+      Z: 160.000031
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5481361180029106806
+    SubobjectId: 10755639375409857639
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4705147356667121884
+  Name: "Office Cubicle Wall 01 - 2m Bottom 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: -3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4760954629731305810
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 9983102633333881435
+    SubobjectId: 6041890090947675210
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16054305417558998665
+  Name: "Office Cubicle Wall 01 - 2m Top 01"
+  Transform {
+    Location {
+      X: -520
+      Y: -95
+      Z: 160.000015
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2401522662930405389
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15223696516685870472
+    SubobjectId: 727171531866360729
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6707700492576120026
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: 110.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8728387753645683512
+    SubobjectId: 11561716196246670633
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 385945601591612784
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: -120
+      Y: 465
+      Z: 110
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 12870377886410233578
+    SubobjectId: 7768363605204150523
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5496681794689104303
+  Name: "Office Cubicle Wall 01 - 2m Bottom 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4760954629731305810
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1787196447514660197
+    SubobjectId: 13951980423487812468
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14137953256688130410
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: 110.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7361368138802993394
+    SubobjectId: 13797574213084210915
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16067092511236807804
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: -120
+      Y: -95
+      Z: 159.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 272791105287008430
+    SubobjectId: 15752227989016202943
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7336902044214879550
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: -120
+      Y: -95
+      Z: 109.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17188129040944316811
+    SubobjectId: 4024671873371324314
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17599639435628063573
+  Name: "Office Cubicle Wall 01 - 1.5m Bottom 01"
+  Transform {
+    Location {
+      X: -120
+      Y: -95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9897104086881807462
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18176955280508652223
+    SubobjectId: 2671625722898117806
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11619323182938916170
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 255
+      Z: 110.000031
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15220205222421560839
+    SubobjectId: 750704721231675414
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3044052941475460282
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 02"
+  Transform {
+    Location {
+      X: 30
+      Y: 55
+      Z: 160
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7030364018984724878
+    SubobjectId: 13313448805505947551
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15554242266119846637
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 55
+      Z: 110.000031
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 21203080166978901
+    SubobjectId: 15643629217445137220
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1116127954978951403
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: -95
+      Z: 159.999939
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13377022593421336230
+    SubobjectId: 6986977315557384375
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5068918600980222206
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: -95
+      Z: 109.999939
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12477059602309278802
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4740080542470221217
+    SubobjectId: 10996145243047318448
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12852249299126871967
+  Name: "Office Cubicle - T-Shape Template"
+  Transform {
+    Location {
+      X: -1071.44165
+      Y: -749.606445
+      Z: 575.433044
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9745906995052034165
+  ChildIds: 2849440498797143626
+  ChildIds: 13795852930428967996
+  ChildIds: 14270128154055274887
+  ChildIds: 6623790617341250952
+  ChildIds: 12676856323219390545
+  ChildIds: 13126530771873577708
+  ChildIds: 17440987946334356269
+  ChildIds: 630386392361152536
+  ChildIds: 13468536917678503884
+  ChildIds: 5016782665936487959
+  ChildIds: 8632499949497103564
+  ChildIds: 3925330752968641915
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4554444457286648293
+    SubobjectId: 16602136225659437044
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3925330752968641915
+  Name: "Office Cubicle Shelf 01"
+  Transform {
+    Location {
+      X: 365
+      Z: 160.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2383228183399448102
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8668720423098101036
+    SubobjectId: 11610133324222026557
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8632499949497103564
+  Name: "Office Cubicle Shelf 01"
+  Transform {
+    Location {
+      X: 165
+      Z: 160.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2383228183399448102
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 3652731035378377307
+    SubobjectId: 16997458499934329930
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5016782665936487959
+  Name: "Office Cubicle Shelf 01"
+  Transform {
+    Location {
+      Y: 350
+      Z: 160
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2383228183399448102
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7631822043480977730
+    SubobjectId: 12734961777908879187
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13468536917678503884
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -550
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4064955891547082217
+    SubobjectId: 16229739601181930488
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 630386392361152536
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: 15
+      Y: 550
+      Z: 9.15527344e-05
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15931549846672532544
+    SubobjectId: 309127523400817233
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17440987946334356269
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: 565
+      Z: 0.000152587891
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6011957424268083504
+    SubobjectId: 9961050441385508641
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13126530771873577708
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      Y: 550
+      Z: 9.15527344e-05
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 890442874131206195
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6651364382828794711
+    SubobjectId: 9591652766782090566
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12676856323219390545
+  Name: "Office Cubicle Cabinet 02 - Template"
+  Transform {
+    Location {
+      Y: 340
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  ChildIds: 8997284743625646875
+  ChildIds: 7850597042889820389
+  ChildIds: 6186960594886239935
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9976669427501117754
+    SubobjectId: 5991544564139577131
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6186960594886239935
+  Name: "Office Cubicle Cabinet Door 01"
+  Transform {
+    Location {
+      X: -135
+      Y: 5
+      Z: 10
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12676856323219390545
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1884519533488252023
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16641237221470390929
+    SubobjectId: 4585663741206606976
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7850597042889820389
+  Name: "Office Cubicle Cabinet Door 01"
+  Transform {
+    Location {
+      X: -135
+      Y: 195
+      Z: 10
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12676856323219390545
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1884519533488252023
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6077664861801457204
+    SubobjectId: 10162990521829480485
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8997284743625646875
+  Name: "Office Cubicle Cabinet 02"
+  Transform {
+    Location {
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12676856323219390545
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14436456058292222270
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14681023844891051920
+    SubobjectId: 1364441781768763777
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6623790617341250952
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -540
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  ChildIds: 8113225108279201831
+  ChildIds: 17016762048070694391
+  ChildIds: 15506425046886386091
+  ChildIds: 9849992397851499311
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10516026386506885829
+    SubobjectId: 5233868575749625044
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9849992397851499311
+  Name: "Office Cubicle Cabinet Drawer 01"
+  Transform {
+    Location {
+      X: 50
+      Y: 10
+      Z: 70
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6623790617341250952
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13040778394310070578
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 2308313096479624220
+    SubobjectId: 17967893003180618253
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15506425046886386091
+  Name: "Office Cubicle Cabinet Drawer 01"
+  Transform {
+    Location {
+      X: 50
+      Y: 10
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6623790617341250952
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13040778394310070578
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4099719404313616294
+    SubobjectId: 16264504754676294071
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17016762048070694391
+  Name: "Office Cubicle Cabinet Drawer 02"
+  Transform {
+    Location {
+      X: 50
+      Y: 10
+      Z: 10
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6623790617341250952
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4181586232090897772
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5395169632223182426
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5044882416127717053
+    SubobjectId: 11479961465195745452
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8113225108279201831
+  Name: "Office Cubicle Cabinet 01"
+  Transform {
+    Location {
+      X: -7.62939453e-06
+      Z: -0.000106811523
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6623790617341250952
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 36268939630397418
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15363067499310678896
+    SubobjectId: 893566001755553121
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14270128154055274887
+  Name: "Desk L-Shape"
+  Transform {
+    Location {
+      X: 120
+      Y: 215
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  ChildIds: 5521045462303046781
+  ChildIds: 14521721845137130142
+  ChildIds: 1648058203670744880
+  ChildIds: 13891885237691404613
+  ChildIds: 10167956870461416969
+  ChildIds: 17764465348885236623
+  ChildIds: 14331635416653017812
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14043368923819063039
+    SubobjectId: 1996801440218925294
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14331635416653017812
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: 245
+      Y: -215
+      Z: 9.15527344e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14270128154055274887
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1855386042257413276
+    SubobjectId: 13901950364803590797
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17764465348885236623
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 145
+      Y: -215
+      Z: -3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14270128154055274887
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 672848164538411605
+    SubobjectId: 14989226552940008516
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10167956870461416969
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 45
+      Y: -215
+      Z: -3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14270128154055274887
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5359881987510056335
+    SubobjectId: 10606014162344561566
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13891885237691404613
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: -105
+      Y: 135
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14270128154055274887
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 2360381141094680094
+    SubobjectId: 17983933040840718351
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1648058203670744880
+  Name: "Office Cubicle Desk Top 01 - 1.5m"
+  Transform {
+    Location {
+      X: -105
+      Y: -65
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14270128154055274887
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4137676688042850968
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1417391405585002428
+    SubobjectId: 14625884045454053805
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14521721845137130142
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: -105
+      Y: 235
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14270128154055274887
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 649053340264822257
+    SubobjectId: 15011596416550276064
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5521045462303046781
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: -105
+      Y: 335
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14270128154055274887
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1088399196984593025
+    SubobjectId: 15440807619623924880
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13795852930428967996
+  Name: "Desk L-Shape"
+  Transform {
+    Location {
+      X: -175
+      Y: 125
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  ChildIds: 10159820031556096986
+  ChildIds: 18394864857753730600
+  ChildIds: 10312998090414849065
+  ChildIds: 15149883843147526499
+  ChildIds: 11983164975367328421
+  ChildIds: 2741307698654310163
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12567019972794815479
+    SubobjectId: 8589780523359858150
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2741307698654310163
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: -175
+      Y: -125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13795852930428967996
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18142822531409022562
+    SubobjectId: 2493376823322538099
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11983164975367328421
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: -375
+      Y: -125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13795852930428967996
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8028932982147327495
+    SubobjectId: 13132076461794875414
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15149883843147526499
+  Name: "Office Cubicle Desk Top 01 - 1.5m"
+  Transform {
+    Location {
+      X: 25
+      Y: -125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13795852930428967996
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4137676688042850968
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17908757640271731417
+    SubobjectId: 2439457609556157640
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10312998090414849065
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 175
+      Y: 25
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13795852930428967996
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17675283751273116871
+    SubobjectId: 3177633794175552214
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 18394864857753730600
+  Name: "Office Cubicle Desk Top 01 - 1m"
+  Transform {
+    Location {
+      X: 175
+      Y: 125
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13795852930428967996
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7747083451095708293
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8480208483207646614
+    SubobjectId: 12465331938004759431
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10159820031556096986
+  Name: "Office Cubicle Desk Top 01 - 2m"
+  Transform {
+    Location {
+      X: 175
+      Y: 225
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13795852930428967996
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10336692197110796098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10232816874917000844
+    SubobjectId: 6291604882555046045
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2849440498797143626
+  Name: "Cubicle Walls"
+  Transform {
+    Location {
+      X: -30
+      Y: 95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12852249299126871967
+  ChildIds: 10024003563399457870
+  ChildIds: 6922168216465858774
+  ChildIds: 13070559265812945956
+  ChildIds: 7704568273011752560
+  ChildIds: 7325786065642453662
+  ChildIds: 15083421808636800394
+  ChildIds: 7766130089368818892
+  ChildIds: 9291362964037138582
+  ChildIds: 17615081007843956296
+  ChildIds: 16182044981701426485
+  ChildIds: 6700412592820648702
+  ChildIds: 15659665828226469965
+  ChildIds: 3959344045013448317
+  ChildIds: 2434239888410656686
+  ChildIds: 11854567614719676802
+  ChildIds: 7208195152539594601
+  ChildIds: 10050861344929972417
+  ChildIds: 17458167151933526298
+  ChildIds: 11065576808689696279
+  ChildIds: 1042896059814503862
+  ChildIds: 13185862475854813475
+  ChildIds: 14085605806544570328
+  ChildIds: 574299613072898812
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11689006887531853752
+    SubobjectId: 8891706691984050601
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 574299613072898812
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 395
+      Y: -95
+      Z: 160.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7798807175324759389
+    SubobjectId: 13071957658036964172
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14085605806544570328
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 595
+      Y: -95
+      Z: 160.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6623087002063527177
+    SubobjectId: 9420386364119229208
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13185862475854813475
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 395
+      Y: -95
+      Z: 110.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14453649155135773686
+    SubobjectId: 1281182451820684775
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1042896059814503862
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 395
+      Y: -95
+      Z: 110.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16989478176892209387
+    SubobjectId: 3644750849750284026
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11065576808689696279
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 195
+      Y: -95
+      Z: 109.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10200981353098371788
+    SubobjectId: 6107773397206146269
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17458167151933526298
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 195
+      Y: -95
+      Z: 159.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14535762294968515532
+    SubobjectId: 1219181640821966301
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10050861344929972417
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 45
+      Y: 465
+      Z: 110
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 9879222168004949473
+    SubobjectId: 5784888896145525744
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7208195152539594601
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 02"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: 160
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 3230290741014797185
+    SubobjectId: 17691913558875039120
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11854567614719676802
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 255
+      Z: 160.000031
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5481361180029106806
+    SubobjectId: 10755639375409857639
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2434239888410656686
+  Name: "Office Cubicle Wall 01 - 2m Bottom 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: -3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4760954629731305810
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 9983102633333881435
+    SubobjectId: 6041890090947675210
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3959344045013448317
+  Name: "Office Cubicle Wall 01 - 2m Top 01"
+  Transform {
+    Location {
+      X: -520
+      Y: -95
+      Z: 160.000015
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2401522662930405389
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15223696516685870472
+    SubobjectId: 727171531866360729
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15659665828226469965
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: 110.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 8728387753645683512
+    SubobjectId: 11561716196246670633
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6700412592820648702
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: -120
+      Y: 465
+      Z: 110
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 12870377886410233578
+    SubobjectId: 7768363605204150523
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16182044981701426485
+  Name: "Office Cubicle Wall 01 - 2m Bottom 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18158773904973768887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4760954629731305810
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1787196447514660197
+    SubobjectId: 13951980423487812468
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17615081007843956296
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: -320
+      Y: -95
+      Z: 110.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7361368138802993394
+    SubobjectId: 13797574213084210915
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9291362964037138582
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: -120
+      Y: -95
+      Z: 159.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 272791105287008430
+    SubobjectId: 15752227989016202943
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7766130089368818892
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: -120
+      Y: -95
+      Z: 109.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17188129040944316811
+    SubobjectId: 4024671873371324314
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15083421808636800394
+  Name: "Office Cubicle Wall 01 - 1.5m Bottom 01"
+  Transform {
+    Location {
+      X: -120
+      Y: -95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.05
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9897104086881807462
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18176955280508652223
+    SubobjectId: 2671625722898117806
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7325786065642453662
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 255
+      Z: 110.000031
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15220205222421560839
+    SubobjectId: 750704721231675414
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7704568273011752560
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 02"
+  Transform {
+    Location {
+      X: 30
+      Y: 55
+      Z: 160
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7030364018984724878
+    SubobjectId: 13313448805505947551
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13070559265812945956
+  Name: "Office Cubicle Wall 01 - 2m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: 55
+      Z: 110.000031
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11315662836638434218
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 21203080166978901
+    SubobjectId: 15643629217445137220
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6922168216465858774
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: -95
+      Z: 159.999939
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13377022593421336230
+    SubobjectId: 6986977315557384375
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10024003563399457870
+  Name: "Office Cubicle Wall 01 - 1.5m Mid 01"
+  Transform {
+    Location {
+      X: 30
+      Y: -95
+      Z: 109.999939
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2849440498797143626
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.380000025
+        G: 0.346180022
+        B: 0.346180022
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12900675043208150235
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4740080542470221217
+    SubobjectId: 10996145243047318448
+    InstanceId: 775320700986720757
+    TemplateId: 945075980622704771
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 16766469168490803283
   Name: "Keyboard&Mouse"
   Transform {
@@ -5301,12 +17593,14 @@ Objects {
   Name: "SAR_Desk Chair"
   Transform {
     Location {
-      X: 533.949463
-      Y: -2351.11865
-      Z: 284.526
+      X: 272.919556
+      Y: -2252.4165
+      Z: 170.187317
     }
     Rotation {
-      Yaw: 150.262436
+      Pitch: -74.0441
+      Yaw: 104.094864
+      Roll: 18.0900326
     }
     Scale {
       X: 3.33333325
@@ -6523,108 +18817,6 @@ Objects {
   }
 }
 Objects {
-  Id: 17546520261862223995
-  Name: "Decal Military Posters 01"
-  Transform {
-    Location {
-      X: -406.056549
-      Y: -2907.97852
-      Z: 694.195
-    }
-    Rotation {
-      Pitch: 2.06726599
-      Roll: 90
-    }
-    Scale {
-      X: 1.03510177
-      Y: 1.03510177
-      Z: 1.03510177
-    }
-  }
-  ParentId: 7420455323421467140
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 17802002581818659935
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13020014297679946315
-  Name: "Decal Military Posters 01"
-  Transform {
-    Location {
-      X: -196.840668
-      Y: -2912.69238
-      Z: 645.182861
-    }
-    Rotation {
-      Pitch: -4.52343607
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1.19362223
-      Y: 1.19362223
-      Z: 1.19362223
-    }
-  }
-  ParentId: 7420455323421467140
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 3
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 17802002581818659935
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 12764656400184084080
   Name: "Craftsman Roof Arch 01"
   Transform {
@@ -6845,12 +19037,12 @@ Objects {
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
-      X: -369.108887
-      Y: -1449.23096
+      X: -371.797363
+      Y: -1431.05725
       Z: 472.6427
     }
     Rotation {
-      Yaw: -94.1966553
+      Yaw: -76.7104492
     }
     Scale {
       X: 1.55492377
@@ -6953,7 +19145,7 @@ Objects {
       Z: 440.489197
     }
     Rotation {
-      Yaw: -96.1390381
+      Yaw: -91.7219238
       Roll: -90
     }
     Scale {
@@ -6997,13 +19189,13 @@ Objects {
   Transform {
     Location {
       X: -394.968292
-      Y: -968.430969
+      Y: -897.695068
       Z: 421.215729
     }
     Rotation {
-      Pitch: 35.7785454
-      Yaw: -76.569
-      Roll: 99.8794937
+      Pitch: 35.7784729
+      Yaw: -49.4691467
+      Roll: 99.8795929
     }
     Scale {
       X: 2.25174713
@@ -7365,12 +19557,12 @@ Objects {
   Name: "Modern Weapon Accessory - Shell Clip"
   Transform {
     Location {
-      X: -466.666656
-      Y: -892.182678
+      X: -422.625336
+      Y: -742.712463
       Z: 416.666656
     }
     Rotation {
-      Yaw: 89.9999847
+      Yaw: 43.4599953
       Roll: 179.641861
     }
     Scale {
@@ -7421,13 +19613,13 @@ Objects {
   Name: "Modern Weapon Accessory - Shell Clip"
   Transform {
     Location {
-      X: -419.365326
-      Y: -887.847656
+      X: -386.942657
+      Y: -774.065
       Z: 419.425842
     }
     Rotation {
       Pitch: -0.00469970703
-      Yaw: -89.227478
+      Yaw: -135.76738
       Roll: -89.6409302
     }
     Scale {
@@ -8074,1232 +20266,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7652493232038193008
-  Name: "SAR_Desk Chair"
-  Transform {
-    Location {
-      X: -52.7646866
-      Y: -2351.11865
-      Z: 284.526
-    }
-    Rotation {
-      Yaw: -136.697739
-    }
-    Scale {
-      X: 3.33333325
-      Y: 3.33333325
-      Z: 3.33333325
-    }
-  }
-  ParentId: 7420455323421467140
-  ChildIds: 4698914139927610745
-  ChildIds: 5069940348546208288
-  ChildIds: 257808557084389042
-  ChildIds: 8942669564238294505
-  ChildIds: 7138814244230801678
-  ChildIds: 12361497064722834586
-  ChildIds: 16975499615168913419
-  ChildIds: 15860609212465972002
-  ChildIds: 14603390020490850220
-  ChildIds: 6657835180063143284
-  ChildIds: 18260074601828937917
-  ChildIds: 2183548467429632181
-  ChildIds: 2646354111878538170
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 2646354111878538170
-  Name: "Text 05: \'"
-  Transform {
-    Location {
-      X: -20.0583191
-      Y: 65.0820312
-      Z: -39.1436
-    }
-    Rotation {
-      Pitch: -41.0971069
-      Yaw: -90
-      Roll: 0.00132099865
-    }
-    Scale {
-      X: -1.75000238
-      Y: 1.5030117
-      Z: 1.15014839
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font.Faces:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Faces:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:utile"
-      Float: 1.30542731
-    }
-    Overrides {
-      Name: "ma:Font.Sides:vtile"
-      Float: 1.0623349
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:utile"
-      Float: 2.03011203
-    }
-    Overrides {
-      Name: "ma:Font.Faces:vtile"
-      Float: 3.99542379
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10029949322395939783
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 2183548467429632181
-  Name: "Cone - Truncated Concave"
-  Transform {
-    Location {
-      X: -1.65429688
-      Y: 24.9941406
-      Z: -67.0054932
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.594652712
-      Y: 0.594652712
-      Z: 0.0413713
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14582790818618070150
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12905923173550510229
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 18260074601828937917
-  Name: "Cone - Truncated Concave"
-  Transform {
-    Location {
-      X: -1.65429688
-      Y: 24.9941406
-      Z: -37.6123657
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.112559497
-      Y: 0.112559497
-      Z: 0.28602463
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14582790818618070150
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17829956314758502204
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 6657835180063143284
-  Name: "Cone - Truncated Concave"
-  Transform {
-    Location {
-      X: -1.65429688
-      Y: 24.9941406
-      Z: -65.2302856
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.594652712
-      Y: 0.594652712
-      Z: 0.226246789
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14582790818618070150
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12617664793519417206
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 14603390020490850220
-  Name: "Text 06: ("
-  Transform {
-    Location {
-      X: -41.6278343
-      Y: 29.0615082
-      Z: -0.917114258
-    }
-    Rotation {
-      Pitch: 90
-      Yaw: 19.47122
-      Roll: 19.4712219
-    }
-    Scale {
-      X: 0.232674941
-      Y: 0.146876827
-      Z: 0.0650423467
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14582790818618070150
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13642204757580273705
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15860609212465972002
-  Name: "Text 06: ("
-  Transform {
-    Location {
-      X: 40.7114258
-      Y: 29.0615234
-      Z: -0.917114258
-    }
-    Rotation {
-      Pitch: 90
-    }
-    Scale {
-      X: 0.232674941
-      Y: 0.146876827
-      Z: 0.0650423467
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14582790818618070150
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13642204757580273705
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16975499615168913419
-  Name: "Text 06: ("
-  Transform {
-    Location {
-      X: 29.4292374
-      Y: 21.5947037
-      Z: -31.0593262
-    }
-    Rotation {
-      Pitch: 90
-      Yaw: 19.47122
-      Roll: 19.4712219
-    }
-    Scale {
-      X: 0.497918725
-      Y: 0.595175862
-      Z: 0.426992416
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font.Bevel:id"
-      AssetReference {
-        Id: 14582790818618070150
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:id"
-      AssetReference {
-        Id: 14582790818618070150
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:id"
-      AssetReference {
-        Id: 14582790818618070150
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Faces:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4754302570986976949
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12361497064722834586
-  Name: "Text 05: \'"
-  Transform {
-    Location {
-      X: 50.3710938
-      Y: -258.599609
-      Z: -29.6853638
-    }
-    Rotation {
-      Pitch: -78.8789673
-      Yaw: 89.9999771
-      Roll: 0.00129250786
-    }
-    Scale {
-      X: 1.67438138
-      Y: 0.690076828
-      Z: 2.54979444
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font.Faces:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Faces:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:utile"
-      Float: 1.30542731
-    }
-    Overrides {
-      Name: "ma:Font.Sides:vtile"
-      Float: 1.0623349
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10029949322395939783
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 7138814244230801678
-  Name: "Text 05: \'"
-  Transform {
-    Location {
-      X: -34.1604919
-      Y: -152.37883
-      Z: -13.0576401
-    }
-    Rotation {
-      Pitch: -78.8789673
-      Yaw: 89.9999771
-      Roll: 0.00129251264
-    }
-    Scale {
-      X: 1.0172199
-      Y: 0.690076411
-      Z: 1.60252631
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font.Faces:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Faces:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:utile"
-      Float: 1.30542731
-    }
-    Overrides {
-      Name: "ma:Font.Sides:vtile"
-      Float: 1.0623349
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10029949322395939783
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 8942669564238294505
-  Name: "Text 05: \'"
-  Transform {
-    Location {
-      X: -29.4096375
-      Y: 102.550354
-      Z: -320.268524
-    }
-    Rotation {
-      Pitch: -19.6139526
-      Yaw: -90
-      Roll: 0.00114292593
-    }
-    Scale {
-      X: -1.75000119
-      Y: 2.26832414
-      Z: 3.13400292
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font.Faces:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Faces:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:utile"
-      Float: 1.30542731
-    }
-    Overrides {
-      Name: "ma:Font.Sides:vtile"
-      Float: 1.0623349
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:utile"
-      Float: 2.03011203
-    }
-    Overrides {
-      Name: "ma:Font.Faces:vtile"
-      Float: 3.99542379
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10029949322395939783
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 257808557084389042
-  Name: "Text 05: \'"
-  Transform {
-    Location {
-      X: -11.5844727
-      Y: -258.599609
-      Z: -57.1295166
-    }
-    Rotation {
-      Pitch: -78.8789902
-      Yaw: 89.9999619
-      Roll: 0.00131907198
-    }
-    Scale {
-      X: 1.67437875
-      Y: 0.933475196
-      Z: 2.54978013
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font.Faces:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Faces:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:utile"
-      Float: 1.30542731
-    }
-    Overrides {
-      Name: "ma:Font.Sides:vtile"
-      Float: 1.0623349
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10029949322395939783
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5069940348546208288
-  Name: "Text 05: \'"
-  Transform {
-    Location {
-      X: 34.6650391
-      Y: -258.599609
-      Z: -57.1295166
-    }
-    Rotation {
-      Pitch: -78.8789902
-      Yaw: 89.9999619
-      Roll: 0.00131907198
-    }
-    Scale {
-      X: 1.67437875
-      Y: 0.933475196
-      Z: 2.54978013
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font.Faces:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Faces:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:utile"
-      Float: 1.30542731
-    }
-    Overrides {
-      Name: "ma:Font.Sides:vtile"
-      Float: 1.0623349
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10029949322395939783
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 4698914139927610745
-  Name: "Text 05: \'"
-  Transform {
-    Location {
-      X: 20.5292969
-      Y: -276.987305
-      Z: -58.7360229
-    }
-    Rotation {
-      Pitch: -78.8788528
-      Yaw: 89.9999084
-      Roll: 0.00123052613
-    }
-    Scale {
-      X: 1.79369366
-      Y: 1.64752281
-      Z: 2.73147
-    }
-  }
-  ParentId: 7652493232038193008
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font.Faces:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:id"
-      AssetReference {
-        Id: 5822913166312317804
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Faces:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Font.Sides:utile"
-      Float: 1.30542731
-    }
-    Overrides {
-      Name: "ma:Font.Sides:vtile"
-      Float: 1.0623349
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.252
-        G: 0.0546000078
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10029949322395939783
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 17044658172901559078
   Name: "Area Light"
   Transform {
@@ -9460,69 +20426,6 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:vtile"
       Float: 0.125
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 14766222752007642567
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -733.92749
-      Y: -1172.1853
-      Z: 449.999878
-    }
-    Rotation {
-      Yaw: 179.999954
-    }
-    Scale {
-      X: 1.70000017
-      Y: 35.6391449
-      Z: 1.05051935
-    }
-  }
-  ParentId: 7420455323421467140
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5525139013811408427
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.583
-        G: 0.233200029
-        A: 1
-      }
     }
   }
   Collidable_v2 {
@@ -9728,74 +20631,11 @@ Objects {
   }
 }
 Objects {
-  Id: 1096320555792454214
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -680.614502
-      Y: -1172.18542
-      Z: 890.631287
-    }
-    Rotation {
-      Yaw: 179.999954
-    }
-    Scale {
-      X: 0.615892231
-      Y: 35.6391449
-      Z: 1.05051935
-    }
-  }
-  ParentId: 7420455323421467140
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5525139013811408427
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.583
-        G: 0.233200029
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 15752745352359198721
   Name: "Cube"
   Transform {
     Location {
-      X: 433.025818
+      X: 1339.1355
       Y: -2933.33398
       Z: 890.631287
     }
@@ -9858,7 +20698,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 433.025818
+      X: 1339.1355
       Y: -2908.23193
       Z: 193.020523
     }
@@ -9922,14 +20762,14 @@ Objects {
   Transform {
     Location {
       X: -728.197388
-      Y: -1336.24963
+      Y: 1599.13037
       Z: 193.020538
     }
     Rotation {
       Yaw: 179.999954
     }
     Scale {
-      X: 1.7
+      X: 1.70000017
       Y: 33.3
       Z: 4.17319965
     }
@@ -12117,7 +22957,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 3.54144573
+    Intensity: 1.84830916
     Color {
       R: 1
       G: 0.366666675
@@ -12151,12 +22991,12 @@ Objects {
   Name: "Counter Drawer"
   Transform {
     Location {
-      X: -272.283722
+      X: -245.808258
       Y: -933.333313
       Z: 150
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -87.776886
     }
     Scale {
       X: 3.33333325
@@ -12227,12 +23067,13 @@ Objects {
   Name: "Counter Drawer"
   Transform {
     Location {
-      X: -272.283722
-      Y: -1250
-      Z: 150
+      X: -268.113068
+      Y: -1249.99988
+      Z: 152.62056
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
+      Roll: 8.82956886
     }
     Scale {
       X: 3.33333325
@@ -12303,12 +23144,12 @@ Objects {
   Name: "Counter Drawer"
   Transform {
     Location {
-      X: -260.230957
-      Y: -1250
+      X: -263.385315
+      Y: -1264.3208
       Z: 266.666656
     }
     Rotation {
-      Yaw: -90
+      Yaw: -96.3232727
     }
     Scale {
       X: 3.33333325
@@ -12730,73 +23571,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 17328743352741039281
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 14741321318109985139
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -432.853119
-      Y: -2044.58069
-      Z: 511.070709
-    }
-    Rotation {
-      Yaw: 179.999954
-    }
-    Scale {
-      X: 2.42326307
-      Y: 7.90519953
-      Z: 9.98277855
-    }
-  }
-  ParentId: 7420455323421467140
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 16170888592440282149
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.809999943
-        G: 0.337947
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -14028,6 +24802,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14104,6 +24879,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14151,6 +24927,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14512,13 +25289,13 @@ Objects {
   Name: "Girder Medium 4m"
   Transform {
     Location {
-      X: -596.591125
-      Y: -2818.49512
-      Z: 1550.00012
+      X: -328.149292
+      Y: -2943.9856
+      Z: 178.754669
     }
     Rotation {
-      Pitch: -90
-      Roll: -90
+      Pitch: -99.4380493
+      Roll: 180
     }
     Scale {
       X: 3.66666675
@@ -14555,7 +25332,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 6054545846405523195
+      Id: 5055099767542676301
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -15241,9 +26018,9 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -683.333069
+      X: -407.355835
       Y: -2866.6665
-      Z: 50
+      Z: 50.0000038
     }
     Rotation {
     }
@@ -15394,7 +26171,7 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 336.23111
+        AttenuationRadius: 161.852402
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
@@ -15402,7 +26179,7 @@ Objects {
           SourceHeight: 293.528381
         }
       }
-      MaxDrawDistance: 5000
+      MaxDrawDistance: 2000
       MaxDistanceFadeRange: 1000
     }
   }
@@ -15454,7 +26231,7 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 266.596
+        AttenuationRadius: 161.852402
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
@@ -15462,7 +26239,7 @@ Objects {
           SourceHeight: 0.01
         }
       }
-      MaxDrawDistance: 5000
+      MaxDrawDistance: 2000
       MaxDistanceFadeRange: 1000
     }
     CastVolumetricShadows: true
@@ -15515,7 +26292,7 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 266.596
+        AttenuationRadius: 161.852402
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
@@ -15523,7 +26300,7 @@ Objects {
           SourceHeight: 0.01
         }
       }
-      MaxDrawDistance: 5000
+      MaxDrawDistance: 2000
       MaxDistanceFadeRange: 1000
     }
     CastVolumetricShadows: true
@@ -15576,7 +26353,7 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 127.325798
+        AttenuationRadius: 161.852402
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
@@ -15584,7 +26361,7 @@ Objects {
           SourceHeight: 0.01
         }
       }
-      MaxDrawDistance: 5000
+      MaxDrawDistance: 2000
       MaxDistanceFadeRange: 1000
     }
     CastVolumetricShadows: true
@@ -15637,7 +26414,7 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 196.960907
+        AttenuationRadius: 161.852402
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
@@ -15645,7 +26422,7 @@ Objects {
           SourceHeight: 0.01
         }
       }
-      MaxDrawDistance: 5000
+      MaxDrawDistance: 2000
       MaxDistanceFadeRange: 1000
     }
     CastVolumetricShadows: true
@@ -15698,7 +26475,7 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 231.778458
+        AttenuationRadius: 161.852402
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
@@ -15706,7 +26483,7 @@ Objects {
           SourceHeight: 0.01
         }
       }
-      MaxDrawDistance: 5000
+      MaxDrawDistance: 2000
       MaxDistanceFadeRange: 1000
     }
     CastVolumetricShadows: true
@@ -15759,7 +26536,7 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 127.325798
+        AttenuationRadius: 161.852402
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
@@ -15767,7 +26544,7 @@ Objects {
           SourceHeight: 0.01
         }
       }
-      MaxDrawDistance: 5000
+      MaxDrawDistance: 2000
       MaxDistanceFadeRange: 1000
     }
     CastVolumetricShadows: true
@@ -17301,280 +28078,6 @@ Objects {
   }
 }
 Objects {
-  Id: 590083734603646361
-  Name: "Military Common Crate Base"
-  Transform {
-    Location {
-      X: -450.000702
-      Y: -2316.66577
-      Z: 616.666626
-    }
-    Rotation {
-      Pitch: 90
-      Yaw: -90
-      Roll: -179.999985
-    }
-    Scale {
-      X: 1.66666663
-      Y: 1.66666663
-      Z: 0.666666687
-    }
-  }
-  ParentId: 7420455323421467140
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.0382039957
-        G: 0.0555305295
-        B: 0.056128
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.19488
-        G: 0.245610654
-        B: 0.290000021
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 472496642976630875
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5252951581955572091
-  Name: "Military Common Crate Base"
-  Transform {
-    Location {
-      X: -450.00061
-      Y: -2066.66626
-      Z: 616.666626
-    }
-    Rotation {
-      Pitch: 90
-      Yaw: 180
-      Roll: 90.0000534
-    }
-    Scale {
-      X: 1.66666663
-      Y: 1.66666663
-      Z: 0.666666687
-    }
-  }
-  ParentId: 7420455323421467140
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.0382039957
-        G: 0.0555305295
-        B: 0.056128
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.19488
-        G: 0.245610654
-        B: 0.290000021
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 472496642976630875
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16247402461712171199
-  Name: "Military Common Crate Base"
-  Transform {
-    Location {
-      X: -566.667236
-      Y: -2183.33252
-      Z: 33.3333321
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 4.66666651
-      Y: 3.66666675
-      Z: 3.33333325
-    }
-  }
-  ParentId: 7420455323421467140
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.0382039957
-        G: 0.0555305295
-        B: 0.056128
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.19488
-        G: 0.245610654
-        B: 0.290000021
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6400415333480265935
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5676650106518192532
-  Name: "Military Common Crate Base"
-  Transform {
-    Location {
-      X: -650.00061
-      Y: -2183.33252
-      Z: 616.666626
-    }
-    Rotation {
-      Pitch: 90
-      Yaw: -10.0249863
-      Roll: 169.975037
-    }
-    Scale {
-      X: 7.66666651
-      Y: 6.66666412
-      Z: 3.33333325
-    }
-  }
-  ParentId: 7420455323421467140
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.0382039957
-        G: 0.0555305295
-        B: 0.056128
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.19488
-        G: 0.245610654
-        B: 0.290000021
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6400415333480265935
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 14056717731000882676
   Name: "Military Ammo Crate Large"
   Transform {
@@ -18186,7 +28689,7 @@ Objects {
   Name: "wall"
   Transform {
     Location {
-      X: 433.332
+      X: 1339.44189
       Y: -2933.33276
       Z: 866.666626
     }
@@ -18242,7 +28745,7 @@ Objects {
   Transform {
     Location {
       X: -733.334778
-      Y: -1930.87659
+      Y: 1004.50153
       Z: 897.993164
     }
     Rotation {
@@ -18309,7 +28812,7 @@ Objects {
   Transform {
     Location {
       X: 1098.60193
-      Y: -1183.3335
+      Y: -75.4435
       Z: -133.333328
     }
     Rotation {
