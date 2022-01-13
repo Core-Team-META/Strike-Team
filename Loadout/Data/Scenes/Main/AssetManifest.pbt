@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14658573491612816447
-  Name: "st_lifetime"
+  Id: 17651296754164885192
+  Name: "Marcus_ST_Winter_Lifetime"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "02099a9ad11e4ae3b4443adf78c87879"
+      Key: "3f23895a8afa41b6b893bfb32b37ca58"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,12 +25,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12769789257146186243
-  Name: "st_statkey"
+  Id: 17333281072117069276
+  Name: "Marcus_ST_Winter_Statkey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
+      Key: "b2e69fedbd3f40a4892ea09aa4b13114"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -38,25 +38,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12374996936118466066
-  Name: "st_misc"
+  Id: 11446609878619303622
+  Name: "Marcus_ST_Winter_Storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "c5fb03576a6c43939301da448ca2640e"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 11666826868722006081
-  Name: "st_loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
+      Key: "700315f98b6e493fb61fe58002f4a9dd"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -129,12 +116,25 @@ Assets {
   }
 }
 Assets {
-  Id: 4906956287346866039
-  Name: "st_storage"
+  Id: 717043215697447163
+  Name: "Marcus_ST_Winter_Loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "14e8666bb5fc4042bd0625b1a7b87e05"
+      Key: "e41a206ebc6345ee99d172071f3a2c6f"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 671899021110033869
+  Name: "Marcus_ST_Winter_Misc"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "b8a794309a424a8a95d6a5bb21d55557"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
