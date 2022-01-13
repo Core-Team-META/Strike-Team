@@ -197,7 +197,7 @@ end
 
 function PlayerJoined(player)
     playerListners[player.id] = {}
-    playerListners[player.id]["Respawn"] = player.respawnedEvent:Connect(SetUp)
+    playerListners[player.id]["Respawn"] = player.spawnedEvent:Connect(SetUp)
     SetUp(player)
     ConnectListeners(player)
 end

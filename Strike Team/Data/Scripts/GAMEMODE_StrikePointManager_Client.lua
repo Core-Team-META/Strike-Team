@@ -238,5 +238,5 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 Task.Wait()
 Int()
-listeners[#listeners + 1] = ROOT.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
+listeners[#listeners + 1] = ROOT.customPropertyChangedEvent:Connect(OnNetworkChanged)
 listeners[#listeners + 1] = ROOT.destroyEvent:Connect(CleanUp)

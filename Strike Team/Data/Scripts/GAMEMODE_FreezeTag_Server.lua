@@ -155,7 +155,7 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- Listeners
 ------------------------------------------------------------------------------------------------------------------------
-NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
+NETWORKED.customPropertyChangedEvent:Connect(OnGameTypeChanged)
 Game.roundEndEvent:Connect(OnRoundEnd)
 
 print("Initialized GameMode Server " .. ROOT.name)

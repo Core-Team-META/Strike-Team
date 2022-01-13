@@ -57,14 +57,14 @@ end
 
 
 local function SetData(data)
-    ROOT:SetNetworkedCustomProperty("DATA", GT_API.ConvertTableToString(data))
+    ROOT:SetCustomProperty("DATA", GT_API.ConvertTableToString(data))
 end
 
 
 local function SetCurrentProgress(ammount)
     local data = GetData()
     data[PROGRESS] = ammount
-    ROOT:SetNetworkedCustomProperty("DATA", GT_API.ConvertTableToString(data))
+    ROOT:SetCustomProperty("DATA", GT_API.ConvertTableToString(data))
     GT_API.BroadcastCaptureProgress(ROOT, ammount)
 end
 
@@ -72,14 +72,14 @@ end
 local function SetCurrentTeam(team)
     local data = GetData()
     data[TEAM] = team
-    ROOT:SetNetworkedCustomProperty("DATA", GT_API.ConvertTableToString(data))
+    ROOT:SetCustomProperty("DATA", GT_API.ConvertTableToString(data))
 end
 
 
 local function SetCurrentResource(ammount)
     local data = GetData()
     data[RESOURCE] = ammount
-    ROOT:SetNetworkedCustomProperty("DATA", GT_API.ConvertTableToString(data))
+    ROOT:SetCustomProperty("DATA", GT_API.ConvertTableToString(data))
 end
 
 ------------------------------------------------------------------------------------------------------------------------

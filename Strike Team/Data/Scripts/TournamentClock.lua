@@ -25,14 +25,14 @@ end
 function OnRoundStarted()
 	if IsTournamentEnabled() then
 		scoreEndTime = time() + SCORE_CUTOFF_TIME
-		script:SetNetworkedCustomProperty("ScoreEndTime", scoreEndTime)
+		script:SetCustomProperty("ScoreEndTime", scoreEndTime)
 	end
 end
 
 
 function OnRoundEnded()
 	scoreEndTime = 0
-	script:SetNetworkedCustomProperty("ScoreEndTime", 0)
+	script:SetCustomProperty("ScoreEndTime", 0)
 end
 
 Game.roundStartEvent:Connect(OnRoundStarted)

@@ -82,7 +82,7 @@ end
 
 
 function OnPlayerJoined(player)
-    listeners[player.id] = player.respawnedEvent:Connect(OnRespawn)
+    listeners[player.id] = player.spawnedEvent:Connect(OnRespawn)
 end
 
 

@@ -63,7 +63,7 @@ local function SpawnNewHill()
         end
         currentHill = GT_API.SpawnAsset(HILL_TEMPLATE, {position = hillPosition, parent = SPAWNED_OBJECTS})
         currentHill.name = tostring(myId)
-        listeners[#listeners + 1] = currentHill.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
+        listeners[#listeners + 1] = currentHill.customPropertyChangedEvent:Connect(OnGameTypeChanged)
         GT_API.BroadcastObjectiveSpawned(currentHill, hillPosition)
         oldPosition = currentHill:GetWorldPosition()
     end
@@ -150,6 +150,6 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 Int()
 Events.Connect("GM.START", OnGameStart)
-NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
+NETWORKED.customPropertyChangedEvent:Connect(OnGameTypeChanged)
 Game.roundEndEvent:Connect(Cleanup)
 print("Initialized GameMode Server " .. ROOT.name)

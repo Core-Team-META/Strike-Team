@@ -46,14 +46,14 @@ local function SetPlayersRespawn()
 end
 
 local function SetCurrentGameId(gameTypeId)
-    NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", gameTypeId)
+    NETWORKED:SetCustomProperty("GAME_TYPE_ID", gameTypeId)
     currentGameTypeId = gameTypeId
     Task.Wait()
     SetPlayersRespawn()
 end
 
 local function SetRoundDuration(duration)
-    NETWORKED:SetNetworkedCustomProperty("ROUND_DURATION", duration)
+    NETWORKED:SetCustomProperty("ROUND_DURATION", duration)
 end
 
 local function GetCurrentGameId()
@@ -201,7 +201,7 @@ function Tick(deltaTime)
             SetCurrentGameId(0) -- Used to reset Game Modes
             Events.Broadcast("TeamVictory", winningTeam)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
-        --NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", 1)
+        --NETWORKED:SetCustomProperty("GAME_TYPE_ID", 1)
         end
     end
 end
@@ -230,6 +230,6 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.playerLeftEvent:Connect(OnPlayerLeft)
-NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
+NETWORKED.customPropertyChangedEvent:Connect(OnGameTypeChanged)
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Int()

@@ -264,7 +264,7 @@ end
 function OnPlayerJoined(player)
     ACH_API.LoadAchievementStorage(player)
     listeners[player.id] = {}
-    listeners[player.id]["Respawn"] = player.respawnedEvent:Connect(OnPlayerRespawn)
+    listeners[player.id]["Respawn"] = player.spawnedEvent:Connect(OnPlayerRespawn)
     listeners[player.id]["Resource"] = player.resourceChangedEvent:Connect(OnResourceChanged)
 
     SetPlayerFlags(player)
@@ -304,7 +304,7 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.playerLeftEvent:Connect(OnPlayerLeft)
-GAME_STATE.networkedPropertyChangedEvent:Connect(OnGameStateChanged)
+GAME_STATE.customPropertyChangedEvent:Connect(OnGameStateChanged)
 
 -- Server (Same Context) Broadcast Listeners
 Events.Connect("AS.PlayerDamaged", PlayerDamaged)

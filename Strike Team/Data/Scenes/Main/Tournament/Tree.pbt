@@ -3395,10 +3395,6 @@ Objects {
         SelfId: 14000305356795983416
       }
     }
-    Overrides {
-      Name: "cs:ScoreCutoffTime"
-      Int: 720
-    }
   }
   WantsNetworking: true
   Collidable_v2 {
@@ -3493,15 +3489,15 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:EventID"
-      String: "CoreTrials"
+      String: "Test"
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "CORE TRIALS"
+      String: "Test Event"
     }
     Overrides {
       Name: "cs:ForceEnable"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:Start"

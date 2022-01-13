@@ -70,7 +70,7 @@ local function SpawnCollectionPoints()
                 TAG_COLLECT_TEMPLATE,
                 {position = object:GetWorldPosition(), parent = SPAWNED_OBJECTS}
             )
-            newCollectionSite:SetNetworkedCustomProperty("TEAM", object.team)
+            newCollectionSite:SetCustomProperty("TEAM", object.team)
         end
     end
 end
@@ -122,7 +122,7 @@ function OnPlayerDied(player, damage, id)
     if hitResult then
         local hitPos = hitResult:GetImpactPosition()
         local newTag = GT_API.SpawnAsset(TAG_TEMPLATE, {position = hitPos, parent = SPAWNED_OBJECTS})
-        newTag:SetNetworkedCustomProperty("TV", (player:GetResource(GT_API.TAG_NAME) + 1))
+        newTag:SetCustomProperty("TV", (player:GetResource(GT_API.TAG_NAME) + 1))
         player:SetResource(GT_API.TAG_NAME, 0)
     end
 end
@@ -149,7 +149,7 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- Listeners
 ------------------------------------------------------------------------------------------------------------------------
-NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
+NETWORKED.customPropertyChangedEvent:Connect(OnGameTypeChanged)
 Game.roundEndEvent:Connect(OnRoundEnd)
 
 print("Initialized GameMode Server " .. ROOT.name)

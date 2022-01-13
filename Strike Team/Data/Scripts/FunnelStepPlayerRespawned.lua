@@ -14,7 +14,7 @@ end
 
 function OnPlayerJoined(player)
 	player.diedEvent:Connect(OnPlayerDied)
-	player.respawnedEvent:Connect(OnPlayerRespawned)
+	player.spawnedEvent:Connect(OnPlayerRespawned)
 end
 
 Game.playerJoinedEvent:Connect(OnPlayerJoined)

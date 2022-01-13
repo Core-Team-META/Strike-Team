@@ -18,9 +18,9 @@ local startTime = os.time()
 
 function ResetWinningTeam()
 
-	script:SetNetworkedCustomProperty("WinningTeam", 0)
+	script:SetCustomProperty("WinningTeam", 0)
 	
-	script:SetNetworkedCustomProperty("MatchTime","")
+	script:SetCustomProperty("MatchTime","")
 	
 	startTime = os.time()
 
@@ -28,7 +28,7 @@ end
 
 function SetWinningTeam(winner)
 	
-	script:SetNetworkedCustomProperty("WinningTeam",winner)
+	script:SetCustomProperty("WinningTeam",winner)
 
 end
 
@@ -40,7 +40,7 @@ function SetRoundLength()
 	
 	if totalTime <= 0 then
 	
-    	script:SetNetworkedCustomProperty("MatchTime","00:00")
+    	script:SetCustomProperty("MatchTime","00:00")
     	
   	else
   	
@@ -56,7 +56,7 @@ function SetRoundLength()
   			
   		end
   		
-	    script:SetNetworkedCustomProperty("MatchTime",minutes .. ":" .. seconds)
+	    script:SetCustomProperty("MatchTime",minutes .. ":" .. seconds)
 	    
   	end
 

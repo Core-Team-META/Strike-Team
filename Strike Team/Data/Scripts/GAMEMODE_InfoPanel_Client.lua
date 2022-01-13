@@ -31,6 +31,6 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
     end
 end
 LOCAL_PLAYER.clientUserData.pointStatusUI = CAPTUREINFO
-NETWORKED.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
+NETWORKED.customPropertyChangedEvent:Connect(OnNetworkChanged)
 Events.Connect("GameStateChanged", OnGameStateChanged)
 OnNetworkChanged(NETWORKED)

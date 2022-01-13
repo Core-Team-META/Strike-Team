@@ -84,6 +84,6 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- Listeners
 ------------------------------------------------------------------------------------------------------------------------
-NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
+NETWORKED.customPropertyChangedEvent:Connect(OnGameTypeChanged)
 
 print("Initialized GameMode Server " .. ROOT.name)

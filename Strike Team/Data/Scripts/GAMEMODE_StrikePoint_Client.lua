@@ -57,4 +57,4 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- LISTENERS
 ------------------------------------------------------------------------------------------------------------------------
-STRIKE_POINT.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
+STRIKE_POINT.customPropertyChangedEvent:Connect(OnNetworkChanged)

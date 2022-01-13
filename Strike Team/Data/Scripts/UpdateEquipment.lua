@@ -60,7 +60,7 @@ Events.Connect("RecieveData", function(key)
             LOCAL_PLAYER.clientUserData.Loadouts[tostring(i)] = NetworkObject:GetCustomProperty("Loadouts"..tostring(i))
         end
         
-        NetworkObject.networkedPropertyChangedEvent:Connect(function(obj,name)
+        NetworkObject.customPropertyChangedEvent:Connect(function(obj,name)
             local index = CoreString.Trim(name,"Loadouts")
             LOCAL_PLAYER.clientUserData.Loadouts[index] = obj:GetCustomProperty(name)
             if name == "EquippedLoadout" then 

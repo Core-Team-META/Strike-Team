@@ -149,7 +149,7 @@ function EquipPlayer(player)
         	Task.Wait(0.1)
         	if not Object.IsValid(player) then return end
         end
-        player.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("EquippedLoadout", EquipString)
+        player.serverUserData.NetworkSpawn:SetCustomProperty("EquippedLoadout", EquipString)
     end)
  
 end
@@ -162,7 +162,7 @@ function RequestData(player)
     player.serverUserData.NetworkSpawn = World.SpawnAsset(NETWORKSPAWN)
     if Data["Loadouts"] then
         for key, value in pairs(Data["Loadouts"]) do
-            player.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("Loadouts"..key, Data["Loadouts"][key] )
+            player.serverUserData.NetworkSpawn:SetCustomProperty("Loadouts"..key, Data["Loadouts"][key] )
         end
     end
     ReliableEvents.BroadcastToPlayer(player,"RecieveData",player.serverUserData.NetworkSpawn.id)
@@ -200,7 +200,7 @@ Game.playerJoinedEvent:Connect(function (player )
     SetupPlayer(player)
     EquipPlayer(player)
     player:SetResource("WeaponSlot", 1)
-    player.respawnedEvent:Connect(function() 
+    player.spawnedEvent:Connect(function() 
         UnequipPlayer(player)
         EquipPlayer(player)
     end)

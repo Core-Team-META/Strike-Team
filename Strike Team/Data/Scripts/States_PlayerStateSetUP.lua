@@ -59,7 +59,7 @@ function JoinPlayer(player)
     end)
     
     --Death handler reset
-    player.respawnedEvent:Connect(function(player)
+    player.spawnedEvent:Connect(function(player)
         if AllStatesManager[player.id] then 
             if EndRound() then 
                 StateMach:ChangeState("End")

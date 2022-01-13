@@ -11,7 +11,7 @@ function Complete( impactTransform )
     local impactrot = impactTransform:GetRotation()
     local Spawn = World.SpawnAsset(SPAWNOBJECT, {position = impactpos, rotation = Rotation.New(0,0,impactrot.z)  })
     if WEAPON.owner then
-        Spawn:SetNetworkedCustomProperty("Team", WEAPON.owner.team)
+        Spawn:SetCustomProperty("Team", WEAPON.owner.team)
     end
 end
 

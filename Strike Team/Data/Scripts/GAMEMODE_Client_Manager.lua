@@ -108,6 +108,6 @@ end
 Task.Wait(1)
 Int()
 
-listeners[#listeners + 1] = NETWORKED.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
+listeners[#listeners + 1] = NETWORKED.customPropertyChangedEvent:Connect(OnNetworkChanged)
 listeners[#listeners + 1] = SPAWNED_OBJECTS.childAddedEvent:Connect(OnChildAdded)
 listeners[#listeners + 1] = script.destroyEvent:Connect(CleanUp)

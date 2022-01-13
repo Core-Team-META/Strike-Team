@@ -118,7 +118,7 @@ commands = {
         OnCommandCalledClient = function (player, message)
         end,
         OnCommandCalledServer = function (player, message)  
-            player:Respawn()
+            player:Spawn()
         end,
         OnCommandReceivedClient = function (player, message)
         end,

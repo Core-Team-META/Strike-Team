@@ -63,7 +63,7 @@ end
 
 Game.playerLeftEvent:Connect(Playerrleft)
 
-DataFolder.networkedPropertyChangedEvent:Connect( UpdateData)
+DataFolder.customPropertyChangedEvent:Connect( UpdateData)
 
 --Game.playerJoinedEvent:Connect(SpawnEquipment)
 

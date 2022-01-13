@@ -172,7 +172,7 @@ function SetUp(player)
 end
 
 function PlayerJoined(player)
-    player.respawnedEvent:Connect(SetUp)
+    player.spawnedEvent:Connect(SetUp)
     SetUp(player)
 end
 

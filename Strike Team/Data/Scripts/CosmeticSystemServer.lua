@@ -25,13 +25,13 @@ function Load(player)
     local Data = Cosmetic_API.LoadData(player)
     local PlayerSlot =  FindEmptySlot()
     AssignedTable[PlayerSlot]  = player
-    DataFolder:SetNetworkedCustomProperty("Player".. tostring(PlayerSlot) ,tostring(Data) )
+    DataFolder:SetCustomProperty("Player".. tostring(PlayerSlot) ,tostring(Data) )
 end
 
 function Unload(player)
     for key, value in pairs(AssignedTable) do
         if value == player then 
-            DataFolder:SetNetworkedCustomProperty("Player".. tostring(key) ,"")
+            DataFolder:SetCustomProperty("Player".. tostring(key) ,"")
             AssignedTable[key] = nil
         end
     end

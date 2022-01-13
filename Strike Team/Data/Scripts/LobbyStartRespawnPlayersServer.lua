@@ -35,7 +35,7 @@ function RespawnPlayers()
 	local numPlayers = #Game.GetPlayers()
 	local perPlayerDelay = PERIOD / numPlayers
 	for _, player in pairs(Game.GetPlayers()) do
-		player:Respawn()
+		player:Spawn()
 
 		Task.Wait(perPlayerDelay)
 	end

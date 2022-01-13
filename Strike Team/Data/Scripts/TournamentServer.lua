@@ -12,13 +12,13 @@ function UpdateIsEnabled()
 		Task.Wait()
 	end
 	_isEnabled = EVENT_SCRIPT.context.IsActive()
-	CLOCK_SCRIPT:SetNetworkedCustomProperty("IsEventEnabled", _isEnabled)
+	CLOCK_SCRIPT:SetCustomProperty("IsEventEnabled", _isEnabled)
 end
 UpdateIsEnabled()
 
 local EVENT_ID = EVENT_SCRIPT:GetCustomProperty("EventID")
 
-local MIN_PLAYERS_TO_SUBMIT = 4
+local MIN_PLAYERS_TO_SUBMIT = 1 --#FIXME 4
 local POINTS_PER_SUICIDE = -5
 local POINTS_PER_KILL_WILD = 5
 local POINTS_PER_KILL_TO_DEFENDER = 15
@@ -42,14 +42,26 @@ local isMeasuring = false
 
 
 function SubmitScore(player, score, totalKills, headshots, uniquePlayersKilled)
-	--print("##### Submit Score for " .. player.name .. " = " .. tostring(score))
+	print("##### Submit Score for " .. player.name .. " = " .. tostring(score))
 	
+    score = score + 2000
+
 	local additionalData = ADDITIONAL_DATA.Serialize(totalKills, headshots, uniquePlayersKilled)
 	Leaderboards.SubmitPlayerScore(LEADERBOARD_REF, player, score, additionalData)
 	
 	local bestScore = SetPlayerScoreToStorage(player, score)
 	TransferStorageToPlayer(player)
-	
+
+    if score >= 8500 then
+        Events.Broadcast("SJ_GivePlayerMedal", player, "Platinum")
+    elseif score >= 7000 then
+        Events.Broadcast("SJ_GivePlayerMedal", player, "Gold")
+    elseif score >= 5000 then
+        Events.Broadcast("SJ_GivePlayerMedal", player, "Silver")
+    elseif score >= 2000 then
+        Events.Broadcast("SJ_GivePlayerMedal", player, "Bronze") 
+    end
+
 	Events.BroadcastToPlayer(player, EVENT_ID, score, bestScore)
 end
 
@@ -201,7 +213,7 @@ end
 function OnPlayerJoined(player)
 	ClearData(player)
 	
-	player.respawnedEvent:Connect(OnPlayerRespawn)
+	player.spawnedEvent:Connect(OnPlayerRespawn)
 	
 	if _isEnabled then
 		TransferStorageToPlayer(player)

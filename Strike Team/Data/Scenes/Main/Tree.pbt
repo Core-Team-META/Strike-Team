@@ -24,6 +24,7 @@ Objects {
   ChildIds: 15084389731420460127
   ChildIds: 17929813013966814706
   ChildIds: 8051191139138894688
+  ChildIds: 10992875636505138730
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,6 +40,85 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10992875636505138730
+  Name: "Medals Display"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7023160994295801271
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Medals Display"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17045868826726109539
+      value {
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomleft"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomleft"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 15
+        }
+        Overrides {
+          Name: "UIY"
+          Float: -125
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18301639246183587409
+    }
   }
 }
 Objects {

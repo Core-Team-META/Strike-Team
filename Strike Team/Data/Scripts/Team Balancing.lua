@@ -141,7 +141,7 @@ function SwitchTeam(player)
 		player.team = 1
 	end
 	
-	player:Respawn()
+	player:Spawn()
 	
 	--print(player.name.." was switched to team "..tostring(player.team))
 end

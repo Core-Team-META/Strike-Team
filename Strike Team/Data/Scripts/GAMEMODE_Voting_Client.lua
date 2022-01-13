@@ -188,7 +188,7 @@ end
 -- LISTENERS
 ------------------------------------------------------------------------------------------------------------------------
 Events.Connect("GameStateChanged", OnGameStateChanged)
-NETWORKED.networkedPropertyChangedEvent:Connect(OnNetworkedChanged)
+NETWORKED.customPropertyChangedEvent:Connect(OnNetworkedChanged)
 
 for _, info in ipairs(GAME_INFO:GetChildren()) do
     local id = info:GetCustomProperty("ID")

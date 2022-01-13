@@ -30,11 +30,11 @@ local function IsVoteingState()
 end
 
 local function SetGameModeState(id)
-    NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", id)
+    NETWORKED:SetCustomProperty("GAME_TYPE_ID", id)
 end
 
 local function SetVoteData(str)
-    NETWORKED:SetNetworkedCustomProperty("VDATA", str)
+    NETWORKED:SetCustomProperty("VDATA", str)
 end
 
 local function GetNextGameModeId()

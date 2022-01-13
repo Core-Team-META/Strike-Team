@@ -117,9 +117,9 @@ function SetGameState(newState)
 	Events.BroadcastToAllPlayers("GameStateChanged", oldState, newState, stateHasDuration, stateEndTime)
 
 	-- Set replicator fields
-	script:SetNetworkedCustomProperty("State", newState)
-	script:SetNetworkedCustomProperty("StateHasDuration", stateHasduration)
-	script:SetNetworkedCustomProperty("StateEndTime", stateEndTime)
+	script:SetCustomProperty("State", newState)
+	script:SetCustomProperty("StateHasDuration", stateHasduration)
+	script:SetCustomProperty("StateEndTime", stateEndTime)
 end
 
 -- nil SetTimeRemainingInState(float)
@@ -132,8 +132,8 @@ function SetTimeRemainingInState(remainingTime)
 	Events.Broadcast("GameStateChanged", currentState, currentState, true, stateEndTime)
 	Events.BroadcastToAllPlayers("GameStateChanged", currentState, currentState, true, stateEndTime)
 
-	script:SetNetworkedCustomProperty("StateHasDuration", true)
-	script:SetNetworkedCustomProperty("StateEndTime", stateEndTime)
+	script:SetCustomProperty("StateHasDuration", true)
+	script:SetCustomProperty("StateEndTime", stateEndTime)
 end
 
 -- nil Tick(float)
