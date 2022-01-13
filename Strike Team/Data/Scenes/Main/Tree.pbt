@@ -92,6 +92,45 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 12501875729867173460
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: -15
+        }
+        Overrides {
+          Name: "Width"
+          Int: 854
+        }
+        Overrides {
+          Name: "Height"
+          Int: 360
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 17045868826726109539
       value {
         Overrides {
