@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16442067914662662686
+  Name: "Main Street Foundation 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_foundation_001_ref"
+  }
+}
+Assets {
   Id: 16371622500121573784
   Name: "Cylinder"
   PlatformAssetType: 1

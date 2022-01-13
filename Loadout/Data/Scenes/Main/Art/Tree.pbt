@@ -411,7 +411,7 @@ Objects {
   Name: "Decal Office Desk Debris 01 (Variants)"
   Transform {
     Location {
-      X: 1146.73462
+      X: 1152.724
       Y: 936.40448
       Z: 1021.87476
     }
@@ -521,6 +521,15 @@ Objects {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 7781339736668819777
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.395999968
+        G: 1
+        B: 0.93960005
+        A: 1
       }
     }
   }
@@ -1262,8 +1271,8 @@ Objects {
     Overrides {
       Name: "bp:Color"
       Color {
-        R: 1.36599994
-        G: 1.76753294
+        R: 0.727999926
+        G: 1.53359914
         B: 2
         A: 1
       }
@@ -1390,8 +1399,8 @@ Objects {
     Overrides {
       Name: "bp:Color"
       Color {
-        R: 1.36599994
-        G: 1.76753294
+        R: 0.727999926
+        G: 1.53359914
         B: 2
         A: 1
       }
@@ -12318,6 +12327,11 @@ Objects {
             Z: -1.89652348
           }
         }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -12343,9 +12357,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 330.028778
-            Y: -2556.06567
-            Z: 403.690674
+            X: 373.239166
+            Y: -2552.77539
+            Z: 395.795197
           }
         }
         Overrides {
@@ -12359,6 +12373,8 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+            Pitch: 2.33481812
+            Yaw: 2.5632484
           }
         }
       }
@@ -18823,12 +18839,12 @@ Objects {
     Location {
       X: -149.999847
       Y: -2850
-      Z: 199.999939
+      Z: 186.597229
     }
     Rotation {
-      Pitch: 38.8472404
-      Yaw: 89.9999924
-      Roll: -2.19247704e-06
+      Pitch: 35.0023384
+      Yaw: 91.919136
+      Roll: 3.05383897
     }
     Scale {
       X: 0.33760792
@@ -19038,11 +19054,13 @@ Objects {
   Transform {
     Location {
       X: -371.797363
-      Y: -1431.05725
-      Z: 472.6427
+      Y: -1486.28491
+      Z: 493.309265
     }
     Rotation {
-      Yaw: -76.7104492
+      Pitch: 90
+      Yaw: -156.037537
+      Roll: -79.3277588
     }
     Scale {
       X: 1.55492377
@@ -20327,17 +20345,17 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 433.332611
-      Y: -1460.70239
+      X: 438.752289
+      Y: -1457.99243
       Z: 79.0055542
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: -175.04567
     }
     Scale {
-      X: 5.05333424
+      X: 5.05333471
       Y: 1.02839053
-      Z: 0.31894207
+      Z: 0.3189421
     }
   }
   ParentId: 7420455323421467140
@@ -20394,17 +20412,17 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 433.332611
+      X: 376.098969
       Y: -735.2146
       Z: 79.0055542
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: -175.04567
     }
     Scale {
-      X: 5.05333424
+      X: 5.05333471
       Y: 1.02839053
-      Z: 0.31894207
+      Z: 0.3189421
     }
   }
   ParentId: 7420455323421467140
@@ -21163,12 +21181,14 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 198.059204
-      Y: -28.572998
-      Z: 18.4962959
+      X: 189.095535
+      Y: -14.6494541
+      Z: 14.7725925
     }
     Rotation {
+      Pitch: 3.80294
       Yaw: -90
+      Roll: -2.50662231
     }
     Scale {
       X: 5.20000029
@@ -21230,16 +21250,19 @@ Objects {
   Name: "Military Common Crate Base"
   Transform {
     Location {
-      X: 187.832382
-      Y: 90.0728302
+      X: 179.687515
+      Y: 102.479858
+      Z: -11.9808445
     }
     Rotation {
-      Roll: 89.9999924
+      Pitch: 2.50107169
+      Yaw: 0.166356951
+      Roll: 93.8065872
     }
     Scale {
       X: 2.79000187
       Y: 2.3
-      Z: 3.79999971
+      Z: 3.8
     }
   }
   ParentId: 11790296858320289762
@@ -21293,17 +21316,19 @@ Objects {
   Name: "Military Common Crate Base"
   Transform {
     Location {
-      X: 187.832794
-      Y: -61.4994278
+      X: 179.687927
+      Y: -48.7587471
+      Z: -1.92779541
     }
     Rotation {
-      Yaw: -179.999985
-      Roll: 89.9999847
+      Pitch: -2.50106812
+      Yaw: -179.833633
+      Roll: 86.1933823
     }
     Scale {
       X: 2.79000187
       Y: 2.3
-      Z: 3.79999971
+      Z: 3.8
     }
   }
   ParentId: 11790296858320289762
@@ -23428,18 +23453,18 @@ Objects {
   Name: "Military Common Crate Base"
   Transform {
     Location {
-      X: 555.584717
-      Y: -1102.21069
+      X: 529.588135
+      Y: -1090.28162
       Z: 398.569244
     }
     Rotation {
-      Yaw: -90
-      Roll: 89.9999847
+      Yaw: -85.0456543
+      Roll: 90
     }
     Scale {
       X: 2.45281124
       Y: 2.34513617
-      Z: 3.81464219
+      Z: 3.81464243
     }
   }
   ParentId: 7420455323421467140
@@ -23510,13 +23535,13 @@ Objects {
   Name: "Military Common Crate Base"
   Transform {
     Location {
-      X: 333.752686
-      Y: -1102.21069
+      X: 308.584778
+      Y: -1109.43945
       Z: 398.569244
     }
     Rotation {
-      Yaw: 89.9999847
-      Roll: 89.9999847
+      Yaw: 94.9542618
+      Roll: 90
     }
     Scale {
       X: 2.45281243
@@ -23592,17 +23617,17 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 433.332611
-      Y: -1460.70239
+      X: 438.752289
+      Y: -1457.99243
       Z: 234.943436
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: -175.04567
     }
     Scale {
       X: 5
       Y: 0.569382191
-      Z: 3.34900594
+      Z: 3.34900618
     }
   }
   ParentId: 7420455323421467140
@@ -23659,12 +23684,12 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 419.934265
-      Y: -1129.60144
+      X: 396.810333
+      Y: -1129.28503
       Z: 285.674805
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: -175.04567
     }
     Scale {
       X: 3.84302258
@@ -24708,11 +24733,13 @@ Objects {
   Transform {
     Location {
       X: -75.7597
-      Y: -2645.22021
-      Z: 405.716156
+      Y: -2645.22
+      Z: 381.420166
     }
     Rotation {
-      Yaw: -10.0830688
+      Pitch: 1.73059225
+      Yaw: -10.0245361
+      Roll: 6.1828804
     }
     Scale {
       X: 0.7
@@ -28381,12 +28408,12 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 433.332611
-      Y: -1100.00012
+      X: 407.602264
+      Y: -1098.63733
       Z: 414.414856
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: -175.04567
     }
     Scale {
       X: 5.239182
@@ -28458,17 +28485,17 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 433.332611
+      X: 376.098969
       Y: -735.214478
       Z: 234.943436
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: -175.04567
     }
     Scale {
       X: 5
       Y: 1
-      Z: 3.34900594
+      Z: 3.34900618
     }
   }
   ParentId: 7420455323421467140

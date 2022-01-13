@@ -112172,7 +112172,7 @@ Objects {
   Name: "Curb 8m"
   Transform {
     Location {
-      X: -621.452148
+      X: -649.517334
       Y: -654.784668
       Z: 53.7338257
     }

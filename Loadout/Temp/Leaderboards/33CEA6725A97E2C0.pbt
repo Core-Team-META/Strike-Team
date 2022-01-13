@@ -48,6 +48,13 @@ GlobalEntries {
   DateTime: "2021-03-02T22:43:17.302Z"
 }
 GlobalEntries {
+  Id: "94d3fd50c4824f019421895ec8dbf099"
+  Name: "Mucusinator"
+  ScoreFormatted: "92.0"
+  AdditionalData: "013020002"
+  DateTime: "2022-01-13T12:01:59.991Z"
+}
+GlobalEntries {
   Id: "fdb45035857a4e87b17344cd891c48c5"
   Name: "KonzZwodrei"
   ScoreFormatted: "28.0"
@@ -74,13 +81,6 @@ GlobalEntries {
   ScoreFormatted: "4.0"
   AdditionalData: "063110047"
   DateTime: "2021-03-04T11:48:15.235Z"
-}
-GlobalEntries {
-  Id: "94d3fd50c4824f019421895ec8dbf099"
-  Name: "Mucusinator"
-  ScoreFormatted: "4.0"
-  AdditionalData: "013020002"
-  DateTime: "2022-01-13T03:25:33.256Z"
 }
 GlobalEntries {
   Id: "901b7628983c4c8db4282f24afeda57a"

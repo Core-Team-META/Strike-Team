@@ -60,9 +60,18 @@ Assets {
       Overrides {
         Name: "cmpc:Material1"
         Color {
-          R: 0.69600004
-          G: 0.69600004
-          B: 0.69600004
+          R: 0.693056047
+          G: 0.806526959
+          B: 0.832
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material2"
+        Color {
+          R: 0.792
+          G: 0.993066609
+          B: 1
           A: 1
         }
       }
