@@ -2,7 +2,7 @@ Assets {
   Id: 18402088162155752250
   Name: "Kustom WeapMat  Contrast"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 8358067199226827682
     ParameterOverrides {

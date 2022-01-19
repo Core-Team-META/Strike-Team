@@ -24,7 +24,7 @@ Objects {
   ChildIds: 15084389731420460127
   ChildIds: 17929813013966814706
   ChildIds: 8051191139138894688
-  ChildIds: 10992875636505138730
+  ChildIds: 7825023715643486097
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,7 +43,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10992875636505138730
+  Id: 7825023715643486097
   Name: "Medals Display"
   Transform {
     Location {
@@ -57,107 +57,38 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Keybind"
+      String: "ability_extra_45"
+    }
+    Overrides {
+      Name: "cs:BindLabel"
+      String: "M"
+    }
+    Overrides {
+      Name: "cs:Keybind:tooltip"
+      String: "Keybind use to open the Medals Menu"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7023160994295801271
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Medals Display"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12501875729867173460
-      value {
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-        Overrides {
-          Name: "UIX"
-          Float: 0
-        }
-        Overrides {
-          Name: "UIY"
-          Float: -15
-        }
-        Overrides {
-          Name: "Width"
-          Int: 854
-        }
-        Overrides {
-          Name: "Height"
-          Int: 360
-        }
-        Overrides {
-          Name: "Anchor"
-          Enum {
-            Value: "mc:euianchor:bottomcenter"
-          }
-        }
-        Overrides {
-          Name: "Dock"
-          Enum {
-            Value: "mc:euianchor:bottomcenter"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17045868826726109539
-      value {
-        Overrides {
-          Name: "Anchor"
-          Enum {
-            Value: "mc:euianchor:bottomleft"
-          }
-        }
-        Overrides {
-          Name: "Dock"
-          Enum {
-            Value: "mc:euianchor:bottomleft"
-          }
-        }
-        Overrides {
-          Name: "UIX"
-          Float: 15
-        }
-        Overrides {
-          Name: "UIY"
-          Float: -125
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18301639246183587409
-    }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Summer Jam Medals"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {

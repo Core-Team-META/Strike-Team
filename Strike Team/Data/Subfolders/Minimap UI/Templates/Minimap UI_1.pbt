@@ -7613,6 +7613,6 @@ Assets {
   Marketplace {
     Description: "Minimap component that converts from 3D geometry to 2D images."
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
   DirectlyPublished: true
 }

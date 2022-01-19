@@ -3761,6 +3761,7 @@ Objects {
       PlayerStorageMode {
         Value: "mc:eplayerstoragemode:writable"
       }
+      EnableNetworkedEventsQueuing: true
     }
   }
   NetworkRelevanceDistance {

@@ -2,7 +2,7 @@ Assets {
   Id: 16826264376886319022
   Name: "SAR_PaintOld02_RoofSnow"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 104
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
