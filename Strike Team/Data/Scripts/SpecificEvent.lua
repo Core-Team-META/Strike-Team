@@ -5,8 +5,20 @@ local DISPLAY_NAME = script:GetCustomProperty("DisplayName")
 local START_DATE = script:GetCustomProperty("Start")
 local END_DATE = script:GetCustomProperty("End")
 local HOUR_SHIFT = script:GetCustomProperty("HourShift")
-local START_TIME
-local END_TIME
+
+local START_TIME = DateTime.New({
+    year = 2022,
+    month = 2,
+    day = 4,
+    hour = 20
+})
+
+local END_TIME = DateTime.New({
+    year = 2022,
+    month = 2,
+    day = 20,
+    hour = 20
+})
 
 local DEBUG_VERBOSE = false
 
@@ -72,7 +84,7 @@ function ParseDate(str)
 	return unixTime
 end
 
-
+--[[
 START_TIME = ParseDate(START_DATE)
 END_TIME = ParseDate(END_DATE)
 
@@ -83,20 +95,20 @@ if END_TIME <= START_TIME then
 	"\nStart: " .. START_TIME ..
 	"\nEnd:   " .. END_TIME) 
 end
+]]
 
 
 function IsActive()
 	if FORCE_ENABLE then return true end
 	
-	local utcCurrentDate = os.date('!*t')
-	local localizedTime = GMTDateTable_to_UnixTime(utcCurrentDate)
-	
-	if DEBUG_VERBOSE then
+	--[[if DEBUG_VERBOSE then
 		print("currentTime: " .. localizedTime .. ", START: " .. START_TIME .. ", END: " .. END_TIME)
 		print("dSTART: " .. (localizedTime - START_TIME) .. ", dEND: " .. (localizedTime - END_TIME) .. ", WINDOW: " .. (END_TIME - START_TIME))
-	end
+	end]]
+
+    local currentTime = DateTime.CurrentTime()
 	
-	return localizedTime >= START_TIME and localizedTime < END_TIME
+	return currentTime.secondsSinceEpoch >= START_TIME.secondsSinceEpoch and currentTime.secondsSinceEpoch < END_TIME.secondsSinceEpoch
 end
 
 

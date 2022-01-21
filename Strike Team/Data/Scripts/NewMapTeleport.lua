@@ -1,3 +1,4 @@
+if true then return end
 local TELEPORT_BINDING = script:GetCustomProperty("teleportBinding")
 
 function OnBindingPressed(whichPlayer, binding)

@@ -17,7 +17,7 @@ local LEADERBOARD_TYPE = LeaderboardType.GLOBAL
 local NORMAL_PANEL = script:GetCustomProperty("NormalPanel"):WaitForObject()
 local NORMAL_TITLE = script:GetCustomProperty("NormalTitle"):WaitForObject()
 local TOURNAMENT_PANEL = script:GetCustomProperty("TournamentPanel"):WaitForObject()
-local TOURNAMENT_TITLE = script:GetCustomProperty("TournamentTitle"):WaitForObject()
+
 local INFO_PANEL = script:GetCustomProperty("InfoPanel"):WaitForObject()
 
 local showToggle = false
@@ -110,13 +110,13 @@ function UpdateVisibilityOfTournamentUI(deltaTime)
 		NORMAL_PANEL.visibility = Visibility.FORCE_OFF
 		NORMAL_TITLE.visibility = Visibility.FORCE_OFF
 		TOURNAMENT_PANEL.visibility = Visibility.INHERIT
-		TOURNAMENT_TITLE.visibility = Visibility.INHERIT
+		
 		INFO_PANEL.visibility = Visibility.INHERIT
 	else
 		NORMAL_PANEL.visibility = Visibility.INHERIT
 		NORMAL_TITLE.visibility = Visibility.INHERIT
 		TOURNAMENT_PANEL.visibility = Visibility.FORCE_OFF
-		TOURNAMENT_TITLE.visibility = Visibility.FORCE_OFF
+		
 		INFO_PANEL.visibility = Visibility.FORCE_OFF
 	end
 end

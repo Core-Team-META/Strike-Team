@@ -6,6 +6,7 @@ local MedalNotification = script:GetCustomProperty("MedalNotification"):WaitForO
 local NotificationAudio = script:GetCustomProperty("NotificationAudio"):WaitForObject()
 local MenuOpenAudio = script:GetCustomProperty("MenuOpenAudio"):WaitForObject()
 local FlashyPanel = script:GetCustomProperty("FlashyPanel"):WaitForObject()
+local LeaderboardMainPanel = script:GetCustomProperty("LeaderboardMainPanel"):WaitForObject()
 
 local ClaimText = FlashyPanel:GetCustomProperty("ClaimText"):WaitForObject()
 
@@ -81,10 +82,16 @@ function OnClaimButtonClicked(thisButton)
 end
 
 function OnCloseButtonClicked(thisButton)
-    MenuOpenAudio:Play()
-    MedalMenuPanel.visibility = Visibility.FORCE_OFF
-    UI.SetCursorVisible(false)
-    UI.SetCanCursorInteractWithUI(false)
+    OnBindingPressed(nil, ToggleBind)
+end
+
+function GenerateLeaderboard()
+	local leaderboardControllers = LeaderboardMainPanel:FindDescendantsByType("Script")
+	for _,v in ipairs(leaderboardControllers) do
+		if v.context and v.context.GenerateLeaderboard then
+			v.context.GenerateLeaderboard()
+		end
+	end
 end
 
 function OnBindingPressed(_, bind)
@@ -92,10 +99,13 @@ function OnBindingPressed(_, bind)
         MenuOpenAudio:Play()
         if MedalMenuPanel:IsVisibleInHierarchy() then
             MedalMenuPanel.visibility = Visibility.FORCE_OFF
+            LeaderboardMainPanel.visibility = Visibility.FORCE_OFF
             UI.SetCursorVisible(false)
             UI.SetCanCursorInteractWithUI(false)
         else
+            GenerateLeaderboard()
             MedalMenuPanel.visibility = Visibility.INHERIT
+            LeaderboardMainPanel.visibility = Visibility.INHERIT
             MedalNotification.visibility = Visibility.FORCE_OFF
             UI.SetCursorVisible(true)
             UI.SetCanCursorInteractWithUI(true)

@@ -1,4 +1,5 @@
 
+if true then return end
 local MAIN_PANEL = script:GetCustomProperty("LeaderboardMainPanel"):WaitForObject()
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()

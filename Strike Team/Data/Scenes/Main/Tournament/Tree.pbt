@@ -3265,12 +3265,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:TournamentTitle"
-      ObjectReference {
-        SelfId: 15576610328328067816
-      }
-    }
-    Overrides {
       Name: "cs:TournamentPanel"
       ObjectReference {
         SelfId: 9283767093654463469
@@ -3319,12 +3313,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:InfoPanel"
-      ObjectReference {
-        SelfId: 10052807019503568626
-      }
-    }
-    Overrides {
       Name: "cs:Clock1"
       ObjectReference {
         SelfId: 15169558834172519429
@@ -3352,6 +3340,12 @@ Objects {
       Name: "cs:EventScript"
       ObjectReference {
         SelfId: 10218415432492591634
+      }
+    }
+    Overrides {
+      Name: "cs:InfoPanel"
+      ObjectReference {
+        SelfId: 16728253357930242382
       }
     }
   }

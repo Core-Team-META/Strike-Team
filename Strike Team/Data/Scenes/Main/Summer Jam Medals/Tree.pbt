@@ -3124,7 +3124,7 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "You earned a Summer Jam Medal"
+      Label: "You earned a Winterverse Games Medal"
       Color {
         R: 1
         G: 1
@@ -4055,6 +4055,7 @@ Objects {
   ChildIds: 5989755530700108938
   ChildIds: 9612750233654129008
   ChildIds: 18285068161282544445
+  ChildIds: 3609049384104817939
   ChildIds: 6610427610716279011
   ChildIds: 3530358204262421989
   ChildIds: 8590925769045922219
@@ -5904,14 +5905,14 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "Slap text here"
+      Label: "Each round you will be awarded a certain amount of points based on how well you play. The more you earn the better the medal you will receive! Points are reset after each round."
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 18
+      Size: 22
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -6143,7 +6144,7 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "Welcome to the Summer Jam Medals Tournament!\r\nEarn medals in different games and try to get to the highest score for you and your region."
+      Label: "Welcome to the Winterverse Games!\r\nEarn medals in different games and try to get to the highest score for you and your region."
       Color {
         R: 1
         G: 1
@@ -9688,6 +9689,88 @@ Objects {
   }
 }
 Objects {
+  Id: 3609049384104817939
+  Name: "Date"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16142005471642041512
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 523
+    Height: 152
+    UIY: 67.779129
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    Text {
+      Label: "Feb 4th 12pm - Feb 20th 12pm PST"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 5727366445419508691
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:top"
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+      OutlineColor {
+        A: 1
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 18285068161282544445
   Name: "Title"
   Transform {
@@ -9725,14 +9808,14 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "Summer Jam Medals"
+      Label: "Winterverse Games Medals"
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 46
+      Size: 34
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -10718,6 +10801,12 @@ Objects {
       Name: "cs:FlashyPanel"
       ObjectReference {
         SelfId: 3026334483412661754
+      }
+    }
+    Overrides {
+      Name: "cs:LeaderboardMainPanel"
+      ObjectReference {
+        SelfId: 8148767369087913423
       }
     }
   }
