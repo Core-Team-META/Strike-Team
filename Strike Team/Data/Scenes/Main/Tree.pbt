@@ -2018,40 +2018,22 @@ Objects {
       String: "6db467/strike-team-sector-9"
     }
     Overrides {
-      Name: "cs:LifetimeStats"
-      NetReference {
-        Key: "3f23895a8afa41b6b893bfb32b37ca58"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
       Name: "cs:MainGameId"
       String: "8b40fe/strike-team-winter-event"
     }
     Overrides {
-      Name: "cs:Loadout"
-      NetReference {
-        Key: "e41a206ebc6345ee99d172071f3a2c6f"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "b2e69fedbd3f40a4892ea09aa4b13114"
+        Key: "b619e1083817444cbe49189524953841"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
     }
     Overrides {
-      Name: "cs:MiscKey"
+      Name: "cs:Loadout"
       NetReference {
-        Key: "b8a794309a424a8a95d6a5bb21d55557"
+        Key: "739824724f334721b94e4ee5d8b4dc39"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -2060,7 +2042,25 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "700315f98b6e493fb61fe58002f4a9dd"
+        Key: "7497b78e5cf74312a26f7efd3c00a2c4"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:LifetimeStats"
+      NetReference {
+        Key: "741f61947428427abc3422ededea2afa"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:MiscKey"
+      NetReference {
+        Key: "759ee74504cd4a2d84771abb7fe41b24"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
