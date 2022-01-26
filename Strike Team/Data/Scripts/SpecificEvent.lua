@@ -9,7 +9,7 @@ local HOUR_SHIFT = script:GetCustomProperty("HourShift")
 local START_TIME = DateTime.New({
     year = 2022,
     month = 2,
-    day = 4,
+    day = 11,
     hour = 20
 })
 
