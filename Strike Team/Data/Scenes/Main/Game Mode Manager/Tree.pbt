@@ -1966,7 +1966,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 1
+      Int: 5
     }
     Overrides {
       Name: "cs:SECONDS_TO_CAPTURE"

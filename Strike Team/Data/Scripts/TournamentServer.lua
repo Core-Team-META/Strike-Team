@@ -18,7 +18,7 @@ UpdateIsEnabled()
 
 local EVENT_ID = EVENT_SCRIPT:GetCustomProperty("EventID")
 
-local MIN_PLAYERS_TO_SUBMIT = 1 --#FIXME 4
+local MIN_PLAYERS_TO_SUBMIT = 4
 local POINTS_PER_SUICIDE = -5
 local POINTS_PER_KILL_WILD = 5
 local POINTS_PER_KILL_TO_DEFENDER = 15

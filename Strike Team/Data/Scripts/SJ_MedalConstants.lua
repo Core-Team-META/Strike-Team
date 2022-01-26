@@ -18,10 +18,10 @@ API.MEDAL_NAMES = {
 }
 
 API.MEDAL_LINKS = {
-    [API.MEDALS.Bronze] = "cc0c35/winterverse-bronze-medal",
-    [API.MEDALS.Silver] = "ab17b8/winterverse-silver-medal",
-    [API.MEDALS.Gold] = "4e7caf/winterverse-gold-medal",
-    [API.MEDALS.Platinum] = "409cc0/winterverse-platinum-medal"
+    [API.MEDALS.Bronze] = "e4b152/winterverse-bronze-medal",
+    [API.MEDALS.Silver] = "11adcb/winterverse-silver-medal",
+    [API.MEDALS.Gold] = "9e8ed6/winterverse-gold-medal",
+    [API.MEDALS.Platinum] = "5d9ce8/winterverse-platinum-medal"
 }
 
 return API

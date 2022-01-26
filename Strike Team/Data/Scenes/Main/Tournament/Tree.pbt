@@ -2759,7 +2759,7 @@ Objects {
       }
     }
     Text {
-      Label: "TOURNAMENT"
+      Label: "EVENT"
       Color {
         R: 1
         G: 0.520995557
@@ -2825,7 +2825,7 @@ Objects {
       }
     }
     Text {
-      Label: "TOURNAMENT"
+      Label: "EVENT"
       Color {
         R: 0.73791039
         G: 0.386429429
@@ -2889,7 +2889,7 @@ Objects {
       }
     }
     Text {
-      Label: "TOURNAMENT"
+      Label: "EVENT"
       Color {
         A: 0.692000031
       }
@@ -3483,15 +3483,15 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:EventID"
-      String: "Test"
+      String: "Winterverse"
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "Test Event"
+      String: "Winterverse Games"
     }
     Overrides {
       Name: "cs:ForceEnable"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:Start"
