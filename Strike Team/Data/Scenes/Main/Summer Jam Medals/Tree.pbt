@@ -9726,7 +9726,7 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "Feb 4th 12pm - Feb 20th 12pm PST"
+      Label: "Feb 11th 12pm - Feb 20th 12pm PST"
       Color {
         R: 1
         G: 1
