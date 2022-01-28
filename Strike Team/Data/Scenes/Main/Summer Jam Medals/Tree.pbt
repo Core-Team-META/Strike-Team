@@ -6144,7 +6144,7 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "Welcome to the Winterverse Games!\r\nEarn medals in different games and try to get to the highest score for you and your region."
+      Label: "Welcome to the Winterverse Games!\r\nEarn medals in different games and try to get to the highest score for you and your country."
       Color {
         R: 1
         G: 1
