@@ -1770,5 +1770,5 @@ Assets {
       AssetId: "Advanced_Assault_Rifle"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

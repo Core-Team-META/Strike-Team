@@ -165,12 +165,6 @@ Objects {
   NetworkContext {
     Type: RuntimeStatic
   }
-  InstanceHistory {
-    SelfId: 5324248021063274159
-    SubobjectId: 8413650045585838724
-    InstanceId: 2313262699387080062
-    TemplateId: 12053913829146888381
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -213,12 +207,6 @@ Objects {
     ScriptAsset {
       Id: 17261934592455900959
     }
-  }
-  InstanceHistory {
-    SelfId: 2489686705561384892
-    SubobjectId: 2282737459666480023
-    InstanceId: 2313262699387080062
-    TemplateId: 12053913829146888381
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

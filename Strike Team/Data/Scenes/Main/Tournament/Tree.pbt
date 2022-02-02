@@ -3491,7 +3491,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ForceEnable"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:Start"

@@ -2,7 +2,7 @@ Assets {
   Id: 2358909149389476109
   Name: "Kustom Roast Primary"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 884462330746487990
     ParameterOverrides {

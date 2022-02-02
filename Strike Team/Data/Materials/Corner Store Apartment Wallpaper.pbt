@@ -2,7 +2,7 @@ Assets {
   Id: 3033064354123194892
   Name: "Corner Store Apartment Wallpaper"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 2877326018475520009
     ParameterOverrides {

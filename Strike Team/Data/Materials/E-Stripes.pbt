@@ -2,7 +2,7 @@ Assets {
   Id: 14218344496219241732
   Name: "E-Stripes"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 15984481635238954828
     ParameterOverrides {

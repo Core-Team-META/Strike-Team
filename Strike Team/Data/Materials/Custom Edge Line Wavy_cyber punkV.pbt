@@ -2,7 +2,7 @@ Assets {
   Id: 11471846247630721355
   Name: "Custom Edge Line Wavy_cyber punkV"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 4063035963214414311
     ParameterOverrides {

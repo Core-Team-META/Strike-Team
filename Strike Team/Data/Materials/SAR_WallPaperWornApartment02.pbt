@@ -2,7 +2,7 @@ Assets {
   Id: 15292211202240429437
   Name: "SAR_WallPaperWornApartment02"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

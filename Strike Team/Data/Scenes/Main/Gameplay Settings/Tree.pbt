@@ -714,13 +714,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "LootBox"
   }
-  InstanceHistory {
-    SelfId: 11909944240055752873
-    SubobjectId: 435484125338290023
-    InstanceId: 9162538045503945134
-    TemplateId: 11001523082904345942
-    WasRoot: true
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }

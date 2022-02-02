@@ -2,7 +2,7 @@ Assets {
   Id: 8312481234164931591
   Name: "StrikePoint_Indicator"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 9134579743160012638
     ParameterOverrides {

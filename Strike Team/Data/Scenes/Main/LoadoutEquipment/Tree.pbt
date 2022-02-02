@@ -240,13 +240,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 544549749453359973
-    SubobjectId: 6421545293660859944
-    InstanceId: 5984902706539743351
-    TemplateId: 8101106359021042753
-    WasRoot: true
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }

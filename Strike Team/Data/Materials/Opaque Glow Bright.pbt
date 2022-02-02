@@ -2,7 +2,7 @@ Assets {
   Id: 6381340547271186248
   Name: "Opaque Glow Bright"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 6721774561700172060
     ParameterOverrides {
