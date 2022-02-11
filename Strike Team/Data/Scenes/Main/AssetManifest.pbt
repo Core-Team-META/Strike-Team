@@ -1,23 +1,10 @@
 Assets {
-  Id: 17804253436736153899
-  Name: "BE_Winter_Lifetime"
+  Id: 16187034928219697788
+  Name: "MG_Winter_Storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "741f61947428427abc3422ededea2afa"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 17804146269378336354
-  Name: "BE_Winter_Loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "739824724f334721b94e4ee5d8b4dc39"
+      Key: "bc48797e8e79435c97e498dbc007f51b"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -34,12 +21,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10442789623094869835
-  Name: "BE_Winter_Misc"
+  Id: 7506024972574025156
+  Name: "MG_Winter_Lifetime"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "759ee74504cd4a2d84771abb7fe41b24"
+      Key: "0ade460c08cc4be3851232014170e431"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -47,12 +34,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7516711811190156902
-  Name: "BE_Winter_Statkey"
+  Id: 7143280332487667741
+  Name: "MG_Winter_Loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "b619e1083817444cbe49189524953841"
+      Key: "fecc1bf3481e4300a441d172d2f49205"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -60,12 +47,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6112693646103467784
-  Name: "BE_Winter_Storage"
+  Id: 2375616181953070473
+  Name: "MG_Winter_Misc"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "7497b78e5cf74312a26f7efd3c00a2c4"
+      Key: "1f2a581c41914e018de59457c4472f26"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -79,5 +66,18 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
+  Id: 1252663338636028219
+  Name: "MG_Winter_Statkey"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "675d3c9dc6504dd58e0826c6f71d6955"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }

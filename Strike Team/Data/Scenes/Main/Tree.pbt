@@ -2010,9 +2010,9 @@ Objects {
       String: "8b40fe/strike-team-winter-event"
     }
     Overrides {
-      Name: "cs:StatKey"
+      Name: "cs:LifetimeStats"
       NetReference {
-        Key: "b619e1083817444cbe49189524953841"
+        Key: "0ade460c08cc4be3851232014170e431"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -2021,7 +2021,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "739824724f334721b94e4ee5d8b4dc39"
+        Key: "fecc1bf3481e4300a441d172d2f49205"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -2030,16 +2030,16 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "7497b78e5cf74312a26f7efd3c00a2c4"
+        Key: "bc48797e8e79435c97e498dbc007f51b"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
     }
     Overrides {
-      Name: "cs:LifetimeStats"
+      Name: "cs:StatKey"
       NetReference {
-        Key: "741f61947428427abc3422ededea2afa"
+        Key: "675d3c9dc6504dd58e0826c6f71d6955"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -2048,7 +2048,7 @@ Objects {
     Overrides {
       Name: "cs:MiscKey"
       NetReference {
-        Key: "759ee74504cd4a2d84771abb7fe41b24"
+        Key: "1f2a581c41914e018de59457c4472f26"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
