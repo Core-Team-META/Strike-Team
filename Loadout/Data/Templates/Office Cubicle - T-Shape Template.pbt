@@ -3428,5 +3428,5 @@ Assets {
       AssetId: "Office_Cubicle_-_T-Shape_Template"
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 105
 }

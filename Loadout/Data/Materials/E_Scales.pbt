@@ -2,7 +2,7 @@ Assets {
   Id: 5570474634557744149
   Name: "E_Scales"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 11168369628247622951
     ParameterOverrides {

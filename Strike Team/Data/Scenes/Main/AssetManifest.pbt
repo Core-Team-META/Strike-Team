@@ -1,10 +1,10 @@
 Assets {
-  Id: 16187034928219697788
-  Name: "MG_Winter_Storage"
+  Id: 17955691350866076506
+  Name: "st_statkey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "bc48797e8e79435c97e498dbc007f51b"
+      Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -21,12 +21,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7506024972574025156
-  Name: "MG_Winter_Lifetime"
+  Id: 3293166679665570630
+  Name: "st_storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "0ade460c08cc4be3851232014170e431"
+      Key: "14e8666bb5fc4042bd0625b1a7b87e05"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -34,12 +34,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7143280332487667741
-  Name: "MG_Winter_Loadout"
+  Id: 3209601067765356272
+  Name: "st_misc"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "fecc1bf3481e4300a441d172d2f49205"
+      Key: "c5fb03576a6c43939301da448ca2640e"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -47,12 +47,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2375616181953070473
-  Name: "MG_Winter_Misc"
+  Id: 2242096102805808430
+  Name: "st_loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "1f2a581c41914e018de59457c4472f26"
+      Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -69,12 +69,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1252663338636028219
-  Name: "MG_Winter_Statkey"
+  Id: 979065495532420555
+  Name: "st_lifetime"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "675d3c9dc6504dd58e0826c6f71d6955"
+      Key: "02099a9ad11e4ae3b4443adf78c87879"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

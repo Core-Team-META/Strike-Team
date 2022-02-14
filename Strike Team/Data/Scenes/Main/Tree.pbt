@@ -1999,7 +1999,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:LoadoutGameId"
-      String: "bff00e/strike-team-loadout-winter"
+      String: "d44cf9/strike-team-loadout"
     }
     Overrides {
       Name: "cs:Sector9GameId"
@@ -2007,39 +2007,12 @@ Objects {
     }
     Overrides {
       Name: "cs:MainGameId"
-      String: "8b40fe/strike-team-winter-event"
+      String: "9442a4/strike-team"
     }
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "0ade460c08cc4be3851232014170e431"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Loadout"
-      NetReference {
-        Key: "fecc1bf3481e4300a441d172d2f49205"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Storage"
-      NetReference {
-        Key: "bc48797e8e79435c97e498dbc007f51b"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:StatKey"
-      NetReference {
-        Key: "675d3c9dc6504dd58e0826c6f71d6955"
+        Key: "02099a9ad11e4ae3b4443adf78c87879"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -2048,7 +2021,34 @@ Objects {
     Overrides {
       Name: "cs:MiscKey"
       NetReference {
-        Key: "1f2a581c41914e018de59457c4472f26"
+        Key: "c5fb03576a6c43939301da448ca2640e"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Loadout"
+      NetReference {
+        Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Storage"
+      NetReference {
+        Key: "14e8666bb5fc4042bd0625b1a7b87e05"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:StatKey"
+      NetReference {
+        Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

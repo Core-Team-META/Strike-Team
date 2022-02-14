@@ -2,7 +2,7 @@ Assets {
   Id: 11839338173871968665
   Name: "FloorConcete"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 4297505030264945500
     ParameterOverrides {
