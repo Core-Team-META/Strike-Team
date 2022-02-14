@@ -13618,6 +13618,7 @@ Objects {
     }
   }
   ParentId: 17525193500194171463
+  ChildIds: 1758650488748405656
   ChildIds: 14211216637167272231
   ChildIds: 4120315107673590170
   ChildIds: 12540097850414137529
@@ -14115,6 +14116,64 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1758650488748405656
+  Name: "Fog Adjustment Volume Crate Area"
+  Transform {
+    Location {
+      X: -1735
+      Y: -4185
+      Z: -5813.51855
+    }
+    Rotation {
+    }
+    Scale {
+      X: 50
+      Y: 50
+      Z: 50
+    }
+  }
+  ParentId: 9298601716501198180
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Fog Object"
+      ObjectReference {
+        SelfId: 14211216637167272231
+      }
+    }
+    Overrides {
+      Name: "bp:Use Player Location"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Blend Duration"
+      Float: 0.25
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 1037672320462169984
+    }
+    TeamSettings {
+    }
   }
 }
 Objects {

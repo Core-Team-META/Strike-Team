@@ -295,3 +295,12 @@ Assets {
     AssetId: "bp_decal_snow_patch_001"
   }
 }
+Assets {
+  Id: 1037672320462169984
+  Name: "Fog Adjustment Volume"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_fog_adjustment"
+  }
+}
