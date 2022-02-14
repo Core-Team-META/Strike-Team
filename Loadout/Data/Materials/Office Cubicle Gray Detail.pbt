@@ -2,7 +2,7 @@ Assets {
   Id: 18158773904973768887
   Name: "Office Cubicle Gray Detail"
   PlatformAssetType: 13
-  SerializationVersion: 103
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 1521048977107398830
     ParameterOverrides {

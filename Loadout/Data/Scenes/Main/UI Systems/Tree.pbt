@@ -704,13 +704,6 @@ Objects {
   }
   NetworkContext {
   }
-  InstanceHistory {
-    SelfId: 1668205012866021977
-    SubobjectId: 3929297378151615549
-    InstanceId: 5620059557437967547
-    TemplateId: 6617370352416692062
-    WasRoot: true
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -766,12 +759,6 @@ Objects {
     ScriptAsset {
       Id: 3538784902606842145
     }
-  }
-  InstanceHistory {
-    SelfId: 17911557561268485311
-    SubobjectId: 15651044481986251483
-    InstanceId: 5620059557437967547
-    TemplateId: 6617370352416692062
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -838,12 +825,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 1275471823028409744
-    SubobjectId: 3463952451145475060
-    InstanceId: 5620059557437967547
-    TemplateId: 6617370352416692062
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -913,12 +894,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17408437392443114121
-    SubobjectId: 15003246452162786541
-    InstanceId: 5620059557437967547
-    TemplateId: 6617370352416692062
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1875,13 +1850,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9611770325801280178
-    SubobjectId: 11001686088038950887
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
-    WasRoot: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5045,12 +5013,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10680187621708797161
-    SubobjectId: 9942170156951638460
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5206,12 +5168,6 @@ Objects {
     ScriptAsset {
       Id: 7641244062269779132
     }
-  }
-  InstanceHistory {
-    SelfId: 14675866505204196300
-    SubobjectId: 15448806659351275161
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5380,12 +5336,6 @@ Objects {
       Id: 7641244062269779132
     }
   }
-  InstanceHistory {
-    SelfId: 14675866505204196300
-    SubobjectId: 15448806659351275161
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5493,12 +5443,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10680187621708797161
-    SubobjectId: 9942170156951638460
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5655,12 +5599,6 @@ Objects {
     ScriptAsset {
       Id: 7641244062269779132
     }
-  }
-  InstanceHistory {
-    SelfId: 14675866505204196300
-    SubobjectId: 15448806659351275161
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5829,12 +5767,6 @@ Objects {
       Id: 7641244062269779132
     }
   }
-  InstanceHistory {
-    SelfId: 14675866505204196300
-    SubobjectId: 15448806659351275161
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5942,12 +5874,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10680187621708797161
-    SubobjectId: 9942170156951638460
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6104,12 +6030,6 @@ Objects {
     ScriptAsset {
       Id: 7641244062269779132
     }
-  }
-  InstanceHistory {
-    SelfId: 14675866505204196300
-    SubobjectId: 15448806659351275161
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6278,12 +6198,6 @@ Objects {
       Id: 7641244062269779132
     }
   }
-  InstanceHistory {
-    SelfId: 14675866505204196300
-    SubobjectId: 15448806659351275161
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6391,12 +6305,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9523487884044213073
-    SubobjectId: 11089041918521024004
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6553,12 +6461,6 @@ Objects {
     ScriptAsset {
       Id: 7641244062269779132
     }
-  }
-  InstanceHistory {
-    SelfId: 6641202670432122586
-    SubobjectId: 4747994394229404559
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6727,12 +6629,6 @@ Objects {
       Id: 7641244062269779132
     }
   }
-  InstanceHistory {
-    SelfId: 6641202670432122586
-    SubobjectId: 4747994394229404559
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6840,12 +6736,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10680187621708797161
-    SubobjectId: 9942170156951638460
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7002,12 +6892,6 @@ Objects {
     ScriptAsset {
       Id: 7641244062269779132
     }
-  }
-  InstanceHistory {
-    SelfId: 14675866505204196300
-    SubobjectId: 15448806659351275161
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7175,12 +7059,6 @@ Objects {
     ScriptAsset {
       Id: 7641244062269779132
     }
-  }
-  InstanceHistory {
-    SelfId: 14675866505204196300
-    SubobjectId: 15448806659351275161
-    InstanceId: 13541626255191705882
-    TemplateId: 10229582444342949214
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

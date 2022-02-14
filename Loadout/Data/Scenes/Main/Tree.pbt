@@ -190,48 +190,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MainGameId"
-      String: "8b40fe/strike-team-winter-event"
-    }
-    Overrides {
-      Name: "cs:StatKey"
-      NetReference {
-        Key: "b2e69fedbd3f40a4892ea09aa4b13114"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Loadout"
-      NetReference {
-        Key: "e41a206ebc6345ee99d172071f3a2c6f"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:LifetimeStats"
-      NetReference {
-        Key: "3f23895a8afa41b6b893bfb32b37ca58"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:MiscKey"
-      NetReference {
-        Key: "b8a794309a424a8a95d6a5bb21d55557"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
+      String: "9442a4/strike-team"
     }
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "700315f98b6e493fb61fe58002f4a9dd"
+        Key: "14e8666bb5fc4042bd0625b1a7b87e05"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -240,6 +204,42 @@ Objects {
     Overrides {
       Name: "cs:LoadoutGameId"
       String: "bff00e/strike-team-loadout-winter"
+    }
+    Overrides {
+      Name: "cs:Loadout"
+      NetReference {
+        Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:StatKey"
+      NetReference {
+        Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:LifetimeStats"
+      NetReference {
+        Key: "02099a9ad11e4ae3b4443adf78c87879"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:MiscKey"
+      NetReference {
+        Key: "c5fb03576a6c43939301da448ca2640e"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
     }
   }
   Collidable_v2 {
