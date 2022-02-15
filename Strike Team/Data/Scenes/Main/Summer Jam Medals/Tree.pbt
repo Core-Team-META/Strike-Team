@@ -10870,50 +10870,6 @@ Objects {
   }
 }
 Objects {
-  Id: 6244507345164691632
-  Name: "GivePlayerMedal_EXAMPLE"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7825023715643486097
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:SJ_MedalConstants"
-      AssetReference {
-        Id: 11788213001887903679
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 18147836798780746042
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 8228702591951862581
   Name: "SJ_ReadMe"
   Transform {

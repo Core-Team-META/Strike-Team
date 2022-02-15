@@ -21,7 +21,3 @@ end
 function OnPlayerJoined(player)
     player.bindingPressedEvent:Connect(OnBindingPressed)
 end
-
---if Environment.IsPreview() then
-    Game.playerJoinedEvent:Connect( OnPlayerJoined )
---end
