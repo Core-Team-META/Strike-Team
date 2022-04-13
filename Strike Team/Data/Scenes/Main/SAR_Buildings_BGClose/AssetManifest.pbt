@@ -1,13 +1,4 @@
 Assets {
-  Id: 18393437648231545508
-  Name: "Urban Pipe Flange 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_flange_001_ref"
-  }
-}
-Assets {
   Id: 18298649095315083710
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
@@ -44,12 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 17167473041082958233
-  Name: "Wedge - Convex Polished"
-  PlatformAssetType: 1
+  Id: 17331405778350051027
+  Name: "Industrial Room Tone Loop 01 SFX"
+  PlatformAssetType: 7
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_curved_convex_hq_001"
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_industrial_room_tone_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -77,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_foundation_001_ref"
+  }
+}
+Assets {
+  Id: 16371622500121573784
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
   }
 }
 Assets {
@@ -143,33 +143,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14881799801148158487
-  Name: "Trim Top 8m 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trim_top_6m_002"
-  }
-}
-Assets {
-  Id: 14541379120575232735
-  Name: "Urban Pipe Coupling 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_coupling_001_ref"
-  }
-}
-Assets {
-  Id: 14305832413711255155
-  Name: "Craftsman Part - Exterior Foundation Trim 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_part_extTrim_001_low"
-  }
-}
-Assets {
   Id: 14231809728886464860
   Name: "Wood Raw White"
   PlatformAssetType: 2
@@ -203,15 +176,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_stairs_001_U"
-  }
-}
-Assets {
-  Id: 13085174305471638229
-  Name: "Metal Painted Old 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_painted_old_001_uv"
   }
 }
 Assets {
@@ -359,15 +323,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5390120376389660115
-  Name: "Invisible"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_invisible_001"
-  }
-}
-Assets {
   Id: 5381367210591412322
   Name: "Urban Pipe Elbow 01"
   PlatformAssetType: 1
@@ -392,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_shipping_pallet_001"
+  }
+}
+Assets {
+  Id: 4679924433031865767
+  Name: "Metal Frame 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_003_uv"
   }
 }
 Assets {

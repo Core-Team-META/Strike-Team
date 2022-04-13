@@ -3,6 +3,8 @@ Assets {
   Name: "Rank_EndGameUI_Client"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 94
+  SerializationVersion: 113
 }

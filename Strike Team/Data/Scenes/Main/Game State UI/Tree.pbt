@@ -159,4 +159,7 @@ Objects {
       Id: 12110771893887422485
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }

@@ -1,15 +1,16 @@
 Name: "SAR_Foliage"
 RootId: 7560471041159094325
 Objects {
-  Id: 612199423538572622
-  Name: "Bushes"
+  Id: 6763446285727357372
+  Name: "Bush 02"
   Transform {
     Location {
-      X: 1747.38855
-      Y: 7637.0835
-      Z: -296.167755
+      X: 7980.26416
+      Y: 12426.6738
+      Z: -172.022247
     }
     Rotation {
+      Yaw: 103.968109
     }
     Scale {
       X: 1
@@ -18,151 +19,6 @@ Objects {
     }
   }
   ParentId: 7560471041159094325
-  ChildIds: 18403365770942958148
-  ChildIds: 15996519478743163530
-  ChildIds: 182202056905055355
-  ChildIds: 15006199197364173628
-  ChildIds: 9885239735842562479
-  ChildIds: 10756964305178716171
-  ChildIds: 16740751220708174071
-  ChildIds: 132975510667995104
-  ChildIds: 7473468764830197326
-  ChildIds: 1103425311108243561
-  ChildIds: 8610869473728182007
-  ChildIds: 15434533922260265931
-  ChildIds: 13619649075231296876
-  ChildIds: 3866108192801378986
-  ChildIds: 3560314260513050916
-  ChildIds: 17075078755427188913
-  ChildIds: 12224828805163573631
-  ChildIds: 11209349360407152253
-  ChildIds: 6724889131533685453
-  ChildIds: 1634822799102623008
-  ChildIds: 10852381905904052531
-  ChildIds: 10689767503228950611
-  ChildIds: 4413915268766560157
-  ChildIds: 16732961939307968378
-  ChildIds: 2848750391695329758
-  ChildIds: 9333673529252408256
-  ChildIds: 14740570883587113816
-  ChildIds: 878164729500039173
-  ChildIds: 5767901111373242683
-  ChildIds: 3856236761116484632
-  ChildIds: 688330080612844823
-  ChildIds: 3691729693515745978
-  ChildIds: 16668572215650934254
-  ChildIds: 3493508022220586851
-  ChildIds: 11984591306034927968
-  ChildIds: 14064598038574986243
-  ChildIds: 13265825453882039598
-  ChildIds: 2827651646286394661
-  ChildIds: 14188954089965997664
-  ChildIds: 6103439859352084140
-  ChildIds: 6716380915329453075
-  ChildIds: 8566113517206643839
-  ChildIds: 1636546634339877588
-  ChildIds: 17118653670126659897
-  ChildIds: 12735994962329450665
-  ChildIds: 836854271306213834
-  ChildIds: 4594421850374339614
-  ChildIds: 17624618327540210746
-  ChildIds: 1118343997323245686
-  ChildIds: 11406981335183352780
-  ChildIds: 3555637758750628961
-  ChildIds: 9317853765700756807
-  ChildIds: 2763476460173626167
-  ChildIds: 8941575632156041484
-  ChildIds: 15576113574638398403
-  ChildIds: 3378752002813138298
-  ChildIds: 1353693954003053859
-  ChildIds: 9113317609113870500
-  ChildIds: 8351387754509757314
-  ChildIds: 5482351697196032158
-  ChildIds: 8569087222214062214
-  ChildIds: 4322360736213736586
-  ChildIds: 992176948908203311
-  ChildIds: 5123815710260274887
-  ChildIds: 12578173584140382412
-  ChildIds: 6139829917223078540
-  ChildIds: 10401958811271770515
-  ChildIds: 2716145204503410016
-  ChildIds: 12087598854150498234
-  ChildIds: 2958559191977509673
-  ChildIds: 15115171912904862104
-  ChildIds: 5546005304496922800
-  ChildIds: 2641882594284566098
-  ChildIds: 17227553319706214884
-  ChildIds: 11496531934922944416
-  ChildIds: 533429899355297952
-  ChildIds: 9883514351168460745
-  ChildIds: 13641655226679266464
-  ChildIds: 15002035017886205507
-  ChildIds: 5335422613991716783
-  ChildIds: 16874512537655676421
-  ChildIds: 6007327878769659999
-  ChildIds: 6396691258375778817
-  ChildIds: 11281808264620002188
-  ChildIds: 3797410350258943926
-  ChildIds: 12858418018932918940
-  ChildIds: 8872530230035182159
-  ChildIds: 7136522993164755915
-  ChildIds: 14127286005358124699
-  ChildIds: 9712424032610848890
-  ChildIds: 3747822184892782892
-  ChildIds: 15268664703546386615
-  ChildIds: 4917997775669334442
-  ChildIds: 9209215549893236541
-  ChildIds: 12501156453945839872
-  ChildIds: 5040493107677519417
-  ChildIds: 4639221246647031455
-  ChildIds: 1506666841691565225
-  ChildIds: 4732303623916556174
-  ChildIds: 5225417073280176893
-  ChildIds: 3771635077999648237
-  ChildIds: 4315466999789846805
-  ChildIds: 6342136161253006368
-  ChildIds: 6029866314603875712
-  ChildIds: 4150514609304432770
-  ChildIds: 12436575115326308943
-  ChildIds: 16039851189994073415
-  ChildIds: 7942040834941293893
-  ChildIds: 13826694173068042363
-  ChildIds: 3788622917671973838
-  ChildIds: 14753270293214681855
-  ChildIds: 6763446285727357372
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Folder {
-    Model {
-    }
-  }
-}
-Objects {
-  Id: 6763446285727357372
-  Name: "Bush 02"
-  Transform {
-    Location {
-      X: 6232.87549
-      Y: 4789.59033
-      Z: 124.145508
-    }
-    Rotation {
-      Yaw: 103.968086
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 612199423538572622
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -204,15 +60,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14753270293214681855
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2229.09814
-      Y: 5837.28
-      Z: 41.1252441
+      X: 3976.48682
+      Y: 13474.3633
+      Z: -255.042511
     }
     Rotation {
     }
@@ -222,7 +84,7 @@ Objects {
       Z: 1.24302125
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -264,15 +126,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3788622917671973838
   Name: "Bush 02"
   Transform {
     Location {
-      X: 8196.28223
-      Y: -4328.90479
-      Z: 868.075317
+      X: 9943.6709
+      Y: 3308.17871
+      Z: 571.907593
     }
     Rotation {
       Yaw: -136.868683
@@ -283,7 +151,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -325,15 +193,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13826694173068042363
   Name: "Bush 02"
   Transform {
     Location {
-      X: -132.509888
-      Y: -7.92334
-      Z: 518.722534
+      X: 1614.87878
+      Y: 7629.16
+      Z: 222.554779
     }
     Rotation {
       Yaw: -71.5203171
@@ -344,7 +218,7 @@ Objects {
       Z: 0.781377792
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -386,15 +260,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7942040834941293893
   Name: "Bush 02"
   Transform {
     Location {
-      X: -115.09314
-      Y: 201.686523
-      Z: 518.722534
+      X: 1632.29553
+      Y: 7838.77
+      Z: 222.554779
     }
     Rotation {
     }
@@ -404,7 +284,7 @@ Objects {
       Z: 0.781377792
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -445,6 +325,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -452,14 +338,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -842.55127
-      Y: 4612.59912
-      Z: 249.394226
+      X: 904.837402
+      Y: 12249.6826
+      Z: -46.7735291
     }
     Rotation {
       Pitch: 12.5104609
       Yaw: 135.072891
-      Roll: -0.254394531
+      Roll: -0.254394799
     }
     Scale {
       X: 1.34337413
@@ -467,7 +353,7 @@ Objects {
       Z: 1.34337413
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -508,6 +394,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -515,12 +407,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3665.9585
-      Y: -2089.47852
-      Z: 221.124329
+      X: 5413.34717
+      Y: 5547.60498
+      Z: -75.0434265
     }
     Rotation {
-      Yaw: -4.94846344
+      Yaw: -4.94846535
     }
     Scale {
       X: 1
@@ -528,7 +420,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -569,6 +461,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -576,12 +474,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2878.8042
-      Y: -2764.46484
-      Z: 221.124329
+      X: 4626.19287
+      Y: 4872.61865
+      Z: -75.0434265
     }
     Rotation {
-      Yaw: -4.94846344
+      Yaw: -4.94846535
     }
     Scale {
       X: 1
@@ -589,7 +487,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -631,15 +529,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6029866314603875712
   Name: "Bush 02"
   Transform {
     Location {
-      X: -7316.16357
-      Y: 3725.35498
-      Z: 847.04126
+      X: -5568.7749
+      Y: 11362.4385
+      Z: 550.873535
     }
     Rotation {
       Yaw: 117.102058
@@ -650,7 +554,7 @@ Objects {
       Z: 1.25534332
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -691,6 +595,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -698,14 +608,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5521.69434
-      Y: 4309.771
-      Z: 91.2809143
+      X: 7269.08301
+      Y: 11946.8545
+      Z: -204.886841
     }
     Rotation {
       Pitch: 0.259683788
       Yaw: 177.087448
-      Roll: 5.09112501
+      Roll: 5.09112787
     }
     Scale {
       X: 1.24475753
@@ -713,7 +623,7 @@ Objects {
       Z: 1.24475753
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -754,6 +664,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -761,12 +677,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3849.22168
-      Y: -3392.13672
-      Z: 221.124207
+      X: 5596.61035
+      Y: 4244.94678
+      Z: -75.0435486
     }
     Rotation {
-      Yaw: -4.94846344
+      Yaw: -4.94846535
     }
     Scale {
       X: 1
@@ -774,7 +690,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -815,6 +731,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -822,12 +744,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2145.22217
-      Y: -2001.83691
-      Z: 507.756775
+      X: 3892.61084
+      Y: 5635.24658
+      Z: 211.58902
     }
     Rotation {
-      Yaw: -90.2685776
+      Yaw: -90.2685699
     }
     Scale {
       X: 0.675930142
@@ -835,7 +757,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -877,15 +799,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5225417073280176893
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2163.3584
-      Y: -1499.19775
-      Z: 507.756714
+      X: 3910.74707
+      Y: 6137.88574
+      Z: 211.588959
     }
     Rotation {
       Yaw: -122.743423
@@ -896,7 +824,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -937,6 +865,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -944,12 +878,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2163.3584
-      Y: -1082.61572
-      Z: 507.756714
+      X: 3910.74707
+      Y: 6554.46777
+      Z: 211.588959
     }
     Rotation {
-      Yaw: -165.211685
+      Yaw: -165.21167
     }
     Scale {
       X: 0.675930142
@@ -957,7 +891,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -999,15 +933,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1506666841691565225
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2163.3584
-      Y: -35.6186523
-      Z: 507.756714
+      X: 3910.74707
+      Y: 7601.46484
+      Z: 211.588959
     }
     Rotation {
       Yaw: -122.040146
@@ -1018,7 +958,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1059,6 +999,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1066,12 +1012,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2163.3584
-      Y: 389.328613
-      Z: 507.756714
+      X: 3910.74707
+      Y: 8026.41211
+      Z: 211.588959
     }
     Rotation {
-      Yaw: -72.1018677
+      Yaw: -72.10186
     }
     Scale {
       X: 0.675930142
@@ -1079,7 +1025,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1120,6 +1066,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1127,9 +1079,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2163.3584
-      Y: 858.05127
-      Z: 507.756714
+      X: 3910.74707
+      Y: 8495.13477
+      Z: 211.588959
     }
     Rotation {
     }
@@ -1139,7 +1091,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1181,15 +1133,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12501156453945839872
   Name: "Bush 02"
   Transform {
     Location {
-      X: -3141.70801
-      Y: 1931.54834
-      Z: 185.997131
+      X: -1394.31934
+      Y: 9568.63184
+      Z: -110.170624
     }
     Rotation {
     }
@@ -1199,7 +1157,7 @@ Objects {
       Z: 1.38548839
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1241,15 +1199,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9209215549893236541
   Name: "Bush 02"
   Transform {
     Location {
-      X: -1941.55359
-      Y: 2380.95264
-      Z: 164.29599
+      X: -194.164917
+      Y: 10018.0361
+      Z: -131.871765
     }
     Rotation {
     }
@@ -1259,7 +1223,7 @@ Objects {
       Z: 1.57035387
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1300,6 +1264,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1307,14 +1277,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5810.32031
-      Y: -3575.33496
-      Z: 121.603851
+      X: 7557.70898
+      Y: 4061.74854
+      Z: -174.563904
     }
     Rotation {
       Pitch: -15.9684486
-      Yaw: 4.07900667
-      Roll: -14.5325174
+      Yaw: 4.07900858
+      Roll: -14.5325384
     }
     Scale {
       X: 1.7615124
@@ -1322,7 +1292,7 @@ Objects {
       Z: 1.7615124
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1363,6 +1333,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1370,14 +1346,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -3706.26392
-      Y: 4174.90283
-      Z: 122.868439
+      X: -1958.87524
+      Y: 11811.9863
+      Z: -173.299316
     }
     Rotation {
       Pitch: -6.25928068
-      Yaw: -36.5855293
-      Roll: 12.60005
+      Yaw: -36.5855217
+      Roll: 12.6000681
     }
     Scale {
       X: 1.64753
@@ -1385,7 +1361,7 @@ Objects {
       Z: 1.64753
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1426,6 +1402,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1433,14 +1415,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4883.99805
-      Y: 4275.25146
-      Z: 201.77301
+      X: -3136.60938
+      Y: 11912.335
+      Z: -94.3947449
     }
     Rotation {
       Pitch: 13.6108589
-      Yaw: -51.1840858
-      Roll: 2.51137733
+      Yaw: -51.1841
+      Roll: 2.51137781
     }
     Scale {
       X: 1.29399049
@@ -1448,7 +1430,7 @@ Objects {
       Z: 1.29399049
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1490,15 +1472,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9712424032610848890
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6531.13574
-      Y: -2817.49219
-      Z: 754.789429
+      X: 8278.52441
+      Y: 4819.59131
+      Z: 458.621674
     }
     Rotation {
       Pitch: 14.6046104
@@ -1511,7 +1499,7 @@ Objects {
       Z: 1.7042805
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1552,6 +1540,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1559,9 +1553,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 4596.15186
-      Y: -3014.6958
-      Z: 221.124237
+      X: 6343.54053
+      Y: 4622.3877
+      Z: -75.0435181
     }
     Rotation {
     }
@@ -1571,7 +1565,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1612,6 +1606,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1619,14 +1619,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5997.56836
-      Y: -3074.48145
-      Z: 778.366211
+      X: 7744.95703
+      Y: 4562.60205
+      Z: 482.198456
     }
     Rotation {
-      Pitch: 1.4640919
+      Pitch: 1.4640851
       Yaw: -156.925293
-      Roll: 14.6564684
+      Roll: 14.6564875
     }
     Scale {
       X: 0.840561092
@@ -1634,7 +1634,7 @@ Objects {
       Z: 0.840561092
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1675,6 +1675,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1682,13 +1688,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5991.19727
-      Y: -3341.4082
-      Z: 764.687
+      X: 7738.58594
+      Y: 4295.67529
+      Z: 468.519257
     }
     Rotation {
       Yaw: -144.451874
-      Roll: -9.87868118
+      Roll: -9.87869453
     }
     Scale {
       X: 0.838154256
@@ -1696,7 +1702,7 @@ Objects {
       Z: 0.838154256
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1737,6 +1743,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1744,12 +1756,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5940.5542
-      Y: -3566.90625
-      Z: 764.524536
+      X: 7687.94287
+      Y: 4070.17725
+      Z: 468.356781
     }
     Rotation {
-      Yaw: -69.4383545
+      Yaw: -69.4383621
     }
     Scale {
       X: 0.838154256
@@ -1757,7 +1769,7 @@ Objects {
       Z: 0.838154256
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1799,15 +1811,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3797410350258943926
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5718.88867
-      Y: -3739.69043
-      Z: 804.96167
+      X: 7466.27734
+      Y: 3897.39307
+      Z: 508.793915
     }
     Rotation {
     }
@@ -1817,7 +1835,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1859,15 +1877,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11281808264620002188
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6619.41602
-      Y: -4191.77197
-      Z: 824.110596
+      X: 8366.80469
+      Y: 3445.31152
+      Z: 527.942871
     }
     Rotation {
     }
@@ -1877,7 +1901,7 @@ Objects {
       Z: 1.28494346
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1919,15 +1943,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6396691258375778817
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6742.61133
-      Y: -7032.0835
-      Z: 755.191162
+      X: 8490
+      Y: 605
+      Z: 459.023407
     }
     Rotation {
       Pitch: 9.02469444
@@ -1938,7 +1968,7 @@ Objects {
       Z: 1.46567857
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1980,15 +2010,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6007327878769659999
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5203.27051
-      Y: -6029.24854
-      Z: 844.816406
+      X: 6950.65918
+      Y: 1607.83496
+      Z: 548.648682
     }
     Rotation {
     }
@@ -1998,7 +2034,7 @@ Objects {
       Z: 1.02510118
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2039,6 +2075,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2046,12 +2088,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 4746.33789
-      Y: -4741.6123
-      Z: 870.478882
+      X: 6493.72656
+      Y: 2895.47119
+      Z: 574.311157
     }
     Rotation {
-      Yaw: -62.7123566
+      Yaw: -62.712368
     }
     Scale {
       X: 1.18995225
@@ -2059,7 +2101,7 @@ Objects {
       Z: 1.18995225
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2100,6 +2142,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2107,12 +2155,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2852.15723
-      Y: -7106.51709
-      Z: 418.619354
+      X: 4599.5459
+      Y: 530.566406
+      Z: 122.451599
     }
     Rotation {
-      Roll: 13.7492838
+      Roll: 13.7493038
     }
     Scale {
       X: 1.21509826
@@ -2120,7 +2168,7 @@ Objects {
       Z: 1.21509826
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2162,15 +2210,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15002035017886205507
   Name: "Bush 02"
   Transform {
     Location {
-      X: 1372.38586
-      Y: -4664.63818
-      Z: 247.024612
+      X: 3119.77441
+      Y: 2972.44531
+      Z: -49.1431427
     }
     Rotation {
     }
@@ -2180,7 +2234,7 @@ Objects {
       Z: 0.754020393
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2221,6 +2275,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2228,13 +2288,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -905.015686
-      Y: -4358.67188
-      Z: 241.532806
+      X: 842.373
+      Y: 3278.41162
+      Z: -54.6349487
     }
     Rotation {
-      Yaw: -123.353851
-      Roll: 9.86446
+      Yaw: -123.353867
+      Roll: 9.8644743
     }
     Scale {
       X: 1
@@ -2242,7 +2302,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2284,15 +2344,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9883514351168460745
   Name: "Bush 02"
   Transform {
     Location {
-      X: -457.960449
-      Y: -4875.08496
-      Z: 236.211517
+      X: 1289.42822
+      Y: 2761.99854
+      Z: -59.9562378
     }
     Rotation {
       Yaw: -123.353699
@@ -2303,7 +2369,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2344,6 +2410,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2351,12 +2423,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 1375.16125
-      Y: -6076.99756
-      Z: 284.336487
+      X: 3122.5498
+      Y: 1560.08594
+      Z: -11.8312683
     }
     Rotation {
-      Yaw: -24.9356899
+      Yaw: -24.9356689
     }
     Scale {
       X: 1.17877543
@@ -2364,7 +2436,7 @@ Objects {
       Z: 1.17877543
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2406,15 +2478,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11496531934922944416
   Name: "Bush 02"
   Transform {
     Location {
-      X: 532.242554
-      Y: -5586.04736
-      Z: 97.4183044
+      X: 2279.63135
+      Y: 2051.03613
+      Z: -198.749451
     }
     Rotation {
       Yaw: 176.472168
@@ -2425,7 +2503,7 @@ Objects {
       Z: 1.55030155
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2467,15 +2545,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17227553319706214884
   Name: "Bush 02"
   Transform {
     Location {
-      X: 675.230591
-      Y: -7100.15576
-      Z: 116.606171
+      X: 2422.61914
+      Y: 536.927734
+      Z: -179.561584
     }
     Rotation {
       Pitch: -19.4902916
@@ -2486,7 +2570,7 @@ Objects {
       Z: 1.75137246
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2527,6 +2611,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2534,13 +2624,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 284.021729
-      Y: -7078.58643
-      Z: 183.446564
+      X: 2031.4104
+      Y: 558.49707
+      Z: -112.721191
     }
     Rotation {
       Yaw: -86.3956146
-      Roll: -11.2098198
+      Roll: -11.209837
     }
     Scale {
       X: 1.78772235
@@ -2548,7 +2638,7 @@ Objects {
       Z: 1.78772235
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2590,15 +2680,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5546005304496922800
   Name: "Bush 02"
   Transform {
     Location {
-      X: -119.543213
-      Y: -7078.75293
-      Z: 194.674347
+      X: 1627.84546
+      Y: 558.330566
+      Z: -101.493408
     }
     Rotation {
     }
@@ -2608,7 +2704,7 @@ Objects {
       Z: 1.82960796
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2644,15 +2740,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15115171912904862104
   Name: "Bush 02"
   Transform {
     Location {
-      X: 264.352295
-      Y: -6304.4873
-      Z: 99.2713318
+      X: 2011.74097
+      Y: 1332.59619
+      Z: -196.896423
     }
     Rotation {
     }
@@ -2662,7 +2764,7 @@ Objects {
       Z: 1.55030155
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2704,15 +2806,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2958559191977509673
   Name: "Bush 02"
   Transform {
     Location {
-      X: -741.109619
-      Y: -6180.979
-      Z: 224.525055
+      X: 1006.27905
+      Y: 1456.10449
+      Z: -71.6427
     }
     Rotation {
     }
@@ -2722,7 +2830,7 @@ Objects {
       Z: 1.31842518
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2763,6 +2871,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2770,9 +2884,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -3573.44385
-      Y: -6220.44531
-      Z: 289.316223
+      X: -1826.05518
+      Y: 1416.63818
+      Z: -6.85153198
     }
     Rotation {
     }
@@ -2782,7 +2896,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2823,6 +2937,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2830,14 +2950,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4131.31836
-      Y: -7219.28418
-      Z: 22.2843323
+      X: -2383.92969
+      Y: 417.799316
+      Z: -273.883423
     }
     Rotation {
       Pitch: -9.50436497
       Yaw: -71.8366852
-      Roll: -3.10080218
+      Roll: -3.10080266
     }
     Scale {
       X: 1.34638774
@@ -2845,7 +2965,7 @@ Objects {
       Z: 1.34638774
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2886,6 +3006,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2893,12 +3019,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4431.39551
-      Y: -7138.02393
-      Z: 22.2843323
+      X: -2684.00684
+      Y: 499.05957
+      Z: -273.883423
     }
     Rotation {
-      Roll: -9.99303532
+      Roll: -9.99304867
     }
     Scale {
       X: 1.34638774
@@ -2906,7 +3032,7 @@ Objects {
       Z: 1.34638774
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2948,15 +3074,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6139829917223078540
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4589.74072
-      Y: -6147.01709
-      Z: 215.824554
+      X: -2842.35205
+      Y: 1490.06641
+      Z: -80.3432
     }
     Rotation {
     }
@@ -2966,7 +3098,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3008,15 +3140,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12578173584140382412
   Name: "Bush 02"
   Transform {
     Location {
-      X: -5799.22266
-      Y: -5824.36621
-      Z: 48.9819946
+      X: -4051.83398
+      Y: 1812.71729
+      Z: -247.18576
     }
     Rotation {
     }
@@ -3026,7 +3164,7 @@ Objects {
       Z: 1.35752356
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3067,6 +3205,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3074,12 +3218,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -5608.78906
-      Y: -5965.354
-      Z: 8.47927856
+      X: -3861.40039
+      Y: 1671.72949
+      Z: -287.688477
     }
     Rotation {
-      Roll: -9.38856792
+      Roll: -9.38857937
     }
     Scale {
       X: 1.22632432
@@ -3087,7 +3231,7 @@ Objects {
       Z: 1.22632432
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3129,15 +3273,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 992176948908203311
   Name: "Bush 02"
   Transform {
     Location {
-      X: -5941.55371
-      Y: -4793.09033
-      Z: 221.915344
+      X: -4194.16504
+      Y: 2843.99316
+      Z: -74.2524109
     }
     Rotation {
     }
@@ -3147,7 +3297,7 @@ Objects {
       Z: 1.18434632
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3189,14 +3339,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4322360736213736586
   Name: "Bush 02"
   Transform {
     Location {
-      X: -7002.14502
-      Y: -5434.98584
+      X: -5254.75635
+      Y: 2202.09766
+      Z: -296.167755
     }
     Rotation {
     }
@@ -3206,7 +3363,7 @@ Objects {
       Z: 1.62562907
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3248,15 +3405,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8569087222214062214
   Name: "Bush 02"
   Transform {
     Location {
-      X: -7650.47852
-      Y: -4150.98975
-      Z: 193.177551
+      X: -5903.09
+      Y: 3486.09375
+      Z: -102.990204
     }
     Rotation {
     }
@@ -3266,7 +3429,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3307,6 +3470,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3314,13 +3483,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -8376.04199
-      Y: -3599.24438
-      Z: 116.570892
+      X: -6628.65332
+      Y: 4037.83911
+      Z: -179.596863
     }
     Rotation {
       Pitch: 8.23274
-      Yaw: -47.5359955
+      Yaw: -47.5359726
+      Roll: 2.15665921e-07
     }
     Scale {
       X: 1.67320859
@@ -3328,7 +3498,7 @@ Objects {
       Z: 1.67320859
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3369,6 +3539,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3376,12 +3552,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -8620.39844
-      Y: -3811.34204
-      Z: 88.8211365
+      X: -6873.01
+      Y: 3825.74146
+      Z: -207.346619
     }
     Rotation {
-      Roll: 14.3139095
+      Roll: 14.3139315
     }
     Scale {
       X: 1.67320859
@@ -3389,7 +3565,7 @@ Objects {
       Z: 1.67320859
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3430,6 +3606,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3437,9 +3619,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -8851.05273
-      Y: -2382.38916
-      Z: 93.6520691
+      X: -7103.66406
+      Y: 5254.69434
+      Z: -202.515686
     }
     Rotation {
     }
@@ -3449,7 +3631,7 @@ Objects {
       Z: 1.36587024
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3490,6 +3672,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3497,9 +3685,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -9474.91797
-      Y: -2941.76318
-      Z: 93.6520691
+      X: -7727.5293
+      Y: 4695.32031
+      Z: -202.515686
     }
     Rotation {
     }
@@ -3509,7 +3697,7 @@ Objects {
       Z: 1.36587024
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3550,6 +3738,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3557,12 +3751,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -10250.9287
-      Y: -1386.0332
-      Z: 64.2431946
+      X: -8503.54
+      Y: 6251.05029
+      Z: -231.924561
     }
     Rotation {
-      Yaw: 164.561356
+      Yaw: 164.56134
     }
     Scale {
       X: 1.56706417
@@ -3570,7 +3764,7 @@ Objects {
       Z: 1.56706417
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3611,6 +3805,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3618,9 +3818,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -10453.8115
-      Y: -1839.26904
-      Z: 64.2431946
+      X: -8706.42285
+      Y: 5797.81445
+      Z: -231.924561
     }
     Rotation {
     }
@@ -3630,7 +3830,7 @@ Objects {
       Z: 1.56706417
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3672,15 +3872,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8941575632156041484
   Name: "Bush 02"
   Transform {
     Location {
-      X: -6352.05859
-      Y: 1311.17432
-      Z: 229.087814
+      X: -4604.67
+      Y: 8948.25781
+      Z: -67.0799408
     }
     Rotation {
     }
@@ -3690,7 +3896,7 @@ Objects {
       Z: 1.64515662
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3732,15 +3938,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2763476460173626167
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4688.34473
-      Y: 651.165527
-      Z: 228.379608
+      X: -2940.95605
+      Y: 8288.24902
+      Z: -67.788147
     }
     Rotation {
     }
@@ -3750,7 +3962,7 @@ Objects {
       Z: 1.33502424
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3792,15 +4004,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9317853765700756807
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4442.75
-      Y: 1722.6626
-      Z: 251.176727
+      X: -2695.36133
+      Y: 9359.74609
+      Z: -44.9910278
     }
     Rotation {
     }
@@ -3810,7 +4028,7 @@ Objects {
       Z: 1.08378136
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3851,6 +4069,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3858,12 +4082,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4606.11084
-      Y: 2773.85693
-      Z: 294.936554
+      X: -2858.72217
+      Y: 10410.9404
+      Z: -1.23120117
     }
     Rotation {
-      Yaw: -110.551514
+      Yaw: -110.551506
     }
     Scale {
       X: 1.41612649
@@ -3871,7 +4095,7 @@ Objects {
       Z: 1.41612649
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3913,15 +4137,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11406981335183352780
   Name: "Bush 02"
   Transform {
     Location {
-      X: -3693.00684
-      Y: 4471.80225
-      Z: 189.126129
+      X: -1945.61816
+      Y: 12108.8857
+      Z: -107.041626
     }
     Rotation {
     }
@@ -3931,7 +4161,7 @@ Objects {
       Z: 1.78762877
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3972,6 +4202,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3979,9 +4215,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -6968.89404
-      Y: 4261.9292
-      Z: 847.041382
+      X: -5221.50537
+      Y: 11899.0127
+      Z: 550.873657
     }
     Rotation {
       Yaw: 117.102058
@@ -3992,7 +4228,7 @@ Objects {
       Z: 1.25534332
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4033,6 +4269,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4040,9 +4282,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -6251.57275
-      Y: 4927.70264
-      Z: 847.04126
+      X: -4504.18408
+      Y: 12564.7861
+      Z: 550.873535
     }
     Rotation {
       Yaw: 117.102058
@@ -4053,7 +4295,7 @@ Objects {
       Z: 1.25534332
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4095,15 +4337,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4594421850374339614
   Name: "Bush 02"
   Transform {
     Location {
-      X: -6045.55762
-      Y: 5294.43896
-      Z: 847.04126
+      X: -4298.16895
+      Y: 12931.5225
+      Z: 550.873535
     }
     Rotation {
       Yaw: 117.102058
@@ -4114,7 +4362,7 @@ Objects {
       Z: 1.49291396
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4155,6 +4403,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4162,12 +4416,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -3537.07617
-      Y: 5489.14893
-      Z: 847.04126
+      X: -1789.6875
+      Y: 13126.2324
+      Z: 550.873535
     }
     Rotation {
-      Yaw: 67.3128357
+      Yaw: 67.312851
     }
     Scale {
       X: 1.24869537
@@ -4175,7 +4429,7 @@ Objects {
       Z: 1.24869537
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4217,15 +4471,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12735994962329450665
   Name: "Bush 02"
   Transform {
     Location {
-      X: -2968.79541
-      Y: 5735.48682
-      Z: 847.04126
+      X: -1221.40674
+      Y: 13372.5703
+      Z: 550.873535
     }
     Rotation {
       Yaw: 135.136047
@@ -4236,7 +4496,7 @@ Objects {
       Z: 1.24869537
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4278,15 +4538,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17118653670126659897
   Name: "Bush 02"
   Transform {
     Location {
-      X: -2957.22949
-      Y: 4746.01318
-      Z: 913.282
+      X: -1209.84082
+      Y: 12383.0967
+      Z: 617.114258
     }
     Rotation {
     }
@@ -4296,7 +4562,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4338,15 +4604,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1636546634339877588
   Name: "Bush 02"
   Transform {
     Location {
-      X: -2358.20654
-      Y: 5485.50244
-      Z: 847.041138
+      X: -610.817871
+      Y: 13122.5859
+      Z: 550.873413
     }
     Rotation {
       Yaw: -92.1023712
@@ -4357,7 +4629,7 @@ Objects {
       Z: 1.24869537
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4399,15 +4671,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8566113517206643839
   Name: "Bush 02"
   Transform {
     Location {
-      X: -1815.4082
-      Y: 6111.24561
-      Z: 859.056763
+      X: -68.0195312
+      Y: 13748.3291
+      Z: 562.889038
     }
     Rotation {
       Yaw: -110.176987
@@ -4418,7 +4696,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4461,15 +4739,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6716380915329453075
   Name: "Bush 02"
   Transform {
     Location {
-      X: -354.686646
-      Y: 6128.14893
-      Z: 794.349548
+      X: 1392.70203
+      Y: 13765.2324
+      Z: 498.181793
     }
     Rotation {
     }
@@ -4479,7 +4763,7 @@ Objects {
       Z: 1.36326349
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4520,6 +4804,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4527,14 +4817,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -174.350586
-      Y: 5352.74951
-      Z: 802.831909
+      X: 1573.03809
+      Y: 12989.833
+      Z: 506.664154
     }
     Rotation {
       Pitch: -7.22323179
-      Yaw: -150.569733
-      Roll: 20.1235847
+      Yaw: -150.569717
+      Roll: 20.1235828
     }
     Scale {
       X: 1
@@ -4542,7 +4832,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4583,6 +4873,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4590,14 +4886,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -85.4520264
-      Y: 5389.62744
-      Z: 914.287964
+      X: 1661.93665
+      Y: 13026.7109
+      Z: 618.120239
     }
     Rotation {
       Pitch: -6.78661919
-      Yaw: -26.9058037
-      Roll: 9.94835567
+      Yaw: -26.9057846
+      Roll: 9.94836903
     }
     Scale {
       X: 1
@@ -4605,7 +4901,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4647,15 +4943,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2827651646286394661
   Name: "Bush 02"
   Transform {
     Location {
-      X: 164.845337
-      Y: 5349.22705
-      Z: 267.195648
+      X: 1912.23401
+      Y: 12986.3105
+      Z: -28.9721069
     }
     Rotation {
       Pitch: 12.5104609
@@ -4668,7 +4970,7 @@ Objects {
       Z: 1.34337413
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4710,15 +5012,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13265825453882039598
   Name: "Bush 02"
   Transform {
     Location {
-      X: 500.388306
-      Y: 5642.83447
-      Z: 267.195648
+      X: 2247.77686
+      Y: 13279.918
+      Z: -28.9721069
     }
     Rotation {
       Yaw: 131.599747
@@ -4729,7 +5037,7 @@ Objects {
       Z: 1.34337413
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4770,6 +5078,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4777,9 +5091,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2476.88574
-      Y: 5092.96338
-      Z: 192.541992
+      X: 4224.27441
+      Y: 12730.0469
+      Z: -103.625763
     }
     Rotation {
     }
@@ -4789,7 +5103,7 @@ Objects {
       Z: 1.24302125
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4830,6 +5144,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4837,9 +5157,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2894.50391
-      Y: 5875.73486
-      Z: 41.1252441
+      X: 4641.89258
+      Y: 13512.8184
+      Z: -255.042511
     }
     Rotation {
     }
@@ -4849,7 +5169,7 @@ Objects {
       Z: 1.24302125
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4890,6 +5210,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4897,9 +5223,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 4226.71191
-      Y: 5783.23291
-      Z: 66.1683655
+      X: 5974.10059
+      Y: 13420.3164
+      Z: -229.99939
     }
     Rotation {
     }
@@ -4909,7 +5235,7 @@ Objects {
       Z: 1.24302125
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4950,6 +5276,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4957,12 +5289,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5002.8125
-      Y: 4789.59033
-      Z: 144.730255
+      X: 6750.20117
+      Y: 12426.6738
+      Z: -151.4375
     }
     Rotation {
-      Yaw: 103.96804
+      Yaw: 103.968071
     }
     Scale {
       X: 1
@@ -4970,7 +5302,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5012,15 +5344,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3691729693515745978
   Name: "Bush 02"
   Transform {
     Location {
-      X: 4611.11768
-      Y: 4352.82861
-      Z: 260.693909
+      X: 6358.50635
+      Y: 11989.9121
+      Z: -35.4738464
     }
     Rotation {
     }
@@ -5030,7 +5368,7 @@ Objects {
       Z: 0.715041041
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5072,19 +5410,25 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 688330080612844823
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6598.96094
-      Y: 3692.9165
-      Z: -8.83224487
+      X: 8346.35
+      Y: 11330
+      Z: -305
     }
     Rotation {
       Pitch: 6.72695065
-      Yaw: 67.4640884
+      Yaw: 67.4640961
       Roll: -2.7828064
     }
     Scale {
@@ -5093,7 +5437,7 @@ Objects {
       Z: 1.24475753
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5134,6 +5478,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5141,12 +5491,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5848.83545
-      Y: 3715.33936
-      Z: 227.976929
+      X: 7596.22412
+      Y: 11352.4229
+      Z: -68.1908264
     }
     Rotation {
-      Pitch: -14.4604492
+      Pitch: -14.4604521
     }
     Scale {
       X: 1
@@ -5154,7 +5504,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5195,6 +5545,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5202,9 +5558,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6007.18
-      Y: 2767.10498
-      Z: 293.060577
+      X: 7754.56885
+      Y: 10404.1885
+      Z: -3.10717773
     }
     Rotation {
     }
@@ -5214,7 +5570,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5256,15 +5612,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 878164729500039173
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6644.72656
-      Y: 2527.55615
-      Z: 119.65097
+      X: 8392.11523
+      Y: 10164.6396
+      Z: -176.516785
     }
     Rotation {
       Pitch: -10.704463
@@ -5275,7 +5637,7 @@ Objects {
       Z: 1.34644079
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5317,15 +5679,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14740570883587113816
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6580.64355
-      Y: 927.778809
-      Z: 188.647797
+      X: 8328.03223
+      Y: 8564.8623
+      Z: -107.519958
     }
     Rotation {
     }
@@ -5335,7 +5703,7 @@ Objects {
       Z: 1.18447053
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5377,15 +5745,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9333673529252408256
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6494.63965
-      Y: 701.617676
-      Z: 279.378357
+      X: 8242.02832
+      Y: 8338.70117
+      Z: -16.7893982
     }
     Rotation {
       Yaw: -70.5562744
@@ -5396,7 +5770,7 @@ Objects {
       Z: 0.885349035
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5438,15 +5812,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2848750391695329758
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6751.38379
-      Y: 671.874512
-      Z: 279.378357
+      X: 8498.77246
+      Y: 8308.95801
+      Z: -16.7893982
     }
     Rotation {
       Yaw: -54.1229248
@@ -5457,7 +5837,7 @@ Objects {
       Z: 1.25392699
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5498,6 +5878,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5505,9 +5891,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6907.32129
-      Y: 548.302246
-      Z: 279.378357
+      X: 8654.71
+      Y: 8185.38574
+      Z: -16.7893982
     }
     Rotation {
     }
@@ -5517,7 +5903,7 @@ Objects {
       Z: 0.885349035
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5558,6 +5944,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5565,9 +5957,8 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 7652.61133
-      Y: -167.083496
-      Z: 296.167755
+      X: 9400
+      Y: 7470
     }
     Rotation {
     }
@@ -5577,7 +5968,7 @@ Objects {
       Z: 0.885349035
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5618,6 +6009,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5625,9 +6022,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: 832.916504
-      Z: 507.756714
+      X: 4486.0166
+      Y: 8470
+      Z: 211.588959
     }
     Rotation {
     }
@@ -5637,7 +6034,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5678,6 +6075,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5685,12 +6088,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: -132.083496
-      Z: 507.756714
+      X: 4486.0166
+      Y: 7505
+      Z: 211.588959
     }
     Rotation {
-      Yaw: -137.535767
+      Yaw: -137.535736
     }
     Scale {
       X: 1
@@ -5698,7 +6101,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5739,6 +6142,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5746,9 +6155,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: 82.1069336
-      Z: 507.756714
+      X: 4486.0166
+      Y: 7719.19043
+      Z: 211.588959
     }
     Rotation {
     }
@@ -5758,7 +6167,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5799,6 +6208,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5806,9 +6221,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: -1992.0835
-      Z: 507.756714
+      X: 4486.0166
+      Y: 5645
+      Z: 211.588959
     }
     Rotation {
       Yaw: -179.999954
@@ -5819,7 +6234,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5860,6 +6275,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5867,9 +6288,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: -1197.0835
-      Z: 507.756714
+      X: 4486.0166
+      Y: 6440
+      Z: 211.588959
     }
     Rotation {
       Yaw: -179.999954
@@ -5880,7 +6301,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5921,6 +6342,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5928,12 +6355,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: -982.893066
-      Z: 528.098938
+      X: 4486.0166
+      Y: 6654.19043
+      Z: 231.931183
     }
     Rotation {
-      Yaw: 42.4641113
+      Yaw: 42.4641304
     }
     Scale {
       X: 1
@@ -5941,7 +6368,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5983,15 +6410,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17075078755427188913
   Name: "Bush 02"
   Transform {
     Location {
-      X: -155.979736
-      Y: -1043.9707
-      Z: 508.134338
+      X: 1591.40894
+      Y: 6593.11279
+      Z: 211.966583
     }
     Rotation {
       Yaw: -71.5203171
@@ -6002,7 +6435,7 @@ Objects {
       Z: 0.508324742
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -6044,15 +6477,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3560314260513050916
   Name: "Bush 02"
   Transform {
     Location {
-      X: -132.509888
-      Y: -1357.0835
-      Z: 518.722534
+      X: 1614.87878
+      Y: 6280
+      Z: 222.554779
     }
     Rotation {
       Yaw: -71.5203171
@@ -6063,7 +6502,7 @@ Objects {
       Z: 0.781377792
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -6104,6 +6543,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6111,14 +6556,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -10985.1895
-      Y: -3260.56982
-      Z: 264.979736
+      X: -9237.80078
+      Y: 4376.51367
+      Z: -31.1880188
     }
     Rotation {
       Pitch: 12.4612427
-      Yaw: 71.1147842
-      Roll: 9.74398
+      Yaw: 71.1147766
+      Roll: 9.74399281
     }
     Scale {
       X: 1.89663374
@@ -6126,7 +6571,7 @@ Objects {
       Z: 1.89663374
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6167,6 +6612,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6174,14 +6625,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -10495.9746
-      Y: -2855.14355
-      Z: 264.979736
+      X: -8748.58594
+      Y: 4781.94
+      Z: -31.1880188
     }
     Rotation {
       Pitch: 12.4612427
-      Yaw: 71.1148148
-      Roll: 9.74395275
+      Yaw: 71.1148
+      Roll: 9.7439661
     }
     Scale {
       X: 1.89663374
@@ -6189,7 +6640,7 @@ Objects {
       Z: 1.89663374
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6231,15 +6682,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15434533922260265931
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5302.61133
-      Y: -6377.0835
-      Z: 826.168945
+      X: 7050
+      Y: 1260
+      Z: 530.001221
     }
     Rotation {
       Yaw: -157.500031
@@ -6250,7 +6707,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6291,6 +6748,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6298,12 +6761,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 8202.61133
-      Y: -5207.0835
-      Z: 826.168091
+      X: 9950
+      Y: 2430
+      Z: 530.000366
     }
     Rotation {
-      Yaw: -136.868698
+      Yaw: -136.868683
     }
     Scale {
       X: 1.2
@@ -6311,7 +6774,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6353,15 +6816,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1103425311108243561
   Name: "Bush 02"
   Transform {
     Location {
-      X: 8407.61133
-      Y: -1782.0835
-      Z: 316.167755
+      X: 10155
+      Y: 5855
+      Z: 20
     }
     Rotation {
     }
@@ -6371,7 +6840,7 @@ Objects {
       Z: 1.39999974
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6412,6 +6881,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6419,13 +6894,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -2022.38867
-      Y: 10407.916
-      Z: 736.167725
+      X: -275
+      Y: 18045
+      Z: 439.999969
     }
     Rotation {
       Yaw: -135
-      Roll: -14.6003723
+      Roll: -14.6003942
     }
     Scale {
       X: 1.90000021
@@ -6433,7 +6908,7 @@ Objects {
       Z: 1.90000021
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6474,6 +6949,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6481,13 +6962,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -587.38855
-      Y: 8842.91602
-      Z: 834.67688
+      X: 1160.00012
+      Y: 16480
+      Z: 538.509155
     }
     Rotation {
       Yaw: 44.9999924
-      Roll: -14.6001215
+      Roll: -14.6001415
     }
     Scale {
       X: 1.90000021
@@ -6495,7 +6976,7 @@ Objects {
       Z: 1.90000021
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6536,6 +7017,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6543,12 +7030,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -437.38855
-      Y: 6927.9165
-      Z: 834.67688
+      X: 1310.00012
+      Y: 14565
+      Z: 538.509155
     }
     Rotation {
-      Roll: -14.6000595
+      Roll: -14.6000786
     }
     Scale {
       X: 1.90000021
@@ -6556,7 +7043,7 @@ Objects {
       Z: 1.90000021
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6597,6 +7084,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6604,9 +7097,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3187.61133
-      Y: 8587.91602
-      Z: 51.1673279
+      X: 4935
+      Y: 16225
+      Z: -245.000427
     }
     Rotation {
     }
@@ -6616,7 +7109,7 @@ Objects {
       Z: 2.50000024
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6657,6 +7150,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6664,9 +7163,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 1847.61121
-      Y: 7147.9165
-      Z: 51.167572
+      X: 3595
+      Y: 14785
+      Z: -245.000183
     }
     Rotation {
     }
@@ -6676,7 +7175,7 @@ Objects {
       Z: 2.50000024
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6717,6 +7216,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6724,9 +7229,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3187.61133
-      Y: 7387.9165
-      Z: 51.1673279
+      X: 4935
+      Y: 15025
+      Z: -245.000427
     }
     Rotation {
     }
@@ -6736,7 +7241,7 @@ Objects {
       Z: 2.50000024
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6778,15 +7283,21 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 182202056905055355
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3487.61133
-      Y: 5851.12549
-      Z: -78.8322449
+      X: 5235
+      Y: 13488.209
+      Z: -375
     }
     Rotation {
     }
@@ -6796,7 +7307,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6837,6 +7348,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6844,13 +7361,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4413.9165
-      Y: -5032.84961
-      Z: 129.00882
+      X: -2666.52783
+      Y: 2604.23389
+      Z: -167.158936
     }
     Rotation {
-      Yaw: -37.9253235
-      Roll: -22.499464
+      Yaw: -37.9253044
+      Roll: -22.4994488
     }
     Scale {
       X: 1.49999988
@@ -6858,7 +7375,7 @@ Objects {
       Z: 1.49999988
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6899,6 +7416,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -6906,14 +7429,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -11720.583
-      Y: -3906.27612
-      Z: 264.979736
+      X: -9973.19434
+      Y: 3730.80737
+      Z: -31.1880188
     }
     Rotation {
       Pitch: 12.4612427
       Yaw: 71.114769
-      Roll: 9.74400711
+      Roll: 9.74401951
     }
     Scale {
       X: 1.89663374
@@ -6921,7 +7444,7 @@ Objects {
       Z: 1.89663374
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6962,6 +7485,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7035,6 +7564,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6931330693145696691
@@ -7106,6 +7641,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7179,6 +7720,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11643623824397400099
@@ -7250,6 +7797,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7323,6 +7876,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4928554931118413147
@@ -7394,6 +7953,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7472,6 +8037,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6028396023795394170
@@ -7544,6 +8115,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12788092241097898426
@@ -7614,6 +8191,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7687,6 +8270,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3499316041213993376
@@ -7759,6 +8348,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14379777751552168454
@@ -7791,6 +8386,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7836,6 +8434,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5261809988755088217
@@ -7868,6 +8472,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7913,6 +8520,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11011355334804821607
@@ -7944,6 +8557,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -7989,6 +8605,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2918054335676903013
@@ -8023,6 +8645,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8068,6 +8693,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6516825713420173677
@@ -8100,6 +8731,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8145,6 +8779,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14951504715053970336
@@ -8177,6 +8817,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8222,6 +8865,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11910224612949528226
@@ -8254,6 +8903,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8299,6 +8951,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12602257464915877634
@@ -8333,6 +8991,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8378,6 +9039,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14773041557897691703
@@ -8410,6 +9077,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8455,6 +9125,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14028843987333553871
@@ -8487,6 +9163,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8532,6 +9211,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13718972154842059231
@@ -8564,6 +9249,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8609,6 +9297,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13207782596318153900
@@ -8641,6 +9335,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8686,6 +9383,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16289305288938680203
@@ -8718,6 +9421,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8763,6 +9469,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13152250878136227261
@@ -8795,6 +9507,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8840,6 +9555,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12904097845083774235
@@ -8871,6 +9592,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8916,6 +9640,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6600864001095127586
@@ -8947,6 +9677,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -8992,6 +9725,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9883793256307069983
@@ -9023,6 +9762,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9068,6 +9810,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12873471030178927240
@@ -9102,6 +9850,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9147,6 +9898,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2666919325844843413
@@ -9181,6 +9938,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9226,6 +9986,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14043645521544518158
@@ -9260,6 +10026,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9305,6 +10074,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8423789827471895028
@@ -9336,6 +10111,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9381,6 +10159,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8083551674721555288
@@ -9415,6 +10199,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9460,6 +10247,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3668690541572365753
@@ -9491,6 +10284,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9536,6 +10332,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10803564311617233129
@@ -9570,6 +10372,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9615,6 +10420,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10215978586358100333
@@ -9648,6 +10459,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9693,6 +10507,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4942061045361199550
@@ -9725,6 +10545,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9770,6 +10593,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14003065362818872468
@@ -9801,6 +10630,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9846,6 +10678,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7671589006719289518
@@ -9877,6 +10715,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9922,6 +10763,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12547698814815039779
@@ -9954,6 +10801,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -9999,6 +10849,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11941766898031235965
@@ -10030,6 +10886,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10075,6 +10934,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2074385808053357863
@@ -10107,6 +10972,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10152,6 +11020,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13613475405334426765
@@ -10184,6 +11058,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10229,6 +11106,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2798444030233560417
@@ -10260,6 +11143,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10305,6 +11191,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5455856409241964418
@@ -10338,6 +11230,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10383,6 +11278,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9209499182650971371
@@ -10415,6 +11316,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10460,6 +11364,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17402158494862498690
@@ -10492,6 +11402,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10537,6 +11450,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7596481562421652610
@@ -10569,6 +11488,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10614,6 +11536,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1869958261454045894
@@ -10646,6 +11574,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10691,6 +11622,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15154093095834367344
@@ -10724,6 +11661,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10769,6 +11709,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13407395488715432850
@@ -10800,6 +11746,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10845,6 +11794,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2820411826642201274
@@ -10876,6 +11831,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10921,6 +11879,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16134449892222238731
@@ -10952,6 +11916,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -10997,6 +11964,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5861498982747432088
@@ -11028,6 +12001,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11073,6 +12049,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15228450404975523394
@@ -11107,6 +12089,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11152,6 +12137,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7403024111388029617
@@ -11184,6 +12175,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11229,6 +12223,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11804765433516755374
@@ -11260,6 +12260,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11305,6 +12308,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6370723624509633518
@@ -11336,6 +12345,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11381,6 +12393,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12825282400407217637
@@ -11413,6 +12431,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11458,6 +12479,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 18096332965989015053
@@ -11489,6 +12516,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11534,6 +12564,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14779654446689017768
@@ -11565,6 +12601,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11610,6 +12649,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9226888502231053220
@@ -11641,6 +12686,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11686,6 +12734,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13471045540889715644
@@ -11717,6 +12771,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11762,6 +12819,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9584200639642052768
@@ -11793,6 +12856,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11838,6 +12904,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9844586543207752582
@@ -11869,6 +12941,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11914,6 +12989,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16442277352026959361
@@ -11945,6 +13026,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -11990,6 +13074,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15565636933352117848
@@ -12022,6 +13112,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12067,6 +13160,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3372780078852237537
@@ -12098,6 +13197,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12143,6 +13245,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8670700697073101045
@@ -12175,6 +13283,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12220,6 +13331,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10011826259560325678
@@ -12251,6 +13368,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12296,6 +13416,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15041506446346536981
@@ -12327,6 +13453,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12372,6 +13501,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8622238209823696485
@@ -12403,6 +13538,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12448,6 +13586,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14393457037276766019
@@ -12480,6 +13624,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12525,6 +13672,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7541911238191292654
@@ -12556,6 +13709,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12601,6 +13757,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17970165883180563284
@@ -12633,6 +13795,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12678,6 +13843,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 175857696957390616
@@ -12710,6 +13881,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12755,6 +13929,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14494086690167897916
@@ -12787,6 +13967,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12832,6 +14015,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 18265166184742644456
@@ -12864,6 +14053,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12909,6 +14101,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5068989024408566667
@@ -12941,6 +14139,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -12986,6 +14187,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1978858735600167451
@@ -13017,6 +14224,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13062,6 +14272,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16163932704797540854
@@ -13094,6 +14310,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13139,6 +14358,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9225359414023710557
@@ -13171,6 +14396,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13216,6 +14444,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12381131507645452081
@@ -13247,6 +14481,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13292,6 +14529,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11697039481865657742
@@ -13326,6 +14569,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13371,6 +14617,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3607022421565607234
@@ -13403,6 +14655,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13448,6 +14703,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15121446430054856199
@@ -13482,6 +14743,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13527,6 +14791,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5692075689882099212
@@ -13559,6 +14829,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13604,6 +14877,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3875488489858184993
@@ -13635,6 +14914,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13680,6 +14962,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5815887723864791618
@@ -13711,6 +14999,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13756,6 +15047,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14311474592208206913
@@ -13787,6 +15084,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13832,6 +15132,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1276022020578451148
@@ -13864,6 +15170,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13909,6 +15218,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14257364808305396120
@@ -13940,6 +15255,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -13985,6 +15303,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8911962097837352714
@@ -14017,6 +15341,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14062,6 +15389,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14079351666286585658
@@ -14094,6 +15427,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14139,6 +15475,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12028075402305856025
@@ -14170,6 +15512,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14215,6 +15560,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 18070732480189971239
@@ -14247,6 +15598,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14292,6 +15646,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4212829685280358522
@@ -14323,6 +15683,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14368,6 +15731,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8601914625421224162
@@ -14400,6 +15769,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14445,6 +15817,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15091340502604647164
@@ -14477,6 +15855,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14522,6 +15903,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2220434470889288792
@@ -14553,6 +15940,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14598,6 +15988,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14674589972165995711
@@ -14628,6 +16024,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14673,6 +16072,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7115216484549237617
@@ -14704,6 +16109,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14749,6 +16157,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6952601806962682385
@@ -14781,6 +16195,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14826,6 +16243,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16165657621327445506
@@ -14857,6 +16280,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14902,6 +16328,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12372626576016478703
@@ -14934,6 +16366,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -14979,6 +16414,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7883663860985775455
@@ -15011,6 +16452,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15056,6 +16500,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6863675355585749597
@@ -15088,6 +16538,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15133,6 +16586,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1878318737136337811
@@ -15165,6 +16624,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15210,6 +16672,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3881523997161238383
@@ -15229,38 +16697,6 @@ Objects {
     }
   }
   ParentId: 7560471041159094325
-  ChildIds: 13610813917753045510
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 13610813917753045510
-  Name: "MergedModel"
-  Transform {
-    Location {
-      X: 1200
-      Y: 2950
-      Z: -250
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3881523997161238383
   ChildIds: 4686398570187820542
   ChildIds: 16026848078005877635
   ChildIds: 13629492664646080554
@@ -15413,8 +16849,10 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-    Model {
-    }
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15437,7 +16875,7 @@ Objects {
       Z: 2.13531351
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15452,9 +16890,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1636.91943
-            Y: 6862.30957
-            Z: 437.542511
+            X: 2836.91943
+            Y: 9812.31
+            Z: 187.542511
           }
         }
         Overrides {
@@ -15469,8 +16907,8 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: 11.4238873
-            Yaw: -107.525467
-            Roll: -3.57910395
+            Yaw: -107.525475
+            Roll: -3.57910514
           }
         }
         Overrides {
@@ -15491,6 +16929,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17535010728770871518
@@ -15502,7 +16943,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15517,9 +16958,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3639.27051
-            Y: -2513.36328
-            Z: 468.326416
+            X: -2439.27051
+            Y: 436.636719
+            Z: 218.326416
           }
         }
         Overrides {
@@ -15553,6 +16994,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9120762167235320504
@@ -15574,7 +17018,7 @@ Objects {
       Z: 2.13531351
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15589,9 +17033,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2034.62549
-            Y: 6862.30957
-            Z: 437.542511
+            X: 3234.62549
+            Y: 9812.31
+            Z: 187.542511
           }
         }
         Overrides {
@@ -15606,8 +17050,8 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: 11.4238873
-            Yaw: -107.525467
-            Roll: -3.57910395
+            Yaw: -107.525475
+            Roll: -3.57910514
           }
         }
         Overrides {
@@ -15627,6 +17071,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15649,7 +17096,7 @@ Objects {
       Z: 2.13531351
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15664,9 +17111,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2575.72949
-            Y: 7541.63672
-            Z: 287.896667
+            X: 3775.72949
+            Y: 10491.6367
+            Z: 37.8966675
           }
         }
         Overrides {
@@ -15681,8 +17128,8 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: 11.4238873
-            Yaw: -107.525467
-            Roll: -3.57910156
+            Yaw: -107.525475
+            Roll: -3.5791018
           }
         }
         Overrides {
@@ -15702,6 +17149,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15724,7 +17174,7 @@ Objects {
       Z: 2.13531351
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15739,9 +17189,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2304.64307
-            Y: 7491.63672
-            Z: 283.326447
+            X: 3504.64307
+            Y: 10441.6367
+            Z: 33.3264465
           }
         }
         Overrides {
@@ -15756,8 +17206,8 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: 11.4238873
-            Yaw: -107.525467
-            Roll: -3.57910156
+            Yaw: -107.525475
+            Roll: -3.5791018
           }
         }
         Overrides {
@@ -15777,6 +17227,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -15797,7 +17250,7 @@ Objects {
       Z: 2.13531351
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15812,9 +17265,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3123.76953
-            Y: 7477.66
-            Z: 251.298828
+            X: 4323.76953
+            Y: 10427.6602
+            Z: 1.29882812
           }
         }
         Overrides {
@@ -15829,8 +17282,8 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: 11.4238873
-            Yaw: -107.525467
-            Roll: -3.57910156
+            Yaw: -107.525475
+            Roll: -3.5791018
           }
         }
         Overrides {
@@ -15851,6 +17304,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14759210712779010922
@@ -15870,7 +17326,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15885,9 +17341,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4072.0166
-            Y: 6035.72168
-            Z: 463.0271
+            X: 5272.0166
+            Y: 8985.72168
+            Z: 213.0271
           }
         }
         Overrides {
@@ -15922,6 +17378,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4512635657778384946
@@ -15940,7 +17399,7 @@ Objects {
       Z: 2.60035729
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15955,9 +17414,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5363.10547
-            Y: 5506.42383
-            Z: 402.773132
+            X: 6563.10547
+            Y: 8456.42383
+            Z: 152.773132
           }
         }
         Overrides {
@@ -15990,6 +17449,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16009,7 +17471,7 @@ Objects {
       Z: 2.60035729
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16024,9 +17486,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5240.45068
-            Y: 4698.62793
-            Z: 402.773071
+            X: 6440.45068
+            Y: 7648.62793
+            Z: 152.773071
           }
         }
         Overrides {
@@ -16059,6 +17521,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16078,7 +17543,7 @@ Objects {
       Z: 2.60035729
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16093,9 +17558,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5360.47314
-            Y: 6526.49512
-            Z: 347.935333
+            X: 6560.47314
+            Y: 9476.49512
+            Z: 97.9353333
           }
         }
         Overrides {
@@ -16129,6 +17594,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8789485582890322768
@@ -16147,7 +17615,7 @@ Objects {
       Z: 2.60035729
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16162,9 +17630,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 6040.72949
-            Y: 5626.63672
-            Z: 288.326416
+            X: 7240.72949
+            Y: 8576.63672
+            Z: 38.326416
           }
         }
         Overrides {
@@ -16197,6 +17665,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16216,7 +17687,7 @@ Objects {
       Z: 2.60035729
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16231,9 +17702,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5594.04102
-            Y: 6436.63672
-            Z: 322.667236
+            X: 6794.04102
+            Y: 9386.63672
+            Z: 72.6672363
           }
         }
         Overrides {
@@ -16266,6 +17737,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16285,7 +17759,7 @@ Objects {
       Z: 2.60035729
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16300,9 +17774,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5149.11719
-            Y: 6492.70898
-            Z: 323.681122
+            X: 6349.11719
+            Y: 9442.70898
+            Z: 73.6811218
           }
         }
         Overrides {
@@ -16335,6 +17809,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16354,7 +17831,7 @@ Objects {
       Z: 1.98156416
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16369,9 +17846,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5938.94238
-            Y: 4515.2832
-            Z: 259.034271
+            X: 7138.94238
+            Y: 7465.2832
+            Z: 9.03427124
           }
         }
         Overrides {
@@ -16405,6 +17882,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7743105178656178678
@@ -16423,7 +17903,7 @@ Objects {
       Z: 1.98156416
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16438,9 +17918,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5367.54053
-            Y: 4625.03418
-            Z: 456.382965
+            X: 6567.54053
+            Y: 7575.03418
+            Z: 206.382965
           }
         }
         Overrides {
@@ -16474,6 +17954,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 975240250497425322
@@ -16492,7 +17975,7 @@ Objects {
       Z: 1.98156416
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16507,9 +17990,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5367.54053
-            Y: 4358.05859
-            Z: 456.382965
+            X: 6567.54053
+            Y: 7308.05859
+            Z: 206.382965
           }
         }
         Overrides {
@@ -16542,6 +18025,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16561,7 +18047,7 @@ Objects {
       Z: 1.98156416
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16576,9 +18062,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5827.59
-            Y: 2800.35547
-            Z: 404.323029
+            X: 7027.59
+            Y: 5750.35547
+            Z: 154.323029
           }
         }
         Overrides {
@@ -16611,6 +18097,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16630,7 +18119,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16645,9 +18134,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5775.83398
-            Y: 2667.8623
-            Z: 456.382965
+            X: 6975.83398
+            Y: 5617.8623
+            Z: 206.382965
           }
         }
         Overrides {
@@ -16681,6 +18170,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 18390967027310880821
@@ -16699,7 +18191,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16714,9 +18206,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 6898.94922
-            Y: 1382.79053
-            Z: 456.382965
+            X: 8098.94922
+            Y: 4332.79053
+            Z: 206.382965
           }
         }
         Overrides {
@@ -16749,6 +18241,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16768,7 +18263,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16783,9 +18278,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 6143.85742
-            Y: 2223.09961
-            Z: 456.382965
+            X: 7343.85742
+            Y: 5173.09961
+            Z: 206.382965
           }
         }
         Overrides {
@@ -16818,6 +18313,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16830,7 +18328,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16845,9 +18343,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5902.51758
-            Y: 2321.4209
-            Z: 456.382965
+            X: 7102.51758
+            Y: 5271.4209
+            Z: 206.382965
           }
         }
         Overrides {
@@ -16880,6 +18378,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -16899,7 +18400,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16914,9 +18415,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -4375.88184
-            Y: -4495.50684
-            Z: 460.239624
+            X: -3175.88184
+            Y: -1545.50684
+            Z: 210.239624
           }
         }
         Overrides {
@@ -16950,6 +18451,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3348466108971682401
@@ -16968,7 +18472,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16983,9 +18487,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5165.03809
-            Y: -4458.0791
-            Z: 433.516205
+            X: -3965.03809
+            Y: -1508.0791
+            Z: 183.516205
           }
         }
         Overrides {
@@ -17018,6 +18522,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17037,7 +18544,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17052,9 +18559,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5353.71387
-            Y: -4431.0166
-            Z: 421.96051
+            X: -4153.71387
+            Y: -1481.0166
+            Z: 171.96051
           }
         }
         Overrides {
@@ -17087,6 +18594,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17099,7 +18609,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17114,9 +18624,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6696.89307
-            Y: -3091.7915
-            Z: 447.378052
+            X: -5496.89307
+            Y: -141.791504
+            Z: 197.378052
           }
         }
         Overrides {
@@ -17149,6 +18659,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17168,7 +18681,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17183,9 +18696,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3447.73315
-            Y: -2631.69214
-            Z: 466.004913
+            X: -2247.73315
+            Y: 318.307861
+            Z: 216.004913
           }
         }
         Overrides {
@@ -17219,6 +18732,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13293395572346848454
@@ -17230,7 +18746,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17245,9 +18761,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3232.93188
-            Y: -2615.28174
-            Z: 466.004913
+            X: -2032.93188
+            Y: 334.718262
+            Z: 216.004913
           }
         }
         Overrides {
@@ -17281,6 +18797,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14535858822415859935
@@ -17299,7 +18818,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17314,9 +18833,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 171.74292
-            Y: -5130.29883
-            Z: 331.439
+            X: 1371.74292
+            Y: -2180.29883
+            Z: 81.4389954
           }
         }
         Overrides {
@@ -17349,6 +18868,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17368,7 +18890,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17383,9 +18905,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 575.618896
-            Y: -4433.96973
-            Z: 436.718048
+            X: 1775.6189
+            Y: -1483.96973
+            Z: 186.718048
           }
         }
         Overrides {
@@ -17418,6 +18940,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17437,7 +18962,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17452,9 +18977,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 580.807129
-            Y: -4231.61523
-            Z: 454.53952
+            X: 1780.80713
+            Y: -1281.61523
+            Z: 204.53952
           }
         }
         Overrides {
@@ -17487,6 +19012,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17506,7 +19034,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17521,9 +19049,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 706.47168
-            Y: -4522.75586
-            Z: 454.53952
+            X: 1906.47168
+            Y: -1572.75586
+            Z: 204.53952
           }
         }
         Overrides {
@@ -17556,6 +19084,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17575,7 +19106,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17590,9 +19121,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -227.49707
-            Y: -3832.04395
-            Z: 398.913788
+            X: 972.50293
+            Y: -882.043945
+            Z: 148.913788
           }
         }
         Overrides {
@@ -17626,6 +19157,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17445404353607989178
@@ -17644,7 +19178,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17659,9 +19193,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -344.11377
-            Y: -4391.53906
-            Z: 335.609222
+            X: 855.88623
+            Y: -1441.53906
+            Z: 85.6092224
           }
         }
         Overrides {
@@ -17694,6 +19228,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17713,7 +19250,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17728,9 +19265,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -180.907715
-            Y: -4670.07227
-            Z: 335.609222
+            X: 1019.09229
+            Y: -1720.07227
+            Z: 85.6092224
           }
         }
         Overrides {
@@ -17763,6 +19300,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17782,7 +19322,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17797,9 +19337,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -215.911377
-            Y: -4638.43555
-            Z: 335.609283
+            X: 984.088623
+            Y: -1688.43555
+            Z: 85.6092834
           }
         }
         Overrides {
@@ -17832,6 +19372,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17851,7 +19394,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17866,9 +19409,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -456.981934
-            Y: -4790.19824
-            Z: 335.609222
+            X: 743.018066
+            Y: -1840.19824
+            Z: 85.6092224
           }
         }
         Overrides {
@@ -17901,6 +19444,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17920,7 +19466,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17935,9 +19481,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1045.87842
-            Y: -5306.51758
-            Z: 390.116241
+            X: 154.121582
+            Y: -2356.51758
+            Z: 140.116241
           }
         }
         Overrides {
@@ -17970,6 +19516,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -17989,7 +19538,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18004,9 +19553,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 375.480469
-            Y: -5306.51758
-            Z: 390.116241
+            X: 1575.48047
+            Y: -2356.51758
+            Z: 140.116241
           }
         }
         Overrides {
@@ -18039,6 +19588,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18058,7 +19610,7 @@ Objects {
       Z: 2.59491277
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18073,9 +19625,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 514.604248
-            Y: -5426.36621
-            Z: 427.526337
+            X: 1714.60425
+            Y: -2476.36621
+            Z: 177.526337
           }
         }
         Overrides {
@@ -18108,6 +19660,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18120,7 +19675,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18135,9 +19690,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 715.775391
-            Y: -5439.28174
-            Z: 464.340729
+            X: 1915.77539
+            Y: -2489.28174
+            Z: 214.340729
           }
         }
         Overrides {
@@ -18170,6 +19725,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18190,7 +19748,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18205,9 +19763,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2156.22314
-            Y: -4711.50391
-            Z: 625.779907
+            X: 3356.22314
+            Y: -1761.50391
+            Z: 375.779907
           }
         }
         Overrides {
@@ -18221,7 +19779,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -81.0792236
+            Yaw: -81.0792
           }
         }
         Overrides {
@@ -18241,6 +19799,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18261,7 +19822,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18276,9 +19837,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2187.7417
-            Y: -4898.30957
-            Z: 625.779907
+            X: 3387.7417
+            Y: -1948.30957
+            Z: 375.779907
           }
         }
         Overrides {
@@ -18292,7 +19853,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -81.0792236
+            Yaw: -81.0792
           }
         }
         Overrides {
@@ -18312,6 +19873,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18332,7 +19896,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18347,9 +19911,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2210.34521
-            Y: -4618.49414
-            Z: 625.779907
+            X: 3410.34521
+            Y: -1668.49414
+            Z: 375.779907
           }
         }
         Overrides {
@@ -18363,7 +19927,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -81.0792236
+            Yaw: -81.0792
           }
         }
         Overrides {
@@ -18383,6 +19947,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18402,7 +19969,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18417,9 +19984,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2210.34521
-            Y: -5176.97461
-            Z: 625.779907
+            X: 3410.34521
+            Y: -2226.97461
+            Z: 375.779907
           }
         }
         Overrides {
@@ -18433,7 +20000,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -81.0792236
+            Yaw: -81.0792
           }
         }
         Overrides {
@@ -18453,6 +20020,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18465,7 +20035,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18480,9 +20050,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1998.1333
-            Y: -5336.07861
-            Z: 649.933716
+            X: 3198.1333
+            Y: -2386.07861
+            Z: 399.933716
           }
         }
         Overrides {
@@ -18515,6 +20085,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18534,7 +20107,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18549,9 +20122,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5867.82227
-            Y: -2649.69385
-            Z: 1032.86755
+            X: 7067.82227
+            Y: 300.306152
+            Z: 782.867554
           }
         }
         Overrides {
@@ -18584,6 +20157,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18603,7 +20179,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18618,9 +20194,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4480.3252
-            Y: -4282.44824
-            Z: 1032.86755
+            X: 5680.3252
+            Y: -1332.44824
+            Z: 782.867554
           }
         }
         Overrides {
@@ -18653,6 +20229,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18665,7 +20244,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18680,9 +20259,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5723.7085
-            Y: -5254.9082
-            Z: 1032.86755
+            X: 6923.7085
+            Y: -2304.9082
+            Z: 782.867554
           }
         }
         Overrides {
@@ -18716,6 +20295,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9911421437991701669
@@ -18727,7 +20309,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18742,9 +20324,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3627.76904
-            Y: -3765.40332
-            Z: 1052.0542
+            X: 4827.76904
+            Y: -815.40332
+            Z: 802.054199
           }
         }
         Overrides {
@@ -18778,6 +20360,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5322149541405448177
@@ -18789,7 +20374,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18804,9 +20389,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4056.45752
-            Y: -3160.49121
-            Z: 1044.4231
+            X: 5256.45752
+            Y: -210.491211
+            Z: 794.423096
           }
         }
         Overrides {
@@ -18840,6 +20425,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17498759375517659056
@@ -18859,7 +20447,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18874,9 +20462,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5384.16943
-            Y: -1539.09912
-            Z: 1018.31189
+            X: 6584.16943
+            Y: 1410.90088
+            Z: 768.31189
           }
         }
         Overrides {
@@ -18890,7 +20478,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -28.4718189
+            Yaw: -28.4718151
           }
         }
         Overrides {
@@ -18910,6 +20498,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -18922,7 +20513,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18937,9 +20528,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5240.09668
-            Y: -1990.28101
-            Z: 1018.31189
+            X: 6440.09668
+            Y: 959.719
+            Z: 768.31189
           }
         }
         Overrides {
@@ -18953,7 +20544,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -28.4718189
+            Yaw: -28.4718151
           }
         }
         Overrides {
@@ -18974,6 +20565,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10019895764257931253
@@ -18985,7 +20579,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19000,9 +20594,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5838.83
-            Y: -1405.20703
-            Z: 1069.74963
+            X: 7038.83
+            Y: 1544.79297
+            Z: 819.749634
           }
         }
         Overrides {
@@ -19036,6 +20630,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13117372921502041679
@@ -19047,7 +20644,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19062,9 +20659,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5837.09
-            Y: -2193.22412
-            Z: 1103.99304
+            X: 7037.09
+            Y: 756.775879
+            Z: 853.993042
           }
         }
         Overrides {
@@ -19098,6 +20695,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11105527965462792534
@@ -19109,7 +20709,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19124,9 +20724,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4497.39258
-            Y: -2866.89551
-            Z: 1040.22729
+            X: 5697.39258
+            Y: 83.1044922
+            Z: 790.227295
           }
         }
         Overrides {
@@ -19160,6 +20760,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15667247296493139239
@@ -19171,7 +20774,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19186,9 +20789,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5178.37598
-            Y: -660.845215
-            Z: 436.316589
+            X: 6378.37598
+            Y: 2289.15479
+            Z: 186.316589
           }
         }
         Overrides {
@@ -19222,6 +20825,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9915639737695798148
@@ -19233,7 +20839,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19248,9 +20854,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4158.96094
-            Y: -1258.78906
-            Z: 453.796692
+            X: 5358.96094
+            Y: 1691.21094
+            Z: 203.796692
           }
         }
         Overrides {
@@ -19284,6 +20890,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14944846462826741957
@@ -19295,7 +20904,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19310,9 +20919,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3664.45312
-            Y: -1292.77637
-            Z: 438.147125
+            X: 4864.45312
+            Y: 1657.22363
+            Z: 188.147125
           }
         }
         Overrides {
@@ -19346,6 +20955,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15825849093168243556
@@ -19357,7 +20969,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19372,9 +20984,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3303.67676
-            Y: -893.078125
-            Z: 434.226501
+            X: 4503.67676
+            Y: 2056.92188
+            Z: 184.226501
           }
         }
         Overrides {
@@ -19408,6 +21020,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4326525997954459559
@@ -19427,7 +21042,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19442,9 +21057,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2231.77734
-            Y: -1191.33691
-            Z: 446.837646
+            X: 3431.77734
+            Y: 1758.66309
+            Z: 196.837646
           }
         }
         Overrides {
@@ -19478,6 +21093,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19497,7 +21115,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19512,9 +21130,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2233.48486
-            Y: -703.212891
-            Z: 476.952271
+            X: 3433.48486
+            Y: 2246.78711
+            Z: 226.952271
           }
         }
         Overrides {
@@ -19548,6 +21166,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19567,7 +21188,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19582,9 +21203,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2231.77734
-            Y: -879.702637
-            Z: 446.837646
+            X: 3431.77734
+            Y: 2070.29736
+            Z: 196.837646
           }
         }
         Overrides {
@@ -19619,6 +21240,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6810819302147960857
@@ -19637,7 +21261,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19652,9 +21276,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 758.925537
-            Y: -1726.77881
-            Z: 446.837646
+            X: 1958.92554
+            Y: 1223.22119
+            Z: 196.837646
           }
         }
         Overrides {
@@ -19687,6 +21311,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19706,7 +21333,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19721,9 +21348,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 935.423584
-            Y: -1726.77881
-            Z: 476.952271
+            X: 2135.42358
+            Y: 1223.22119
+            Z: 226.952271
           }
         }
         Overrides {
@@ -19756,6 +21383,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19775,7 +21405,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19790,9 +21420,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -26.8891602
-            Y: -1726.77881
-            Z: 446.837646
+            X: 1173.11084
+            Y: 1223.22119
+            Z: 196.837646
           }
         }
         Overrides {
@@ -19825,6 +21455,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19844,7 +21477,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19859,9 +21492,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 149.608887
-            Y: -1726.77881
-            Z: 476.952271
+            X: 1349.60889
+            Y: 1223.22119
+            Z: 226.952271
           }
         }
         Overrides {
@@ -19894,6 +21527,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19913,7 +21549,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19928,9 +21564,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1146.49976
-            Y: -1726.77881
-            Z: 446.837646
+            X: 53.5002441
+            Y: 1223.22119
+            Z: 196.837646
           }
         }
         Overrides {
@@ -19963,6 +21599,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -19975,7 +21614,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19990,9 +21629,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -970.001709
-            Y: -1726.77881
-            Z: 476.952271
+            X: 229.998291
+            Y: 1223.22119
+            Z: 226.952271
           }
         }
         Overrides {
@@ -20025,6 +21664,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20045,7 +21687,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20060,9 +21702,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7031.31592
-            Y: -454.649902
-            Z: 447.085144
+            X: -5831.31592
+            Y: 2495.35
+            Z: 197.085144
           }
         }
         Overrides {
@@ -20076,7 +21718,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -41.2166748
+            Yaw: -41.2166824
           }
         }
         Overrides {
@@ -20096,6 +21738,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20108,7 +21753,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20123,9 +21768,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7181.64648
-            Y: -631.350098
-            Z: 472.814178
+            X: -5981.64648
+            Y: 2318.65
+            Z: 222.814178
           }
         }
         Overrides {
@@ -20139,7 +21784,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -41.2166748
+            Yaw: -41.2166824
           }
         }
         Overrides {
@@ -20160,6 +21805,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15747160613556545168
@@ -20171,7 +21819,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20186,9 +21834,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6185.38184
-            Y: 408.652832
-            Z: 444.20755
+            X: -4985.38184
+            Y: 3358.65283
+            Z: 194.20755
           }
         }
         Overrides {
@@ -20202,7 +21850,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -34.0840797
+            Yaw: -34.084095
           }
         }
         Overrides {
@@ -20223,6 +21871,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16575049270242377154
@@ -20234,7 +21885,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20249,9 +21900,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6155.4585
-            Y: 351.53418
-            Z: 424.828674
+            X: -4955.4585
+            Y: 3301.53418
+            Z: 174.828674
           }
         }
         Overrides {
@@ -20265,7 +21916,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -38.0153351
+            Yaw: -38.0153084
           }
         }
         Overrides {
@@ -20286,6 +21937,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13271178571970546841
@@ -20297,7 +21951,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20312,9 +21966,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4816.07227
-            Y: 6480.97461
-            Z: 345.67334
+            X: 6016.07227
+            Y: 9430.97461
+            Z: 95.6733398
           }
         }
         Overrides {
@@ -20348,6 +22002,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3324101514586280085
@@ -20366,7 +22023,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20381,9 +22038,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3648.97314
-            Y: 6035.72168
-            Z: 483.692871
+            X: 4848.97314
+            Y: 8985.72168
+            Z: 233.692871
           }
         }
         Overrides {
@@ -20418,6 +22075,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 18123341509104676102
@@ -20429,7 +22089,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20444,9 +22104,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3813.29199
-            Y: 6057.67
-            Z: 414.277802
+            X: 5013.29199
+            Y: 9007.67
+            Z: 164.277802
           }
         }
         Overrides {
@@ -20480,6 +22140,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7101462414756168462
@@ -20498,7 +22161,7 @@ Objects {
       Z: 2.13531351
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20513,9 +22176,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3476.29883
-            Y: 7518.99512
-            Z: 250.172607
+            X: 4676.29883
+            Y: 10468.9951
+            Z: 0.172607422
           }
         }
         Overrides {
@@ -20550,6 +22213,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2624187619545972
@@ -20561,7 +22227,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20576,9 +22242,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3974.52783
-            Y: 7017.41406
-            Z: 250.172607
+            X: 5174.52783
+            Y: 9967.41406
+            Z: 0.172607422
           }
         }
         Overrides {
@@ -20612,6 +22278,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 385406646382582143
@@ -20630,7 +22299,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20645,9 +22314,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1712.58398
-            Y: 7354.26953
-            Z: 300.505829
+            X: 2912.58398
+            Y: 10304.2695
+            Z: 50.5058289
           }
         }
         Overrides {
@@ -20680,6 +22349,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20699,7 +22371,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20714,9 +22386,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1206.55933
-            Y: 7354.26953
-            Z: 297.205
+            X: 2406.55933
+            Y: 10304.2695
+            Z: 47.2049866
           }
         }
         Overrides {
@@ -20749,6 +22421,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -20761,7 +22436,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20776,9 +22451,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 206.241943
-            Y: 7354.26953
-            Z: 432.342682
+            X: 1406.24194
+            Y: 10304.2695
+            Z: 182.342682
           }
         }
         Overrides {
@@ -20812,6 +22487,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2729191785469535313
@@ -20823,7 +22501,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20838,9 +22516,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -118.206055
-            Y: -4070.04688
-            Z: 404.118225
+            X: 1081.79395
+            Y: -1120.04688
+            Z: 154.118225
           }
         }
         Overrides {
@@ -20874,6 +22552,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 18334332247909836046
@@ -20885,7 +22566,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20900,9 +22581,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -617.987305
-            Y: -4583.07227
-            Z: 397.844727
+            X: 582.012695
+            Y: -1633.07227
+            Z: 147.844727
           }
         }
         Overrides {
@@ -20936,6 +22617,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5264453378933598909
@@ -20947,7 +22631,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20962,9 +22646,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1254.45422
-            Y: -5415.27441
-            Z: 400.403534
+            X: -54.4542236
+            Y: -2465.27441
+            Z: 150.403534
           }
         }
         Overrides {
@@ -20998,6 +22682,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9565074381432835817
@@ -21009,7 +22696,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21024,9 +22711,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1703.64478
-            Y: -5445.73242
-            Z: 379.712921
+            X: -503.644775
+            Y: -2495.73242
+            Z: 129.712921
           }
         }
         Overrides {
@@ -21060,6 +22747,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1710461126141935106
@@ -21071,7 +22761,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21086,9 +22776,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1692.70447
-            Y: -4713.52051
-            Z: 413.720367
+            X: -492.704468
+            Y: -1763.52051
+            Z: 163.720367
           }
         }
         Overrides {
@@ -21102,7 +22792,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -34.7344513
+            Yaw: -34.7344589
           }
         }
         Overrides {
@@ -21123,6 +22813,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9694721561880663187
@@ -21134,7 +22827,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21149,9 +22842,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1643.56445
-            Y: -2556.19043
-            Z: 457.949036
+            X: -443.564453
+            Y: 393.80957
+            Z: 207.949036
           }
         }
         Overrides {
@@ -21165,7 +22858,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -12.4210587
+            Yaw: -12.4210777
           }
         }
         Overrides {
@@ -21186,6 +22879,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6148739048370899416
@@ -21197,7 +22893,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21212,15 +22908,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -4912.81
-            Y: -3265.73511
-            Z: 471.00116
+            X: -3712.81
+            Y: -315.735107
+            Z: 221.00116
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -40.0613747
+            Yaw: -40.0613632
           }
         }
         Overrides {
@@ -21249,6 +22945,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3155884032020085796
@@ -21260,7 +22959,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21275,9 +22974,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -4115.9585
-            Y: -4622.10547
-            Z: 436.598511
+            X: -2915.9585
+            Y: -1672.10547
+            Z: 186.598511
           }
         }
         Overrides {
@@ -21311,6 +23010,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4626165699505974920
@@ -21322,7 +23024,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21337,9 +23039,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -4119.89941
-            Y: -5466.93
-            Z: 340.042969
+            X: -2919.89941
+            Y: -2516.93018
+            Z: 90.0429688
           }
         }
         Overrides {
@@ -21373,6 +23075,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13514023115475277738
@@ -21384,7 +23089,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21399,9 +23104,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -10922.5078
-            Y: -522.216797
-            Z: 294.728455
+            X: -9722.50781
+            Y: 2427.7832
+            Z: 44.7284546
           }
         }
         Overrides {
@@ -21415,7 +23120,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -47.130703
+            Yaw: -47.1306839
           }
         }
         Overrides {
@@ -21436,6 +23141,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7851863280700943388
@@ -21447,7 +23155,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21462,9 +23170,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -10452.457
-            Y: -784.381348
-            Z: 363.006714
+            X: -9252.45703
+            Y: 2165.61865
+            Z: 113.006714
           }
         }
         Overrides {
@@ -21498,6 +23206,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7716524996992004833
@@ -21517,7 +23228,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21532,9 +23243,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8994.42773
-            Y: -2455.80542
-            Z: 272.124023
+            X: -7794.42773
+            Y: 494.19458
+            Z: 22.1240234
           }
         }
         Overrides {
@@ -21548,7 +23259,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 39.1209755
+            Yaw: 39.1209564
           }
         }
         Overrides {
@@ -21568,6 +23279,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21580,7 +23294,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21595,9 +23309,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8269.68359
-            Y: -3203.65112
-            Z: 272.124023
+            X: -7069.68359
+            Y: -253.651123
+            Z: 22.1240234
           }
         }
         Overrides {
@@ -21611,7 +23325,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 39.1209755
+            Yaw: 39.1209564
           }
         }
         Overrides {
@@ -21632,6 +23346,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11791394153886153687
@@ -21643,7 +23360,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21658,9 +23375,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7339.59717
-            Y: -3523.51807
-            Z: 285.430908
+            X: -6139.59717
+            Y: -573.518066
+            Z: 35.4309082
           }
         }
         Overrides {
@@ -21674,7 +23391,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 32.302063
+            Yaw: 32.3020821
           }
         }
         Overrides {
@@ -21694,6 +23411,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21713,7 +23433,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21728,9 +23448,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6018.49
-            Y: -4506.03467
-            Z: 255.922424
+            X: -4818.49
+            Y: -1556.03467
+            Z: 5.92242432
           }
         }
         Overrides {
@@ -21744,7 +23464,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -34.2105408
+            Yaw: -34.210556
           }
         }
         Overrides {
@@ -21764,6 +23484,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21776,7 +23499,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21791,9 +23514,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5925.37256
-            Y: -4574.60254
-            Z: 255.922485
+            X: -4725.37256
+            Y: -1624.60254
+            Z: 5.92248535
           }
         }
         Overrides {
@@ -21826,6 +23549,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21838,7 +23564,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21853,15 +23579,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5562.98584
-            Y: -3433.48413
-            Z: 444.010254
+            X: -4362.98584
+            Y: -483.484131
+            Z: 194.010254
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 42.4782791
+            Yaw: 42.4783
           }
         }
         Overrides {
@@ -21889,6 +23615,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -21901,7 +23630,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21916,9 +23645,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5507.92041
-            Y: -3559.00146
-            Z: 469.972656
+            X: -4307.92041
+            Y: -609.001465
+            Z: 219.972656
           }
         }
         Overrides {
@@ -21952,6 +23681,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17914709412292184420
@@ -21963,7 +23695,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21978,9 +23710,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3498.6958
-            Y: -1735.00293
-            Z: 452.818573
+            X: -2298.6958
+            Y: 1214.99707
+            Z: 202.818573
           }
         }
         Overrides {
@@ -22014,6 +23746,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11924836069659332568
@@ -22025,7 +23760,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22040,9 +23775,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3768.98047
-            Y: -1554.20264
-            Z: 459.613098
+            X: -2568.98047
+            Y: 1395.79736
+            Z: 209.613098
           }
         }
         Overrides {
@@ -22076,6 +23811,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11070771886227589711
@@ -22087,7 +23825,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22102,9 +23840,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7643.44971
-            Y: -2661.03638
-            Z: 486.670105
+            X: -6443.44971
+            Y: 288.963623
+            Z: 236.670105
           }
         }
         Overrides {
@@ -22118,7 +23856,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -48.21661
+            Yaw: -48.2165909
           }
         }
         Overrides {
@@ -22139,6 +23877,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9961537525664322418
@@ -22150,7 +23891,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22165,15 +23906,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6889.97266
-            Y: -1943.73804
-            Z: 485.434723
+            X: -5689.97266
+            Y: 1006.26196
+            Z: 235.434723
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -20.5942574
+            Yaw: -20.5942497
           }
         }
         Overrides {
@@ -22202,6 +23943,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6106395551767515313
@@ -22213,7 +23957,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22228,9 +23972,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7029.72266
-            Y: -1851.4209
-            Z: 505.944672
+            X: -5829.72266
+            Y: 1098.5791
+            Z: 255.944672
           }
         }
         Overrides {
@@ -22265,6 +24009,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7983530860235515717
@@ -22276,7 +24023,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22291,9 +24038,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6239.30469
-            Y: -1551.19092
-            Z: 475.160187
+            X: -5039.30469
+            Y: 1398.80908
+            Z: 225.160187
           }
         }
         Overrides {
@@ -22307,7 +24054,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 44.0185127
+            Yaw: 44.0185
           }
         }
         Overrides {
@@ -22327,6 +24074,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22339,7 +24089,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22354,15 +24104,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5149.875
-            Y: -865.083496
-            Z: 504.012329
+            X: -3949.875
+            Y: 2084.9165
+            Z: 254.012329
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -29.9263725
+            Yaw: -29.9263763
           }
         }
         Overrides {
@@ -22390,6 +24140,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22402,7 +24155,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22417,9 +24170,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5714.27051
-            Y: -978.363281
-            Z: 458.326416
+            X: -4514.27051
+            Y: 1971.63672
+            Z: 208.326416
           }
         }
         Overrides {
@@ -22452,6 +24205,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22471,7 +24227,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22486,9 +24242,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7383.52
-            Y: 252.773438
-            Z: 652.842834
+            X: -6183.52
+            Y: 3202.77344
+            Z: 402.842834
           }
         }
         Overrides {
@@ -22522,6 +24278,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14781914089038921958
@@ -22540,7 +24299,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22555,9 +24314,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7293.91309
-            Y: 213.655273
-            Z: 596.192139
+            X: -6093.91309
+            Y: 3163.65527
+            Z: 346.192139
           }
         }
         Overrides {
@@ -22591,6 +24350,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13223486278286351887
@@ -22609,7 +24371,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22624,9 +24386,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7205.08936
-            Y: 358.746582
-            Z: 582.047363
+            X: -6005.08936
+            Y: 3308.74658
+            Z: 332.047363
           }
         }
         Overrides {
@@ -22661,6 +24423,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6864009141561662141
@@ -22679,7 +24444,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22694,9 +24459,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7296.97852
-            Y: 399.184082
-            Z: 662.889038
+            X: -6096.97852
+            Y: 3349.18408
+            Z: 412.889038
           }
         }
         Overrides {
@@ -22729,6 +24494,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22748,7 +24516,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22763,9 +24531,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7341.44092
-            Y: -33.0410156
-            Z: 500.384766
+            X: -6141.44092
+            Y: 2916.95898
+            Z: 250.384766
           }
         }
         Overrides {
@@ -22798,6 +24566,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22817,7 +24588,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22832,9 +24603,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7356.30664
-            Y: 134.062012
-            Z: 610.381042
+            X: -6156.30664
+            Y: 3084.06201
+            Z: 360.381042
           }
         }
         Overrides {
@@ -22867,6 +24638,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22886,7 +24660,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22901,9 +24675,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7201.39453
-            Y: 266.699707
-            Z: 516.19812
+            X: -6001.39453
+            Y: 3216.69971
+            Z: 266.19812
           }
         }
         Overrides {
@@ -22936,6 +24710,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -22955,7 +24732,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22970,9 +24747,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7358.70947
-            Y: 50.3046875
-            Z: 500.384827
+            X: -6158.70947
+            Y: 3000.30469
+            Z: 250.384827
           }
         }
         Overrides {
@@ -23005,6 +24782,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23024,7 +24804,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23039,9 +24819,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7417.53857
-            Y: 74.8754883
-            Z: 610.381042
+            X: -6217.53857
+            Y: 3024.87549
+            Z: 360.381042
           }
         }
         Overrides {
@@ -23074,6 +24854,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23093,7 +24876,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23108,9 +24891,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7267.28516
-            Y: 105.886719
-            Z: 516.19812
+            X: -6067.28516
+            Y: 3055.88672
+            Z: 266.19812
           }
         }
         Overrides {
@@ -23144,6 +24927,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2023017599959340838
@@ -23155,7 +24941,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23170,15 +24956,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7381.42969
-            Y: 7.64160156
-            Z: 434.190643
+            X: -6181.42969
+            Y: 2957.6416
+            Z: 184.190643
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -49.6789856
+            Yaw: -49.6789894
           }
         }
         Overrides {
@@ -23207,6 +24993,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1378499706990106433
@@ -23218,7 +25007,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23233,9 +25022,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7503.75879
-            Y: -49.3950195
-            Z: 610.381042
+            X: -6303.75879
+            Y: 2900.60498
+            Z: 360.381042
           }
         }
         Overrides {
@@ -23270,6 +25059,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2152605773095392480
@@ -23281,7 +25073,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23296,9 +25088,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7408.30225
-            Y: -84.4321289
-            Z: 500.384827
+            X: -6208.30225
+            Y: 2865.56787
+            Z: 250.384827
           }
         }
         Overrides {
@@ -23331,6 +25123,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23343,7 +25138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23358,9 +25153,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7553.98389
-            Y: -263.651367
-            Z: 520.118713
+            X: -6353.98389
+            Y: 2686.34863
+            Z: 270.118713
           }
         }
         Overrides {
@@ -23393,6 +25188,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23405,7 +25203,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23420,9 +25218,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7622.04541
-            Y: -197.007324
-            Z: 625.547546
+            X: -6422.04541
+            Y: 2752.99268
+            Z: 375.547546
           }
         }
         Overrides {
@@ -23455,6 +25253,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -23467,7 +25268,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23482,9 +25283,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7543.89404
-            Y: -137.34375
-            Z: 585.198242
+            X: -6343.89404
+            Y: 2812.65625
+            Z: 335.198242
           }
         }
         Overrides {
@@ -23518,6 +25319,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17396907374419488327
@@ -23529,7 +25333,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23544,16 +25348,16 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8538.28
-            Y: 2199.3042
-            Z: 944.024963
+            X: -7338.28027
+            Y: 5149.3042
+            Z: 694.024963
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
             Pitch: -0.919678092
-            Roll: -6.54612303
+            Roll: -6.54612827
           }
         }
         Overrides {
@@ -23582,6 +25386,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11228152518815585477
@@ -23593,7 +25400,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23608,9 +25415,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8512.62793
-            Y: 2382.51758
-            Z: 875.703552
+            X: -7312.62793
+            Y: 5332.51758
+            Z: 625.703552
           }
         }
         Overrides {
@@ -23645,6 +25452,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10117873906795303023
@@ -23656,7 +25466,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23671,9 +25481,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8566.37305
-            Y: 2287.44727
-            Z: 975.133484
+            X: -7366.37305
+            Y: 5237.44727
+            Z: 725.133484
           }
         }
         Overrides {
@@ -23707,6 +25517,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9200021631168362862
@@ -23718,7 +25531,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23733,9 +25546,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8475.62695
-            Y: 2310.60352
-            Z: 891.298096
+            X: -7275.62695
+            Y: 5260.60352
+            Z: 641.298096
           }
         }
         Overrides {
@@ -23770,6 +25583,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 962380380487256470
@@ -23781,7 +25597,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23796,9 +25612,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8562.65234
-            Y: 2148.76074
-            Z: 911.054382
+            X: -7362.65234
+            Y: 5098.76074
+            Z: 661.054382
           }
         }
         Overrides {
@@ -23832,6 +25648,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5738103667167062117
@@ -23843,7 +25662,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23858,9 +25677,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8455.47461
-            Y: 2206.3623
-            Z: 844.95282
+            X: -7255.47461
+            Y: 5156.3623
+            Z: 594.95282
           }
         }
         Overrides {
@@ -23895,6 +25714,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1823387683431751856
@@ -23906,7 +25728,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23921,9 +25743,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8397.68848
-            Y: 2291.12109
-            Z: 799.368713
+            X: -7197.68848
+            Y: 5241.12109
+            Z: 549.368713
           }
         }
         Overrides {
@@ -23957,6 +25779,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1733605464415535729
@@ -23968,7 +25793,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23983,9 +25808,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7677.88
-            Y: 5767.44434
-            Z: 1028.53235
+            X: -6477.88
+            Y: 8717.44434
+            Z: 778.532349
           }
         }
         Overrides {
@@ -23999,7 +25824,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -19.3528481
+            Yaw: -19.35285
           }
         }
         Overrides {
@@ -24020,6 +25845,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17838493969490676439
@@ -24031,7 +25859,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24046,9 +25874,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7793.82
-            Y: 5593.62402
-            Z: 1080.40259
+            X: -6593.82
+            Y: 8543.62402
+            Z: 830.402588
           }
         }
         Overrides {
@@ -24082,6 +25910,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5491384120934801334
@@ -24093,7 +25924,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24108,9 +25939,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6685.9126
-            Y: 6691.7041
-            Z: 1060.01074
+            X: -5485.9126
+            Y: 9641.7041
+            Z: 810.010742
           }
         }
         Overrides {
@@ -24124,7 +25955,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -24.5410023
+            Yaw: -24.5409832
           }
         }
         Overrides {
@@ -24145,6 +25976,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15109668996786611551
@@ -24156,7 +25990,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24171,9 +26005,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6396.84668
-            Y: 6947.16504
-            Z: 1081.04932
+            X: -5196.84668
+            Y: 9897.16504
+            Z: 831.049316
           }
         }
         Overrides {
@@ -24207,6 +26041,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9192998761571368528
@@ -24218,7 +26055,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24233,9 +26070,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -4488.50879
-            Y: 7169.68945
-            Z: 1084.72607
+            X: -3288.50879
+            Y: 10119.6895
+            Z: 834.726074
           }
         }
         Overrides {
@@ -24269,6 +26106,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1896771763426967108
@@ -24280,7 +26120,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24295,9 +26135,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3947.81348
-            Y: 7172.28711
-            Z: 1099.97937
+            X: -2747.81348
+            Y: 10122.2871
+            Z: 849.97937
           }
         }
         Overrides {
@@ -24331,6 +26171,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15209519128157400314
@@ -24342,7 +26185,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24357,9 +26200,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2473.6272
-            Y: 7581.08887
-            Z: 1105.10498
+            X: -1273.6272
+            Y: 10531.0889
+            Z: 855.105
           }
         }
         Overrides {
@@ -24393,6 +26236,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 473604826546787407
@@ -24404,7 +26250,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24419,9 +26265,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2517.39453
-            Y: 7223.53906
-            Z: 1102.45471
+            X: -1317.39453
+            Y: 10173.5391
+            Z: 852.454712
           }
         }
         Overrides {
@@ -24455,6 +26301,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8210428429783296783
@@ -24466,7 +26315,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24481,9 +26330,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2809.49414
-            Y: 7181.81641
-            Z: 1117.94714
+            X: -1609.49414
+            Y: 10131.8164
+            Z: 867.947144
           }
         }
         Overrides {
@@ -24517,6 +26366,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14152140675914188900
@@ -24528,7 +26380,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24543,9 +26395,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3255.07764
-            Y: 7175.76367
-            Z: 1100.44067
+            X: -2055.07764
+            Y: 10125.7637
+            Z: 850.440674
           }
         }
         Overrides {
@@ -24579,6 +26431,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13629492664646080554
@@ -24597,7 +26452,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24612,9 +26467,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3794.42456
-            Y: 3027.75684
-            Z: 482.11792
+            X: -2594.42456
+            Y: 5977.75684
+            Z: 232.11792
           }
         }
         Overrides {
@@ -24648,6 +26503,9 @@ Objects {
       Id: 16500060695330538452
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16026848078005877635
@@ -24666,7 +26524,7 @@ Objects {
       Z: 1.82673144
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24681,9 +26539,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3794.42456
-            Y: 3454.87207
-            Z: 482.11792
+            X: -2594.42456
+            Y: 6404.87207
+            Z: 232.11792
           }
         }
         Overrides {
@@ -24716,6 +26574,9 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -24728,7 +26589,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13610813917753045510
+  ParentId: 3881523997161238383
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24743,9 +26604,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3837.729
-            Y: 3332.56152
-            Z: 482.11792
+            X: -2637.729
+            Y: 6282.56152
+            Z: 232.11792
           }
         }
         Overrides {
@@ -24778,5 +26639,8 @@ Objects {
     TemplateAsset {
       Id: 16500060695330538452
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
