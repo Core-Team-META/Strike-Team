@@ -2,7 +2,7 @@ Assets {
   Id: 1428073565984291393
   Name: "Allied Bookcase"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 113
   CustomMaterialAsset {
     BaseMaterialId: 2173546652711547628
     ParameterOverrides {
