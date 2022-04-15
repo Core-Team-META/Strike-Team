@@ -2,7 +2,7 @@ Assets {
   Id: 17085297105578316594
   Name: "EMat2"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 113
   CustomMaterialAsset {
     BaseMaterialId: 18336430915384396752
     ParameterOverrides {

@@ -28,6 +28,11 @@ local ANGLE = 360 / #SEGMENTS_ROOT:GetChildren()
 local RAD_ANGLE = math.pi * 2 / #SEGMENTS_ROOT:GetChildren()
 
 function Tick()
+    if LOCAL_PLAYER.clientUserData.hideReticle then        
+        script.parent.opacity = 0
+    else
+        script.parent.opacity = 1
+    end
     local spread = LOCAL_PLAYER.currentSpread + EXTRA_RADIUS
     local deg = START_ANGLE
     local rad = math.pi / 2

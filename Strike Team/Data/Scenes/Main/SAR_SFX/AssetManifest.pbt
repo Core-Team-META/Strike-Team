@@ -1,13 +1,4 @@
 Assets {
-  Id: 18164646649886689595
-  Name: "Distant War Battle Ambience Loop 01"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_distant_war_battle_ambience_loop_01_Cue_ref"
-  }
-}
-Assets {
   Id: 15234553642973347520
   Name: "Ambience Nature Cicadas Set 01 SFX"
   PlatformAssetType: 10

@@ -101,7 +101,7 @@ function Load(player)
 	local data = GetPlayerData(player)
 	if not data then return end
 	
-	for i,key in pairs(ALL_STAT_KEYS) do
+	for i,key in pairs(ALL_STAT_KEYS) do		
 		local value = data[key]
 		if value then
 			player:SetResource(key, value)

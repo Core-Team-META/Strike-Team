@@ -2,7 +2,7 @@ Assets {
   Id: 17221102296621382235
   Name: "Pulsing Souls Material"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 113
   CustomMaterialAsset {
     BaseMaterialId: 4248821402812702112
     ParameterOverrides {

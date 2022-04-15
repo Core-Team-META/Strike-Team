@@ -76,6 +76,13 @@ GlobalEntries {
   DateTime: "2021-03-04T11:48:15.235Z"
 }
 GlobalEntries {
+  Id: "ca1f49507ccf4675984c59be9191cde6"
+  Name: "Ocylix"
+  ScoreFormatted: "4.0"
+  AdditionalData: "105000009"
+  DateTime: "2022-04-15T02:20:00.768Z"
+}
+GlobalEntries {
   Id: "901b7628983c4c8db4282f24afeda57a"
   Name: "Buckmonster"
   ScoreFormatted: "0.1"

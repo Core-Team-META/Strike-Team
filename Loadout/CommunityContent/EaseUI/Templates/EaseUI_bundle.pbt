@@ -29,6 +29,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -39,9 +42,9 @@ Assets {
   Marketplace {
     Id: "eef1fb4e587346c0919ac0b79af133c0"
     OwnerAccountId: "f9df3457225741c89209f6d484d0eba8"
-    OwnerName: "NicholasForeman"
+    OwnerName: "Azutreo"
     Version: "1.10.0"
     Description: "EaseUI is a utility that allows for both simple and advanced UI animations! Full customizability to you, the creator!\r\n\r\nRead the script for more information."
   }
-  SerializationVersion: 89
+  SerializationVersion: 113
 }

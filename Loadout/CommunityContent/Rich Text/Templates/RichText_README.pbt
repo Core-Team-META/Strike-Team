@@ -30,6 +30,9 @@ Assets {
             Id: 1173074614753883786
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -40,6 +43,6 @@ Assets {
   Marketplace {
     Description: "Create fancy text fields with markup!\r\n\r\nSupports a bunch of cool stuff:\r\n\r\n* Colors\r\n* Fonts\r\n* Text Size\r\n* Bold text\r\n* Drop Shadows\r\n* Embedded Images\r\n\r\nAnd more!"
   }
-  SerializationVersion: 89
+  SerializationVersion: 113
   DirectlyPublished: true
 }

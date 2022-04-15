@@ -1,4 +1,17 @@
 Assets {
+  Id: 15830262244033002080
+  Name: "ST_StatKey"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "d8ec695aefeb40cab9aba3437b7d5962"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 14493788940556567060
   Name: "st_statkey"
   PlatformAssetType: 23
@@ -27,6 +40,32 @@ Assets {
   NetReferenceAsset {
     NetReference {
       Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 6737597478960499916
+  Name: "ST_Loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "da4ed90291a44696a0d4f11862fbedda"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 4916958987611956739
+  Name: "ST_Storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "d27f45d3909146b5af35c8c0f412c356"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

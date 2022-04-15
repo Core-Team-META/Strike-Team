@@ -34,6 +34,9 @@ Objects {
   }
   Folder {
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4087818592609908158
@@ -62,6 +65,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "LevelArt"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -92,6 +98,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "UI Systems"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9720719631736950161
@@ -120,6 +129,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Gameplay Systems"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -155,6 +167,11 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
+    SpawnEffectsTemplate {
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -176,7 +193,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "02099a9ad11e4ae3b4443adf78c87879"
+        Key: "d27f45d3909146b5af35c8c0f412c356"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -189,7 +206,7 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "14e8666bb5fc4042bd0625b1a7b87e05"
+        Key: "d27f45d3909146b5af35c8c0f412c356"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -198,7 +215,7 @@ Objects {
     Overrides {
       Name: "cs:MiscKey"
       NetReference {
-        Key: "c5fb03576a6c43939301da448ca2640e"
+        Key: "d27f45d3909146b5af35c8c0f412c356"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -207,7 +224,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
+        Key: "d8ec695aefeb40cab9aba3437b7d5962"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -216,7 +233,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
+        Key: "da4ed90291a44696a0d4f11862fbedda"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -236,6 +253,9 @@ Objects {
     ScriptAsset {
       Id: 17382814861319731826
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -267,6 +287,9 @@ Objects {
       Id: 6265978111211671184
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5667468790395907360
@@ -297,6 +320,9 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -330,5 +356,8 @@ Objects {
     ScriptAsset {
       Id: 7541650775654773469
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 18400335317375877977
   Name: "SAR_BasicMaterialBlackGradientSide"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 113
   CustomMaterialAsset {
     BaseMaterialId: 211821385602626091
     ParameterOverrides {

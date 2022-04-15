@@ -28,6 +28,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "100"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1547914787789121282
@@ -56,6 +59,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "90"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -86,6 +92,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "80"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17149062306313869453
@@ -114,6 +123,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "70"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -144,6 +156,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "60"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16349007327547293683
@@ -172,6 +187,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "50"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -202,6 +220,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "40"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16736521914951701777
@@ -230,6 +251,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "30"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -260,6 +284,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "20"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9639559579721079010
@@ -289,6 +316,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "10"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16056180101684760168
@@ -317,5 +347,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "0"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

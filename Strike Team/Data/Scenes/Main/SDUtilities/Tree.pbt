@@ -28,6 +28,9 @@ Objects {
   Folder {
     IsGroup: true
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11859706942549986879
@@ -58,6 +61,9 @@ Objects {
       Id: 1251385908874761482
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9485672204595989611
@@ -85,6 +91,9 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -116,6 +125,9 @@ Objects {
       Id: 5499141603465949514
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15735816903132679279
@@ -144,6 +156,9 @@ Objects {
   }
   NetworkContext {
     Type: RuntimeStatic
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -175,6 +190,9 @@ Objects {
       Id: 12253275289281417314
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2394216526907103196
@@ -205,6 +223,9 @@ Objects {
       Id: 3741526529024671057
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6244487442600463627
@@ -234,5 +255,8 @@ Objects {
     ScriptAsset {
       Id: 8302890358809149877
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

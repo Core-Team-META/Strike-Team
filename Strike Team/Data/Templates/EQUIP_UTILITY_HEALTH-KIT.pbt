@@ -73,6 +73,8 @@ Assets {
             ReticleType {
               Value: "mc:ereticletype:none"
             }
+            AttackSfxAssetRef {
+            }
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
@@ -91,6 +93,9 @@ Assets {
               Value: "mc:eweapontrajectorymode:followlookvector"
             }
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -169,6 +174,9 @@ Assets {
             Value: "mc:egameaction:extraaction_32"
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 15043812493524532398
@@ -215,6 +223,9 @@ Assets {
             Id: 17917920102586929323
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -222,5 +233,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 94
+  SerializationVersion: 113
 }

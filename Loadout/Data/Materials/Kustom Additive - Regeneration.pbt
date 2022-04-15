@@ -2,7 +2,7 @@ Assets {
   Id: 11235211554217910300
   Name: "Kustom Additive - Regeneration"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 113
   CustomMaterialAsset {
     BaseMaterialId: 9134579743160012638
     ParameterOverrides {

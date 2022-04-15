@@ -28,6 +28,9 @@ Objects {
   }
   NetworkContext {
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3714840214433711546
@@ -84,6 +87,9 @@ Objects {
       Id: 9228186964385686692
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16501987622516674451
@@ -121,6 +127,9 @@ Objects {
     ScriptAsset {
       Id: 16990040405700077933
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -162,6 +171,9 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -221,6 +233,9 @@ Objects {
       Id: 2893761781180628874
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2193406331332715251
@@ -278,6 +293,9 @@ Objects {
     ScriptAsset {
       Id: 2893761781180628874
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -337,6 +355,9 @@ Objects {
       Id: 2893761781180628874
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16377028238097052633
@@ -394,6 +415,9 @@ Objects {
     ScriptAsset {
       Id: 2893761781180628874
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -453,6 +477,9 @@ Objects {
       Id: 2893761781180628874
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13604510572832177781
@@ -510,6 +537,9 @@ Objects {
     ScriptAsset {
       Id: 2893761781180628874
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -569,6 +599,9 @@ Objects {
       Id: 2893761781180628874
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5733194192348678410
@@ -626,6 +659,9 @@ Objects {
     ScriptAsset {
       Id: 2893761781180628874
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -685,6 +721,9 @@ Objects {
       Id: 2893761781180628874
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17154347967378006016
@@ -742,6 +781,9 @@ Objects {
     ScriptAsset {
       Id: 2893761781180628874
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -804,5 +846,8 @@ Objects {
     ScriptAsset {
       Id: 2893761781180628874
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
