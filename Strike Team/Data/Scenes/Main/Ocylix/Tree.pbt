@@ -52,7 +52,7 @@ Objects {
   }
   ParentId: 10582198294955690306
   ChildIds: 15588881596921388810
-  ChildIds: 5951401898294571137
+  ChildIds: 14784142291806396091
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -72,8 +72,8 @@ Objects {
   }
 }
 Objects {
-  Id: 5951401898294571137
-  Name: "UI Claim Container"
+  Id: 14784142291806396091
+  Name: "UI EGS Container"
   Transform {
     Location {
     }
@@ -86,13 +86,13 @@ Objects {
     }
   }
   ParentId: 10712300085236005340
-  ChildIds: 2224840428159740297
-  ChildIds: 4649127187311320968
+  ChildIds: 3851980197051218839
+  ChildIds: 3247843737190409810
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -134,8 +134,8 @@ Objects {
   }
 }
 Objects {
-  Id: 4649127187311320968
-  Name: "UI Icon Panel"
+  Id: 3247843737190409810
+  Name: "UI EGS Icon Panel"
   Transform {
     Location {
     }
@@ -147,13 +147,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5951401898294571137
-  ChildIds: 10619556145070115198
-  ChildIds: 260060945578952831
-  ChildIds: 6484999148807468878
-  ChildIds: 4959741183180844432
-  ChildIds: 13585308927764233376
-  ChildIds: 13677921774037570450
+  ParentId: 14784142291806396091
+  ChildIds: 189481098321150814
+  ChildIds: 1696689232954408426
+  ChildIds: 3001223924596709234
+  ChildIds: 2198043032289027728
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -167,7 +165,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 50
+    Width: 224
     Height: 50
     UIX: -20
     UIY: 20
@@ -194,8 +192,8 @@ Objects {
   }
 }
 Objects {
-  Id: 13677921774037570450
-  Name: "UI Claim Open Button"
+  Id: 2198043032289027728
+  Name: "UI EGS Claim Open Button"
   Transform {
     Location {
     }
@@ -207,7 +205,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4649127187311320968
+  ParentId: 3247843737190409810
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -242,19 +240,16 @@ Objects {
         R: 1
         G: 1
         B: 1
-        A: 1
       }
       PressedColor {
         R: 1
         G: 1
         B: 1
-        A: 1
       }
       DisabledColor {
         R: 1
         G: 1
         B: 1
-        A: 1
       }
       Brush {
         Id: 841534158063459245
@@ -293,7 +288,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13585308927764233376
+  Id: 3001223924596709234
   Name: "UI Frame Image"
   Transform {
     Location {
@@ -306,8 +301,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4649127187311320968
-  ChildIds: 167023283053184185
+  ParentId: 3247843737190409810
+  ChildIds: 15891300993822154756
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -321,10 +316,9 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 30
-    Height: 30
-    UIX: -30
-    UIY: 10
+    Width: 40
+    Height: 40
+    UIX: -5
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -332,11 +326,11 @@ Objects {
     }
     Image {
       Brush {
-        Id: 17066449609679557524
+        Id: 1814707273787853473
       }
       Color {
-        R: 0.340000033
-        G: 0.162119225
+        G: 0.242281199
+        B: 1
         A: 1
       }
       TeamSettings {
@@ -351,19 +345,19 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middleright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middleright"
         }
       }
     }
   }
 }
 Objects {
-  Id: 167023283053184185
+  Id: 15891300993822154756
   Name: "UI Hotkey Text Box"
   Transform {
     Location {
@@ -376,7 +370,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13585308927764233376
+  ParentId: 3001223924596709234
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -402,8 +396,86 @@ Objects {
     Text {
       Label: "U"
       Color {
-        R: 0.100000024
-        G: 0.0675496832
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 16
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 16082593533245531547
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+      OutlineColor {
+        A: 1
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 1696689232954408426
+  Name: "UI Sale Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3247843737190409810
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 180
+    Height: 40
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "GET FREE PRIZE"
+      Color {
+        R: 1
+        G: 0.439657241
+        B: 0.00121410796
         A: 1
       }
       Size: 16
@@ -418,30 +490,37 @@ Objects {
         Value: "mc:everticaljustification:center"
       }
       ShadowColor {
+        R: 0.138431624
+        G: 0.0512694679
         A: 1
       }
       ShadowOffset {
+        X: 1
+        Y: 2
       }
       OutlineColor {
+        R: 0.138431624
+        G: 0.0512694679
         A: 1
       }
+      OutlineSize: 1
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:middleleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:middleleft"
         }
       }
     }
   }
 }
 Objects {
-  Id: 4959741183180844432
+  Id: 189481098321150814
   Name: "UI Image"
   Transform {
     Location {
@@ -454,224 +533,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4649127187311320968
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    Width: 200
-    Height: 200
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 9111844654767905788
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      TeamSettings {
-      }
-      ShadowColor {
-        A: 1
-      }
-      ShadowOffset {
-      }
-      ScreenshotIndex: 1
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 6484999148807468878
-  Name: "UI Sale Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4649127187311320968
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    Width: 200
-    Height: 60
-    UIX: -5
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "EGS Mega Sale"
-      Color {
-        R: 0.100000024
-        G: 0.0675496832
-        A: 1
-      }
-      Size: 16
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 841534158063459245
-      }
-      VerticalJustification {
-        Value: "mc:everticaljustification:center"
-      }
-      ShadowColor {
-        A: 1
-      }
-      ShadowOffset {
-      }
-      OutlineColor {
-        A: 1
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 260060945578952831
-  Name: "UI Frame Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4649127187311320968
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    Width: 200
-    Height: 200
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 17066449609679557524
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      TeamSettings {
-      }
-      ShadowColor {
-        A: 1
-      }
-      ShadowOffset {
-      }
-      ScreenshotIndex: 1
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 10619556145070115198
-  Name: "UI Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4649127187311320968
+  ParentId: 3247843737190409810
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -687,22 +549,22 @@ Objects {
   Control {
     Width: 210
     Height: 200
-    UIX: -160
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    UseParentWidth: true
     UseParentHeight: true
     Image {
       Brush {
         Id: 841534158063459245
       }
       Color {
-        R: 0.935165524
-        G: 1
-        B: 0.110000014
-        A: 1
+        R: 0.00749903172
+        G: 0.00913406
+        B: 0.024157634
+        A: 0.90196085
       }
       TeamSettings {
       }
@@ -728,8 +590,8 @@ Objects {
   }
 }
 Objects {
-  Id: 2224840428159740297
-  Name: "UI Window Panel"
+  Id: 3851980197051218839
+  Name: "UI EGS Window Panel"
   Transform {
     Location {
     }
@@ -741,9 +603,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5951401898294571137
-  ChildIds: 5293035571925029633
-  ChildIds: 6432092033662203878
+  ParentId: 14784142291806396091
+  ChildIds: 16627220489321291720
+  ChildIds: 18416844317066219091
+  ChildIds: 2222767429662732548
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -757,8 +620,8 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 600
-    Height: 300
+    Width: 560
+    Height: 339
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -782,10 +645,13 @@ Objects {
   }
 }
 Objects {
-  Id: 6432092033662203878
-  Name: "UI Panel"
+  Id: 2222767429662732548
+  Name: "Title"
   Transform {
     Location {
+      X: 4548.35742
+      Y: -8599.3418
+      Z: 1513.91211
     }
     Rotation {
     }
@@ -795,10 +661,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2224840428159740297
-  ChildIds: 15899609215264132688
-  ChildIds: 5594976055618692793
-  ChildIds: 8752517974812295461
+  ParentId: 3851980197051218839
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -812,8 +675,98 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: -10
-    Height: -20
+    Height: 80
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Label: "EGS MEGA SALE PRIZE"
+      Color {
+        R: 1
+        G: 0.439657241
+        B: 0.00121410796
+        A: 1
+      }
+      Size: 24
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1512975179029638033
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        R: 0.138431624
+        G: 0.0512694679
+        A: 1
+      }
+      ShadowOffset {
+        Y: 3
+      }
+      OutlineColor {
+        R: 0.138431624
+        G: 0.0512694679
+        A: 1
+      }
+      OutlineSize: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 18416844317066219091
+  Name: "Content_Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3851980197051218839
+  ChildIds: 4518257380534426713
+  ChildIds: 7364402322082186046
+  ChildIds: 8068235304581928067
+  ChildIds: 1852552957771005834
+  ChildIds: 3874909100133317548
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: -20
+    Height: -80
+    UIY: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -828,208 +781,6 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 8752517974812295461
-  Name: "UI Claim Later Button"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6432092033662203878
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    Width: 80
-    Height: 30
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    IsHittable: true
-    Button {
-      Label: "Claim Later"
-      FontColor {
-        A: 1
-      }
-      FontSize: 14
-      ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Brush {
-        Id: 841534158063459245
-      }
-      IsButtonEnabled: true
-      ClickMode {
-        Value: "mc:ebuttonclickmode:default"
-      }
-      Font {
-      }
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      VerticalJustification {
-        Value: "mc:everticaljustification:center"
-      }
-      ShadowColor {
-        A: 1
-      }
-      ShadowOffset {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomright"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 5594976055618692793
-  Name: "UI Claim Now Button"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6432092033662203878
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    Width: 150
-    Height: 50
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    IsHittable: true
-    Button {
-      Label: "Claim Now"
-      FontColor {
-        A: 1
-      }
-      FontSize: 20
-      ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Brush {
-        Id: 841534158063459245
-      }
-      IsButtonEnabled: true
-      ClickMode {
-        Value: "mc:ebuttonclickmode:default"
-      }
-      Font {
-      }
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      VerticalJustification {
-        Value: "mc:everticaljustification:center"
-      }
-      ShadowColor {
-        A: 1
-      }
-      ShadowOffset {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
           Value: "mc:euianchor:bottomcenter"
         }
       }
@@ -1042,7 +793,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15899609215264132688
+  Id: 3874909100133317548
   Name: "UI Sale Message Text Box"
   Transform {
     Location {
@@ -1055,7 +806,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6432092033662203878
+  ParentId: 18416844317066219091
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1069,8 +820,8 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: -50
-    UIY: 10
+    Height: 50
+    UIY: 0.348815918
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1078,25 +829,24 @@ Objects {
     }
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
-    UseParentHeight: true
     Text {
-      Label: "Claim your 2625 Strike Coins"
+      Label: "Claimed prize has a minimum worth of 400 Core Credits. This Claim is for FREE."
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 20
+      Size: 14
       Justification {
-        Value: "mc:etextjustify:left"
+        Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
       Font {
-        Id: 841534158063459245
+        Id: 4905788464988969541
       }
       VerticalJustification {
-        Value: "mc:everticaljustification:top"
+        Value: "mc:everticaljustification:center"
       }
       ShadowColor {
         A: 1
@@ -1106,6 +856,583 @@ Objects {
       OutlineColor {
         A: 1
       }
+      OutlineSize: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 1852552957771005834
+  Name: "UI Panel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18416844317066219091
+  ChildIds: 18032765100505833736
+  ChildIds: 2516227778322207790
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 240
+    Height: 60
+    UIX: 20
+    UIY: -50
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+      IsClipping: true
+      Opacity: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 2516227778322207790
+  Name: "Text"
+  Transform {
+    Location {
+      X: 3405.61377
+      Y: -4728.89307
+      Z: -6956.02881
+    }
+    Rotation {
+      Yaw: 13.4060402
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1852552957771005834
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    UIY: 4
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "CLAIM NOW"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 24
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1512975179029638033
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        R: 0.138431624
+        G: 0.0512694679
+        A: 1
+      }
+      ShadowOffset {
+        Y: 3
+      }
+      OutlineColor {
+        R: 0.138431624
+        G: 0.0512694679
+        A: 1
+      }
+      OutlineSize: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 18032765100505833736
+  Name: "UI EGS Claim Now Button"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1852552957771005834
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 1
+    Height: 10
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    IsHittable: true
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 14
+      ButtonColor {
+        R: 0.658374965
+        G: 0.287440896
+        B: 0.000910581031
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 0.439657241
+        B: 0.00121410796
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 0.439657241
+        B: 0.00121410796
+        A: 1
+      }
+      DisabledColor {
+        R: 0.658374965
+        G: 0.287440896
+        B: 0.000910581031
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
+      }
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 8068235304581928067
+  Name: "UI Panel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18416844317066219091
+  ChildIds: 4201747927407746765
+  ChildIds: 11116743951367759203
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 240
+    Height: 60
+    UIX: -20
+    UIY: -50
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+      IsClipping: true
+      Opacity: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 11116743951367759203
+  Name: "Text"
+  Transform {
+    Location {
+      X: 3405.61279
+      Y: -4728.89209
+      Z: -6956.02881
+    }
+    Rotation {
+      Yaw: 13.405941
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8068235304581928067
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    UIY: 4
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "CLAIM LATER"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 24
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1512975179029638033
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        G: 0.0528606549
+        B: 0.138431624
+        A: 1
+      }
+      ShadowOffset {
+        Y: 3
+      }
+      OutlineColor {
+        G: 0.0528606549
+        B: 0.138431624
+        A: 1
+      }
+      OutlineSize: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4201747927407746765
+  Name: "UI EGS Claim Later Button"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8068235304581928067
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 1
+    Height: 10
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    IsHittable: true
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.000607054
+        G: 0.141263306
+        B: 0.58407861
+        A: 1
+      }
+      HoveredColor {
+        R: 0.000910581031
+        G: 0.242281199
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 0.000910581031
+        G: 0.242281199
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 0.000607054
+        G: 0.141263306
+        B: 0.58407861
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
+      }
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 7364402322082186046
+  Name: "UI Sale Message Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18416844317066219091
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Height: 126
+    UIY: 10
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Label: "Claim 8625 Strike Coins for FREE!"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1641512795081380093
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+      OutlineColor {
+        A: 1
+      }
+      OutlineSize: 1
     }
     AnchorLayout {
       SelfAnchor {
@@ -1122,8 +1449,78 @@ Objects {
   }
 }
 Objects {
-  Id: 5293035571925029633
-  Name: "UI Image"
+  Id: 4518257380534426713
+  Name: "BG"
+  Transform {
+    Location {
+      X: 4485.35693
+      Y: -8664.34277
+      Z: 1597.91211
+    }
+    Rotation {
+      Yaw: -90.0000229
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18416844317066219091
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 1814707273787853473
+      }
+      Color {
+        A: 0.392156899
+      }
+      TeamSettings {
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+      ScreenshotIndex: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 16627220489321291720
+  Name: "Background"
   Transform {
     Location {
     }
@@ -1135,7 +1532,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2224840428159740297
+  ParentId: 3851980197051218839
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1151,8 +1548,6 @@ Objects {
   Control {
     Width: 200
     Height: 200
-    UIX: 5.00003052
-    UIY: 10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1164,7 +1559,10 @@ Objects {
       Brush {
       }
       Color {
-        A: 1
+        R: 0.00749903172
+        G: 0.00913406
+        B: 0.024157634
+        A: 0.90196085
       }
       TeamSettings {
       }
@@ -1214,37 +1612,37 @@ Objects {
     Overrides {
       Name: "cs:UIClaimNowButton"
       ObjectReference {
-        SelfId: 5594976055618692793
+        SelfId: 18032765100505833736
       }
     }
     Overrides {
       Name: "cs:UIClaimLaterButton"
       ObjectReference {
-        SelfId: 8752517974812295461
+        SelfId: 4201747927407746765
       }
     }
     Overrides {
       Name: "cs:UIClaimOpenButton"
       ObjectReference {
-        SelfId: 13677921774037570450
+        SelfId: 2198043032289027728
       }
     }
     Overrides {
       Name: "cs:UIClaimContainer"
       ObjectReference {
-        SelfId: 5951401898294571137
+        SelfId: 14784142291806396091
       }
     }
     Overrides {
       Name: "cs:UIWindowPanel"
       ObjectReference {
-        SelfId: 2224840428159740297
+        SelfId: 3851980197051218839
       }
     }
     Overrides {
       Name: "cs:UIIconPanel"
       ObjectReference {
-        SelfId: 4649127187311320968
+        SelfId: 3247843737190409810
       }
     }
     Overrides {
@@ -1299,7 +1697,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ExpiryDay"
-      Int: 17
+      Int: 20
     }
     Overrides {
       Name: "cs:GrantYear"
@@ -1311,7 +1709,7 @@ Objects {
     }
     Overrides {
       Name: "cs:GrantDay"
-      Int: 7
+      Int: 4
     }
     Overrides {
       Name: "cs:GrantDurationInDays"
@@ -1319,7 +1717,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RestrictToPlayers"
-      String: ""
+      String: "Ocylix"
     }
     Overrides {
       Name: "cs:ExpiryYear:isrep"

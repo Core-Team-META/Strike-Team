@@ -1,18 +1,45 @@
 Assets {
-  Id: 17066449609679557524
-  Name: "Frame Outline Thin 002"
-  PlatformAssetType: 9
+  Id: 16082593533245531547
+  Name: "Oswald Semi Bold"
+  PlatformAssetType: 28
   PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameOutline_019"
+    AssetType: "FontAssetRef"
+    AssetId: "OswaldSemiBold_ref"
   }
 }
 Assets {
-  Id: 9111844654767905788
-  Name: "Fantasy Crate 005"
+  Id: 4905788464988969541
+  Name: "Oswald Extra Light"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "OswaldExtraLight_ref"
+  }
+}
+Assets {
+  Id: 1814707273787853473
+  Name: "BG Flat 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Crate_005"
+    AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 1641512795081380093
+  Name: "Oswald"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "OswaldRegular_ref"
+  }
+}
+Assets {
+  Id: 1512975179029638033
+  Name: "Luckiest Guy"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "LuckiestGuyRegular_ref"
   }
 }

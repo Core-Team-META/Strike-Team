@@ -81,7 +81,7 @@ UICLAIM_NOW_BUTTON.clickedEvent:Connect(OnButtonNowClicked)
 UICLAIM_LATER_BUTTON.clickedEvent:Connect(OnButtonLaterClicked)
 
 function OnBindingPressed(whichPlayer, binding)      
-    if binding == UIBINDING and not IsPromoClaimed() then
+    if binding == UIBINDING and not IsPromoClaimed() and IsUserAllowed() and not IsPromoExpired() then
         if UIWINDOW_PANEL.visibility == Visibility.FORCE_OFF then
             OnButtonOpenClicked()
         else
