@@ -252,7 +252,7 @@ Assets {
 }
 Assets {
   Id: 10614095398046354114
-  Name: "Military Ability Weapon Fire 004"
+  Name: "Military Ability Weapon Fire 007"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"

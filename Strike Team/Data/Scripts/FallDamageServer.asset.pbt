@@ -3,6 +3,8 @@ Assets {
   Name: "FallDamageServer"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 94
+  SerializationVersion: 115
 }

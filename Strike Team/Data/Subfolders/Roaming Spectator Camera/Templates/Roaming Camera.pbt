@@ -46,6 +46,9 @@ Assets {
         Folder {
           IsGroup: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 16459586259066117162
@@ -75,6 +78,9 @@ Assets {
           ScriptAsset {
             Id: 9948540107502084594
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -148,6 +154,9 @@ Assets {
           ScriptAsset {
             Id: 1604621731589056022
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -224,7 +233,12 @@ Assets {
             CanMoveDown: true
             IsMountEnabled: true
             MaxHitpoints: 100
+            PlayerMasterVolumeMultiplier: 1
+            ComplexCollision: true
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -301,7 +315,12 @@ Assets {
             CanMoveDown: true
             IsMountEnabled: true
             MaxHitpoints: 100
+            PlayerMasterVolumeMultiplier: 1
+            ComplexCollision: true
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -378,7 +397,12 @@ Assets {
             CanMoveDown: true
             IsMountEnabled: true
             MaxHitpoints: 100
+            PlayerMasterVolumeMultiplier: 1
+            ComplexCollision: true
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -455,7 +479,12 @@ Assets {
             CanMoveDown: true
             IsMountEnabled: true
             MaxHitpoints: 100
+            PlayerMasterVolumeMultiplier: 1
+            ComplexCollision: true
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -532,7 +561,12 @@ Assets {
             CanMoveDown: true
             IsMountEnabled: true
             MaxHitpoints: 100
+            PlayerMasterVolumeMultiplier: 1
+            ComplexCollision: true
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -562,6 +596,15 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
+          MinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -600,6 +643,9 @@ Assets {
           ScriptAsset {
             Id: 11880836460639125341
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -646,6 +692,9 @@ Assets {
           MaxPitch: 89
           UseAsAudioListener: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -656,6 +705,6 @@ Assets {
   Marketplace {
     Description: "Allows a user to fly around the map with a free roaming camera while the game is being played.\r\n\r\nv1.0.1\r\n- Fixed a crash if the roaming player leaves the game.\r\n\r\nv1.0\r\n- Added support for Depth of Field post-process (DOF).\r\n- FOV now adjusts continuously when buttons are held instead of adjusting in steps.\r\n\r\nv0.3\r\n- No longer need to hold F to adjust FOV.\r\n\r\nv0.2\r\n- Pressing U now disables all client-side UI.\r\n- Changed Shift/Alt to be speed steps instead of having to be held down. Steps through 5 different speeds.\r\n- Q/E now move the camera up/down relative to the camera\'s axis. Control/Space continue to move up/down relative to world."
   }
-  SerializationVersion: 94
+  SerializationVersion: 115
   DirectlyPublished: true
 }

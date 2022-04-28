@@ -20,97 +20,97 @@ Assets {
           Overrides {
             Name: "cs:_Arena_SniperAlley"
             AssetReference {
-              Id: 1238399792795189015
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_ConstructionBuildingTall"
             AssetReference {
-              Id: 4114074558973409452
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_ConstructionMedium"
             AssetReference {
-              Id: 6248900418625828743
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_House1_0"
             AssetReference {
-              Id: 10440365922207764419
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_House2"
             AssetReference {
-              Id: 7245120723122881093
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_House1"
             AssetReference {
-              Id: 10909863103553888927
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_House4"
             AssetReference {
-              Id: 4791224631096226634
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_LargePalace"
             AssetReference {
-              Id: 4997878490764595677
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_OldCourtyard"
             AssetReference {
-              Id: 13055787268061547117
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_OldHouse1"
             AssetReference {
-              Id: 17220561034074047951
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_OldHouse2"
             AssetReference {
-              Id: 15807770398276702465
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_OldHouse3"
             AssetReference {
-              Id: 10269490792755522753
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_OldHouse4"
             AssetReference {
-              Id: 10083196457541905456
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_PalaceMedium"
             AssetReference {
-              Id: 8872554341225007186
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_Building_SmallTemple"
             AssetReference {
-              Id: 6174845562207286071
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:_SniperAlley_Atmospherics"
             AssetReference {
-              Id: 14503131856705354756
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -138,6 +138,9 @@ Assets {
         Folder {
           IsGroup: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -148,6 +151,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 94
+  SerializationVersion: 115
   DirectlyPublished: true
 }

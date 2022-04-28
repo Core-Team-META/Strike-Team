@@ -1,58 +1,73 @@
 Name: "FakeGI"
 RootId: 10734059996242719164
 Objects {
-  Id: 6347394349298036180
-  Name: "Area Light"
+  Id: 8369759760165783840
+  Name: "ClientContext"
   Transform {
     Location {
-      X: -4885
-      Y: 1085
-      Z: 480
     }
     Rotation {
-      Yaw: 180
-      Roll: 180
     }
     Scale {
       X: 1
-      Y: 2
+      Y: 1
       Z: 1
     }
   }
   ParentId: 10734059996242719164
+  ChildIds: 6347394349298036180
+  ChildIds: 3425951719151080532
+  ChildIds: 6262065081307530971
+  ChildIds: 13473293427050978597
+  ChildIds: 6966297379865591989
+  ChildIds: 18312172034691338974
+  ChildIds: 11855830479131624270
+  ChildIds: 17749070525536608898
+  ChildIds: 6433390858152897958
+  ChildIds: 6827517165253351318
+  ChildIds: 12049659535881746589
+  ChildIds: 13267564645842103305
+  ChildIds: 8396866122128530018
+  ChildIds: 11342550369471294318
+  ChildIds: 13826142975209852163
+  ChildIds: 16278966126509575282
+  ChildIds: 10714283553229395551
+  ChildIds: 14363370505558326680
+  ChildIds: 8988012108388762198
+  ChildIds: 2329003199044509265
+  ChildIds: 853953462313956594
+  ChildIds: 13518290783455185038
+  ChildIds: 17623289818416679393
+  ChildIds: 10461964325703658090
+  ChildIds: 7082374561525696289
+  ChildIds: 8534377923642314134
+  ChildIds: 16818517352452236371
+  ChildIds: 13622897545940961106
+  ChildIds: 2188213647345881116
+  ChildIds: 17906974294099200535
+  ChildIds: 6060249532366615043
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
-  Light {
-    Intensity: 26.8573532
-    Color {
-      R: 1
-      G: 0.857
-      B: 0.714
-      A: 1
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:ultra"
     }
-    TeamSettings {
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
     }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 742.60437
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 1198.30994
-          SourceHeight: 718.62915
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -72,7 +87,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -106,6 +121,11 @@ Objects {
       MaxDrawDistance: 2569.02856
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -118,7 +138,7 @@ Objects {
       Z: 715
     }
     Rotation {
-      Yaw: 90
+      Yaw: 89.9999924
     }
     Scale {
       X: 1
@@ -126,7 +146,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -160,6 +180,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -172,7 +197,7 @@ Objects {
       Z: 125
     }
     Rotation {
-      Yaw: 89.9999847
+      Yaw: 89.9999771
     }
     Scale {
       X: 1
@@ -180,7 +205,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -214,6 +239,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -226,7 +256,7 @@ Objects {
       Z: 125
     }
     Rotation {
-      Yaw: 90
+      Yaw: 89.9999924
     }
     Scale {
       X: 1
@@ -234,7 +264,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -268,6 +298,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -280,7 +315,7 @@ Objects {
       Z: 125
     }
     Rotation {
-      Yaw: -179.999969
+      Yaw: -179.999954
     }
     Scale {
       X: 1
@@ -288,7 +323,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -322,6 +357,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -334,7 +374,7 @@ Objects {
       Z: 770
     }
     Rotation {
-      Yaw: 180
+      Yaw: -179.999985
     }
     Scale {
       X: 1
@@ -342,7 +382,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -376,6 +416,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -388,7 +433,7 @@ Objects {
       Z: 249.984131
     }
     Rotation {
-      Yaw: 90
+      Yaw: 89.9999924
     }
     Scale {
       X: 1
@@ -396,7 +441,7 @@ Objects {
       Z: 3.50000024
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -429,6 +474,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -442,7 +492,8 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Roll: -45
+      Yaw: 14.0362635
+      Roll: -30.9637146
     }
     Scale {
       X: 1
@@ -450,7 +501,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -484,6 +535,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -496,7 +552,7 @@ Objects {
       Z: 290
     }
     Rotation {
-      Yaw: 89.9999847
+      Yaw: 89.9999771
     }
     Scale {
       X: 1
@@ -504,7 +560,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -538,6 +594,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -550,7 +611,7 @@ Objects {
       Z: 750
     }
     Rotation {
-      Yaw: 90
+      Yaw: 89.9999924
     }
     Scale {
       X: 1
@@ -558,7 +619,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -592,6 +653,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -614,7 +680,7 @@ Objects {
       Z: 3.50000024
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -647,6 +713,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -660,7 +731,7 @@ Objects {
     }
     Rotation {
       Pitch: -8.19622655e-05
-      Yaw: -179.999969
+      Yaw: -179.999954
       Roll: -179.999954
     }
     Scale {
@@ -669,7 +740,7 @@ Objects {
       Z: 3.50000024
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -702,6 +773,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -714,7 +790,7 @@ Objects {
       Z: 467.148926
     }
     Rotation {
-      Pitch: -20.5023136
+      Pitch: -20.5023079
       Yaw: 179.999954
       Roll: -179.999237
     }
@@ -724,7 +800,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -758,6 +834,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -770,7 +851,7 @@ Objects {
       Z: 751.110352
     }
     Rotation {
-      Pitch: -30.459404
+      Pitch: -30.4593983
       Yaw: 175.393066
       Roll: 175.531296
     }
@@ -780,7 +861,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -813,6 +894,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -826,8 +912,8 @@ Objects {
     }
     Rotation {
       Pitch: -90
-      Yaw: 155.106888
-      Roll: -155.106873
+      Yaw: -35.2643929
+      Roll: 35.2644081
     }
     Scale {
       X: 1
@@ -835,7 +921,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -869,6 +955,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -882,7 +973,7 @@ Objects {
     }
     Rotation {
       Pitch: -6.83018879e-06
-      Yaw: 134.999954
+      Yaw: 134.999939
       Roll: -179.999954
     }
     Scale {
@@ -891,7 +982,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -925,6 +1016,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -938,7 +1034,7 @@ Objects {
     }
     Rotation {
       Yaw: 135
-      Roll: -179.999969
+      Roll: -179.999954
     }
     Scale {
       X: 1
@@ -946,7 +1042,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -980,6 +1076,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -993,8 +1094,8 @@ Objects {
     }
     Rotation {
       Pitch: -90
-      Yaw: 155.106888
-      Roll: -155.106873
+      Yaw: -35.2643929
+      Roll: 35.2644081
     }
     Scale {
       X: 1
@@ -1002,7 +1103,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1036,6 +1137,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1049,8 +1155,8 @@ Objects {
     }
     Rotation {
       Pitch: -90
-      Yaw: 155.106888
-      Roll: -155.106873
+      Yaw: -35.2643929
+      Roll: 35.2644081
     }
     Scale {
       X: 1
@@ -1058,7 +1164,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1092,6 +1198,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1105,8 +1216,8 @@ Objects {
     }
     Rotation {
       Pitch: -4.09811328e-05
-      Yaw: 89.9999924
-      Roll: -179.999985
+      Yaw: 89.9999771
+      Roll: -179.999969
     }
     Scale {
       X: 1
@@ -1114,7 +1225,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1148,6 +1259,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1162,7 +1278,7 @@ Objects {
     Rotation {
       Pitch: -1.36603776e-05
       Yaw: 135
-      Roll: -179.999969
+      Roll: -179.999954
     }
     Scale {
       X: 1
@@ -1170,7 +1286,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1204,6 +1320,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1216,7 +1337,7 @@ Objects {
       Z: 355.658356
     }
     Rotation {
-      Yaw: 134.999954
+      Yaw: 134.999939
       Roll: -179.999954
     }
     Scale {
@@ -1225,7 +1346,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1259,6 +1380,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1273,7 +1399,7 @@ Objects {
     Rotation {
       Pitch: -1.36603776e-05
       Yaw: 135
-      Roll: -179.999969
+      Roll: -179.999954
     }
     Scale {
       X: 1
@@ -1281,7 +1407,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1315,6 +1441,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1327,9 +1458,9 @@ Objects {
       Z: 752.575684
     }
     Rotation {
-      Pitch: -3.05175781e-05
+      Pitch: -3.4150944e-05
       Yaw: 135
-      Roll: -179.999985
+      Roll: -179.999969
     }
     Scale {
       X: 1
@@ -1337,7 +1468,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1371,6 +1502,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1384,8 +1520,8 @@ Objects {
     }
     Rotation {
       Pitch: -2.73207552e-05
-      Yaw: -179.999985
-      Roll: 180
+      Yaw: -179.999969
+      Roll: -179.999985
     }
     Scale {
       X: 1
@@ -1393,7 +1529,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1427,6 +1563,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1439,9 +1580,9 @@ Objects {
       Z: 587.637939
     }
     Rotation {
-      Pitch: -3.05175781e-05
-      Yaw: 90.0000229
-      Roll: -179.999985
+      Pitch: -3.4150944e-05
+      Yaw: 90.0000076
+      Roll: -179.999969
     }
     Scale {
       X: 1
@@ -1449,7 +1590,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1483,6 +1624,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1497,7 +1643,7 @@ Objects {
     Rotation {
       Pitch: -4.09811328e-05
       Yaw: 135
-      Roll: -179.999985
+      Roll: -179.999969
     }
     Scale {
       X: 1
@@ -1505,7 +1651,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1539,6 +1685,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1551,9 +1702,9 @@ Objects {
       Z: 509.938477
     }
     Rotation {
-      Pitch: -31.2580585
-      Yaw: -180
-      Roll: -179.999969
+      Pitch: -31.2580452
+      Yaw: 179.999985
+      Roll: -179.999954
     }
     Scale {
       X: 1
@@ -1561,7 +1712,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1595,6 +1746,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1607,9 +1763,9 @@ Objects {
       Z: 509.934082
     }
     Rotation {
-      Pitch: -31.2580509
-      Yaw: -180
-      Roll: -180
+      Pitch: -31.2580318
+      Yaw: 179.999985
+      Roll: 179.999985
     }
     Scale {
       X: 1
@@ -1617,7 +1773,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1651,6 +1807,11 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1664,8 +1825,8 @@ Objects {
     }
     Rotation {
       Pitch: -27.4947815
-      Yaw: 137.632431
-      Roll: -165.647354
+      Yaw: 137.632385
+      Roll: -165.647324
     }
     Scale {
       X: 1
@@ -1673,7 +1834,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10734059996242719164
+  ParentId: 8369759760165783840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1707,5 +1868,70 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6347394349298036180
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: -4885
+      Y: 1085
+      Z: 480
+    }
+    Rotation {
+      Yaw: -179.999985
+      Roll: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 2
+      Z: 1
+    }
+  }
+  ParentId: 8369759760165783840
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 26.8573532
+    Color {
+      R: 1
+      G: 0.857
+      B: 0.714
+      A: 1
+    }
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 742.60437
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 1198.30994
+          SourceHeight: 718.62915
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

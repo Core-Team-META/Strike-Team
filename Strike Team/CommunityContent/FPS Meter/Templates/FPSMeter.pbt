@@ -32,6 +32,9 @@ Assets {
         Folder {
           IsGroup: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 16580338568462187286
@@ -62,6 +65,9 @@ Assets {
             Id: 6636795328957701749
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 4637071319039197806
@@ -90,6 +96,15 @@ Assets {
           Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
+          MinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -133,6 +148,9 @@ Assets {
             Id: 8430972892149178453
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 12657977159280087278
@@ -168,6 +186,15 @@ Assets {
           }
           Canvas {
             Opacity: 1
+            IsHUD: true
+            CanvasWorldSize {
+              X: 1024
+              Y: 1024
+            }
+            TwoSided: true
+            TickWhenOffScreen: true
+            RedrawTime: 30
+            UseSafeZoneAdjustment: true
           }
           AnchorLayout {
             SelfAnchor {
@@ -181,6 +208,9 @@ Assets {
               }
             }
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -250,6 +280,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -260,6 +293,6 @@ Assets {
   Marketplace {
     Description: "This module calculates players\' frame rates and can display their FPS on screen. While it\'s possible to see frame rate through other means and Core provides good optimization tools, you may want your game to either:\r\n\r\n1. Show the FPS (frames per second) to the players.\r\n2. Detect players with low FPS and automatically reduce visual quality to improve their FPS.\r\n\r\nSee the enclosed README for more information\r\n\r\nv1.0"
   }
-  SerializationVersion: 94
+  SerializationVersion: 115
   DirectlyPublished: true
 }

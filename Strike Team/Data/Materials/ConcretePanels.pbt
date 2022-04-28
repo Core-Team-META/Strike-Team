@@ -2,7 +2,7 @@ Assets {
   Id: 696856107140800809
   Name: "ConcretePanels"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 115
   CustomMaterialAsset {
     BaseMaterialId: 6317093348408192352
     ParameterOverrides {

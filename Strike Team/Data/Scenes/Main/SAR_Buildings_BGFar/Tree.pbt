@@ -1,118 +1,6 @@
 Name: "SAR_Buildings_BGFar"
 RootId: 13385345388441639341
 Objects {
-  Id: 17673884516029744835
-  Name: "FarBGbuildings"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13385345388441639341
-  ChildIds: 16746923195384421267
-  ChildIds: 8471097248559030958
-  ChildIds: 16522970299340502661
-  ChildIds: 149885158834329435
-  ChildIds: 537630513411093361
-  ChildIds: 14721171815542501440
-  ChildIds: 18256375586128111636
-  ChildIds: 6285997814884597227
-  ChildIds: 4921033779727238408
-  ChildIds: 14058695130185217359
-  ChildIds: 5586162669808842528
-  ChildIds: 6158893321362294390
-  ChildIds: 17299851898536796091
-  ChildIds: 6282515565540674169
-  ChildIds: 17134818579932026204
-  ChildIds: 1150711110990087679
-  ChildIds: 12882079665531659980
-  ChildIds: 15517955716407219001
-  ChildIds: 2167530396311764735
-  ChildIds: 10509055216535162900
-  ChildIds: 8168980630507817695
-  ChildIds: 5964672798691288493
-  ChildIds: 5348013082383599002
-  ChildIds: 451651357570624961
-  ChildIds: 12432283985948883740
-  ChildIds: 11581951251548227012
-  ChildIds: 11442334320534452841
-  ChildIds: 12611412875577304961
-  ChildIds: 2927720693935284731
-  ChildIds: 15816348396092332386
-  ChildIds: 5217119450792831340
-  ChildIds: 12339365298214194355
-  ChildIds: 13838916124443735843
-  ChildIds: 11351082549206339325
-  ChildIds: 5054259783326013718
-  ChildIds: 15956646834230696348
-  ChildIds: 7312473602083448537
-  ChildIds: 16199123325513486549
-  ChildIds: 16825696775926861164
-  ChildIds: 10667230896495516074
-  ChildIds: 10783065638055066815
-  ChildIds: 16625066335744300841
-  ChildIds: 1820802611089102358
-  ChildIds: 16129988315594329822
-  ChildIds: 18380642832137826439
-  ChildIds: 11587417596732877555
-  ChildIds: 16068120175154497660
-  ChildIds: 10266964378144263716
-  ChildIds: 9096011606599292891
-  ChildIds: 3457141577470154714
-  ChildIds: 6646822298805198440
-  ChildIds: 8804273597208399695
-  ChildIds: 13027924580409674370
-  ChildIds: 15139059202846782310
-  ChildIds: 93795235366595506
-  ChildIds: 1259603704416919085
-  ChildIds: 7965756023300267446
-  ChildIds: 13318897522509967046
-  ChildIds: 7819309012856561580
-  ChildIds: 5016616804697212758
-  ChildIds: 15751890469866710927
-  ChildIds: 2510790658298394608
-  ChildIds: 2117099920559863588
-  ChildIds: 2402804535499321773
-  ChildIds: 6214791749787539244
-  ChildIds: 12365182413994607469
-  ChildIds: 2648391601134166349
-  ChildIds: 13356107052467145541
-  ChildIds: 1735773703774132966
-  ChildIds: 17998829403088309604
-  ChildIds: 3115009277566344989
-  ChildIds: 322556667322769146
-  ChildIds: 14790759009499942298
-  ChildIds: 14784672677219480894
-  ChildIds: 17050240169063444828
-  ChildIds: 17674586874113586491
-  ChildIds: 7483453288747072345
-  ChildIds: 7010734366189402014
-  ChildIds: 2023712322172561490
-  ChildIds: 2856934646323603976
-  ChildIds: 12140554628545258329
-  ChildIds: 12968272540786785831
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    Model {
-      AggressiveMerge: true
-    }
-  }
-}
-Objects {
   Id: 12968272540786785831
   Name: "Cube - bottom aligned"
   Transform {
@@ -130,7 +18,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -171,6 +59,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12140554628545258329
@@ -183,7 +77,8 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Roll: 47.1247406
+      Yaw: -165.96373
+      Roll: -118.839035
     }
     Scale {
       X: 19.2463531
@@ -191,7 +86,7 @@ Objects {
       Z: 52.9833832
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -231,6 +126,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -251,7 +152,7 @@ Objects {
       Z: 52.5982361
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -291,6 +192,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -311,7 +218,7 @@ Objects {
       Z: 40.7759
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -351,6 +258,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -363,7 +276,7 @@ Objects {
       Z: 2659.69531
     }
     Rotation {
-      Yaw: -61.5184937
+      Yaw: -61.5185
     }
     Scale {
       X: 68.0000076
@@ -371,7 +284,7 @@ Objects {
       Z: 22
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -411,6 +324,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -423,7 +342,7 @@ Objects {
       Z: -45.1777344
     }
     Rotation {
-      Yaw: 112.928398
+      Yaw: 112.928375
     }
     Scale {
       X: 24.7
@@ -431,7 +350,7 @@ Objects {
       Z: 44.4504318
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -471,6 +390,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -491,7 +416,7 @@ Objects {
       Z: 27.5334415
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -531,6 +456,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -543,7 +474,7 @@ Objects {
       Z: 1518.84204
     }
     Rotation {
-      Yaw: 112.92836
+      Yaw: 112.928337
     }
     Scale {
       X: 37.5093155
@@ -551,7 +482,7 @@ Objects {
       Z: 33.4468
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -591,6 +522,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -611,7 +548,7 @@ Objects {
       Z: 27.5334415
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -651,6 +588,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -663,7 +606,7 @@ Objects {
       Z: 1805
     }
     Rotation {
-      Yaw: -78.6873169
+      Yaw: -78.6873
     }
     Scale {
       X: 41.2000046
@@ -671,7 +614,7 @@ Objects {
       Z: 22
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -711,6 +654,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -723,7 +672,7 @@ Objects {
       Z: -300.924438
     }
     Rotation {
-      Yaw: -104.261032
+      Yaw: -104.26104
     }
     Scale {
       X: 24.7000256
@@ -731,7 +680,7 @@ Objects {
       Z: 35.9369888
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -772,6 +721,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3115009277566344989
@@ -783,7 +738,7 @@ Objects {
       Z: -1020.30444
     }
     Rotation {
-      Yaw: -98.9423218
+      Yaw: -98.942337
     }
     Scale {
       X: 41.9999962
@@ -791,7 +746,7 @@ Objects {
       Z: 45.5
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -831,6 +786,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -843,7 +804,7 @@ Objects {
       Z: -1020.30444
     }
     Rotation {
-      Yaw: -105.6996
+      Yaw: -105.699615
     }
     Scale {
       X: 24.7000027
@@ -851,7 +812,7 @@ Objects {
       Z: 41.466095
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -891,6 +852,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -911,7 +878,7 @@ Objects {
       Z: 40.7999954
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -951,6 +918,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -963,7 +936,7 @@ Objects {
       Z: -715.314941
     }
     Rotation {
-      Yaw: -165.99176
+      Yaw: -165.991745
     }
     Scale {
       X: 60.4585495
@@ -971,7 +944,7 @@ Objects {
       Z: 40.7999954
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1011,6 +984,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1023,7 +1002,7 @@ Objects {
       Z: -4098.95557
     }
     Rotation {
-      Yaw: -124.513336
+      Yaw: -124.513344
     }
     Scale {
       X: 24.6999531
@@ -1031,7 +1010,7 @@ Objects {
       Z: 65.0664444
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1071,6 +1050,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1083,7 +1068,7 @@ Objects {
       Z: -114.703369
     }
     Rotation {
-      Yaw: -129.081909
+      Yaw: -129.081879
     }
     Scale {
       X: 66.7925797
@@ -1091,7 +1076,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1131,6 +1116,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1151,7 +1142,7 @@ Objects {
       Z: 52.5982361
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1191,6 +1182,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1203,7 +1200,7 @@ Objects {
       Z: 1754.70947
     }
     Rotation {
-      Yaw: 165.670517
+      Yaw: 165.670486
     }
     Scale {
       X: 99.6000061
@@ -1211,7 +1208,7 @@ Objects {
       Z: 22
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1251,6 +1248,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1271,7 +1274,7 @@ Objects {
       Z: 22
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1311,6 +1314,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1331,7 +1340,7 @@ Objects {
       Z: 22
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1371,6 +1380,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1383,7 +1398,7 @@ Objects {
       Z: -105
     }
     Rotation {
-      Yaw: 155.95311
+      Yaw: 155.953125
     }
     Scale {
       X: 44.5000038
@@ -1391,7 +1406,7 @@ Objects {
       Z: 40.7
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1431,6 +1446,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1443,7 +1464,7 @@ Objects {
       Z: -1945.58618
     }
     Rotation {
-      Yaw: 157.24202
+      Yaw: 157.242035
     }
     Scale {
       X: 24.7
@@ -1451,7 +1472,7 @@ Objects {
       Z: 54.0083847
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1491,6 +1512,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1511,7 +1538,7 @@ Objects {
       Z: 27.5334415
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1551,6 +1578,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1571,7 +1604,7 @@ Objects {
       Z: 27.5334415
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1611,6 +1644,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1623,7 +1662,7 @@ Objects {
       Z: -2732.55664
     }
     Rotation {
-      Yaw: -124.513336
+      Yaw: -124.513344
     }
     Scale {
       X: 24.6999588
@@ -1631,7 +1670,7 @@ Objects {
       Z: 66.3246841
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1671,6 +1710,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1683,7 +1728,7 @@ Objects {
       Z: 217.743652
     }
     Rotation {
-      Yaw: -61.5184937
+      Yaw: -61.5185
     }
     Scale {
       X: 68.0000076
@@ -1691,7 +1736,7 @@ Objects {
       Z: 35.5171738
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1732,6 +1777,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 93795235366595506
@@ -1743,7 +1794,7 @@ Objects {
       Z: 995.213867
     }
     Rotation {
-      Yaw: -115.513016
+      Yaw: -115.513
     }
     Scale {
       X: 67.776741
@@ -1751,7 +1802,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1792,6 +1843,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15139059202846782310
@@ -1803,7 +1860,7 @@ Objects {
       Z: 1133.66479
     }
     Rotation {
-      Yaw: -106.514191
+      Yaw: -106.514198
     }
     Scale {
       X: 63.4999962
@@ -1811,7 +1868,7 @@ Objects {
       Z: 33.4468
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1851,6 +1908,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1871,7 +1934,7 @@ Objects {
       Z: 42.8329086
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1911,6 +1974,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1931,7 +2000,7 @@ Objects {
       Z: 51.7545738
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1971,6 +2040,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1983,7 +2058,7 @@ Objects {
       Z: -2110
     }
     Rotation {
-      Yaw: 165.503189
+      Yaw: 165.503159
     }
     Scale {
       X: 24.7
@@ -1991,7 +2066,7 @@ Objects {
       Z: 66.5217133
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2031,6 +2106,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2051,7 +2132,7 @@ Objects {
       Z: 58
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2091,6 +2172,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2111,7 +2198,7 @@ Objects {
       Z: 40.7759
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2151,6 +2238,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2163,7 +2256,7 @@ Objects {
       Z: -408.396973
     }
     Rotation {
-      Yaw: -168.163803
+      Yaw: -168.163788
     }
     Scale {
       X: 53.2012024
@@ -2171,7 +2264,7 @@ Objects {
       Z: 40.7999954
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2211,6 +2304,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2223,7 +2322,7 @@ Objects {
       Z: 35
     }
     Rotation {
-      Yaw: -165.991821
+      Yaw: -165.991791
     }
     Scale {
       X: 51.4999962
@@ -2231,7 +2330,7 @@ Objects {
       Z: 40.7999954
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2271,6 +2370,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2291,7 +2396,7 @@ Objects {
       Z: 52.6000061
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2331,6 +2436,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2351,7 +2462,7 @@ Objects {
       Z: 52.5982361
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2391,6 +2502,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2411,7 +2528,7 @@ Objects {
       Z: 22
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2451,6 +2568,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2463,7 +2586,7 @@ Objects {
       Z: 411.539062
     }
     Rotation {
-      Yaw: 164.969711
+      Yaw: 164.969681
     }
     Scale {
       X: 24.7
@@ -2471,7 +2594,7 @@ Objects {
       Z: 29.1393814
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2511,6 +2634,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2531,7 +2660,7 @@ Objects {
       Z: 54.0083847
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2571,6 +2700,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2591,7 +2726,7 @@ Objects {
       Z: 40.7759
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2631,6 +2766,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2643,7 +2784,7 @@ Objects {
       Z: -68.8369141
     }
     Rotation {
-      Yaw: -117.00235
+      Yaw: -117.002335
     }
     Scale {
       X: 24.7000027
@@ -2651,7 +2792,7 @@ Objects {
       Z: 31.8200531
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2691,6 +2832,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2711,7 +2858,7 @@ Objects {
       Z: 64.8639221
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2751,6 +2898,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2763,7 +2916,7 @@ Objects {
       Z: -997.301758
     }
     Rotation {
-      Yaw: -118.480927
+      Yaw: -118.480911
     }
     Scale {
       X: 24.7000027
@@ -2771,7 +2924,7 @@ Objects {
       Z: 41.466095
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2811,6 +2964,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2823,7 +2982,7 @@ Objects {
       Z: 234.083374
     }
     Rotation {
-      Yaw: -55.4150696
+      Yaw: -55.4150581
     }
     Scale {
       X: 53.4733124
@@ -2831,7 +2990,7 @@ Objects {
       Z: 35.48806
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2871,6 +3030,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2891,7 +3056,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2931,6 +3096,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2951,7 +3122,7 @@ Objects {
       Z: 35.4063301
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2991,6 +3162,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3011,7 +3188,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3051,6 +3228,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3071,7 +3254,7 @@ Objects {
       Z: 31.8200531
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3111,6 +3294,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3123,7 +3312,7 @@ Objects {
       Z: 698.599609
     }
     Rotation {
-      Yaw: -166.484039
+      Yaw: -166.484024
     }
     Scale {
       X: 24.7000561
@@ -3131,7 +3320,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3171,6 +3360,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3191,7 +3386,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3231,6 +3426,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3243,7 +3444,7 @@ Objects {
       Z: 1110.40601
     }
     Rotation {
-      Yaw: -166.484039
+      Yaw: -166.484024
     }
     Scale {
       X: 24.7
@@ -3251,7 +3452,7 @@ Objects {
       Z: 26.6
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3291,6 +3492,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3303,7 +3510,7 @@ Objects {
       Z: -1427.6084
     }
     Rotation {
-      Yaw: -105.699585
+      Yaw: -105.699593
     }
     Scale {
       X: 60.7547417
@@ -3311,7 +3518,7 @@ Objects {
       Z: 41.466095
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3351,6 +3558,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3364,8 +3577,7 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Yaw: 5.71059704
-      Roll: 59.4542847
+      Roll: 53.7436523
     }
     Scale {
       X: 49.2240067
@@ -3373,7 +3585,7 @@ Objects {
       Z: 52.9833641
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3413,6 +3625,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3426,8 +3644,8 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Yaw: -90
-      Roll: -20.3752136
+      Yaw: 14.0362635
+      Roll: 83.6610718
     }
     Scale {
       X: 38.662735
@@ -3435,7 +3653,7 @@ Objects {
       Z: 52.9834
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3475,6 +3693,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3488,7 +3712,8 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Roll: 69.6247635
+      Yaw: -90
+      Roll: -20.3752136
     }
     Scale {
       X: 19.2463531
@@ -3496,7 +3721,7 @@ Objects {
       Z: 52.9833832
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3537,6 +3762,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12432283985948883740
@@ -3548,7 +3779,7 @@ Objects {
       Z: 165
     }
     Rotation {
-      Yaw: -113.236946
+      Yaw: -113.236931
     }
     Scale {
       X: 24.7000027
@@ -3556,7 +3787,7 @@ Objects {
       Z: 41.466095
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3596,6 +3827,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3608,7 +3845,7 @@ Objects {
       Z: 289.203613
     }
     Rotation {
-      Yaw: -126.764465
+      Yaw: -126.764435
     }
     Scale {
       X: 26.8130875
@@ -3616,7 +3853,7 @@ Objects {
       Z: 19.368433
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3656,6 +3893,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3669,8 +3912,8 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Yaw: 180
-      Roll: -126.256287
+      Yaw: 5.71059704
+      Roll: 59.4542847
     }
     Scale {
       X: 49.2240067
@@ -3678,7 +3921,7 @@ Objects {
       Z: 52.9833641
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3718,6 +3961,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3738,7 +3987,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3778,6 +4027,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3791,7 +4046,8 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Roll: 44.9998207
+      Yaw: -14.0362635
+      Roll: 30.9635239
     }
     Scale {
       X: 49.2240067
@@ -3799,7 +4055,7 @@ Objects {
       Z: 52.9833641
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3839,6 +4095,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3852,7 +4114,8 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Roll: 44.9998207
+      Yaw: -14.0362635
+      Roll: 30.9635239
     }
     Scale {
       X: 49.2240067
@@ -3860,7 +4123,7 @@ Objects {
       Z: 52.9833641
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3901,6 +4164,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2167530396311764735
@@ -3912,7 +4181,7 @@ Objects {
       Z: -695.174805
     }
     Rotation {
-      Yaw: -146.270096
+      Yaw: -146.270081
     }
     Scale {
       X: 24.7000027
@@ -3920,7 +4189,7 @@ Objects {
       Z: 41.449379
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3960,6 +4229,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3972,7 +4247,7 @@ Objects {
       Z: 475.096436
     }
     Rotation {
-      Yaw: -134.263397
+      Yaw: -134.263367
     }
     Scale {
       X: 18.222002
@@ -3980,7 +4255,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4020,6 +4295,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4040,7 +4321,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4080,6 +4361,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4100,7 +4387,7 @@ Objects {
       Z: 50.3535538
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4140,6 +4427,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4160,7 +4453,7 @@ Objects {
       Z: 33.3929253
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4200,6 +4493,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4220,7 +4519,7 @@ Objects {
       Z: 31.8000011
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4260,6 +4559,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4272,7 +4577,7 @@ Objects {
       Z: -1878.62305
     }
     Rotation {
-      Yaw: -124.513336
+      Yaw: -124.513344
     }
     Scale {
       X: 24.6999474
@@ -4280,7 +4585,7 @@ Objects {
       Z: 44.6218338
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4321,6 +4626,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6158893321362294390
@@ -4332,7 +4643,7 @@ Objects {
       Z: 437.300171
     }
     Rotation {
-      Yaw: -104.261017
+      Yaw: -104.261024
     }
     Scale {
       X: 24.7000027
@@ -4340,7 +4651,7 @@ Objects {
       Z: 35.9369888
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4380,6 +4691,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4392,7 +4709,7 @@ Objects {
       Z: -1207.17554
     }
     Rotation {
-      Yaw: -106.51416
+      Yaw: -106.514168
     }
     Scale {
       X: 24.7
@@ -4400,7 +4717,7 @@ Objects {
       Z: 44.4504318
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4440,6 +4757,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4452,7 +4775,7 @@ Objects {
       Z: 2070.14282
     }
     Rotation {
-      Yaw: -106.514168
+      Yaw: -106.514175
     }
     Scale {
       X: 24.7
@@ -4460,7 +4783,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4500,6 +4823,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4512,7 +4841,7 @@ Objects {
       Z: 356.844238
     }
     Rotation {
-      Yaw: -106.514175
+      Yaw: -106.514183
     }
     Scale {
       X: 37.5093155
@@ -4520,7 +4849,7 @@ Objects {
       Z: 33.4468
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4560,6 +4889,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4572,7 +4907,7 @@ Objects {
       Z: 1323.6687
     }
     Rotation {
-      Yaw: -94.5142212
+      Yaw: -94.5142136
     }
     Scale {
       X: 24.7000027
@@ -4580,7 +4915,7 @@ Objects {
       Z: 24.751152
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4620,6 +4955,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4640,7 +4981,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4680,6 +5021,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4700,7 +5047,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4740,6 +5087,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4760,7 +5113,7 @@ Objects {
       Z: 28.6526012
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4800,6 +5153,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4820,7 +5179,7 @@ Objects {
       Z: 32.6416626
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4860,6 +5219,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4872,7 +5237,7 @@ Objects {
       Z: 1897.19629
     }
     Rotation {
-      Yaw: -61.5184937
+      Yaw: -61.5185
     }
     Scale {
       X: 68.0000076
@@ -4880,7 +5245,7 @@ Objects {
       Z: 22
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4920,6 +5285,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4932,7 +5303,7 @@ Objects {
       Z: 2334.37598
     }
     Rotation {
-      Yaw: -78.6873474
+      Yaw: -78.6873169
     }
     Scale {
       X: 24.7000027
@@ -4940,7 +5311,7 @@ Objects {
       Z: 14.9000006
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4980,6 +5351,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4992,7 +5369,7 @@ Objects {
       Z: 2105
     }
     Rotation {
-      Yaw: -45
+      Yaw: -44.9999962
     }
     Scale {
       X: 24.7000027
@@ -5000,7 +5377,7 @@ Objects {
       Z: 14.9000006
     }
   }
-  ParentId: 17673884516029744835
+  ParentId: 13385345388441639341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5040,5 +5417,11 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
