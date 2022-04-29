@@ -1835,15 +1835,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10134057492958128464
-  Name: "Ivy 05"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ivy_generic_005"
-  }
-}
-Assets {
   Id: 10128884331981734128
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
@@ -2069,15 +2060,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8412659464701473690
-  Name: "Text 02: )"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "Text_046"
-  }
-}
-Assets {
   Id: 8329339828071933523
   Name: "Concrete Basic 01"
   PlatformAssetType: 2
@@ -2111,15 +2093,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "dcl_basicShapes"
-  }
-}
-Assets {
-  Id: 8158438355727892145
-  Name: "Trash Can - Urban 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trash_public_001"
   }
 }
 Assets {
@@ -3338,15 +3311,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2000960576407746609
-  Name: "Ivy 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ivy_generic_004"
-  }
-}
-Assets {
   Id: 1938148825372685458
   Name: "Teardrop - Truncated"
   PlatformAssetType: 1
@@ -3464,15 +3428,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1229690817023463484
-  Name: "Ivy 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ivy_generic_002"
-  }
-}
-Assets {
   Id: 1102953858725591507
   Name: "Text 02: Y"
   PlatformAssetType: 1
@@ -3569,15 +3524,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_002"
-  }
-}
-Assets {
-  Id: 483459285969682853
-  Name: "Cone - Truncated Concave"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_truncated_concave_001"
   }
 }
 Assets {
