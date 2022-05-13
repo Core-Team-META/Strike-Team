@@ -96,7 +96,7 @@ end
 
 LOCAL_PLAYER.bindingPressedEvent:Connect(OnBindingPressed)
 
-print("Date is:", os.date('%Y-%m-%d', os.time()))
+print("Date is:", os.date('!%Y-%m-%d', os.time()))
 
 
 function IsUserAllowed()
@@ -132,9 +132,9 @@ end
 
 function IsPromoExpired()
     local currentDate = {}
-    currentDate.Year = tonumber(os.date('%Y', os.time()))
-    currentDate.Month = tonumber(os.date('%m', os.time()))
-    currentDate.Day = tonumber(os.date('%d', os.time()))
+    currentDate.Year = tonumber(os.date('!%Y', os.time()))
+    currentDate.Month = tonumber(os.date('!%m', os.time()))
+    currentDate.Day = tonumber(os.date('!%d', os.time()))
     currentDate.Hour = tonumber(os.date('!%H', os.time()))
     currentDate.Minute = tonumber(os.date('!%M', os.time()))
 
@@ -173,9 +173,9 @@ end
 
 function IsPromoActive()
     local currentDate = {}
-    currentDate.Year = tonumber(os.date('%Y', os.time()))
-    currentDate.Month = tonumber(os.date('%m', os.time()))
-    currentDate.Day = tonumber(os.date('%d', os.time()))
+    currentDate.Year = tonumber(os.date('!%Y', os.time()))
+    currentDate.Month = tonumber(os.date('!%m', os.time()))
+    currentDate.Day = tonumber(os.date('!%d', os.time()))
     currentDate.Hour = tonumber(os.date('!%H', os.time()))
     currentDate.Minute = tonumber(os.date('!%M', os.time()))
 
@@ -199,9 +199,9 @@ end
 
 function IsPromoAlmostActive()
     local thisDate = {}
-    thisDate.Year = tonumber(os.date('%Y', os.time()))
-    thisDate.Month = tonumber(os.date('%m', os.time()))
-    thisDate.Day = tonumber(os.date('%d', os.time()))
+    thisDate.Year = tonumber(os.date('!%Y', os.time()))
+    thisDate.Month = tonumber(os.date('!%m', os.time()))
+    thisDate.Day = tonumber(os.date('!%d', os.time()))
     thisDate.Hour = tonumber(os.date('!%H', os.time()))
     thisDate.Minute = tonumber(os.date('!%M', os.time()))
     thisDate.Second = tonumber(os.date('!%S', os.time()))
