@@ -1707,11 +1707,11 @@ Objects {
     }
     Overrides {
       Name: "cs:ExpiryHour"
-      Int: 23
+      Int: 22
     }
     Overrides {
       Name: "cs:ExpiryMinute"
-      Int: 0
+      Int: 52
     }
     Overrides {
       Name: "cs:GrantYear"
@@ -1727,11 +1727,11 @@ Objects {
     }
     Overrides {
       Name: "cs:GrantHour"
-      Int: 20
+      Int: 22
     }
     Overrides {
       Name: "cs:GrantMinute"
-      Int: 20
+      Int: 49
     }
     Overrides {
       Name: "cs:GrantDurationInDays"
@@ -1739,7 +1739,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RestrictToPlayers"
-      String: "Ocylix"
+      String: "mjcortes782, Mucusinator, Ocylix"
     }
     Overrides {
       Name: "cs:ExpiryYear:isrep"
