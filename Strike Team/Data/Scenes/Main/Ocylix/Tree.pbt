@@ -66,6 +66,12 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1693,11 +1699,19 @@ Objects {
     }
     Overrides {
       Name: "cs:ExpiryMonth"
-      Int: 4
+      Int: 5
     }
     Overrides {
       Name: "cs:ExpiryDay"
-      Int: 20
+      Int: 13
+    }
+    Overrides {
+      Name: "cs:ExpiryHour"
+      Int: 17
+    }
+    Overrides {
+      Name: "cs:ExpiryMinute"
+      Int: 35
     }
     Overrides {
       Name: "cs:GrantYear"
@@ -1705,11 +1719,19 @@ Objects {
     }
     Overrides {
       Name: "cs:GrantMonth"
-      Int: 4
+      Int: 5
     }
     Overrides {
       Name: "cs:GrantDay"
-      Int: 4
+      Int: 13
+    }
+    Overrides {
+      Name: "cs:GrantHour"
+      Int: 17
+    }
+    Overrides {
+      Name: "cs:GrantMinute"
+      Int: 0
     }
     Overrides {
       Name: "cs:GrantDurationInDays"
@@ -1817,6 +1839,22 @@ Objects {
     }
     Overrides {
       Name: "cs:RestrictToPlayers:category"
+      String: "Grant_Date"
+    }
+    Overrides {
+      Name: "cs:ExpiryHour:category"
+      String: "Expiry_Date"
+    }
+    Overrides {
+      Name: "cs:ExpiryMinute:category"
+      String: "Expiry_Date"
+    }
+    Overrides {
+      Name: "cs:GrantHour:category"
+      String: "Grant_Date"
+    }
+    Overrides {
+      Name: "cs:GrantMinute:category"
       String: "Grant_Date"
     }
   }

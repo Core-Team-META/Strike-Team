@@ -2,7 +2,7 @@ Assets {
   Id: 15216331850398421487
   Name: "Hill Chopper Spotlight"
   PlatformAssetType: 13
-  SerializationVersion: 113
+  SerializationVersion: 115
   CustomMaterialAsset {
     BaseMaterialId: 9134579743160012638
     ParameterOverrides {

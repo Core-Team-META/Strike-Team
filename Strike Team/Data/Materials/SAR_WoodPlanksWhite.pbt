@@ -2,7 +2,7 @@ Assets {
   Id: 7304090448405195378
   Name: "SAR_WoodPlanksWhite"
   PlatformAssetType: 13
-  SerializationVersion: 113
+  SerializationVersion: 115
   CustomMaterialAsset {
     BaseMaterialId: 17393961314713938594
     ParameterOverrides {

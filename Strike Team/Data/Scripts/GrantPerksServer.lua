@@ -3,11 +3,15 @@
 local EXPIRY_YEAR = script:GetCustomProperty("ExpiryYear")
 local EXPIRY_MONTH = script:GetCustomProperty("ExpiryMonth")
 local EXPIRY_DAY = script:GetCustomProperty("ExpiryDay")
+local EXPIRY_HOUR = script:GetCustomProperty("ExpiryHour")
+local EXPIRY_MINUTE = script:GetCustomProperty("ExpiryMinute")
 
 -- Grant_Date 
 local GRANT_YEAR = script:GetCustomProperty("GrantYear")
 local GRANT_MONTH = script:GetCustomProperty("GrantMonth")
 local GRANT_DAY = script:GetCustomProperty("GrantDay")
+local GRANT_HOUR = script:GetCustomProperty("GrantHour")
+local GRANT_MINUTE = script:GetCustomProperty("GrantMinute")
 local GRANT_DURATION_IN_DAYS = script:GetCustomProperty("GrantDurationInDays")
 local RESTRICT_TO_PLAYERS = script:GetCustomProperty("RestrictToPlayers")
 
@@ -60,27 +64,35 @@ function OnGrantPerksByDate(player, data)
         end
 
         local currentDate = {}
-        currentDate.Year = tonumber(os.date('%Y', os.time()))
-        currentDate.Month = tonumber(os.date('%m', os.time()))
-        currentDate.Day = tonumber(os.date('%d', os.time()))
+        currentDate.Year = tonumber(os.date('!%Y', os.time()))
+        currentDate.Month = tonumber(os.date('!%m', os.time()))
+        currentDate.Day = tonumber(os.date('!%d', os.time()))
+        currentDate.Hour = tonumber(os.date('!%H', os.time()))
+        currentDate.Minute = tonumber(os.date('!%M', os.time()))
 
         local endDate = {}
         local elapsedTime =  os.time() + GRANT_DURATION_IN_DAYS * 24 * 3600
-        endDate.Year = tonumber(os.date('%Y', elapsedTime))
-        endDate.Month = tonumber(os.date('%m', elapsedTime))
-        endDate.Day = tonumber(os.date('%d', elapsedTime))
-        
+        endDate.Year = tonumber(os.date('!%Y', elapsedTime))
+        endDate.Month = tonumber(os.date('!%m', elapsedTime))
+        endDate.Day = tonumber(os.date('!%d', elapsedTime))
+        endDate.Hour = tonumber(os.date('!%H', elapsedTime))
+        endDate.Minute = tonumber(os.date('!%M', elapsedTime))
+  
         data.Promo[keyString] = {
             items = {
                 "Strike Coins Bonus 15",
             },
-            membership = "",
+            membership = "VIP",
             claimYear =  currentDate.Year,
             claimMonth =  currentDate.Month,
             claimDay =  currentDate.Day,
+            claimHour =  currentDate.Hour,
+            claimMinute =  currentDate.Minute,
             endYear =  endDate.Year,
             endMonth =  endDate.Month,
             endDay =  endDate.Day,
+            endHour =  endDate.Hour,
+            endMinute =  endDate.Minute,
         }
               
         print(
@@ -88,10 +100,14 @@ function OnGrantPerksByDate(player, data)
             data.Promo[keyString].claimYear,
             data.Promo[keyString].claimMonth,
             data.Promo[keyString].claimDay,
+            data.Promo[keyString].claimHour,
+            data.Promo[keyString].claimMinute,
             " | Membership ends on",
             data.Promo[keyString].endYear,
             data.Promo[keyString].endMonth,
-            data.Promo[keyString].endDay
+            data.Promo[keyString].endDay,
+            data.Promo[keyString].endHour,
+            data.Promo[keyString].endMinute
         )
         local resultCode,errorMessage = Storage.SetPlayerData(player, data)
         player:SetPrivateNetworkedData(keyString, "Claimed")

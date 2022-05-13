@@ -2,7 +2,7 @@ Assets {
   Id: 15749264286730635134
   Name: "IndustrialSkin_DecalLines"
   PlatformAssetType: 13
-  SerializationVersion: 113
+  SerializationVersion: 115
   CustomMaterialAsset {
     BaseMaterialId: 14946503678217922085
     ParameterOverrides {

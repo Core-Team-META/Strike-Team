@@ -2,7 +2,7 @@ Assets {
   Id: 15750050624187467719
   Name: "Blank Additive"
   PlatformAssetType: 13
-  SerializationVersion: 113
+  SerializationVersion: 115
   CustomMaterialAsset {
     BaseMaterialId: 13071035348074642709
     ParameterOverrides {

@@ -4,11 +4,15 @@ local GRANT_PERKS_SERVER = script:GetCustomProperty("GrantPerksServer"):WaitForO
 local EXPIRY_YEAR = GRANT_PERKS_SERVER:GetCustomProperty("ExpiryYear")
 local EXPIRY_MONTH = GRANT_PERKS_SERVER:GetCustomProperty("ExpiryMonth")
 local EXPIRY_DAY = GRANT_PERKS_SERVER:GetCustomProperty("ExpiryDay")
+local EXPIRY_HOUR = GRANT_PERKS_SERVER:GetCustomProperty("ExpiryHour")
+local EXPIRY_MINUTE = GRANT_PERKS_SERVER:GetCustomProperty("ExpiryMinute")
 
 -- Grant_Date 
 local GRANT_YEAR = GRANT_PERKS_SERVER:GetCustomProperty("GrantYear")
 local GRANT_MONTH = GRANT_PERKS_SERVER:GetCustomProperty("GrantMonth")
 local GRANT_DAY = GRANT_PERKS_SERVER:GetCustomProperty("GrantDay")
+local GRANT_HOUR = GRANT_PERKS_SERVER:GetCustomProperty("GrantHour")
+local GRANT_MINUTE = GRANT_PERKS_SERVER:GetCustomProperty("GrantMinute")
 local GRANT_DURATION_IN_DAYS = GRANT_PERKS_SERVER:GetCustomProperty("GrantDurationInDays")
 local RESTRICT_TO_PLAYERS = GRANT_PERKS_SERVER:GetCustomProperty("RestrictToPlayers")
 
@@ -97,6 +101,8 @@ local currentDate = {}
 currentDate.Year = tonumber(os.date('%Y', os.time()))
 currentDate.Month = tonumber(os.date('%m', os.time()))
 currentDate.Day = tonumber(os.date('%d', os.time()))
+currentDate.Hour = tonumber(os.date('!%H', os.time()))
+currentDate.Minute = tonumber(os.date('!%M', os.time()))
 
 function IsUserAllowed()
     if CoreString.Trim(RESTRICT_TO_PLAYERS) == "" then
@@ -130,6 +136,20 @@ function IsPromoClaimed()
 end
 
 function IsPromoExpired()
+    if currentDate.Year == EXPIRY_YEAR and currentDate.Month == EXPIRY_MONTH and currentDate.Day == EXPIRY_DAY and currentDate.Hour == EXPIRY_HOUR then
+        if currentDate.Minute < EXPIRY_MINUTE then
+            return false
+        else
+            return true
+        end
+    end
+    if currentDate.Year == EXPIRY_YEAR and currentDate.Month == EXPIRY_MONTH and currentDate.Day == EXPIRY_DAY then
+        if currentDate.Hour < EXPIRY_HOUR then
+            return false
+        else
+            return true
+        end
+    end
     if currentDate.Year == EXPIRY_YEAR and currentDate.Month == EXPIRY_MONTH then
         if currentDate.Day < EXPIRY_DAY then
             return false
@@ -156,7 +176,13 @@ function IsPromoActive()
     if currentDate.Year == GRANT_YEAR and currentDate.Month > GRANT_MONTH then
         return true
     end
-    if currentDate.Year == GRANT_YEAR and currentDate.Month == GRANT_MONTH and  currentDate.Day >= GRANT_DAY then
+    if currentDate.Year == GRANT_YEAR and currentDate.Month == GRANT_MONTH and currentDate.Day >  GRANT_DAY then
+        return true
+    end
+    if currentDate.Year == GRANT_YEAR and currentDate.Month == GRANT_MONTH and currentDate.Day == GRANT_DAY and currentDate.Hour >  GRANT_HOUR then
+        return true
+    end
+    if currentDate.Year == GRANT_YEAR and currentDate.Month == GRANT_MONTH and currentDate.Day == GRANT_DAY and currentDate.Hour == GRANT_HOUR and currentDate.Minute >= GRANT_MINUTE then
         return true
     end
     return false

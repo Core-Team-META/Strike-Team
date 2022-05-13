@@ -526,5 +526,5 @@ Assets {
       AssetId: "Military_Sandbag_Wall_-_Corner_Template"
     }
   }
-  SerializationVersion: 113
+  SerializationVersion: 115
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 14432706440371965911
   Name: "StrikePoint_Boundary"
   PlatformAssetType: 13
-  SerializationVersion: 113
+  SerializationVersion: 115
   CustomMaterialAsset {
     BaseMaterialId: 13218136364188089309
     ParameterOverrides {
