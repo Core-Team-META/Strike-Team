@@ -2,7 +2,7 @@ Assets {
   Id: 11022553792517306153
   Name: "E-Flourish - Rotated"
   PlatformAssetType: 13
-  SerializationVersion: 115
+  SerializationVersion: 118
   CustomMaterialAsset {
     BaseMaterialId: 2877326018475520009
     ParameterOverrides {

@@ -242,15 +242,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16419385800386194736
-  Name: "Bannister Single Post"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bannister_post_001"
-  }
-}
-Assets {
   Id: 16417116211763376902
   Name: "Girder Medium Angled"
   PlatformAssetType: 1
@@ -518,15 +509,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_drawer_wide_001"
-  }
-}
-Assets {
-  Id: 13739503613467942724
-  Name: "Rock Block 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_007"
   }
 }
 Assets {
@@ -863,6 +845,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10850769815684373087
+  Name: "Plane 1m - Two Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_1m_002"
+  }
+}
+Assets {
   Id: 10835155324150586940
   Name: "Rock Pile 001"
   PlatformAssetType: 1
@@ -923,15 +914,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_pillar_base_001_ref"
-  }
-}
-Assets {
-  Id: 10392077395704307907
-  Name: "Rock Block 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_006"
   }
 }
 Assets {
@@ -1340,15 +1322,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4054211681159130604
-  Name: "Hill 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_001"
-  }
-}
-Assets {
   Id: 3998592366905403415
   Name: "Glass 01"
   PlatformAssetType: 2
@@ -1466,6 +1439,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2762274655119835808
+  Name: "Main Street Window Frame 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_part_windowframe_003_ref"
+  }
+}
+Assets {
   Id: 2727467945905195560
   Name: "Wedge"
   PlatformAssetType: 1
@@ -1556,15 +1538,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2000960576407746609
-  Name: "Ivy 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ivy_generic_004"
-  }
-}
-Assets {
   Id: 1936447668697306516
   Name: "Main Street Trim 02"
   PlatformAssetType: 1
@@ -1628,15 +1601,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1229690817023463484
-  Name: "Ivy 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ivy_generic_002"
-  }
-}
-Assets {
   Id: 973126561231212200
   Name: "Urban Damaged Wall 01 - End 01"
   PlatformAssetType: 1
@@ -1670,15 +1634,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cabinet_door_full_001"
-  }
-}
-Assets {
-  Id: 567193264820089861
-  Name: "Urban Fence Lock"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_lock_001"
   }
 }
 Assets {

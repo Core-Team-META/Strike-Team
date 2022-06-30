@@ -61,7 +61,6 @@ Objects {
   ChildIds: 10783065638055066815
   ChildIds: 16625066335744300841
   ChildIds: 1820802611089102358
-  ChildIds: 16129988315594329822
   ChildIds: 18380642832137826439
   ChildIds: 11587417596732877555
   ChildIds: 16068120175154497660
@@ -123,10 +122,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 12968272540786785831
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 19926.373
@@ -189,10 +189,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 12140554628545258329
-  Name: "Cube - bottom aligned"
+  Name: "Plane 1m - One Sided"
   Transform {
     Location {
       X: 23231.373
@@ -256,10 +257,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2856934646323603976
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -54490.4062
@@ -322,10 +324,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2023712322172561490
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -53644.3594
@@ -388,10 +391,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 7010734366189402014
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -61420.7656
@@ -454,10 +458,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 7483453288747072345
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -63972.9
@@ -520,10 +525,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 17674586874113586491
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -58714.8672
@@ -586,10 +592,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 17050240169063444828
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -68490.9
@@ -652,10 +659,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14784672677219480894
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -57893.8203
@@ -718,10 +726,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14790759009499942298
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -38708.9688
@@ -784,10 +793,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 322556667322769146
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 8879.77441
@@ -850,10 +860,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 3115009277566344989
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 55964.3438
@@ -916,10 +927,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 17998829403088309604
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 54581.5625
@@ -982,10 +994,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1735773703774132966
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 5165.58691
@@ -1048,10 +1061,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13356107052467145541
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 18586.334
@@ -1114,10 +1128,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2648391601134166349
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 37029.1875
@@ -1179,10 +1194,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 12365182413994607469
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 44985.1406
@@ -1245,10 +1261,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6214791749787539244
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -31718.7754
@@ -1311,10 +1328,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2402804535499321773
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -28178.2207
@@ -1377,10 +1395,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2117099920559863588
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -19189.1406
@@ -1443,10 +1462,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2510790658298394608
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -27266.2207
@@ -1509,10 +1529,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 15751890469866710927
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -18261.0449
@@ -1575,10 +1596,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5016616804697212758
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -24069.957
@@ -1641,10 +1663,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 7819309012856561580
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -38846.0859
@@ -1707,10 +1730,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13318897522509967046
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -30949.373
@@ -1773,10 +1797,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 7965756023300267446
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 36077.2656
@@ -1839,10 +1864,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1259603704416919085
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -34143.8359
@@ -1905,10 +1931,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 93795235366595506
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 48255.875
@@ -1971,10 +1998,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 15139059202846782310
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -38004.1172
@@ -2037,10 +2065,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13027924580409674370
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -166.302246
@@ -2103,10 +2132,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8804273597208399695
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 54264.5859
@@ -2169,10 +2199,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6646822298805198440
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -26288.627
@@ -2235,10 +2266,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 3457141577470154714
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -42530.6641
@@ -2301,10 +2333,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 9096011606599292891
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 3276.37305
@@ -2367,10 +2400,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10266964378144263716
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 11923.5957
@@ -2433,10 +2467,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 16068120175154497660
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 18936.373
@@ -2499,10 +2534,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11587417596732877555
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -32428.0605
@@ -2565,10 +2601,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 18380642832137826439
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -30723.7676
@@ -2631,76 +2668,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
-}
-Objects {
-  Id: 16129988315594329822
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: -4540.4248
-      Y: -39907.7852
-      Z: 5853.66699
-    }
-    Rotation {
-      Yaw: 173.932404
-    }
-    Scale {
-      X: 99.6000061
-      Y: 14.9000006
-      Z: 22
-    }
-  }
-  ParentId: 17315822439099455971
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 13412464127967364327
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.525000036
-        G: 0.381163895
-        B: 0.214725
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10128884331981734128
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1820802611089102358
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -12566.4473
@@ -2763,10 +2735,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 16625066335744300841
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -10630.0879
@@ -2829,10 +2802,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10783065638055066815
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -30872.7285
@@ -2895,10 +2869,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10667230896495516074
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 18799.7285
@@ -2961,10 +2936,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 16825696775926861164
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 37837.4844
@@ -3027,10 +3003,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 16199123325513486549
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 52828.0078
@@ -3093,10 +3070,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 7312473602083448537
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 39221.3359
@@ -3159,10 +3137,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 15956646834230696348
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 32872.1
@@ -3225,10 +3204,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5054259783326013718
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 56705.25
@@ -3291,10 +3271,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11351082549206339325
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 13374.7822
@@ -3357,10 +3338,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13838916124443735843
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 31778.3066
@@ -3423,10 +3405,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 12339365298214194355
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 45455.8672
@@ -3489,10 +3472,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5217119450792831340
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 48242.1406
@@ -3555,10 +3539,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 15816348396092332386
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 43635.4531
@@ -3621,10 +3606,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2927720693935284731
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 42225.8828
@@ -3687,10 +3673,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 12611412875577304961
-  Name: "Cube - bottom aligned"
+  Name: "Plane 1m - One Sided"
   Transform {
     Location {
       X: 15695.7539
@@ -3754,10 +3741,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11442334320534452841
-  Name: "Cube - bottom aligned"
+  Name: "Plane 1m - One Sided"
   Transform {
     Location {
       X: 17678.8535
@@ -3822,10 +3810,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11581951251548227012
-  Name: "Cube - bottom aligned"
+  Name: "Plane 1m - One Sided"
   Transform {
     Location {
       X: 15701.0244
@@ -3890,10 +3879,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 12432283985948883740
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 39274.3828
@@ -3956,10 +3946,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 451651357570624961
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 40346.6719
@@ -4022,10 +4013,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5348013082383599002
-  Name: "Cube - bottom aligned"
+  Name: "Plane 1m - One Sided"
   Transform {
     Location {
       X: 14903.5215
@@ -4089,10 +4081,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5964672798691288493
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 32100.1465
@@ -4155,10 +4148,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8168980630507817695
-  Name: "Cube - bottom aligned"
+  Name: "Plane 1m - One Sided"
   Transform {
     Location {
       X: 27800.4492
@@ -4223,10 +4217,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10509055216535162900
-  Name: "Cube - bottom aligned"
+  Name: "Plane 1m - One Sided"
   Transform {
     Location {
       X: 26812.7324
@@ -4291,10 +4286,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2167530396311764735
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 27798.3672
@@ -4357,10 +4353,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 15517955716407219001
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 28365.1777
@@ -4423,10 +4420,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 12882079665531659980
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -21416.2754
@@ -4489,10 +4487,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1150711110990087679
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -17285.1836
@@ -4555,10 +4554,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 17134818579932026204
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -19429.4512
@@ -4621,10 +4621,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6282515565540674169
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 26186.373
@@ -4687,10 +4688,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 17299851898536796091
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 29192.8984
@@ -4753,10 +4755,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6158893321362294390
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 10928.0332
@@ -4819,10 +4822,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5586162669808842528
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -33880.4141
@@ -4885,10 +4889,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14058695130185217359
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -28832.9395
@@ -4951,10 +4956,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 4921033779727238408
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -26102.6348
@@ -5017,10 +5023,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6285997814884597227
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 5879.82324
@@ -5083,10 +5090,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 18256375586128111636
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -11663.7461
@@ -5149,10 +5157,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14721171815542501440
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -9712.25586
@@ -5215,10 +5224,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 537630513411093361
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -31262.8262
@@ -5281,10 +5291,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 149885158834329435
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -28148.627
@@ -5347,10 +5358,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 16522970299340502661
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -38649.1328
@@ -5413,10 +5425,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8471097248559030958
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -37666.7109
@@ -5479,10 +5492,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 16746923195384421267
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -19963.2695
@@ -5545,4 +5559,5 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }

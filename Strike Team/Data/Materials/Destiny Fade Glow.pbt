@@ -2,7 +2,7 @@ Assets {
   Id: 242059628553530182
   Name: "Destiny Fade Glow"
   PlatformAssetType: 13
-  SerializationVersion: 115
+  SerializationVersion: 118
   CustomMaterialAsset {
     BaseMaterialId: 17958961814962950436
     ParameterOverrides {

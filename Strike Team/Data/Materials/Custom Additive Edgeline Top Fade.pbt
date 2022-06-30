@@ -2,9 +2,9 @@ Assets {
   Id: 12663918421043863170
   Name: "SAR_Invisible"
   PlatformAssetType: 13
-  SerializationVersion: 115
+  SerializationVersion: 118
   CustomMaterialAsset {
-    BaseMaterialId: 17958961814962950436
+    BaseMaterialId: 5390120376389660115
     ParameterOverrides {
       Overrides {
         Name: "color"
@@ -32,12 +32,12 @@ Assets {
       }
     }
     Assets {
-      Id: 17958961814962950436
-      Name: "Additive Edgeline Top Fade"
+      Id: 5390120376389660115
+      Name: "Invisible"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxmi_add_edgeline_sharpline_topfade"
+        AssetId: "mi_invisible_001"
       }
     }
   }

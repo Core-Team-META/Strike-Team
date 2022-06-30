@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18333856676181482578
-  Name: "Wallpaper Stripes 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_wallpaper_001"
-  }
-}
-Assets {
   Id: 18298649095315083710
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
@@ -50,15 +41,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_crenellated_6m_001"
-  }
-}
-Assets {
-  Id: 18137293142742266795
-  Name: "Book Shelf 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fan_books_shelf_001_uv"
   }
 }
 Assets {
@@ -359,15 +341,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16447630291553548532
-  Name: "Metal Basic Steel"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "steel_001"
-  }
-}
-Assets {
   Id: 16442067914662662686
   Name: "Main Street Foundation 01"
   PlatformAssetType: 1
@@ -383,15 +356,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_hq_002"
-  }
-}
-Assets {
-  Id: 16419385800386194736
-  Name: "Bannister Single Post"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bannister_post_001"
   }
 }
 Assets {
@@ -728,15 +692,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14803841533992348173
-  Name: "Military Crate Hinge 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_crate_hinge_002_ref"
-  }
-}
-Assets {
   Id: 14798510625048000888
   Name: "Counter - Cabinet"
   PlatformAssetType: 1
@@ -935,15 +890,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14023144080669477239
-  Name: "Hill 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_002"
-  }
-}
-Assets {
   Id: 13979533889072707877
   Name: "Prism - 6-Sided"
   PlatformAssetType: 1
@@ -1022,15 +968,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_coupling_002_ref"
-  }
-}
-Assets {
-  Id: 13775649805447353007
-  Name: "Carpet Tile 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_carpet_tile_002"
   }
 }
 Assets {
@@ -1151,15 +1088,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13171200732535708403
-  Name: "Metal Corrugated 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
-  }
-}
-Assets {
   Id: 13085174305471638229
   Name: "Metal Painted Old 01"
   PlatformAssetType: 2
@@ -1265,15 +1193,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mil_fence_pole_03_end_001"
-  }
-}
-Assets {
-  Id: 12728146833340731999
-  Name: "Metal 9 Slice Frame 001"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_9slice_001"
   }
 }
 Assets {
@@ -1445,6 +1364,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_military_logo_2_ref"
+  }
+}
+Assets {
+  Id: 12115520870555831620
+  Name: " Wood 9 Slice Crate 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mat_advanced_9slice_wooden_crates_001_ref"
   }
 }
 Assets {
@@ -1628,15 +1556,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11036095586913707253
-  Name: "Donut"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torus_001"
-  }
-}
-Assets {
   Id: 11011461371001545778
   Name: "Text 03: ]"
   PlatformAssetType: 1
@@ -1652,15 +1571,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_hollow_004"
-  }
-}
-Assets {
-  Id: 11001788240134690440
-  Name: "Military Epic Crate Lid"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_crate_lid_003_ref"
   }
 }
 Assets {
@@ -1787,6 +1697,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_pillar_base_001_ref"
+  }
+}
+Assets {
+  Id: 10392077395704307907
+  Name: "Rock Block 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_006"
   }
 }
 Assets {
@@ -2033,15 +1952,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8606699818147202890
-  Name: "Tire Worn - Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_tire_worn_large_01_ref"
-  }
-}
-Assets {
   Id: 8506161953749730807
   Name: "Decal Tread Tracks 01"
   PlatformAssetType: 14
@@ -2132,15 +2042,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7873949318783264336
-  Name: "Carpet 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_carpets_001_uv"
-  }
-}
-Assets {
   Id: 7757061955395221575
   Name: "Sci-fi Electric Laser Tractor Beam Loop 01 SFX"
   PlatformAssetType: 7
@@ -2174,15 +2075,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_test_001"
-  }
-}
-Assets {
-  Id: 7702486053253128313
-  Name: "Military Epic Crate Base"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_crate_003_ref"
   }
 }
 Assets {
@@ -2411,39 +2303,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6335633139651245348
-  Name: "Leather Tufted 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fabric_tufted_001_uv_ref"
-  }
-}
-Assets {
   Id: 6280154984963467322
   Name: "Ring - Quarter Thin"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_torus_001"
-  }
-}
-Assets {
-  Id: 6227102845467366987
-  Name: "Main Street Damaged Window 02 - Frame 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dmg_dtn_mst_part_window_002_frame_02_ref"
-  }
-}
-Assets {
-  Id: 6157711858907400962
-  Name: "Modern Weapon Accessory - Shell Clip"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_acc_shellclip_001"
   }
 }
 Assets {
@@ -3068,15 +2933,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3433416882178080463
-  Name: "Street Sign - Rectangle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_street-sign_rectangle_001"
-  }
-}
-Assets {
   Id: 3396001719245941860
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
@@ -3293,15 +3149,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2046248182654598336
-  Name: "Wallpaper Geometric 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wallpaper_abstract_003_uv"
-  }
-}
-Assets {
   Id: 2009604417039567497
   Name: "Rubber Basic 01"
   PlatformAssetType: 2
@@ -3344,15 +3191,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_post_sq_001"
-  }
-}
-Assets {
-  Id: 1631071129330912607
-  Name: "Coral Table 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_coral_table_01"
   }
 }
 Assets {

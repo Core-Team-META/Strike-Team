@@ -2,7 +2,7 @@ Assets {
   Id: 1783293305347824158
   Name: "SAR_RoofAccessSignalColoredMat"
   PlatformAssetType: 13
-  SerializationVersion: 115
+  SerializationVersion: 118
   CustomMaterialAsset {
     BaseMaterialId: 18298649095315083710
     ParameterOverrides {

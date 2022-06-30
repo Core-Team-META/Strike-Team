@@ -2,7 +2,7 @@ Assets {
   Id: 14438449331530615604
   Name: "Essence_Pearl_Mat"
   PlatformAssetType: 13
-  SerializationVersion: 115
+  SerializationVersion: 118
   CustomMaterialAsset {
     BaseMaterialId: 6981698627626169233
     ParameterOverrides {

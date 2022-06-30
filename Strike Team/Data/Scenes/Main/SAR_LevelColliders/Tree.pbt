@@ -53,10 +53,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1211672583262411966
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: 1890.95947
@@ -113,10 +114,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13860338748159700462
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: 1586.91211
@@ -172,10 +174,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 12290321387442157287
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: -6353.08789
@@ -231,10 +234,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1253399659601619851
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: -7648.08789
@@ -290,10 +294,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10182434599119370566
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: -6363.08789
@@ -349,10 +354,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11362526879375218928
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: -4878.08789
@@ -408,10 +414,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5426185352601426503
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: -4308.08789
@@ -467,10 +474,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 16793458694409305416
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: -3008.08789
@@ -526,10 +534,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 18430920578203090161
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: -3323.08789
@@ -585,10 +594,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8703729647085215609
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: -1113.08789
@@ -644,10 +654,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13428647805654686805
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: 2479.03955
@@ -703,10 +714,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11763582857373296355
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: 5436.91211
@@ -762,10 +774,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13914919014608320290
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: 6001.91211
@@ -821,10 +834,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2972498553035067466
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: 2401.91211
@@ -878,10 +892,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6409767067077479829
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: 4406.91211
@@ -935,10 +950,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2603952243088367766
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: 6421.91211
@@ -992,10 +1008,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13925162160567172169
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: 5556.91211
@@ -1051,10 +1068,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13491640931484449445
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: 4936.91211
@@ -1110,10 +1128,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8859424875642627408
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: -653.087891
@@ -1169,10 +1188,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 923974512344779266
-  Name: "ColStairs"
+  Name: "Cube"
   Transform {
     Location {
       X: -3472.50488
@@ -1227,6 +1247,7 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1292110175122265109
@@ -1307,10 +1328,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 7340461901063587777
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -4816.17578
@@ -1328,12 +1350,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1359,10 +1385,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8462033331279759253
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -7194.87646
@@ -1380,12 +1407,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1411,10 +1442,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 15280703845723882424
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -5199.93848
@@ -1432,12 +1464,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1463,10 +1499,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14082962642548230931
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -8745.93
@@ -1484,12 +1521,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1515,10 +1556,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 18174323553733378287
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 7071.50244
@@ -1537,17 +1579,15 @@ Objects {
   ParentId: 1292110175122265109
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 3406058221900252173
-      }
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1573,10 +1613,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 9552351047718034884
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 5380.4375
@@ -1593,12 +1634,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1624,10 +1669,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8377719435870564569
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 5480.99365
@@ -1644,12 +1690,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1675,10 +1725,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14912491991083362142
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 445.895752
@@ -1695,12 +1746,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1726,10 +1781,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 3870191110640755827
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -1475.25745
@@ -1746,12 +1802,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1777,10 +1837,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 15568281925168100818
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -2245.48242
@@ -1797,12 +1858,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1828,10 +1893,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 16681865929727453827
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -898.868774
@@ -1848,12 +1914,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1879,10 +1949,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14092413820429011271
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 4533.04639
@@ -1900,12 +1971,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1931,10 +2006,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 613057438802019419
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 1603.20532
@@ -1952,12 +2028,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -1983,10 +2063,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5573908797762630725
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 8613.92188
@@ -2004,12 +2085,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2035,10 +2120,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 13350839790005167923
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 8858.04688
@@ -2055,12 +2141,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2086,10 +2176,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 3771812068486495475
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 8017.74365
@@ -2107,12 +2198,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2138,10 +2233,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 9545042459955885543
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 8538.67578
@@ -2160,17 +2256,15 @@ Objects {
   ParentId: 1292110175122265109
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 3406058221900252173
-      }
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2196,10 +2290,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 16211546605729990805
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -1685.11731
@@ -2217,12 +2312,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2248,10 +2347,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 17893937114737612250
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -5576.17725
@@ -2269,12 +2369,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2300,10 +2404,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1370098052485429182
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -3503.13696
@@ -2321,12 +2426,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2352,10 +2461,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6839463218178419166
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -4517.81689
@@ -2373,12 +2483,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2404,10 +2518,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1972291269026712041
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -6168.8
@@ -2425,12 +2540,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2456,10 +2575,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2509741393705619745
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -7187.54834
@@ -2477,12 +2597,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2508,10 +2632,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 9698495259819431847
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -6607.60303
@@ -2529,12 +2654,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2560,10 +2689,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 2243399803096040149
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -7326.9917
@@ -2580,12 +2710,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2611,10 +2745,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 12369790882967152798
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -8028.0957
@@ -2632,12 +2767,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2663,10 +2802,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8592999715780979711
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -1422.10986
@@ -2683,12 +2823,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2714,10 +2858,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8043698724425807646
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -8457.56836
@@ -2735,12 +2880,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2766,10 +2915,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11070449919581949448
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 474.489868
@@ -2786,12 +2936,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2817,10 +2971,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6042471899960973103
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 2446.50244
@@ -2837,12 +2992,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2868,10 +3027,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6759361555162834525
-  Name: "Invisible Collider"
+  Name: "Cube"
   Transform {
     Location {
       X: -1990.2998
@@ -2888,12 +3048,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2919,10 +3083,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10914920065026564142
-  Name: "Invisible Collider"
+  Name: "Cube"
   Transform {
     Location {
       X: -1616.95361
@@ -2940,12 +3105,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -2971,10 +3140,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11044301985405331672
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -4877.11035
@@ -2992,12 +3162,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3023,10 +3197,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 17207196694739741664
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 2833.87622
@@ -3043,12 +3218,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3074,10 +3253,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8484977920206966469
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -8835.25391
@@ -3095,12 +3275,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3126,10 +3310,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 8295098375417523228
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -9516.95312
@@ -3147,12 +3332,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3178,10 +3367,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 9619045850019758462
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -2367.33301
@@ -3199,12 +3389,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3230,10 +3424,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 18166480016328673959
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -2931.86035
@@ -3251,12 +3446,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3282,10 +3481,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 3162506844086639311
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -446.953613
@@ -3303,12 +3503,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3334,10 +3538,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 3531758614987916641
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 4178.72705
@@ -3355,12 +3560,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3386,10 +3595,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 4495203370226211398
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 7656.0542
@@ -3407,12 +3617,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3438,10 +3652,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 6893043467261504017
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 8258.19141
@@ -3459,12 +3674,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3490,10 +3709,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14570826172488864560
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 7810.08252
@@ -3511,12 +3731,16 @@ Objects {
   }
   ParentId: 1292110175122265109
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3542,10 +3766,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11452079447013402209
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 9141.02
@@ -3564,17 +3789,15 @@ Objects {
   ParentId: 1292110175122265109
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 3406058221900252173
-      }
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3600,10 +3823,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14104173404940135070
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 7173.30322
@@ -3622,17 +3846,15 @@ Objects {
   ParentId: 1292110175122265109
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 3406058221900252173
-      }
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3658,10 +3880,11 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 575725130991249774
-  Name: "Invisible Collider"
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: 7378.06494
@@ -3680,17 +3903,15 @@ Objects {
   ParentId: 1292110175122265109
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 3406058221900252173
-      }
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceon"
@@ -3716,4 +3937,5 @@ Objects {
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
+  IsReplicationEnabledByDefault: true
 }

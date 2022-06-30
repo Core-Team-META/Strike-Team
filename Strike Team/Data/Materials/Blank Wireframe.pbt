@@ -2,7 +2,7 @@ Assets {
   Id: 15355896873423125904
   Name: "Blank Wireframe"
   PlatformAssetType: 13
-  SerializationVersion: 115
+  SerializationVersion: 118
   CustomMaterialAsset {
     BaseMaterialId: 5953784423022811253
     ParameterOverrides {

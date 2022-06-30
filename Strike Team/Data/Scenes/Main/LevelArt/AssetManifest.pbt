@@ -1,19 +1,10 @@
 Assets {
-  Id: 18393437648231545508
-  Name: "Urban Pipe Flange 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_flange_001_ref"
-  }
-}
-Assets {
-  Id: 18298649095315083710
-  Name: "Metal Iron Rusted 02"
+  Id: 17393961314713938594
+  Name: "Wood Planks White"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_003"
+    AssetId: "mi_wood_planks_white_001_uv"
   }
 }
 Assets {
@@ -26,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16586908890029824577
-  Name: "Cube - Rounded"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_rounded_002"
-  }
-}
-Assets {
   Id: 16285172041817233770
   Name: "Advanced Color Grading Post Process"
   PlatformAssetType: 6
@@ -44,12 +26,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15897705887741699672
-  Name: "Urban Pipe Straight"
+  Id: 16076924560798306934
+  Name: "Urban Damaged Concrete Panel 01 - 8x2m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_straight_001_ref"
+    AssetId: "sm_ts_urb_dmg_concrete_panel_001_8x2m_ref"
   }
 }
 Assets {
@@ -89,30 +71,21 @@ Assets {
   }
 }
 Assets {
-  Id: 13148505073156703051
-  Name: "Urban Pipe Clamp 04"
+  Id: 13775649805447353007
+  Name: "Carpet Tile 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_clamp_004_ref"
+    AssetId: "sm_carpet_tile_002"
   }
 }
 Assets {
-  Id: 13085174305471638229
-  Name: "Metal Painted Old 01"
+  Id: 12728146833340731999
+  Name: "Metal 9 Slice Frame 001"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_painted_old_001_uv"
-  }
-}
-Assets {
-  Id: 12632251234297570874
-  Name: "Urban Pipe Cap 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_cap_003_ref"
+    AssetId: "mi_metal_frames_9slice_001"
   }
 }
 Assets {
@@ -131,6 +104,24 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_AO_Recolor"
+  }
+}
+Assets {
+  Id: 11541705719099405078
+  Name: "Fabric Burlap New 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_fabric_burlap_002_uv"
+  }
+}
+Assets {
+  Id: 11519736006564138369
+  Name: "Metal Iron 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_001"
   }
 }
 Assets {
@@ -197,21 +188,21 @@ Assets {
   }
 }
 Assets {
+  Id: 7407234558516877871
+  Name: "Wood Planks Beveled Raised 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_bevel_raised_planks_white_001_uv"
+  }
+}
+Assets {
   Id: 7128102797736711867
   Name: "Volumetric Fog Injector Volume VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_volumetric_fog_injector"
-  }
-}
-Assets {
-  Id: 6740745712566776508
-  Name: "Street Utility Box 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_st_post_lights_utility_box_002"
   }
 }
 Assets {
@@ -242,6 +233,33 @@ Assets {
   }
 }
 Assets {
+  Id: 4233572198356242960
+  Name: "Gem - Radiant Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gem_radiant_polished_001"
+  }
+}
+Assets {
+  Id: 3795895254758699320
+  Name: "Fantasy Chest Treasure Pile 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fantasy_chest_treasure_pile_001_ref"
+  }
+}
+Assets {
+  Id: 3164251070761236489
+  Name: "Container - Rectangle Thin 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_rectangle_thin_ref"
+  }
+}
+Assets {
   Id: 2294314985252398379
   Name: "Wedge - Convex"
   PlatformAssetType: 1
@@ -260,21 +278,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1527224994251334627
-  Name: "Urban Pipe Flange 02"
+  Id: 630716509692050905
+  Name: "Cabinet Door - Upper Full"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_flange_002_ref"
-  }
-}
-Assets {
-  Id: 504910307171759106
-  Name: "Metal Iron Rusted 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_002"
+    AssetId: "sm_urb_cabinet_door_full_001"
   }
 }
 Assets {
