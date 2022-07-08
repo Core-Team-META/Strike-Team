@@ -98,15 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18014941405078390650
-  Name: "Kelp Tall Bush 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_kelp_tall_bush_01"
-  }
-}
-Assets {
   Id: 18005806658245892960
   Name: "Decal Stains Top 01"
   PlatformAssetType: 14
@@ -149,15 +140,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_04_ref"
-  }
-}
-Assets {
-  Id: 17558906830656801305
-  Name: "Branches Cluster Medium"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_branches_medium_001"
   }
 }
 Assets {
@@ -305,12 +287,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16630259605395466384
-  Name: "Frosted Glass"
-  PlatformAssetType: 2
+  Id: 16659134902607601101
+  Name: "Urban Damaged Concrete Panel 02 - 8x8m"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxma_frosted_glass"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_concrete_panel_002_8x8m_ref"
   }
 }
 Assets {
@@ -395,15 +377,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16274543285047416186
-  Name: "Branches Cluster Small"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_branches_small_001"
-  }
-}
-Assets {
   Id: 16142492781514315346
   Name: "Electricity Light Buzzing Loop 01 SFX"
   PlatformAssetType: 7
@@ -413,30 +386,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16132958878921067135
-  Name: "Sign Bracket - Square"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_signbracket_square_001"
-  }
-}
-Assets {
   Id: 16110182342503554212
   Name: "Bush 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bush_generic_002"
-  }
-}
-Assets {
-  Id: 16068473372521218516
-  Name: "Cabinet - Upper"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cabinet_001"
   }
 }
 Assets {
@@ -467,30 +422,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15976582972775148355
-  Name: "Hill 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_001"
-  }
-}
-Assets {
   Id: 15934210186397621780
   Name: "Cylinder - Rounded"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_rounded_002"
-  }
-}
-Assets {
-  Id: 15904463077246637383
-  Name: "Counter - Drawers"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_counter_drawers_001"
   }
 }
 Assets {
@@ -953,24 +890,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13832010168595006209
-  Name: "Dresser Drawer"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_drawer_wide_001"
-  }
-}
-Assets {
-  Id: 13810683256700423382
-  Name: "Urban Pipe Coupling 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_coupling_002_ref"
-  }
-}
-Assets {
   Id: 13739503613467942724
   Name: "Rock Block 02"
   PlatformAssetType: 1
@@ -1025,15 +944,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13571523696922725659
-  Name: "Counter Drawer"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_counter_drawer_001"
-  }
-}
-Assets {
   Id: 13473981702160679778
   Name: "Frame Large Straight"
   PlatformAssetType: 1
@@ -1049,6 +959,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_acc_rail_001"
+  }
+}
+Assets {
+  Id: 13406863821954683261
+  Name: "Basic Additive"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_additive_basic"
   }
 }
 Assets {
@@ -1187,15 +1106,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12758036443323469769
-  Name: "Urban Fence Pole - Extender End"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_pole_03_end_001"
-  }
-}
-Assets {
   Id: 12719830577678574531
   Name: "Cliff 02"
   PlatformAssetType: 2
@@ -1319,6 +1229,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_bone_raw_001_uv_ref"
+  }
+}
+Assets {
+  Id: 12361381158317033180
+  Name: "Main Street Damaged Window 02 - Frame 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_dtn_mst_part_window_002_frame_01_ref"
   }
 }
 Assets {
@@ -1517,15 +1436,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_container_rectangle_ref"
-  }
-}
-Assets {
-  Id: 11306326181727726829
-  Name: "Sci-fi Console Leg 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_leg_002_ref"
   }
 }
 Assets {
@@ -1889,15 +1799,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9244087183072239885
-  Name: "Glass 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_refrac_001"
-  }
-}
-Assets {
   Id: 9165597677916952237
   Name: "Wood Strand Board 01"
   PlatformAssetType: 2
@@ -1940,15 +1841,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_stairs_001_pillar"
-  }
-}
-Assets {
-  Id: 8611358649670232198
-  Name: "Crowbar"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_crowbar_001"
   }
 }
 Assets {
@@ -2204,30 +2096,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6694053086494147507
-  Name: "Capsule"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_capsule_001"
-  }
-}
-Assets {
   Id: 6588567122613861857
   Name: "Metal 9 Slice Frame 005"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_9slice_005"
-  }
-}
-Assets {
-  Id: 6540545606237595083
-  Name: "Bottle 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_bottle_001"
   }
 }
 Assets {
@@ -2321,15 +2195,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5944393796542654307
-  Name: "Capsule"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_capsule_001"
-  }
-}
-Assets {
   Id: 5931224016695282927
   Name: "Liquid Decal"
   PlatformAssetType: 14
@@ -2390,15 +2255,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_painted_metal_basic_001"
-  }
-}
-Assets {
-  Id: 5721670808471238661
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
   }
 }
 Assets {
@@ -2780,6 +2636,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3998592366905403415
+  Name: "Glass 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_refrac_001"
+  }
+}
+Assets {
   Id: 3990206109129786480
   Name: "Metal Iron 01"
   PlatformAssetType: 2
@@ -2951,15 +2816,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3249839256999270199
-  Name: "Bush 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bush_generic_002"
-  }
-}
-Assets {
   Id: 3189005529281241184
   Name: "Large Wood Board 8m"
   PlatformAssetType: 1
@@ -2984,15 +2840,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_1x3m_angledR_001"
-  }
-}
-Assets {
-  Id: 3036948031346541906
-  Name: "Dresser 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_dresser_001"
   }
 }
 Assets {

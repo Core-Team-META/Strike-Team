@@ -239,7 +239,6 @@ Objects {
   ChildIds: 3257731302647012955
   ChildIds: 12508601853753037903
   ChildIds: 12840667792428985338
-  ChildIds: 4380763967007600418
   ChildIds: 2642590635961512591
   ChildIds: 6215148667274544734
   ChildIds: 2419285629983291794
@@ -254,7 +253,6 @@ Objects {
   ChildIds: 12349835566644092770
   ChildIds: 13279092700725321464
   ChildIds: 16782721045456475556
-  ChildIds: 15855993634676490569
   ChildIds: 14358572503693688076
   ChildIds: 410948153417685292
   Collidable_v2 {
@@ -426,87 +424,6 @@ Objects {
   InstanceHistory {
     SelfId: 14358572503693688076
     SubobjectId: 12372473555141266568
-    InstanceId: 10612294385522458296
-    TemplateId: 10079934740111338128
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15855993634676490569
-  Name: "Wedge - Concave"
-  Transform {
-    Location {
-      X: 237.382202
-      Y: -0.0887756348
-      Z: 173.06427
-    }
-    Rotation {
-      Pitch: 1.36603776e-05
-      Yaw: 89.9999924
-      Roll: 73.7805862
-    }
-    Scale {
-      X: 0.230000094
-      Y: 0.865122914
-      Z: 0.660182238
-    }
-  }
-  ParentId: 14188821636584135571
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 211821385602626091
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.76000005
-        G: 0.76000005
-        B: 0.76000005
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7587984844065557354
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 15855993634676490569
-    SubobjectId: 12753051250308231373
     InstanceId: 10612294385522458296
     TemplateId: 10079934740111338128
   }
@@ -1614,87 +1531,6 @@ Objects {
   InstanceHistory {
     SelfId: 2642590635961512591
     SubobjectId: 5214148666956448523
-    InstanceId: 10612294385522458296
-    TemplateId: 10079934740111338128
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4380763967007600418
-  Name: "Wedge - Concave"
-  Transform {
-    Location {
-      X: -237.381958
-      Y: -0.0887756348
-      Z: 173.06427
-    }
-    Rotation {
-      Pitch: -3.05175781e-05
-      Yaw: -89.9999695
-      Roll: 73.7805862
-    }
-    Scale {
-      X: -0.230000094
-      Y: 0.865122914
-      Z: 0.660182238
-    }
-  }
-  ParentId: 14188821636584135571
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 211821385602626091
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.76000005
-        G: 0.76000005
-        B: 0.76000005
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7587984844065557354
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 4380763967007600418
-    SubobjectId: 5781398331281890982
     InstanceId: 10612294385522458296
     TemplateId: 10079934740111338128
   }
@@ -3591,7 +3427,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7381,7 +7217,6 @@ Objects {
   ChildIds: 3729978663510569512
   ChildIds: 11611037078783148147
   ChildIds: 5587647471969683283
-  ChildIds: 9425496685479116113
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7399,55 +7234,6 @@ Objects {
     }
     MaxDetailLevel {
       Value: "mc:edetaillevel:ultra"
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9425496685479116113
-  Name: "Bloom Post Process"
-  Transform {
-    Location {
-      X: -1319.84131
-      Y: 1513.49805
-      Z: -1752.64502
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9298601716501198180
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Threshold"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 5.81007814
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 8173247588564110467
-    }
-    TeamSettings {
     }
   }
   NetworkRelevanceDistance {
@@ -7522,7 +7308,7 @@ Objects {
 }
 Objects {
   Id: 11611037078783148147
-  Name: "Group"
+  Name: "Desktop"
   Transform {
     Location {
       Z: -1798.5188
@@ -7540,6 +7326,7 @@ Objects {
   ChildIds: 12540097850414137529
   ChildIds: 16135559517018814621
   ChildIds: 2613869591263407943
+  ChildIds: 9425496685479116113
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7554,6 +7341,55 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9425496685479116113
+  Name: "Bloom Post Process"
+  Transform {
+    Location {
+      X: -1319.84131
+      Y: 1513.49805
+      Z: 45.8737793
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11611037078783148147
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Threshold"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 5.81007814
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 8173247588564110467
+    }
+    TeamSettings {
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7815,7 +7651,7 @@ Objects {
 }
 Objects {
   Id: 3729978663510569512
-  Name: "Group"
+  Name: "Mobile"
   Transform {
     Location {
     }
@@ -52226,7 +52062,7 @@ Objects {
       Z: 155.00061
     }
     Rotation {
-      Yaw: -44.9999237
+      Yaw: -44.999939
     }
     Scale {
       X: 1
@@ -54018,6 +53854,42 @@ Objects {
     ScriptAsset {
       Id: 5859161508749622397
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 944692841938198023
+  Name: "Collision"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Collision"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

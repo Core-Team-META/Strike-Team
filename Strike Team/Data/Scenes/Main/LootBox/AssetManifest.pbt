@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15729223555630295767
-  Name: "Military Radio Tray"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_radio_01_03_ref"
-  }
-}
-Assets {
   Id: 14803841533992348173
   Name: "Military Crate Hinge 02"
   PlatformAssetType: 1
@@ -89,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13171200732535708403
+  Name: "Metal Corrugated 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
+  }
+}
+Assets {
   Id: 13084610212546141882
   Name: "Urban Fence Gate 01"
   PlatformAssetType: 1
@@ -140,15 +140,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half-pipe_003"
-  }
-}
-Assets {
-  Id: 11436023202306815330
-  Name: "Plastic Matte"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "plastic_matte_001"
   }
 }
 Assets {
@@ -233,15 +224,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8930532401678162557
-  Name: "Prism - 8-Sided Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_octagon_hq_001"
-  }
-}
-Assets {
   Id: 8530349593571866885
   Name: "Modern Weapon - Sight 02"
   PlatformAssetType: 1
@@ -302,24 +284,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_painted_metal_basic_001"
-  }
-}
-Assets {
-  Id: 5701804612298539034
-  Name: "Pyramid - 8-Sided Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pyramid_eighsided_hq_001"
-  }
-}
-Assets {
-  Id: 5669060659521149461
-  Name: "Computer Stand"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_computer-stand_001"
   }
 }
 Assets {
@@ -404,30 +368,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1928150346551514706
-  Name: "Concrete Damaged 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_cracked_001_uv"
-  }
-}
-Assets {
   Id: 626333341864315551
   Name: "Ball - Soccer 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_ball_soccer_01_ref"
-  }
-}
-Assets {
-  Id: 539670975280601370
-  Name: "Chain Link 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_chainlink_001_uv_ref"
   }
 }
 Assets {

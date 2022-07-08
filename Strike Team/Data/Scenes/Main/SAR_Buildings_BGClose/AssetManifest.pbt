@@ -116,15 +116,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15851271444363751188
-  Name: "Whitebox Window Insert - Basic Frame"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_winInsert_001_frame"
-  }
-}
-Assets {
   Id: 15614794363849386760
   Name: "Urban Door Steel 02"
   PlatformAssetType: 1
@@ -431,6 +422,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2677493793978752599
+  Name: "Stucco Tintable"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stucco_tint_001_uv"
+  }
+}
+Assets {
   Id: 2647109416399480979
   Name: "Bricks Chunky Stone 01"
   PlatformAssetType: 2
@@ -473,15 +473,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_flange_002_ref"
-  }
-}
-Assets {
-  Id: 824691453083282317
-  Name: "Frosted Glass No Distortion"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxma_frosted_glass_nodistortion"
   }
 }
 Assets {

@@ -161,33 +161,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16808072507652565232
-  Name: "Sphere"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sphere_002"
-  }
-}
-Assets {
-  Id: 16659134902607601101
-  Name: "Urban Damaged Concrete Panel 02 - 8x8m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dmg_concrete_panel_002_8x8m_ref"
-  }
-}
-Assets {
-  Id: 16630259605395466384
-  Name: "Frosted Glass"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxma_frosted_glass"
-  }
-}
-Assets {
   Id: 16626931919023374994
   Name: "Stair Bannister - Mid"
   PlatformAssetType: 1
@@ -503,15 +476,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13832010168595006209
-  Name: "Dresser Drawer"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_drawer_wide_001"
-  }
-}
-Assets {
   Id: 13642204757580273705
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
@@ -527,6 +491,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_acc_rail_001"
+  }
+}
+Assets {
+  Id: 13406863821954683261
+  Name: "Basic Additive"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_additive_basic"
   }
 }
 Assets {
@@ -608,15 +581,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
-  }
-}
-Assets {
-  Id: 12361381158317033180
-  Name: "Main Street Damaged Window 02 - Frame 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dmg_dtn_mst_part_window_002_frame_01_ref"
   }
 }
 Assets {
@@ -836,30 +800,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10863661971228771502
-  Name: "Rock Pile 002"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rocks_small_002"
-  }
-}
-Assets {
   Id: 10850769815684373087
   Name: "Plane 1m - Two Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_1m_002"
-  }
-}
-Assets {
-  Id: 10835155324150586940
-  Name: "Rock Pile 001"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rocks_small_001"
   }
 }
 Assets {
@@ -1151,15 +1097,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6333982242246389428
-  Name: "Urban Damaged Glass Shard  - 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dmg_glass_shard_003_ref"
-  }
-}
-Assets {
   Id: 5920223932982244516
   Name: "Cylinder"
   PlatformAssetType: 1
@@ -1187,15 +1124,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5721670808471238661
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
-  }
-}
-Assets {
   Id: 5690610490455183775
   Name: "Stair Bannister - Top"
   PlatformAssetType: 1
@@ -1211,15 +1139,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_crenellated_6m_003"
-  }
-}
-Assets {
-  Id: 5483772166785938526
-  Name: "Urban Damaged Concrete Chunk 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_chunk_003_ref"
   }
 }
 Assets {
@@ -1322,15 +1241,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3998592366905403415
-  Name: "Glass 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_refrac_001"
-  }
-}
-Assets {
   Id: 3604252656281658198
   Name: "Whitebox Stairs 01 L"
   PlatformAssetType: 1
@@ -1412,15 +1322,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3036948031346541906
-  Name: "Dresser 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_dresser_001"
-  }
-}
-Assets {
   Id: 2899842837741361229
   Name: "Concrete Tiles 01"
   PlatformAssetType: 2
@@ -1472,15 +1373,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_stucco_tint_001_uv"
-  }
-}
-Assets {
-  Id: 2656266634595511912
-  Name: "Urban Damaged Glass Shard  - 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dmg_glass_shard_001_ref"
   }
 }
 Assets {
@@ -1688,14 +1580,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_floor_grate_firesc_2x2_001_ref"
-  }
-}
-Assets {
-  Id: 70183373899417159
-  Name: "Prism - 3-Sided Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_hq_001"
   }
 }

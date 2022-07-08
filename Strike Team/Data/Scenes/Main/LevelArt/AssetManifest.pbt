@@ -179,15 +179,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7587984844065557354
-  Name: "Wedge - Concave"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_curved_concave_001"
-  }
-}
-Assets {
   Id: 7407234558516877871
   Name: "Wood Planks Beveled Raised 01"
   PlatformAssetType: 2

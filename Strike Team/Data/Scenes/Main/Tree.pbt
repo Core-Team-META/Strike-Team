@@ -2241,39 +2241,40 @@ Objects {
     GeneratorID: "DEPRECATED"
     Foliage {
       Asset {
-        Id: 1350712656798786743
+        Id: 5253811867366632597
       }
-      DistanceBetweenInstances: 150
-      MaterialChannel: 1
-      SpawnDistance: 25600
+      DistanceBetweenInstances: 240
+      MaterialChannel: 2
+      SpawnDistance: 22400
       CullDistance {
-        Min: 1000
-        Max: 10000
+        Min: 10000
+        Max: 20000
       }
+      ReceivesDecals: true
       GroundSlopeAngle {
         Max: 90
       }
       Scaling {
-        Scaling: Free
         ScaleX {
-          Min: 0.5
+          Min: 1
           Max: 1
         }
         ScaleY {
-          Min: 0.5
+          Min: 1
           Max: 1
         }
         ScaleZ {
-          Min: 0.5
+          Min: 1
           Max: 1
         }
       }
+      RotationAlignment: AlignToWorldUp
       RandomYaw: true
       RandomPitchAngle: 6
       Materials {
         key: "Nature_Grass"
         value {
-          Id: 7901542850051251631
+          Id: 13365951277651285937
         }
       }
       LocalPositionOffset {
