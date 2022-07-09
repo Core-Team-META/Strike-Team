@@ -251,6 +251,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3052501555928748136
+  Name: "Mobile Fake Shadow: Shapes"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_fake_shadow"
+  }
+}
+Assets {
   Id: 2294314985252398379
   Name: "Wedge - Convex"
   PlatformAssetType: 1

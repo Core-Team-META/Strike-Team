@@ -89,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18016376055940338681
-  Name: "Cylinder - Rounded Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_rounded_001"
-  }
-}
-Assets {
   Id: 18005806658245892960
   Name: "Decal Stains Top 01"
   PlatformAssetType: 14
@@ -410,15 +401,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torus_001"
-  }
-}
-Assets {
-  Id: 16010337041681156581
-  Name: "Prism - 6-Sided Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half_hexagon_001"
   }
 }
 Assets {
