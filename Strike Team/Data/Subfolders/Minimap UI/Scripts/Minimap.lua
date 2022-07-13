@@ -30,10 +30,10 @@ local BORDER_SIZE = script:GetCustomProperty("BorderSize")
 local worldShapes = ROOT:FindDescendantsByType("StaticMesh")
 local worldTexts = ROOT:FindDescendantsByType("WorldText")
 
-if #worldShapes <= 0 then
-	error("Minimap needs at least one 3D shape placed in-world.")
-	return
-end
+-- if #worldShapes <= 0 then
+-- 	error("Minimap needs at least one 3D shape placed in-world.")
+-- 	return
+-- end
 script.clientUserData.Items = {}
 -- Establish 3D bounds
 local boundsLeft
@@ -52,27 +52,30 @@ for _,shape in ipairs(worldShapes) do
 	local t = pos.y - size.y
 	local b = pos.y + size.y
 	
-	if (not boundsLeft or l < boundsLeft) then
-		boundsLeft = l
-	end
-	if (not boundsRight or r > boundsRight) then
-		boundsRight = r
-	end
-	if (not boundsTop or t < boundsTop) then
-		boundsTop = t
-	end
-	if (not boundsBottom or b > boundsBottom) then
-		boundsBottom = b
-	end
-	if (not boundsHigh or pos.z > boundsHigh) then
-		boundsHigh = pos.z
-	end
+	-- if (not boundsLeft or l < boundsLeft) then
+	-- 	boundsLeft = l
+	-- end
+	-- if (not boundsRight or r > boundsRight) then
+	-- 	boundsRight = r
+	-- end
+	-- if (not boundsTop or t < boundsTop) then
+	-- 	boundsTop = t
+	-- end
+	-- if (not boundsBottom or b > boundsBottom) then
+	-- 	boundsBottom = b
+	-- end
+	-- if (not boundsHigh or pos.z > boundsHigh) then
+	-- 	boundsHigh = pos.z
+	-- end
 	if (not boundsLow or pos.z < boundsLow) then
 		boundsLow = pos.z
 	end
 end
-local boundsWidth = boundsRight - boundsLeft
-local boundsHeight = boundsBottom - boundsTop
+local boundsWidth = 18738.997924805
+local boundsHeight = 14436.993591309
+local boundsLeft = -8687.8583984375
+local boundsTop = 435.50665283203
+
 
 -- Precompute coeficients
 local scaleX = MAP_PANEL.width / boundsWidth
@@ -88,67 +91,67 @@ local scaleLabels = scaleY * 0.15
 --	offsetY = 
 
 -- Spawn 2D shapes
-function AddForShape(shape)
-	local pos = shape:GetWorldPosition()
-	local rot = shape:GetWorldRotation()
-	local size = shape:GetWorldScale() * 100
+-- function AddForShape(shape)
+-- 	local pos = shape:GetWorldPosition()
+-- 	local rot = shape:GetWorldRotation()
+-- 	local size = shape:GetWorldScale() * 100
 	
-	local mapPiece = World.SpawnAsset(MAP_PIECE_TEMPLATE, {parent = MAP_PANEL})
+-- 	local mapPiece = World.SpawnAsset(MAP_PIECE_TEMPLATE, {parent = MAP_PANEL})
 	
-	mapPiece.x = (pos.x - boundsLeft) * scaleX
-	mapPiece.y = (pos.y - boundsTop) * scaleY
-	local w = size.x * scaleX
-	local h = size.y * scaleY
-	mapPiece.width = CoreMath.Round(w)
-	mapPiece.height = CoreMath.Round(h)
+-- 	mapPiece.x = (pos.x - boundsLeft) * scaleX
+-- 	mapPiece.y = (pos.y - boundsTop) * scaleY
+-- 	local w = size.x * scaleX
+-- 	local h = size.y * scaleY
+-- 	mapPiece.width = CoreMath.Round(w)
+-- 	mapPiece.height = CoreMath.Round(h)
 	
-	mapPiece.rotationAngle = rot.z
+-- 	mapPiece.rotationAngle = rot.z
 	
-	return mapPiece
-end
+-- 	return mapPiece
+-- end
 
--- Border
-for _,shape in ipairs(worldShapes) do
-	local mapPiece = AddForShape(shape)
-	mapPiece.width = mapPiece.width + BORDER_SIZE * 2
-	mapPiece.height = mapPiece.height + BORDER_SIZE * 2
-	-- Color
-	mapPiece:SetColor(BORDER_COLOR)
-end
+-- -- Border
+-- for _,shape in ipairs(worldShapes) do
+-- 	local mapPiece = AddForShape(shape)
+-- 	mapPiece.width = mapPiece.width + BORDER_SIZE * 2
+-- 	mapPiece.height = mapPiece.height + BORDER_SIZE * 2
+-- 	-- Color
+-- 	mapPiece:SetColor(BORDER_COLOR)
+-- end
 
--- Fill
-for _,shape in ipairs(worldShapes) do
-	local mapPiece = AddForShape(shape)
-	-- Color
-	local baseColor = shape:GetCustomProperty("Tint") or Color.WHITE
-	if GRADIENT_HEIGHT then
-		local posZ = shape:GetWorldPosition().z
-		local heightNormalized = (posZ - boundsLow) / (boundsHigh - boundsLow)
-		local color = Color.Lerp(COLOR_LOW, COLOR_HIGH, heightNormalized)
-		mapPiece:SetColor(color * baseColor)
-	else
-		mapPiece:SetColor(baseColor)
-	end
-end
+-- -- Fill
+-- for _,shape in ipairs(worldShapes) do
+-- 	local mapPiece = AddForShape(shape)
+-- 	-- Color
+-- 	local baseColor = shape:GetCustomProperty("Tint") or Color.WHITE
+-- 	if GRADIENT_HEIGHT then
+-- 		local posZ = shape:GetWorldPosition().z
+-- 		local heightNormalized = (posZ - boundsLow) / (boundsHigh - boundsLow)
+-- 		local color = Color.Lerp(COLOR_LOW, COLOR_HIGH, heightNormalized)
+-- 		mapPiece:SetColor(color * baseColor)
+-- 	else
+-- 		mapPiece:SetColor(baseColor)
+-- 	end
+-- end
 
--- Labels
-for _,text in ipairs(worldTexts) do
-	text.isEnabled = false
+-- -- Labels
+-- for _,text in ipairs(worldTexts) do
+-- 	text.isEnabled = false
 	
-	local pos = text:GetWorldPosition()
-	local rot = text:GetWorldRotation()
-	local size = text:GetWorldScale() * 100
+-- 	local pos = text:GetWorldPosition()
+-- 	local rot = text:GetWorldRotation()
+-- 	local size = text:GetWorldScale() * 100
 	
-	local label = World.SpawnAsset(LABEL_TEMPLATE, {parent = OBJECT_PANEL})
+-- 	local label = World.SpawnAsset(LABEL_TEMPLATE, {parent = OBJECT_PANEL})
 	
-	label.x = (pos.x - boundsLeft) * scaleX
-	label.y = (pos.y - boundsTop) * scaleY
+-- 	label.x = (pos.x - boundsLeft) * scaleX
+-- 	label.y = (pos.y - boundsTop) * scaleY
 	
-	label.fontSize = size.z * scaleLabels
+-- 	label.fontSize = size.z * scaleLabels
 	
-	label.text = text.text
-	label:SetColor(text:GetColor())
-end
+-- 	label.text = text.text
+-- 	label:SetColor(text:GetColor())
+-- end
 
 function Tick()
 	local localPlayer = Game.GetLocalPlayer()
