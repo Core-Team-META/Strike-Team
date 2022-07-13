@@ -62,24 +62,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3827265796245897469
-  Name: "BG Highlighted 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundHighlighted_020"
-  }
-}
-Assets {
-  Id: 3763584104380248150
-  Name: "Fantasy Shape 003"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Shape_003"
-  }
-}
-Assets {
   Id: 3656251806563655309
   Name: "Icon Leaderboard"
   PlatformAssetType: 9

@@ -66,6 +66,12 @@ Assets {
           Id: 841534158063459245
         }
       }
+      Overrides {
+        Name: "cs:customImage"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
     }
   }
   SerializationVersion: 118

@@ -169,6 +169,7 @@ function Database:RegisterEquipment()
                 NewItem["icon"] = Item:GetCustomProperty("ICON")
                 NewItem["level"] = Item:GetCustomProperty("Level")
                 NewItem["cost"] = Item:GetCustomProperty("Cost")
+                NewItem["customImage"] = Item:GetCustomProperty("customImage")
                 local ItemSkins = {}
 
                 NewItem["defaultSkin"] = Database.SetupSkin( 

@@ -6630,8 +6630,7 @@ Objects {
   }
   ParentId: 15084389731420460127
   ChildIds: 9298601716501198180
-  ChildIds: 14452210343017704373
-  ChildIds: 10142226000883448200
+  ChildIds: 4805773298826593989
   ChildIds: 59541556985093178
   ChildIds: 3726506971706943816
   ChildIds: 1870342449417403885
@@ -6731,7 +6730,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Shadow Cascade Count"
-      Int: 0
+      Int: 2
     }
     Overrides {
       Name: "bp:Dynamic Shadow Distance"
@@ -6764,12 +6763,16 @@ Objects {
       Bool: true
     }
     Overrides {
-      Name: "bp:Distance Field Shadow Distance"
-      Float: 3.01843143
-    }
-    Overrides {
       Name: "bp:Shadow Bias"
       Float: 0.5
+    }
+    Overrides {
+      Name: "bp:Distance Fadeout Percentage"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "bp:Soft Distance Shadows"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -7013,8 +7016,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10142226000883448200
-  Name: "iOS_ShadowCasting_OFF"
+  Id: 4805773298826593989
+  Name: "iOS _DynamicShadowDistance"
   Transform {
     Location {
     }
@@ -7031,7 +7034,7 @@ Objects {
     Overrides {
       Name: "cs:SunLight"
       ObjectReference {
-        SelfId: 59541556985093178
+        SelfId: 1870342449417403885
       }
     }
   }
@@ -7049,51 +7052,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 14711356993981097592
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14452210343017704373
-  Name: "iOS_ShadowCasting_OFF"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8735646439282424894
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:SunLight"
-      ObjectReference {
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14711356993981097592
+      Id: 10369884115274171761
     }
   }
   NetworkRelevanceDistance {
@@ -45309,10 +45268,10 @@ Objects {
     Location {
       X: 1.71020508
       Y: -8752.49805
-      Z: -1074.99988
+      Z: -1068.04614
     }
     Rotation {
-      Yaw: -91.5312347
+      Yaw: -91.53125
     }
     Scale {
       X: 1
