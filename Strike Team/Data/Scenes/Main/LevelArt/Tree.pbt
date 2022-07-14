@@ -6631,6 +6631,7 @@ Objects {
   ParentId: 15084389731420460127
   ChildIds: 9298601716501198180
   ChildIds: 4805773298826593989
+  ChildIds: 5220243372690621923
   ChildIds: 59541556985093178
   ChildIds: 3726506971706943816
   ChildIds: 1870342449417403885
@@ -6722,7 +6723,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Cast Shadows"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "bp:Volumetric Intensity"
@@ -6963,7 +6964,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Cast Shadows"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "bp:Cast Volumetric Shadows"
@@ -7008,6 +7009,51 @@ Objects {
       Id: 11515840070784317904
     }
     TeamSettings {
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5220243372690621923
+  Name: "iOS _ShadowCasting_OFF"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8735646439282424894
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SunLight"
+      ObjectReference {
+        SelfId: 59541556985093178
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14711356993981097592
     }
   }
   NetworkRelevanceDistance {

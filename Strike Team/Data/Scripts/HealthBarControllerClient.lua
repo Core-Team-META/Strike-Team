@@ -32,8 +32,10 @@ local SHOW_MAXIMUM = COMPONENT_ROOT:GetCustomProperty("ShowMaximum")
 local SHOW_AMMO = COMPONENT_ROOT:GetCustomProperty("ShowAmmo")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
-local CURRENT_WEAPON
-
+-- Variables
+local currentWeaponAttackAbilityHandle = nil
+local currentWeaponReloadAbilityHandle = nil
+local currentWeapon = nil
 local AmmoSize =  AMMO_TEXT.fontSize
 
 
@@ -59,41 +61,81 @@ function GetWeapon(player)
 	end
 end
 
-function Tick(deltaTime)
-    local player = GetViewedPlayer()
-    if player then
-        if (GetWeapon(player) ~= CURRENT_WEAPON) then
-            CURRENT_WEAPON = GetWeapon(player) 
-            if CURRENT_WEAPON then
-            WEAPON_NAME.text = CURRENT_WEAPON.name or ""
+local function UpdateAmmoUI(weapon)
+    if SHOW_AMMO then
+        if weapon ~= nil then
+            --while not weapon.clientUserData.MaxAmmo and not weapon.clientUserData.Ammo do Task.Wait() end
+            if weapon.clientUserData.Ammo then
+                AMMO_PANEL.visibility = Visibility.FORCE_ON
+                AMMO_TEXT.fontSize = AmmoSize
+                AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo)
+            else 
+                AMMO_TEXT.text = "" 
+                AMMO_PANEL.visibility = Visibility.FORCE_OFF
             end
-        end
-
-		if SHOW_AMMO then
-			local weapon = GetWeapon(player)
-            if weapon ~= nil then
-                --while not weapon.clientUserData.MaxAmmo and not weapon.clientUserData.Ammo do Task.Wait() end
-                if weapon.clientUserData.Ammo then
-                    AMMO_PANEL.visibility = Visibility.FORCE_ON
-                    AMMO_TEXT.fontSize = AmmoSize
-                    AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo)
-                else 
-                    AMMO_TEXT.text = "" 
-                    AMMO_PANEL.visibility = Visibility.FORCE_OFF
-                end
-                if weapon.clientUserData.MaxAmmo then
-                    AMMO_PANEL.visibility = Visibility.FORCE_ON
-                    MAX_AMMO_TEXT.text = tostring(weapon.clientUserData.MaxAmmo)  or weapon.maxAmmo 
-                else
-                    MAX_AMMO_TEXT.text = ""
-                    AMMO_PANEL.visibility = Visibility.FORCE_OFF
-                end
+            if weapon.clientUserData.MaxAmmo then
+                AMMO_PANEL.visibility = Visibility.FORCE_ON
+                MAX_AMMO_TEXT.text = tostring(weapon.clientUserData.MaxAmmo)  or weapon.maxAmmo 
             else
-                AMMO_TEXT.text = tostring("∞")
-                MAX_AMMO_TEXT.text = tostring("")
+                MAX_AMMO_TEXT.text = ""
+                AMMO_PANEL.visibility = Visibility.FORCE_OFF
             end
         else
-            AMMO_PANEL.visibility = Visibility.FORCE_OFF
+            AMMO_TEXT.text = "∞"
+            MAX_AMMO_TEXT.text = ""
+        end
+    else
+        AMMO_PANEL.visibility = Visibility.FORCE_OFF
+    end
+end
+
+local function ListenForAttackAbility(weapon)
+
+    if currentWeaponAttackAbilityHandle then
+        currentWeaponAttackAbilityHandle:Disconnect()
+    end
+
+    if currentWeaponReloadAbilityHandle then
+        currentWeaponReloadAbilityHandle:Disconnect()
+    end
+
+    local attackAbility = nil
+    local reloadAbility = nil
+
+    UpdateAmmoUI()
+    if not weapon then return end
+
+    for _, ability in pairs(weapon:GetAbilities()) do
+        if ability.name == "Shoot" then
+            attackAbility = ability
+        elseif ability.name == "Reload" then
+            reloadAbility = ability
+        end
+    end
+    
+    if Object.IsValid(attackAbility) and Object.IsValid(weapon) then
+        UpdateAmmoUI(weapon)
+
+        currentWeaponReloadAbilityHandle = reloadAbility.executeEvent:Connect(function()
+            UpdateAmmoUI(weapon)
+        end)
+
+        currentWeaponAttackAbilityHandle = attackAbility.executeEvent:Connect(function()
+            UpdateAmmoUI(weapon)
+        end)
+    end
+end
+
+function Tick()
+    Task.Wait()
+    local player = GetViewedPlayer()
+    if player then
+        local newWeapon = GetWeapon(player)
+        if (Object.IsValid(newWeapon) and Object.IsValid(currentWeapon) and (newWeapon ~= currentWeapon)) or (Object.IsValid(newWeapon) and not Object.IsValid(currentWeapon)) then
+            ListenForAttackAbility(newWeapon)
+            currentWeapon = newWeapon
+            UpdateAmmoUI(newWeapon)
+            WEAPON_NAME.text = newWeapon.name or ""
         end
     end
 end

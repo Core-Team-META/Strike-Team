@@ -31,7 +31,7 @@ Assets {
         }
         NetworkContext {
           MinDetailLevel {
-            Value: "mc:edetaillevel:low"
+            Value: "mc:edetaillevel:high"
           }
           MaxDetailLevel {
             Value: "mc:edetaillevel:ultra"

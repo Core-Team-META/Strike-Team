@@ -100270,12 +100270,12 @@ Objects {
   Name: "Plane 1m - One Sided"
   Transform {
     Location {
-      X: 886.294678
+      X: 940.82019
       Y: -506.101685
       Z: 1023.14441
     }
     Rotation {
-      Yaw: 85
+      Yaw: 90
       Roll: -90
     }
     Scale {
@@ -100541,8 +100541,8 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 21.2116394
-      Y: -325.265442
+      X: 21.2120667
+      Y: -623.78363
       Z: 1380.00049
     }
     Rotation {
@@ -100551,9 +100551,9 @@ Objects {
       Roll: 5.43551796e-18
     }
     Scale {
-      X: 19.2000027
-      Y: 10.5
-      Z: 0.6
+      X: 20.4051361
+      Y: 16.1384277
+      Z: 0.60000062
     }
   }
   ParentId: 4003060588577484487
@@ -103233,6 +103233,7 @@ Objects {
   ChildIds: 12944567113523744396
   ChildIds: 16527098637395481001
   ChildIds: 2992219220675940497
+  ChildIds: 7757871806578859087
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -103244,6 +103245,76 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7757871806578859087
+  Name: "Plane 4m - One Sided"
+  Transform {
+    Location {
+      X: -186.853989
+      Y: -0.00089263916
+      Z: 573.422119
+    }
+    Rotation {
+      Yaw: 90
+      Roll: 90
+    }
+    Scale {
+      X: 1.16505861
+      Y: 2.63162971
+      Z: 0.39999938
+    }
+  }
+  ParentId: 17881351294020765653
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17393961314713938594
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.838000059
+        G: 0.649659574
+        B: 0.448330015
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16855776306829432893
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

@@ -2681,15 +2681,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3715487088176351191
-  Name: "Cube - Chamfered Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_chamfer"
-  }
-}
-Assets {
   Id: 3702365963781758101
   Name: "Teardrop - Truncated"
   PlatformAssetType: 1
