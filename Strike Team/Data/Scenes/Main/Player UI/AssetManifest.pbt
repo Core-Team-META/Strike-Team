@@ -1,10 +1,28 @@
 Assets {
+  Id: 18167553358119155632
+  Name: "Icon Player Mount"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_PlayerMount"
+  }
+}
+Assets {
   Id: 16075623993800484681
   Name: "Survival Grenade 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Weapon_Grenade_001"
+  }
+}
+Assets {
+  Id: 14624269196062039716
+  Name: "Frame Ring 4x 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameRing4x_003"
   }
 }
 Assets {
@@ -62,6 +80,33 @@ Assets {
   }
 }
 Assets {
+  Id: 9079945525468169969
+  Name: "Icon Player Crouch"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_PlayerCrouch"
+  }
+}
+Assets {
+  Id: 6594027019490984840
+  Name: "Center Circle 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterCircle_001"
+  }
+}
+Assets {
+  Id: 5542762723165515768
+  Name: "Icon Player Walk"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_PlayerWalk"
+  }
+}
+Assets {
   Id: 3656251806563655309
   Name: "Icon Leaderboard"
   PlatformAssetType: 9
@@ -86,6 +131,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 1711837323078017926
+  Name: "Bullet 1"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Icon_019"
   }
 }
 Assets {

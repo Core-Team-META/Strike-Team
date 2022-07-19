@@ -1,7 +1,7 @@
 Name: "New Map Notice"
-RootId: 16410074905082263666
+RootId: 12586400204337523100
 Objects {
-  Id: 16923595451320186656
+  Id: 18081734766688558637
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,8 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16410074905082263666
-  ChildIds: 9920331777449526159
+  ParentId: 12586400204337523100
+  ChildIds: 17622767189403417880
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -42,7 +42,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9920331777449526159
+  Id: 17622767189403417880
   Name: "New Map Container"
   Transform {
     Location {
@@ -55,8 +55,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16923595451320186656
-  ChildIds: 1834603718187748998
+  ParentId: 18081734766688558637
+  ChildIds: 16192000409570515913
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -109,7 +109,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1834603718187748998
+  Id: 16192000409570515913
   Name: "New Map Notice"
   Transform {
     Location {
@@ -125,8 +125,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9920331777449526159
-  ChildIds: 7170176353430031812
+  ParentId: 17622767189403417880
+  ChildIds: 17865410144905275240
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -169,7 +169,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7170176353430031812
+  Id: 17865410144905275240
   Name: "Banner"
   Transform {
     Location {
@@ -186,11 +186,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1834603718187748998
-  ChildIds: 16973329103855809567
-  ChildIds: 9700158409493508690
-  ChildIds: 10549095649972152001
-  ChildIds: 9848804579852309778
+  ParentId: 16192000409570515913
+  ChildIds: 2675723075417470089
+  ChildIds: 8408229817491994526
+  ChildIds: 15271086065484725141
+  ChildIds: 761471938815601663
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -232,7 +232,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9848804579852309778
+  Id: 761471938815601663
   Name: "UI Text Box"
   Transform {
     Location {
@@ -245,7 +245,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7170176353430031812
+  ParentId: 17865410144905275240
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -306,7 +306,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10549095649972152001
+  Id: 15271086065484725141
   Name: "UI Panel"
   Transform {
     Location {
@@ -321,9 +321,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7170176353430031812
-  ChildIds: 11322354143741139116
-  ChildIds: 7735451832739951381
+  ParentId: 17865410144905275240
+  ChildIds: 3177707190940784475
+  ChildIds: 10468082003560384177
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -366,7 +366,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7735451832739951381
+  Id: 10468082003560384177
   Name: "ARROW_L"
   Transform {
     Location {
@@ -379,7 +379,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10549095649972152001
+  ParentId: 15271086065484725141
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -430,7 +430,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11322354143741139116
+  Id: 3177707190940784475
   Name: "ARROW_L_SHADOW"
   Transform {
     Location {
@@ -443,7 +443,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10549095649972152001
+  ParentId: 15271086065484725141
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -495,7 +495,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9700158409493508690
+  Id: 8408229817491994526
   Name: "FRAME"
   Transform {
     Location {
@@ -508,7 +508,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7170176353430031812
+  ParentId: 17865410144905275240
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -560,7 +560,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16973329103855809567
+  Id: 2675723075417470089
   Name: "BG"
   Transform {
     Location {
@@ -573,7 +573,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7170176353430031812
+  ParentId: 17865410144905275240
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -625,7 +625,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 893638074123446363
+  Id: 7229023331626398322
   Name: "NewMapTeleport"
   Transform {
     Location {
@@ -638,7 +638,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16410074905082263666
+  ParentId: 12586400204337523100
   UnregisteredParameters {
     Overrides {
       Name: "cs:teleportBinding"

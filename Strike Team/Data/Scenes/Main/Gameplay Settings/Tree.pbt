@@ -728,7 +728,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "LootBox"
+    FilePartitionName: "LootBox_1"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1844,25 +1844,25 @@ Objects {
     Overrides {
       Name: "cs:YourNemesisText"
       ObjectReference {
-        SelfId: 15998310223323152968
+        SelfId: 17714042720085201630
       }
     }
     Overrides {
       Name: "cs:YourNemesisKillsText"
       ObjectReference {
-        SelfId: 12654122584371922915
+        SelfId: 14395385077333083796
       }
     }
     Overrides {
       Name: "cs:NemesisOfText"
       ObjectReference {
-        SelfId: 13038125114687881407
+        SelfId: 14349964328093405023
       }
     }
     Overrides {
       Name: "cs:NemesisOfKillsText"
       ObjectReference {
-        SelfId: 14548562874819411334
+        SelfId: 13861073511678450675
       }
     }
     Overrides {
@@ -1874,7 +1874,7 @@ Objects {
     Overrides {
       Name: "cs:NemesisOfStatText"
       ObjectReference {
-        SelfId: 3175211258030798382
+        SelfId: 841534158063459245
       }
     }
     Overrides {
@@ -3916,6 +3916,53 @@ Objects {
       PlayerInteractAngleDeg: 50
       PlayerStorageMode {
         Value: "mc:eplayerstoragemode:writable"
+      }
+      VirtualControlButtonSettingsMap {
+        key: 4
+        value {
+        }
+      }
+      VirtualControlButtonSettingsMap {
+        key: 5
+        value {
+        }
+      }
+      VirtualControlButtonSettingsMap {
+        key: 6
+        value {
+        }
+      }
+      VirtualControlButtonSettingsMap {
+        key: 7
+        value {
+          IsHidden: true
+        }
+      }
+      VirtualControlButtonSettingsMap {
+        key: 8
+        value {
+          IsHidden: true
+        }
+      }
+      VirtualControlButtonSettingsMap {
+        key: 9
+        value {
+          IsHidden: true
+        }
+      }
+      VirtualControlButtonSettingsMap {
+        key: 12
+        value {
+        }
+      }
+      VirtualControlButtonSettingsMap {
+        key: 13
+        value {
+          IsHidden: true
+        }
+      }
+      VirtualControlDPadSettings {
+        IsHidden: true
       }
       EnableNetworkedEventsQueuing: true
     }

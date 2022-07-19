@@ -1,7 +1,7 @@
 Name: "Crate"
-RootId: 16713860716774960610
+RootId: 3660658028154487627
 Objects {
-  Id: 5636135441605373729
+  Id: 2473944440106746275
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,8 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16713860716774960610
-  ChildIds: 16099824660419113767
+  ParentId: 3660658028154487627
+  ChildIds: 7812034746157800464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -39,7 +39,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16099824660419113767
+  Id: 7812034746157800464
   Name: "CrateManager_Client"
   Transform {
     Location {
@@ -52,18 +52,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5636135441605373729
+  ParentId: 2473944440106746275
   UnregisteredParameters {
     Overrides {
       Name: "cs:CrateTimerPanel"
       ObjectReference {
-        SelfId: 16779063350627383903
+        SelfId: 841534158063459245
       }
     }
     Overrides {
       Name: "cs:CrateTimerText"
       ObjectReference {
-        SelfId: 6770181587650516587
+        SelfId: 841534158063459245
       }
     }
   }
@@ -87,7 +87,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5076724836968329084
+  Id: 11286248399737525672
   Name: "ServerContext"
   Transform {
     Location {
@@ -100,8 +100,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16713860716774960610
-  ChildIds: 14047655014697862279
+  ParentId: 3660658028154487627
+  ChildIds: 18172483071967652174
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -120,7 +120,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14047655014697862279
+  Id: 18172483071967652174
   Name: "CrateManager_Server"
   Transform {
     Location {
@@ -133,7 +133,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5076724836968329084
+  ParentId: 11286248399737525672
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

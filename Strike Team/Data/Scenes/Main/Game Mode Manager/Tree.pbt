@@ -185,7 +185,7 @@ Objects {
     Overrides {
       Name: "cs:PARENT_PANEL"
       ObjectReference {
-        SelfId: 10507144481334532052
+        SelfId: 8645488299259673719
       }
     }
     Overrides {
