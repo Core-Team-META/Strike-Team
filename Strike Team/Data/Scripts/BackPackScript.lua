@@ -129,6 +129,7 @@ function RemovePlayer(player)
     player.serverUserData.Backpack = nil
 end
 
+Events.Broadcast('EquipWeapon',EquipWeapon)
 Events.Connect("EquipWeapon", EquipWeapon)
 Events.Connect("UnEquipWeapon", DeequipWeapon)
 Events.Connect("EmptyBackpack",EmptyBackpack)

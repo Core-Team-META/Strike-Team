@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12570125024485235394
+  Name: "Icon Grenade"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Grenade"
+  }
+}
+Assets {
   Id: 10698833128597864431
   Name: "Play Bold"
   PlatformAssetType: 28
@@ -80,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7049270386928608003
+  Name: "BG Flat 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_015"
+  }
+}
+Assets {
   Id: 6594027019490984840
   Name: "Center Circle 001"
   PlatformAssetType: 9
@@ -95,6 +113,24 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_PlayerWalk"
+  }
+}
+Assets {
+  Id: 3827265796245897469
+  Name: "BG Highlighted 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
+  Id: 3763584104380248150
+  Name: "Fantasy Shape 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Shape_003"
   }
 }
 Assets {

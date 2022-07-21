@@ -133,6 +133,10 @@ Objects {
       Rotator {
       }
     }
+    Overrides {
+      Name: "cs:Event"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

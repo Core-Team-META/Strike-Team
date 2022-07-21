@@ -4,6 +4,7 @@ local WEAPON = script:FindAncestorByType("Weapon")
 local THROW_ABILITY = WEAPON:GetAbilities()[1]
 if script:GetCustomProperty("Throw") then
     THROW_ABILITY = script:GetCustomProperty("Throw"):WaitForObject()
+    print(THROW_ABILITY.name,THROW_ABILITY.actionBinding)
 end
 
 local WEAPON_TYPE = script:GetCustomProperty("WeaponType")
@@ -93,7 +94,6 @@ function OnThrowExecute(ability)
 	local targetData = ability:GetTargetData()
 	local startPos = script:GetWorldPosition()
 	local direction = targetData:GetAimDirection()
-
     --local playerPosition = ability.owner:GetWorldPosition()
    -- local rotation = ability.owner:GetLookWorldRotation()
 
@@ -120,6 +120,8 @@ function OnThrowExecute(ability)
     projectile.lifeSpanEndedEvent:Connect(OnProjectileLifeSpanEnded)
 end
 
+
+Events.Connect("GrenadeThrow",OnThrowExecute)
 THROW_ABILITY.executeEvent:Connect(OnThrowExecute)
 
 

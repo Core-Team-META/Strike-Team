@@ -55,16 +55,18 @@ function GetLocalPlayerAbilityWithBinding()
     return nil
 end
 
+
+
 -- nil UpdateCurrentAbility(Ability)
 -- Updates the state when the ability matching the given binding changes
 function UpdateCurrentAbility()
     local newAbility = GetLocalPlayerAbilityWithBinding()
-
+    
     if currentAbility == newAbility then
         return
     end
-
     currentAbility = newAbility
+    
 
     if currentAbility then
         CANVAS.visibility = Visibility.INHERIT

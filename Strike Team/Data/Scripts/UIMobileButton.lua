@@ -11,6 +11,8 @@ local SEND_TO_SERVER = script:GetCustomProperty("SendToServer")
 local IS_ANIMATED = script:GetCustomProperty("IsAnimated")
 local SCRIPT_REQUIRE_CALL = script:GetCustomProperty("ScriptRequireCall")
 
+local LOCAL_PLAYER = Game.GetLocalPlayer()
+
 ---@type UIButton
 local ACTIVATION_BUTTON = script:GetCustomProperty("ActivationButton"):WaitForObject()
 ---@type UIPanel
@@ -28,6 +30,12 @@ ACTIVATION_BUTTON.pressedEvent:Connect(function()
         EaseUI.EaseY(BUTTON_PANEL, ACTIVATION_BUTTON_ORIGINAL_Y + DIRECTION_OF_MOVEMENT.y, ANIMATION_TIME, EaseUI.EasingEquation.SINE)
     end
     if EVENT_TO_BROADCAST ~= "" then
+        if EVENT_VALUE == "LOCAL_PLAYER" then
+            EVENT_VALUE = LOCAL_PLAYER
+        end
+        if EVENT_VALUE_2 == "LOCAL_PLAYER" then
+            EVENT_VALUE_2 = LOCAL_PLAYER
+        end
         if SEND_TO_SERVER then
             --Events.Broadcast(EVENT_TO_BROADCAST,EVENT_VALUE,EVENT_VALUE_2)
             Events.BroadcastToServer(EVENT_TO_BROADCAST,EVENT_VALUE,EVENT_VALUE_2)

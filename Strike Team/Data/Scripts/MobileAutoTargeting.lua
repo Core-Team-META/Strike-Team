@@ -76,14 +76,9 @@ local getEquipmentTask =
                             local direction = (targetedPlayer:GetWorldPosition() - abilityTargetData:GetAimPosition())
                             --direction = direction + targetedPlayer:GetVelocity()
 
-                            local aimingRaycast =
-                                World.Raycast(
+                            local aimingRaycast = World.Raycast(
                                 abilityTargetData:GetAimPosition(),
-                                abilityTargetData:GetAimPosition() + direction * 9999,
-                                {
-                                    ignorePlayers = LOCAL_PLAYER
-                                }
-                            )
+                                abilityTargetData:GetAimPosition() + direction * 9999)
                            
                             if aimingRaycast then
                                 abilityTargetData:SetHitResult(aimingRaycast)
@@ -102,14 +97,13 @@ local getEquipmentTask =
 getEquipmentTask.repeatCount = -1
 getEquipmentTask.repeatInterval = 1
 
-local TargetTast =
-    Task.Spawn(
+local TargetTask = Task.Spawn(
     function(dt)
         if LOCAL_PLAYER.isDead or not Object.IsValid(equippedWeapon) then
             targetedPlayer = nil
             return
         end
-        if Input.GetCurrentInputType() ~= InputType.TOUCH and false then
+        if Input.GetCurrentInputType() ~= InputType.TOUCH then
             return
         end
 
@@ -117,17 +111,17 @@ local TargetTast =
         local viewRotation = LOCAL_PLAYER:GetViewWorldRotation()
         local viewTransform = Transform.New(viewRotation, viewPosition, Vector3.ONE)
 
-        -- Get players that are in 45 degrees from the center of the screen.
+        -- Get players that are in 10 degrees from the center of the screen.
         local playersOfInterest = {}
         for _, player in pairs(Game.GetPlayers()) do
-            if not player.isDead and player ~= LOCAL_PLAYER then
+            if not player.isDead and player ~= LOCAL_PLAYER and player.team ~= LOCAL_PLAYER.team then
                 local direction = (player:GetWorldPosition() - viewPosition)
                 local directionNormalized = direction:GetNormalized()
                 local dot = directionNormalized .. viewTransform:GetForwardVector()
                 local angleRad = math.acos(dot)
                 local angleDeg = math.deg(angleRad)
 
-                if angleDeg < 25 then
+                if angleDeg < 10 then
                     table.insert(playersOfInterest, player)
                 end
             end
@@ -159,7 +153,7 @@ local TargetTast =
                 }
             )
 
-            if aimingRaycast and aimingRaycast.other:IsA('Player') and aimingRaycast.other ~= LOCAL_PLAYER then
+            if aimingRaycast and aimingRaycast.other:IsA('Player') and aimingRaycast.other ~= LOCAL_PLAYER and aimingRaycast.other ~= LOCAL_PLAYER.team then
                 targetedPlayer = aimingRaycast.other
             else
                 targetedPlayer = nil
@@ -214,8 +208,8 @@ local TargetTast =
         end
     end
 )
-TargetTast.repeatCount = -1
-TargetTast.repeatInterval = .1
+TargetTask.repeatCount = -1
+TargetTask.repeatInterval = .1
 
 function Tick(dt)
     if Object.IsValid(targetedPlayer) and targetedPlayer.hitPoints > 0 then
@@ -236,8 +230,7 @@ function Tick(dt)
     Task.Wait()
 end
 
-local autoFireTask =
-    Task.Spawn(
+local autoFireTask = Task.Spawn(
     function(dt)
         if not Object.IsValid(equippedWeaponAttackAbility) or not Object.IsValid(equippedWeapon) then
             TARGETING_PANEL.visibility = Visibility.FORCE_OFF

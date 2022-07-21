@@ -124,10 +124,10 @@ function Tick(deltaTime)
 	end
 end
 
-local function UpdateAiming(player, aiming)
-	if player ~= LOCAL_PLAYER then return end
-	isAiming = aiming
-end
+-- local function UpdateAiming(player, aiming)
+-- 	if player ~= LOCAL_PLAYER then return end
+-- 	isAiming = aiming
+-- end
 
 local function Reset()
 	isSprinting, isCrouching, isSlowWalk, isAiming = false, false, false, false
@@ -139,7 +139,7 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(InputBegan)
 LOCAL_PLAYER.bindingReleasedEvent:Connect(InputEnded)
 LOCAL_PLAYER.diedEvent:Connect(Reset)
 
-Events.Connect("WeaponAiming", UpdateAiming)
+-- Events.Connect("WeaponAiming", UpdateAiming)
 
 -- Mobile Specific
 Input.touchStartedEvent:Connect(function(location,touchIndex)
