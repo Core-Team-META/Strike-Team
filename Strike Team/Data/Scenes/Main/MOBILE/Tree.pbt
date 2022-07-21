@@ -11423,7 +11423,6 @@ Objects {
       TwoSided: true
       TickWhenOffScreen: true
       RedrawTime: 30
-      UseSafeZoneAdjustment: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -12956,4 +12955,76 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17166651772934716441
+  Name: "TargetingAquisitionsMobile"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7156955236230422050
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5407965052478694842
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TargetingAquisitionsMobile"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16552641237158895054
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 15192468558682982554
+          }
+        }
+        Overrides {
+          Name: "Width"
+          Int: -40
+        }
+        Overrides {
+          Name: "Height"
+          Int: -40
+        }
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 1
+            G: 0.0199999809
+            B: 0.0199999809
+            A: 0.924
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16392703751183595809
+    }
+  }
 }

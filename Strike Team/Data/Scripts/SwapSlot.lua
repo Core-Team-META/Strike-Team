@@ -30,6 +30,7 @@ end
 
 --Turn panel off
 local function ToggleOff()
+    
     UI.SetCanCursorInteractWithUI(false)
     UI.SetCursorLockedToViewport(true)
     Events.Broadcast("SwapPanelClose")
@@ -42,12 +43,10 @@ end
 
 
 local function ToggleWeaponSlot()
-    if (UI_CONTAINER.visibility == Visibility.FORCE_OFF) then
+    if not LOCAL_PLAYER.isDead and (UI_CONTAINER.visibility == Visibility.FORCE_OFF) then
         ToggleOn()
-    else
-        if LOCAL_PLAYER.isDead == false then 
-            ToggleOff()
-        end
+    elseif not LOCAL_PLAYER.isDead then 
+        ToggleOff()
     end
 end
 
@@ -60,6 +59,7 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(player, bindingPressed)
     end
 end)
 
+Events.Connect("SwapPanelForceToggle",ToggleWeaponSlot)
 Events.Connect("SwapPanelForceOpen",ToggleOn)
 Events.Connect("SwapPanelForceClose",ToggleOff)
 

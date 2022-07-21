@@ -23,7 +23,6 @@ local getEquipmentTask = Task.Spawn(function()
     local incomingWeapon = GetWeapon(LOCAL_PLAYER)
     if (Object.IsValid(incomingWeapon) and not Object.IsValid(equippedWeapon)) or (Object.IsValid(equippedWeapon) and Object.IsValid(incomingWeapon) and equippedWeapon ~= incomingWeapon) then
         currentTime = 0
-        print("New Weapon Equipped")
         equippedWeapon = incomingWeapon
         equippedWeaponAttackAbility = equippedWeapon:FindDescendantByName("Shoot") or equippedWeapon:FindDescendantByName("Throw") or equippedWeapon:FindDescendantByName("Aid")
     end
@@ -44,7 +43,7 @@ function Tick(dt)
     currentTime = currentTime + dt
     if not Object.IsValid(equippedWeaponAttackAbility) or not Object.IsValid(equippedWeapon) then return end
     if not isFiring then return end
-    if currentTime >= equippedWeapon.shotsPerSecond / 100 and equippedWeapon.clientUserData.Ammo > 0 then
+    if currentTime >= 1 / equippedWeapon.shotsPerSecond and equippedWeapon.clientUserData.Ammo > 0 then
         currentTime = 0
         pcall(function()
             if equippedWeaponAttackAbility:GetCurrentPhase() == AbilityPhase.READY then

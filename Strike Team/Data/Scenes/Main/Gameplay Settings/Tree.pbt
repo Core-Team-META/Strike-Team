@@ -1874,7 +1874,7 @@ Objects {
     Overrides {
       Name: "cs:NemesisOfStatText"
       ObjectReference {
-        SelfId: 841534158063459245
+        SelfId: 5125930360712995913
       }
     }
     Overrides {

@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14313942351760538822
-  Name: "Icon Player Mount"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_PlayerMount"
-  }
-}
-Assets {
   Id: 13913059803195293947
   Name: "Survival Money 001"
   PlatformAssetType: 9

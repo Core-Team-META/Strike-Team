@@ -6630,7 +6630,6 @@ Objects {
   }
   ParentId: 15084389731420460127
   ChildIds: 9298601716501198180
-  ChildIds: 4805773298826593989
   ChildIds: 5220243372690621923
   ChildIds: 59541556985093178
   ChildIds: 3726506971706943816
@@ -6723,7 +6722,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Cast Shadows"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "bp:Volumetric Intensity"
@@ -7054,51 +7053,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 14711356993981097592
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4805773298826593989
-  Name: "iOS _DynamicShadowDistance"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8735646439282424894
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:SunLight"
-      ObjectReference {
-        SelfId: 1870342449417403885
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 10369884115274171761
     }
   }
   NetworkRelevanceDistance {
@@ -7664,6 +7618,7 @@ Objects {
   }
   ParentId: 15084389731420460127
   ChildIds: 902804370627847270
+  ChildIds: 1814113443710889393
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -7681,11 +7636,646 @@ Objects {
       Value: "mc:edetaillevel:low"
     }
     MaxDetailLevel {
-      Value: "mc:edetaillevel:low"
+      Value: "mc:edetaillevel:ultra"
     }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1814113443710889393
+  Name: "Decals_Lights"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13722862965861778204
+  ChildIds: 1161705571467650693
+  ChildIds: 2758410315782056402
+  ChildIds: 5032816438126691470
+  ChildIds: 16098953127726421080
+  ChildIds: 6319085022852098412
+  ChildIds: 13004983368569307868
+  ChildIds: 10427906539344970399
+  ChildIds: 8462577577052297111
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8462577577052297111
+  Name: "Mobile Fake Light: Shapes"
+  Transform {
+    Location {
+      X: 4142.41553
+      Y: 2475.93457
+      Z: 318.37207
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.03735614
+      Y: 1.93659151
+      Z: 2.41461086
+    }
+  }
+  ParentId: 1814113443710889393
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 0.697
+      }
+    }
+    Overrides {
+      Name: "bp:Sort Order"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10427906539344970399
+  Name: "Mobile Fake Light: Shapes"
+  Transform {
+    Location {
+      X: 4137.77637
+      Y: 2981.15527
+      Z: 318.37207
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.03735614
+      Y: 1.93659151
+      Z: 2.41461086
+    }
+  }
+  ParentId: 1814113443710889393
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 0.697
+      }
+    }
+    Overrides {
+      Name: "bp:Sort Order"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13004983368569307868
+  Name: "Mobile Fake Light: Shapes"
+  Transform {
+    Location {
+      X: 3479.72607
+      Y: 2975.1123
+      Z: 318.37207
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.03735614
+      Y: 1.93659151
+      Z: 2.41461086
+    }
+  }
+  ParentId: 1814113443710889393
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 0.697
+      }
+    }
+    Overrides {
+      Name: "bp:Sort Order"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6319085022852098412
+  Name: "Mobile Fake Light: Shapes"
+  Transform {
+    Location {
+      X: 2827.81396
+      Y: 2969.12598
+      Z: 318.37207
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.03735614
+      Y: 1.93659151
+      Z: 2.41461086
+    }
+  }
+  ParentId: 1814113443710889393
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 0.697
+      }
+    }
+    Overrides {
+      Name: "bp:Sort Order"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16098953127726421080
+  Name: "Mobile Fake Light: Shapes"
+  Transform {
+    Location {
+      X: 1886.83435
+      Y: 1550.35303
+      Z: 318.37207
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 1.56848836
+      Y: 1.93658984
+      Z: 2.41461086
+    }
+  }
+  ParentId: 1814113443710889393
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 0.697
+      }
+    }
+    Overrides {
+      Name: "bp:Sort Order"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5032816438126691470
+  Name: "Mobile Fake Light: Shapes"
+  Transform {
+    Location {
+      X: 1875.53162
+      Y: 2781.18066
+      Z: 318.37207
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 1.56848836
+      Y: 1.93658984
+      Z: 2.41461086
+    }
+  }
+  ParentId: 1814113443710889393
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 0.697
+      }
+    }
+    Overrides {
+      Name: "bp:Sort Order"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2758410315782056402
+  Name: "Mobile Fake Light: Shapes"
+  Transform {
+    Location {
+      X: 2487.21387
+      Y: 550.275391
+      Z: 318.37207
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 3.18485546
+      Y: 2.65025735
+      Z: 4.08354044
+    }
+  }
+  ParentId: 1814113443710889393
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 15
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 0.697
+      }
+    }
+    Overrides {
+      Name: "bp:Sort Order"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1161705571467650693
+  Name: "Mobile Fake Light: Shapes"
+  Transform {
+    Location {
+      X: 3172.81323
+      Y: 556.571289
+      Z: 318.37207
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.38466501
+      Y: 2.65025735
+      Z: 4.08354044
+    }
+  }
+  ParentId: 1814113443710889393
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 15
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 0.697
+      }
+    }
+    Overrides {
+      Name: "bp:Sort Order"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
   }
   IsReplicationEnabledByDefault: true
 }
@@ -7732,6 +8322,115 @@ Objects {
   ChildIds: 12112728192574427391
   ChildIds: 868088466125603063
   ChildIds: 15941946461915323803
+  ChildIds: 7875489390164334312
+  ChildIds: 17307185220881728240
+  ChildIds: 2554104522843117090
+  ChildIds: 4595260531763662834
+  ChildIds: 2772076032544359664
+  ChildIds: 17310054487087018413
+  ChildIds: 4765558479498572134
+  ChildIds: 12982811510439471601
+  ChildIds: 11336586102167225046
+  ChildIds: 17930561511067174316
+  ChildIds: 1182774416067434463
+  ChildIds: 16346848128790104257
+  ChildIds: 320495644189939219
+  ChildIds: 490433835979764089
+  ChildIds: 9994777105846703637
+  ChildIds: 10439559266132845659
+  ChildIds: 10183867909686346054
+  ChildIds: 17640964210727575897
+  ChildIds: 3147116537893321201
+  ChildIds: 9667144279729556382
+  ChildIds: 6549999782847816945
+  ChildIds: 14335407196816611164
+  ChildIds: 6258884757655380071
+  ChildIds: 11398330109095243347
+  ChildIds: 3859914739904220889
+  ChildIds: 1522821731726743352
+  ChildIds: 10706996923612307189
+  ChildIds: 4960440563542563983
+  ChildIds: 1796773235393313365
+  ChildIds: 8875770732257737127
+  ChildIds: 17379811145373467896
+  ChildIds: 16450881688462648267
+  ChildIds: 7427873496836989312
+  ChildIds: 2240248167909383640
+  ChildIds: 4568205470367256826
+  ChildIds: 18365173975273759382
+  ChildIds: 5465911876792803050
+  ChildIds: 9224601610976971671
+  ChildIds: 7502076707443765349
+  ChildIds: 16041116796347858822
+  ChildIds: 6357996924671114243
+  ChildIds: 14848202493699627330
+  ChildIds: 4607472720733418888
+  ChildIds: 18194070423145458516
+  ChildIds: 12834600266979459845
+  ChildIds: 16518488333237019317
+  ChildIds: 17297123623961998289
+  ChildIds: 4174584977231503994
+  ChildIds: 11523432553495998199
+  ChildIds: 15505734629844842148
+  ChildIds: 57651641861207238
+  ChildIds: 16901033509362697893
+  ChildIds: 8700979551284165848
+  ChildIds: 2796647408551367605
+  ChildIds: 12885436850071109526
+  ChildIds: 7028323282114585277
+  ChildIds: 3927669385581490879
+  ChildIds: 10238577990487079016
+  ChildIds: 16027190002724676677
+  ChildIds: 1303519616425329265
+  ChildIds: 17578388545650081489
+  ChildIds: 17960251354276642424
+  ChildIds: 4220306652596519581
+  ChildIds: 16354731301930254572
+  ChildIds: 11661914380253883102
+  ChildIds: 9755720493847206546
+  ChildIds: 4736966381106501648
+  ChildIds: 8037210856669880813
+  ChildIds: 13295164526525688870
+  ChildIds: 10070301735199177955
+  ChildIds: 9268617249041173591
+  ChildIds: 3159796211135217664
+  ChildIds: 9824318696759464057
+  ChildIds: 4879055222606210732
+  ChildIds: 17543009590961813992
+  ChildIds: 6001616256694089902
+  ChildIds: 3895688811386794372
+  ChildIds: 16293394874891296243
+  ChildIds: 8810599650167090827
+  ChildIds: 3058143014884826870
+  ChildIds: 6182007023996587508
+  ChildIds: 5490683897659486832
+  ChildIds: 12825881094259010150
+  ChildIds: 3012736343435147690
+  ChildIds: 8831573564287532491
+  ChildIds: 15490266006603392136
+  ChildIds: 5669095274605866202
+  ChildIds: 1214359523725428264
+  ChildIds: 3788802220405503418
+  ChildIds: 16547182314979185776
+  ChildIds: 10933570621607004763
+  ChildIds: 10446251209152008352
+  ChildIds: 18263165495307569980
+  ChildIds: 610550584020325664
+  ChildIds: 2823223461168292109
+  ChildIds: 12406965716292505296
+  ChildIds: 10453828758208305588
+  ChildIds: 3346303563480549200
+  ChildIds: 7135200803929122663
+  ChildIds: 5917274311083256800
+  ChildIds: 6003798284948593189
+  ChildIds: 13406383413084439599
+  ChildIds: 1535083157282249238
+  ChildIds: 1746900413116826066
+  ChildIds: 9978415745854535470
+  ChildIds: 14031736135847745043
+  ChildIds: 16942570141055231102
+  ChildIds: 14333546870508052599
+  ChildIds: 11346162330556303985
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7753,21 +8452,6862 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15941946461915323803
+  Id: 11346162330556303985
   Name: "Mobile Fake Shadow: Shapes"
   Transform {
     Location {
-      X: 786.677307
-      Y: -1758.9126
-      Z: 399.114807
+      X: 3319.91968
+      Y: 754.681152
+      Z: 203.745972
+    }
+    Rotation {
+      Pitch: -90
+      Roll: 90.5256195
+    }
+    Scale {
+      X: 1.13559866
+      Y: 0.436660707
+      Z: 0.968369842
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 6
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 20
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.69262296
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14333546870508052599
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 3233.22705
+      Y: 554.015625
+      Z: 203.745941
+    }
+    Rotation {
+      Pitch: -90
+      Roll: 90.5256195
+    }
+    Scale {
+      X: 1.13559878
+      Y: 0.436662972
+      Z: 2.66379428
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 6
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 20
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.69262296
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16942570141055231102
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 3027.98438
+      Y: 722.166504
+      Z: 203.745941
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: 20.5560398
+      Roll: -110.03009
+    }
+    Scale {
+      X: 1.13559866
+      Y: 0.468983054
+      Z: 0.915490746
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 6
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 20
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.580000043
+        G: 0.580000043
+        B: 0.580000043
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.69262296
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14031736135847745043
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 2767.25342
+      Y: 538.036621
+      Z: 19.7885895
     }
     Rotation {
       Yaw: -89.473877
     }
     Scale {
-      X: 3.13139296
-      Y: 5.00919056
-      Z: 8.21325397
+      X: 3.07517624
+      Y: 5.83559799
+      Z: 6.5
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.767101407
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9978415745854535470
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 3265
+      Y: 537.688477
+      Z: 373.407715
+    }
+    Rotation {
+      Yaw: -179.47345
+      Roll: -90
+    }
+    Scale {
+      X: 1.13171363
+      Y: 1.72336698
+      Z: 0.882845044
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 4
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 3.07170177
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1746900413116826066
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 2836.45264
+      Y: -1894.47852
+      Z: 316.201538
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.03281093
+      Y: 2.8743403
+      Z: 2.50343847
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.440786302
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.763
+        G: 0.763
+        B: 0.763
+        A: 0.593000054
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1535083157282249238
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 3460.38159
+      Y: -1894.47852
+      Z: 316.201538
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.03281093
+      Y: 2.8743403
+      Z: 2.50343847
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.440786302
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.763
+        G: 0.763
+        B: 0.763
+        A: 0.593000054
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13406383413084439599
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 4128.4126
+      Y: -1888.34424
+      Z: 296.414673
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 1.88713074
+      Y: 2.87434602
+      Z: 2.13681054
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.440786302
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.763
+        G: 0.763
+        B: 0.763
+        A: 0.593000054
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6003798284948593189
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 4123.93555
+      Y: -1400.78516
+      Z: 296.414673
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.01074696
+      Y: 3.10381627
+      Z: 2.13681054
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.440786302
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.763
+        G: 0.763
+        B: 0.763
+        A: 0.593000054
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5917274311083256800
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 4068.46582
+      Y: 2499.93555
+      Z: 305.468414
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.01074219
+      Y: 2.65025353
+      Z: 2.31703019
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.440786302
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.763
+        G: 0.763
+        B: 0.763
+        A: 0.593000054
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7135200803929122663
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 4064.00781
+      Y: 2985.41504
+      Z: 305.468414
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.01074219
+      Y: 2.65025353
+      Z: 2.31703019
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.440786302
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.763
+        G: 0.763
+        B: 0.763
+        A: 0.593000054
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3346303563480549200
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 3514.43457
+      Y: 2980.36816
+      Z: 305.468414
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.01074219
+      Y: 2.65025353
+      Z: 2.31703019
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.440786302
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.763
+        G: 0.763
+        B: 0.763
+        A: 0.593000054
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10453828758208305588
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 2866.65063
+      Y: 2974.42
+      Z: 305.468414
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.18912864
+      Y: 2.65025
+      Z: 2.48324227
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.440786302
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.763
+        G: 0.763
+        B: 0.763
+        A: 0.593000054
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12406965716292505296
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 905.451904
+      Y: -4438.67871
+      Z: -116.534241
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 0.5
+      Y: 4.75000095
+      Z: 11
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.134865895
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.105255738
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2823223461168292109
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 5705.17822
+      Y: -3345.18774
+      Z: 33.1820679
+    }
+    Rotation {
+      Yaw: 135.525787
+      Roll: -89.9999695
+    }
+    Scale {
+      X: 4.22054625
+      Y: 1.21316254
+      Z: 2.30624652
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 7
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 1.33815289
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.69262296
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 610550584020325664
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 6135.50537
+      Y: -3108.35156
+      Z: 138.822891
+    }
+    Rotation {
+      Yaw: 135.525742
+      Roll: -90
+    }
+    Scale {
+      X: 0.0471011885
+      Y: 2.29535556
+      Z: 3.28306198
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 7
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 1.33815289
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.69262296
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18263165495307569980
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 6850.4082
+      Y: -2796.14551
+      Z: 138.823151
+    }
+    Rotation {
+      Yaw: 135.525711
+      Roll: -90
+    }
+    Scale {
+      X: 0.0470994972
+      Y: 2.29535556
+      Z: 4.28258324
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 7
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 1.33815289
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.69262296
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10446251209152008352
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 7216.41895
+      Y: -5823.28125
+      Z: 1206.25476
+    }
+    Rotation {
+      Yaw: 90.5241623
+    }
+    Scale {
+      X: 1.38760233
+      Y: 2.5584662
+      Z: 7.15490246
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 2.60262394
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.823148966
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10933570621607004763
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 7104.30908
+      Y: -5494.03711
+      Z: 1206.25476
+    }
+    Rotation {
+      Yaw: 0.524205208
+    }
+    Scale {
+      X: 1.38760138
+      Y: 3.60501361
+      Z: 7.15490246
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 2.60262394
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.823148966
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16547182314979185776
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 3678.34912
+      Y: 559.245117
+      Z: 1278.67834
+    }
+    Rotation {
+      Yaw: 0.524205327
+    }
+    Scale {
+      X: 1.38760543
+      Y: 11.183919
+      Z: 3.11801434
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 2.60262394
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.823148966
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3788802220405503418
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 3656.42578
+      Y: 2955.40918
+      Z: 987.893311
+    }
+    Rotation {
+      Yaw: 0.524205506
+    }
+    Scale {
+      X: 1.38760424
+      Y: 4.03541279
+      Z: 3.11801434
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 2.07236195
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.823148966
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1214359523725428264
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -1896.16211
+      Y: 278.219238
+      Z: 751.146545
+    }
+    Rotation {
+      Yaw: 0.524205685
+    }
+    Scale {
+      X: 2.7708652
+      Y: 5.78472614
+      Z: 3.79666
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.823148966
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5669095274605866202
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -8.82915878
+      Y: 1439.46924
+      Z: -56.8783417
+    }
+    Rotation {
+      Yaw: -39.5128784
+    }
+    Scale {
+      X: 1.13202894
+      Y: 0.619593382
+      Z: 0.491758138
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.823148966
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15490266006603392136
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -1176.14209
+      Y: 1583.90576
+      Z: -56.8783417
+    }
+    Rotation {
+      Yaw: 0.524205804
+    }
+    Scale {
+      X: 0.775699675
+      Y: 0.467129827
+      Z: 0.491758138
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 0.823148966
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8831573564287532491
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -2405.65234
+      Y: 1822.86133
+      Z: -47.3806152
+    }
+    Rotation {
+      Yaw: 0.524206
+    }
+    Scale {
+      X: 2.0637157
+      Y: 1.06414008
+      Z: 2.09268379
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3012736343435147690
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -4729.7876
+      Y: 3384.73828
+      Z: 698.706543
+    }
+    Rotation {
+      Yaw: -179.476181
+    }
+    Scale {
+      X: 0.464769065
+      Y: 5.28915882
+      Z: 4.90671921
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12825881094259010150
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -4411.35205
+      Y: 4456.66699
+      Z: 698.706543
+    }
+    Rotation {
+      Yaw: 135.523773
+    }
+    Scale {
+      X: 0.464768589
+      Y: 3.4262085
+      Z: 4.90671921
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5490683897659486832
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3262.25391
+      Y: 4701.43359
+      Z: -62.5959778
+    }
+    Rotation {
+      Yaw: 90.5238
+    }
+    Scale {
+      X: 0.200876519
+      Y: 2.58776402
+      Z: 4.90671921
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6182007023996587508
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -864.965332
+      Y: 4358.60352
+      Z: -62.5959778
+    }
+    Rotation {
+      Yaw: 90.5238113
+    }
+    Scale {
+      X: 0.200863659
+      Y: 4.16521263
+      Z: 4.90671921
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3058143014884826870
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -206.519806
+      Y: 4908.13
+      Z: -62.5959778
+    }
+    Rotation {
+      Yaw: -179.475922
+    }
+    Scale {
+      X: 0.200863659
+      Y: 4.16521263
+      Z: 4.90671921
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8810599650167090827
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 228.695648
+      Y: 4669.53027
+      Z: -62.5960083
+    }
+    Rotation {
+      Yaw: 90.5240784
+    }
+    Scale {
+      X: 0.200863585
+      Y: 2.60164976
+      Z: 4.52248669
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 3.3164382
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16293394874891296243
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 627.993896
+      Y: 4742.86426
+      Z: -62.5960083
+    }
+    Rotation {
+      Yaw: 135.524139
+    }
+    Scale {
+      X: 0.200851649
+      Y: 0.734037399
+      Z: 5.22781658
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 3.3164382
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3895688811386794372
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 681.977722
+      Y: 5268.99902
+      Z: -62.5960083
+    }
+    Rotation {
+      Yaw: -179.475784
+    }
+    Scale {
+      X: 0.200851038
+      Y: 3.9173286
+      Z: 4.75669956
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 3.3164382
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6001616256694089902
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 4469.55127
+      Y: 5529.35352
+      Z: 558.2854
+    }
+    Rotation {
+      Yaw: -179.475784
+    }
+    Scale {
+      X: 0.722026467
+      Y: 3.96722507
+      Z: 4.75669956
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 1.64407325
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17543009590961813992
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 4442.84131
+      Y: 5169.79883
+      Z: 558.2854
+    }
+    Rotation {
+      Yaw: 90.524292
+    }
+    Scale {
+      X: 0.722033441
+      Y: 1.76707423
+      Z: 4.75669956
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 2.92893887
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4879055222606210732
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 3734.24658
+      Y: 4461.21484
+      Z: 558.285339
+    }
+    Rotation {
+      Yaw: 93.3584213
+    }
+    Scale {
+      X: 1.03776157
+      Y: 2.67959356
+      Z: 4.40464115
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.39735699
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9824318696759464057
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 4363.73535
+      Y: 4705.30078
+      Z: 558.285339
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.03776157
+      Y: 2.67959356
+      Z: 4.40464115
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.39735699
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3159796211135217664
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -8090.06201
+      Y: -480.132812
+      Z: 542.880371
+    }
+    Rotation {
+      Yaw: -43.6231079
+    }
+    Scale {
+      X: 3.48731232
+      Y: 6.94675255
+      Z: 9.47807598
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 2.7453866
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9268617249041173591
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -1631.59973
+      Y: -3965.66553
+      Z: 542.880371
+    }
+    Rotation {
+      Yaw: -45.8778687
+    }
+    Scale {
+      X: 5.46189404
+      Y: 8.76063919
+      Z: 6
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10070301735199177955
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -440.067871
+      Y: -5828.68896
+      Z: 496.096802
+    }
+    Rotation {
+      Yaw: -45.8776855
+    }
+    Scale {
+      X: 2.70071745
+      Y: 1.25352275
+      Z: 6.07254744
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13295164526525688870
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 338.657562
+      Y: -5146.53809
+      Z: 496.096802
+    }
+    Rotation {
+      Yaw: -45.877655
+    }
+    Scale {
+      X: 2.70071745
+      Y: 1.25352275
+      Z: 0.0625562668
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8037210856669880813
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -334.334503
+      Y: -4359.41797
+      Z: 496.096863
+    }
+    Rotation {
+      Yaw: -45.8776245
+    }
+    Scale {
+      X: 2.21910286
+      Y: 0.854386508
+      Z: 0.0625562668
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4736966381106501648
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 217.887817
+      Y: -4502.1123
+      Z: 525.169739
+    }
+    Rotation {
+      Yaw: -45.877594
+    }
+    Scale {
+      X: 4.60281038
+      Y: 0.854388058
+      Z: 0.389229834
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9755720493847206546
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 708.753052
+      Y: -4026.05542
+      Z: 525.169739
+    }
+    Rotation {
+      Yaw: -45.8775635
+    }
+    Scale {
+      X: 4.60281
+      Y: 2.27146792
+      Z: 0.389229834
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11661914380253883102
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 6989.82617
+      Y: 2779.87207
+      Z: -64.9999695
+    }
+    Rotation {
+      Yaw: -35.8774719
+    }
+    Scale {
+      X: 1.41707778
+      Y: 0.291332513
+      Z: 2.12712669
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16354731301930254572
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 6642.5957
+      Y: 2760.54492
+      Z: -64.9999695
+    }
+    Rotation {
+      Yaw: -45.9486084
+    }
+    Scale {
+      X: 1.41707778
+      Y: 0.291332513
+      Z: 2.12712669
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4220306652596519581
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 6135.32617
+      Y: 2966.48145
+      Z: -64.9999695
+    }
+    Rotation {
+      Yaw: -45.9485779
+    }
+    Scale {
+      X: 5.8704443
+      Y: 0.291341126
+      Z: 2.12712669
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17960251354276642424
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 6289.36328
+      Y: 2495.82715
+      Z: -64.9999695
+    }
+    Rotation {
+      Yaw: -45.9485474
+    }
+    Scale {
+      X: 7.77459526
+      Y: 0.600875258
+      Z: 3.14719152
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17578388545650081489
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 8008.48779
+      Y: 2631.39453
+      Z: -64.9999695
+    }
+    Rotation {
+      Yaw: -32.7651062
+    }
+    Scale {
+      X: 2.75
+      Y: 0.5
+      Z: 5.00000191
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1303519616425329265
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 8123.45703
+      Y: 2910.67383
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -27.7650757
+    }
+    Scale {
+      X: 7.25000048
+      Y: 5.75
+      Z: 9.75
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16027190002724676677
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 9210.3252
+      Y: 382.733398
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -45.8676453
+    }
+    Scale {
+      X: 8.25
+      Y: 3.5
+      Z: 9.75000095
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10238577990487079016
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 7834.71875
+      Y: -779.870117
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -45.8676147
+    }
+    Scale {
+      X: 4.25
+      Y: 9.00000191
+      Z: 6.5
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3927669385581490879
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 10329.8525
+      Y: -4022.90649
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -50.8674927
+    }
+    Scale {
+      X: 11.1617537
+      Y: 6.7295413
+      Z: 11.7259464
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7028323282114585277
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 4988.18555
+      Y: -4871.12793
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -86.921936
+    }
+    Scale {
+      X: 5.57041
+      Y: 8.51688862
+      Z: 5.23545885
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12885436850071109526
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 7130.09375
+      Y: -4277.85938
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -44.5192566
+    }
+    Scale {
+      X: 5.57041
+      Y: 5.39940071
+      Z: 5.23545885
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2796647408551367605
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 2092.88257
+      Y: -5664.19971
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -39.4699097
+    }
+    Scale {
+      X: 9.45148
+      Y: 5.3993969
+      Z: 5.23545885
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 4.56051445
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8700979551284165848
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 4560.48242
+      Y: -5248.98633
+      Z: -65.0000305
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.81451416
+      Y: 2.06768537
+      Z: 5.23545885
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 3.21446466
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16901033509362697893
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -4634.45703
+      Y: -2842.97949
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -33.0994568
+    }
+    Scale {
+      X: 3.81451416
+      Y: 2.06768537
+      Z: 5.23545885
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 3.21446466
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 57651641861207238
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -5190.58
+      Y: -1803.76758
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -179.42627
+    }
+    Scale {
+      X: 2.01553059
+      Y: 3.84718347
+      Z: 5.23545885
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15505734629844842148
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -5167.83057
+      Y: -436.873535
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -14.426178
+    }
+    Scale {
+      X: 5.45428801
+      Y: 4.89284086
+      Z: 5
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11523432553495998199
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -6358.76514
+      Y: -93.0507812
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: -174.878754
+    }
+    Scale {
+      X: 0.499997526
+      Y: 2.18685198
+      Z: 4.98356533
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4174584977231503994
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3387.55298
+      Y: 3656.68945
+      Z: 105.927231
+    }
+    Rotation {
+      Yaw: -89.4737854
+    }
+    Scale {
+      X: 0.0908384174
+      Y: 2.90634036
+      Z: 3.12477326
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.624338508
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17297123623961998289
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3086.43848
+      Y: 4184.78711
+      Z: 105.927231
+    }
+    Rotation {
+      Yaw: -0.215271
+    }
+    Scale {
+      X: 0.0376963057
+      Y: 4.31056595
+      Z: 3
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.624338508
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16518488333237019317
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3792.60205
+      Y: 3689.13281
+      Z: -141.564407
+    }
+    Rotation {
+      Yaw: 0.526139617
+    }
+    Scale {
+      X: 4.97682333
+      Y: 10.0309324
+      Z: 0.353596687
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.175655276
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12834600266979459845
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -4078.60718
+      Y: 2624.5332
+      Z: -79.4730682
+    }
+    Rotation {
+      Yaw: 0.526139796
+    }
+    Scale {
+      X: 2.39641476
+      Y: 1.0000006
+      Z: 5.19825029
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.542759776
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18194070423145458516
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3460.78442
+      Y: 3155.45605
+      Z: -79.4730682
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 3.59557319
+      Y: 2.11639881
+      Z: 10.7691221
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.481575698
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4607472720733418888
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3715.57617
+      Y: 3153.11621
+      Z: -79.4730682
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 3.59555674
+      Y: 1.00000453
+      Z: 5.20334
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.563154459
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14848202493699627330
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -7298.97559
+      Y: 632.363281
+      Z: -37.9904022
+    }
+    Rotation {
+      Yaw: 44.2248611
+    }
+    Scale {
+      X: 3.07277489
+      Y: 2.24465537
+      Z: 5.71872091
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.298023462
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6357996924671114243
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -7242.46875
+      Y: 131.675293
+      Z: -37.9904022
+    }
+    Rotation {
+      Yaw: -45.7749939
+    }
+    Scale {
+      X: 3.07277489
+      Y: 2.24465537
+      Z: 5.71872091
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.481575698
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16041116796347858822
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -6498.10059
+      Y: -518.390137
+      Z: -65.0000305
+    }
+    Rotation {
+      Yaw: 140.121338
+    }
+    Scale {
+      X: 0.499997526
+      Y: 2.18685198
+      Z: 4.98356533
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7502076707443765349
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -6474.89209
+      Y: -536.004395
+      Z: 468.2323
+    }
+    Rotation {
+      Yaw: -137.494644
+    }
+    Scale {
+      X: 4.95155954
+      Y: 3.82312965
+      Z: 4.44933271
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.461180985
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9224601610976971671
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -2877.3
+      Y: -2749.80127
+      Z: 493.960266
+    }
+    Rotation {
+      Yaw: -71.1054382
+    }
+    Scale {
+      X: 2.25
+      Y: 9
+      Z: -0.0414819308
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.705917358
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5465911876792803050
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -2648.36401
+      Y: -3357.43237
+      Z: -168.068375
+    }
+    Rotation {
+      Yaw: -45.9262695
+    }
+    Scale {
+      X: 0.107191816
+      Y: 6.61547756
+      Z: 6.32736206
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.603943825
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18365173975273759382
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -2735.55908
+      Y: -3266.85376
+      Z: -168.068375
+    }
+    Rotation {
+      Yaw: -46.0474548
+    }
+    Scale {
+      X: 0.974999607
+      Y: 6.61547852
+      Z: 6.32736206
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.379602194
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4568205470367256826
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3128.94727
+      Y: -3104.4668
+      Z: -168.068375
+    }
+    Rotation {
+      Yaw: -36.7590942
+    }
+    Scale {
+      X: 2.82695174
+      Y: 2.23245859
+      Z: 1.85927963
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.542759776
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2240248167909383640
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3911.6936
+      Y: -2879.76343
+      Z: -168.068466
+    }
+    Rotation {
+      Yaw: 46.4561729
+      Roll: 2.11560369
+    }
+    Scale {
+      X: 1.3383584
+      Y: 0.304532737
+      Z: 3.6628871
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.726312041
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7427873496836989312
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3998.47534
+      Y: -2725.18213
+      Z: -168.068466
+    }
+    Rotation {
+      Yaw: -47.5748901
+    }
+    Scale {
+      X: 3.25
+      Y: 2.25
+      Z: 6.5
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.27762875
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16450881688462648267
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -54.4214172
+      Y: -4183.93555
+      Z: -168.068497
+    }
+    Rotation {
+      Yaw: -59.3288269
+    }
+    Scale {
+      X: 3.33615041
+      Y: 11.3128719
+      Z: 6.43988514
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.27762875
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17379811145373467896
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -469.152771
+      Y: -5921.79248
+      Z: -202.030716
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 3.33615041
+      Y: 11.3128719
+      Z: 5.34926224
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.603943825
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8875770732257737127
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 1299.61987
+      Y: -2598.59131
+      Z: 541.420532
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.65006828
+      Y: 21.235384
+      Z: 7.38204098
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.359207541
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1796773235393313365
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 2947.03467
+      Y: -1803.03857
+      Z: 657.022583
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.67802429
+      Y: 5.17739391
+      Z: 5.12536
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.64473325
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4960440563542563983
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 2903.54907
+      Y: 2932.43066
+      Z: 657.022583
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.24934363
+      Y: 5.17739
+      Z: 5.12536
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.64473325
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10706996923612307189
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 2738.34839
+      Y: 2016.82227
+      Z: 522.4599
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.80546498
+      Y: 5.78824091
+      Z: 5.84063244
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.64473325
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1522821731726743352
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 1275
+      Y: -1539.26904
+      Z: 905
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7.75000191
+      Y: 3
+      Z: 2.75
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.685522616
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 3.6294589
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3859914739904220889
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 1275
+      Y: 2570
+      Z: 905
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7.75000191
+      Y: 3
+      Z: 2.75
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.685522616
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 3.6294589
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11398330109095243347
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 25.1080551
+      Y: 2667.76172
+      Z: 831.882751
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2
+      Y: 3.3106246
+      Z: 3.50000024
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.685522616
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 3.6294589
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        A: 0.332000017
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6258884757655380071
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 815.377197
+      Y: 3063.30664
+      Z: 171.86969
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.02711916
+      Y: 2.86857486
+      Z: 9.14683342
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.542759776
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 3.6294589
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14335407196816611164
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -783.264282
+      Y: 2736.49121
+      Z: 171.869629
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.33236551
+      Y: 4.5119381
+      Z: 9.14683342
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.726312041
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 3.6294589
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6549999782847816945
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3004.84814
+      Y: -1709.24707
+      Z: 171.869629
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 2
+      Y: 9.50000095
+      Z: 15.25
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.399996907
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9667144279729556382
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -7791.96045
+      Y: -1249.62793
+      Z: 171.869629
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 7.5
+      Y: 10.4999981
+      Z: 15.25
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.399996907
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3147116537893321201
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 6825.58887
+      Y: 7586.90039
+      Z: -79.7019043
+    }
+    Rotation {
+      Yaw: -89.4736
+    }
+    Scale {
+      X: 0.459810257
+      Y: 43.1486092
+      Z: 17.9933701
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.420391589
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17640964210727575897
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 3924.38379
+      Y: 7106.9668
+      Z: 795
+    }
+    Rotation {
+      Yaw: -179.47377
+    }
+    Scale {
+      X: 0.5
+      Y: 5.5
+      Z: 10.5000019
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.236839354
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10183867909686346054
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3790.75415
+      Y: 955.203125
+      Z: 69.8879547
+    }
+    Rotation {
+      Yaw: -0.0367736816
+    }
+    Scale {
+      X: 2.09462857
+      Y: 5.25124407
+      Z: 2.39076853
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.807890832
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10439559266132845659
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -5153.20264
+      Y: 2210.03125
+      Z: -65
+    }
+    Rotation {
+      Yaw: 14.9631557
+    }
+    Scale {
+      X: 6.46293783
+      Y: 1.25000286
+      Z: 15.25
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.27762875
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9994777105846703637
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -6736.90186
+      Y: 2668.98438
+      Z: 295
+    }
+    Rotation {
+      Yaw: 24.9631233
+    }
+    Scale {
+      X: 7.50000048
+      Y: 6.25
+      Z: 15.25
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.27762875
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 490433835979764089
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -6314.99902
+      Y: 3840.21094
+      Z: 295
+    }
+    Rotation {
+      Yaw: 89.963356
+    }
+    Scale {
+      X: 4.75
+      Y: 6.25000048
+      Z: 8.75
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.624338508
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 320495644189939219
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -6314.97217
+      Y: 3880.44336
+      Z: 295
+    }
+    Rotation {
+      Yaw: 89.963356
+    }
+    Scale {
+      X: 1.74999928
+      Y: 6.25000048
+      Z: 6.25
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.216444671
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16346848128790104257
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -4905.43604
+      Y: 3914.25391
+      Z: 304.999756
+    }
+    Rotation {
+      Yaw: 89.963356
+    }
+    Scale {
+      X: 7
+      Y: 6.89327145
+      Z: 12.6266451
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.196049973
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1182774416067434463
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -5132.20801
+      Y: 5465.48535
+      Z: 305.000244
+    }
+    Rotation {
+      Yaw: 44.963398
+    }
+    Scale {
+      X: 7
+      Y: 6.89327145
+      Z: 13.9496
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.379602194
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17930561511067174316
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3486.85156
+      Y: 6381.96094
+      Z: 305
+    }
+    Rotation {
+      Yaw: 5.52618313
+    }
+    Scale {
+      X: 7.00000048
+      Y: 1.75
+      Z: 12.0203896
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.379602194
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11336586102167225046
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -89.2091217
+      Y: 7496.58789
+      Z: 779.423462
+    }
+    Rotation {
+      Yaw: 90.5262375
+    }
+    Scale {
+      X: 7.00000048
+      Y: 1.75
+      Z: 3.75
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.379602194
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12982811510439471601
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -434.983093
+      Y: 4971.18262
+      Z: 85.2819824
+    }
+    Rotation {
+      Yaw: 90.5262375
+    }
+    Scale {
+      X: 4.25
+      Y: 10.0000076
+      Z: 3.75
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.216444671
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4765558479498572134
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -614.617493
+      Y: 4249.54297
+      Z: 85.2819824
+    }
+    Rotation {
+      Yaw: 90.5262375
+    }
+    Scale {
+      X: 0.5
+      Y: 7.74999475
+      Z: 7.24999952
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.216444671
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17310054487087018413
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 525.225037
+      Y: 4550.26855
+      Z: 85.2819824
+    }
+    Rotation {
+      Yaw: 135.52623
+    }
+    Scale {
+      X: 0.500003159
+      Y: 3.96063566
+      Z: 7.18235111
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.196049973
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2772076032544359664
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 808.624756
+      Y: 5227.29785
+      Z: 85.2819824
+    }
+    Rotation {
+      Yaw: -179.47377
+    }
+    Scale {
+      X: 0.500003159
+      Y: 3.96063566
+      Z: 7.18235111
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.196049973
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4595260531763662834
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -2959.49927
+      Y: 4056.47168
+      Z: 85.2819824
+    }
+    Rotation {
+      Yaw: -179.47377
+    }
+    Scale {
+      X: 0.500002146
+      Y: 8.97572231
+      Z: 3.70200372
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.155260578
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2554104522843117090
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3278.23535
+      Y: 3548.94531
+      Z: 725.370483
+    }
+    Rotation {
+      Yaw: -179.473785
+    }
+    Scale {
+      X: 0.5
+      Y: 13
+      Z: 3.70200372
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.114471197
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17307185220881728240
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -3458.58667
+      Y: 1599.52393
+      Z: 751.32959
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 0.477031738
+      Y: 13.0384607
+      Z: 0.134876862
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.440786302
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7875489390164334312
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: -2961.61963
+      Y: 1110.00928
+      Z: 751.32959
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 0.477034032
+      Y: 4.02360964
+      Z: 0.134876862
+    }
+  }
+  ParentId: 902804370627847270
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+    Overrides {
+      Name: "bp:Darkness"
+      Float: 0.175655276
+    }
+    Overrides {
+      Name: "bp:Falloff Gradient Type"
+      Enum {
+        Value: "mc:egradientfallofftype:5"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3052501555928748136
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15941946461915323803
+  Name: "Mobile Fake Shadow: Shapes"
+  Transform {
+    Location {
+      X: 315.64093
+      Y: -1485.08691
+      Z: 303.508209
+    }
+    Rotation {
+      Yaw: -89.473877
+    }
+    Scale {
+      X: 2.51269698
+      Y: 5.88045645
+      Z: 2.90979624
     }
   }
   ParentId: 902804370627847270
@@ -7818,16 +15358,16 @@ Objects {
   Name: "Mobile Fake Shadow: Shapes"
   Transform {
     Location {
-      X: -914.150574
-      Y: -1676.05127
-      Z: 19.7885895
+      X: -829.44458
+      Y: -1715.73926
+      Z: 105.168411
     }
     Rotation {
       Yaw: -89.473877
     }
     Scale {
-      X: 3.82477808
-      Y: 4.99815369
+      X: 3.33614898
+      Y: 5.24561548
       Z: 5.34926224
     }
   }
@@ -7839,7 +15379,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Darkness"
-      Float: 0.888800859
+      Float: 0.665127933
     }
     Overrides {
       Name: "bp:Falloff Gradient Type"
@@ -7940,17 +15480,17 @@ Objects {
   Name: "Mobile Fake Shadow: Shapes"
   Transform {
     Location {
-      X: 3086.97192
-      Y: 540.228516
+      X: 3467.47778
+      Y: 538.036621
       Z: 19.7885895
     }
     Rotation {
       Yaw: -89.473877
     }
     Scale {
-      X: 2.48169708
-      Y: 10.824254
-      Z: 6.44735718
+      X: 3.07517624
+      Y: 2.72829103
+      Z: 6.5
     }
   }
   ParentId: 902804370627847270
@@ -7961,7 +15501,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Darkness"
-      Float: 0.849686503
+      Float: 0.685522616
     }
     Overrides {
       Name: "bp:Falloff Gradient Type"

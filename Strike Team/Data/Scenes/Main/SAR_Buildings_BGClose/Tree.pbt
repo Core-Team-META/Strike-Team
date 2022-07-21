@@ -12147,7 +12147,7 @@ Objects {
     }
     Scale {
       X: 12
-      Y: 12.8
+      Y: 15.1018534
       Z: 6.599998
     }
   }
@@ -98266,16 +98266,16 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -2833.9458
-      Y: 665.704102
-      Z: 130.247131
+      X: -2833.94482
+      Y: 665.705078
+      Z: 130.247314
     }
     Rotation {
       Yaw: -179.999954
     }
     Scale {
-      X: 21.284008
-      Y: 0.999996424
+      X: 25.4672
+      Y: 0.999992
       Z: 14.2016115
     }
   }
@@ -100248,6 +100248,7 @@ Objects {
   ChildIds: 14049989485076220579
   ChildIds: 5444998419270228952
   ChildIds: 6568526394649046376
+  ChildIds: 5862563518020337632
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -100259,6 +100260,72 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5862563518020337632
+  Name: "Plane 1m - One Sided"
+  Transform {
+    Location {
+      X: -920.537
+      Y: -506.102966
+      Z: 1023.14441
+    }
+    Rotation {
+      Yaw: -90
+      Roll: -90
+    }
+    Scale {
+      X: 12.4047623
+      Y: 7.24728251
+      Z: 0.999996543
+    }
+  }
+  ParentId: 4003060588577484487
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
