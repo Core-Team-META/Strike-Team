@@ -6722,7 +6722,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Cast Shadows"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "bp:Volumetric Intensity"
@@ -7647,7 +7647,7 @@ Objects {
 }
 Objects {
   Id: 2492093872928079025
-  Name: "MOBILE"
+  Name: "MobileReference"
   Transform {
     Location {
     }
@@ -17049,7 +17049,7 @@ Objects {
 }
 Objects {
   Id: 8259771831233130157
-  Name: "PC"
+  Name: "DesktopReference"
   Transform {
     Location {
     }
@@ -17062,6 +17062,42 @@ Objects {
     }
   }
   ParentId: 13722862965861778204
+  ChildIds: 14642467234271096847
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14642467234271096847
+  Name: "Group"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8259771831233130157
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -174,6 +174,12 @@ Objects {
         SelfId: 7156955236230422050
       }
     }
+    Overrides {
+      Name: "cs:DesktopReference"
+      ObjectReference {
+        SelfId: 15785564945452904902
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
