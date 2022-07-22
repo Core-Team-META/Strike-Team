@@ -452,21 +452,7 @@ Objects {
   }
   ParentId: 15899085746568560220
   ChildIds: 15477349496679920328
-  ChildIds: 6607182352912236424
-  ChildIds: 8920997563789057124
-  ChildIds: 14100364665580412959
-  ChildIds: 346485021552436543
-  ChildIds: 18153877756779371013
-  ChildIds: 1294714842495171902
-  ChildIds: 225281253244608170
-  ChildIds: 6302636340349047844
-  ChildIds: 3748110431837291998
-  ChildIds: 3248970394343482628
-  ChildIds: 15252945063661273759
-  ChildIds: 8166436669430702322
-  ChildIds: 16436926101934774797
-  ChildIds: 14149465079522164134
-  ChildIds: 2782613104699008636
+  ChildIds: 12681686908102921934
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -512,6 +498,238 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 12681686908102921934
+  Name: "Group"
+  Transform {
+    Location {
+      X: -13889.459
+      Y: -2198.53369
+      Z: -2727.11084
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1606837074758434308
+  ChildIds: 6607182352912236424
+  ChildIds: 8920997563789057124
+  ChildIds: 14100364665580412959
+  ChildIds: 346485021552436543
+  ChildIds: 18153877756779371013
+  ChildIds: 5745186603314986140
+  ChildIds: 225281253244608170
+  ChildIds: 6302636340349047844
+  ChildIds: 3748110431837291998
+  ChildIds: 3248970394343482628
+  ChildIds: 15252945063661273759
+  ChildIds: 8166436669430702322
+  ChildIds: 16436926101934774797
+  ChildIds: 14149465079522164134
+  ChildIds: 2782613104699008636
+  ChildIds: 8970953391885643089
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8970953391885643089
+  Name: "UI Button"
+  Transform {
+    Location {
+      X: -2492.76904
+      Y: -212.190857
+      Z: 532.21582
+    }
+    Rotation {
+      Yaw: 111.520111
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12681686908102921934
+  ChildIds: 9426698195938524274
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 128
+    Height: 128
+    UIY: -580.688293
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    IsHittable: true
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 2361582325898982821
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
+      }
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9426698195938524274
+  Name: "UIMobileButton"
+  Transform {
+    Location {
+      X: 39565.7656
+      Y: -14069.3711
+      Z: 2603.4624
+    }
+    Rotation {
+      Yaw: -48.4473648
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8970953391885643089
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ActivationButton"
+      ObjectReference {
+        SelfId: 8970953391885643089
+      }
+    }
+    Overrides {
+      Name: "cs:DirectionOfMovement"
+      Vector2 {
+        X: 50
+      }
+    }
+    Overrides {
+      Name: "cs:AnimationTime"
+      Float: 0.2
+    }
+    Overrides {
+      Name: "cs:IsAnimated"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:SendToServer"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:EventToBroadcast"
+      String: "OpenLeaderboard"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12893856494884572240
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 2782613104699008636
   Name: "UI Button"
   Transform {
@@ -529,7 +747,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 3742406030803655911
   ChildIds: 4501305928032927198
   ChildIds: 12198544834019896182
@@ -549,8 +767,8 @@ Objects {
   Control {
     Width: 124
     Height: 124
-    UIX: -528.514709
-    UIY: -194.89122
+    UIX: -528.514648
+    UIY: -194.891235
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -891,7 +1109,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SendToServer"
-      Bool: true
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:EventToBroadcast"
+      String: "GrenadeThrow"
     }
   }
   Collidable_v2 {
@@ -934,7 +1156,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 11669667825108152978
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -949,10 +1171,10 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 124
-    Height: 124
-    UIX: -171.309341
-    UIY: -647.667847
+    Width: 128
+    Height: 128
+    UIX: 0.099373579
+    UIY: -723.024292
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -989,7 +1211,7 @@ Objects {
         A: 1
       }
       Brush {
-        Id: 10359394536973948519
+        Id: 8814889333263907254
       }
       IsButtonEnabled: true
       ClickMode {
@@ -1053,7 +1275,7 @@ Objects {
     Overrides {
       Name: "cs:DirectionOfMovement"
       Vector2 {
-        Y: 10
+        X: 50
       }
     }
     Overrides {
@@ -1066,7 +1288,7 @@ Objects {
     }
     Overrides {
       Name: "cs:AnimationTime"
-      Float: 0.1
+      Float: 0.2
     }
     Overrides {
       Name: "cs:IsAnimated"
@@ -1100,12 +1322,11 @@ Objects {
   Name: "BottomLeftHudDisplay_Client"
   Transform {
     Location {
-      X: -19240.791
-      Y: -3945.70166
-      Z: -2727.11084
+      X: -5351.3335
+      Y: -1747.16785
     }
     Rotation {
-      Yaw: -47.0336189
+      Yaw: -47.0336037
     }
     Scale {
       X: 1
@@ -1113,7 +1334,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   UnregisteredParameters {
     Overrides {
       Name: "cs:Cash"
@@ -1177,7 +1398,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 414028546290859152
   ChildIds: 13747555872593265629
   ChildIds: 14679288740133571495
@@ -3404,7 +3625,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 14547694525545718748
   ChildIds: 15064590641931381311
   ChildIds: 6636004348463823990
@@ -3415,7 +3636,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3423,8 +3644,8 @@ Objects {
   Control {
     Width: 48
     Height: 48
-    UIX: -65.2929153
-    UIY: -328.061432
+    UIX: -65.2929688
+    UIY: -328.061401
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4196,7 +4417,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 10908197682703488896
   ChildIds: 2195896959787612330
   ChildIds: 15037144265909087476
@@ -4205,7 +4426,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4847,7 +5068,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 750257473501939364
   ChildIds: 10642057446584614698
   ChildIds: 9256153896179895261
@@ -4855,7 +5076,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5173,7 +5394,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 10403208018631223056
   ChildIds: 3703794423034179460
   ChildIds: 9431961451201585263
@@ -5858,12 +6079,11 @@ Objects {
   Name: "Ability Display"
   Transform {
     Location {
-      X: -19240.791
-      Y: -3945.69873
-      Z: -2727.11084
+      X: -5351.33301
+      Y: -1747.16504
     }
     Rotation {
-      Yaw: -47.0336456
+      Yaw: -47.0336304
     }
     Scale {
       X: 1
@@ -5871,7 +6091,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 2061766328158059824
   UnregisteredParameters {
     Overrides {
@@ -6057,7 +6277,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7574,16 +7794,15 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1294714842495171902
-  Name: "HideUiWhenScoping"
+  Id: 5745186603314986140
+  Name: "HideUiWhenScoping - iOS"
   Transform {
     Location {
-      X: -19240.791
-      Y: -3945.69727
-      Z: -2727.11084
+      X: 13889.46
+      Y: 2198.53394
+      Z: 2727.11084
     }
     Rotation {
-      Yaw: -47.0336342
     }
     Scale {
       X: 1
@@ -7591,7 +7810,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7601,9 +7822,12 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
   Script {
     ScriptAsset {
-      Id: 9888472184388437606
+      Id: 5306991156532364056
     }
   }
   NetworkRelevanceDistance {
@@ -7626,7 +7850,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 9534605127507365684
   ChildIds: 4645568238191592973
   ChildIds: 16050886866258087386
@@ -7637,7 +7861,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8226,7 +8450,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 8894830474931908622
   ChildIds: 13788102704430332215
   ChildIds: 2441308855521030880
@@ -8237,7 +8461,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8829,7 +9053,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 6153324052329897438
   ChildIds: 15296741414201953715
   Collidable_v2 {
@@ -9016,7 +9240,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9598,7 +9822,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   ChildIds: 6532539212400088449
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9713,12 +9937,11 @@ Objects {
   Name: "HideAndShowUI"
   Transform {
     Location {
-      X: -19240.7969
-      Y: -3945.70264
-      Z: -2727.11084
+      X: -5351.33838
+      Y: -1747.16833
     }
     Rotation {
-      Yaw: -47.0336342
+      Yaw: -47.0336266
     }
     Scale {
       X: 1
@@ -9726,7 +9949,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1606837074758434308
+  ParentId: 12681686908102921934
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

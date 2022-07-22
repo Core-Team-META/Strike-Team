@@ -136,3 +136,9 @@ end
 
 CANVAS.visibility = Visibility.FORCE_OFF
 BINDING_TEXT.text = BINDING_HINT
+
+Events.Connect("GrenadeThrow",function()
+    if Object.IsValid(currentAbility) then
+        currentAbility:Activate()
+    end
+end)

@@ -1,7 +1,7 @@
 Name: "LootBox"
-RootId: 10410376947064173486
+RootId: 8225705435067004846
 Objects {
-  Id: 15247620216260475663
+  Id: 14035409680819471069
   Name: "ServerContext"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10410376947064173486
-  ChildIds: 16720896687069885466
-  ChildIds: 916723753213858856
+  ParentId: 8225705435067004846
+  ChildIds: 15998789421778111091
+  ChildIds: 9441755137992825455
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35,7 +35,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 916723753213858856
+  Id: 9441755137992825455
   Name: "LootBoxScript_Api"
   Transform {
     Location {
@@ -48,7 +48,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15247620216260475663
+  ParentId: 14035409680819471069
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -71,7 +71,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16720896687069885466
+  Id: 15998789421778111091
   Name: "LootSelector"
   Transform {
     Location {
@@ -84,7 +84,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15247620216260475663
+  ParentId: 14035409680819471069
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -105,7 +105,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17946014652212641560
+  Id: 18376881379558365912
   Name: "ClientContext"
   Transform {
     Location {
@@ -121,11 +121,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10410376947064173486
-  ChildIds: 12791781564516435882
-  ChildIds: 15545514245986369983
-  ChildIds: 12447481788769826862
-  ChildIds: 10765829589113044751
+  ParentId: 8225705435067004846
+  ChildIds: 18319092604692374451
+  ChildIds: 11950737618317759414
+  ChildIds: 8294145469494255482
+  ChildIds: 1557361293290675333
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -149,7 +149,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10765829589113044751
+  Id: 1557361293290675333
   Name: "UI Container"
   Transform {
     Location {
@@ -165,8 +165,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17946014652212641560
-  ChildIds: 11023822552127533103
+  ParentId: 18376881379558365912
+  ChildIds: 2531154221970303507
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -213,7 +213,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11023822552127533103
+  Id: 2531154221970303507
   Name: "SkipAnimation"
   Transform {
     Location {
@@ -229,9 +229,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10765829589113044751
-  ChildIds: 14739103167344358337
-  ChildIds: 13798702992340253053
+  ParentId: 1557361293290675333
+  ChildIds: 16078835143648852211
+  ChildIds: 12088449157521236234
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -272,7 +272,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13798702992340253053
+  Id: 12088449157521236234
   Name: "SkipLootAnimation"
   Transform {
     Location {
@@ -287,18 +287,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11023822552127533103
+  ParentId: 2531154221970303507
   UnregisteredParameters {
     Overrides {
       Name: "cs:SkipAnimation"
       ObjectReference {
-        SelfId: 11023822552127533103
+        SelfId: 2531154221970303507
       }
     }
     Overrides {
       Name: "cs:SkipButton"
       ObjectReference {
-        SelfId: 14739103167344358337
+        SelfId: 16078835143648852211
       }
     }
   }
@@ -322,7 +322,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14739103167344358337
+  Id: 16078835143648852211
   Name: "SkipButton"
   Transform {
     Location {
@@ -337,7 +337,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11023822552127533103
+  ParentId: 2531154221970303507
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -421,7 +421,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12447481788769826862
+  Id: 8294145469494255482
   Name: "LootBoxScript_Api"
   Transform {
     Location {
@@ -437,7 +437,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17946014652212641560
+  ParentId: 18376881379558365912
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -458,7 +458,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15545514245986369983
+  Id: 11950737618317759414
   Name: "RouletWheel"
   Transform {
     Location {
@@ -474,7 +474,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17946014652212641560
+  ParentId: 18376881379558365912
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -495,7 +495,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12791781564516435882
+  Id: 18319092604692374451
   Name: "UIOverlayConnection"
   Transform {
     Location {
@@ -511,7 +511,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17946014652212641560
+  ParentId: 18376881379558365912
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -532,7 +532,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16713860716774960610
+  Id: 17105686937513182920
   Name: "Crate "
   Transform {
     Location {
@@ -545,7 +545,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10410376947064173486
+  ParentId: 8225705435067004846
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -36,3 +36,7 @@ end
 
 LOCAL_PLAYER.bindingPressedEvent:Connect(OnBindingPressed)
 
+
+Events.Connect("OpenLeaderboard",function()
+	OnBindingPressed(nil,"ability_extra_37")
+end)

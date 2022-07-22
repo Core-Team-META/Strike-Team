@@ -121,7 +121,7 @@ local TargetTask = Task.Spawn(
                 local angleRad = math.acos(dot)
                 local angleDeg = math.deg(angleRad)
 
-                if angleDeg < 10 then
+                if angleDeg < 20 then
                     table.insert(playersOfInterest, player)
                 end
             end

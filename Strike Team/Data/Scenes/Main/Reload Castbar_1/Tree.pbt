@@ -1,7 +1,7 @@
 Name: "Reload Castbar_1"
-RootId: 9777098763579283102
+RootId: 13303824987473611597
 Objects {
-  Id: 8925249380901752926
+  Id: 15462501201654996386
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9777098763579283102
-  ChildIds: 17842437694102814471
-  ChildIds: 11114325845227008085
+  ParentId: 13303824987473611597
+  ChildIds: 16261203850236307636
+  ChildIds: 8337231873556328776
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -40,7 +40,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11114325845227008085
+  Id: 8337231873556328776
   Name: "UI Container"
   Transform {
     Location {
@@ -53,8 +53,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8925249380901752926
-  ChildIds: 11563888019343298040
+  ParentId: 15462501201654996386
+  ChildIds: 5501515795741285704
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -101,7 +101,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11563888019343298040
+  Id: 5501515795741285704
   Name: "RELOAD_PANEL"
   Transform {
     Location {
@@ -114,10 +114,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11114325845227008085
-  ChildIds: 14821588609736141993
-  ChildIds: 16895800546235839566
-  ChildIds: 10248650726964274534
+  ParentId: 8337231873556328776
+  ChildIds: 10765700394760563865
+  ChildIds: 15695304220932469978
+  ChildIds: 16086107407313011562
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -158,7 +158,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10248650726964274534
+  Id: 16086107407313011562
   Name: "UI Text Box"
   Transform {
     Location {
@@ -175,7 +175,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11563888019343298040
+  ParentId: 5501515795741285704
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -231,7 +231,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16895800546235839566
+  Id: 15695304220932469978
   Name: "RELOAD_PROGRESS"
   Transform {
     Location {
@@ -244,7 +244,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11563888019343298040
+  ParentId: 5501515795741285704
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -298,7 +298,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14821588609736141993
+  Id: 10765700394760563865
   Name: "Background"
   Transform {
     Location {
@@ -315,7 +315,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11563888019343298040
+  ParentId: 5501515795741285704
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -365,7 +365,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17842437694102814471
+  Id: 16261203850236307636
   Name: "WeaponReloadCastBar_Client"
   Transform {
     Location {
@@ -378,18 +378,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8925249380901752926
+  ParentId: 15462501201654996386
   UnregisteredParameters {
     Overrides {
       Name: "cs:UIProgressBar"
       ObjectReference {
-        SelfId: 16895800546235839566
+        SelfId: 15695304220932469978
       }
     }
     Overrides {
       Name: "cs:UIPanel"
       ObjectReference {
-        SelfId: 11563888019343298040
+        SelfId: 5501515795741285704
       }
     }
   }
