@@ -168,7 +168,6 @@ Objects {
       TwoSided: true
       TickWhenOffScreen: true
       RedrawTime: 30
-      UseSafeZoneAdjustment: true
     }
     AnchorLayout {
       SelfAnchor {

@@ -80,6 +80,24 @@ Assets {
   }
 }
 Assets {
+  Id: 9527087293920313745
+  Name: "Roboto Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "RobotoBold_ref"
+  }
+}
+Assets {
+  Id: 9087919230954116327
+  Name: "Icon Target"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Target"
+  }
+}
+Assets {
   Id: 9079945525468169969
   Name: "Icon Player Crouch"
   PlatformAssetType: 9

@@ -152,15 +152,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17416186193098799152
-  Name: "Bush 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bush_generic_001"
-  }
-}
-Assets {
   Id: 17393961314713938594
   Name: "Wood Planks White"
   PlatformAssetType: 2
@@ -311,15 +302,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_foundation_001_ref"
-  }
-}
-Assets {
-  Id: 16435456726063022908
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {
@@ -1025,24 +1007,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12905923173550510229
-  Name: "Cylinder - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_test_001"
-  }
-}
-Assets {
-  Id: 12892959837975079301
-  Name: "Sci-fi Console Screen 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_screen_004_ref"
-  }
-}
-Assets {
   Id: 12888726374622842928
   Name: "Modern Weapon - Disc 01"
   PlatformAssetType: 1
@@ -1157,15 +1121,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_painted_new_001_uv"
-  }
-}
-Assets {
-  Id: 12548297003412668183
-  Name: "Cylinder - Chamfered Small Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_003"
   }
 }
 Assets {
@@ -1556,6 +1511,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10431978243425830506
+  Name: "Arch Fancy 3m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arch_fancy_3m_001"
+  }
+}
+Assets {
   Id: 10415104586946721638
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
@@ -1922,15 +1886,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mil_fence_pole_02_connect_001"
-  }
-}
-Assets {
-  Id: 7718014147298196068
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {
@@ -2453,15 +2408,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_001"
-  }
-}
-Assets {
-  Id: 4794041361382728409
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {

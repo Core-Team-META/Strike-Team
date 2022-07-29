@@ -6722,7 +6722,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Cast Shadows"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "bp:Volumetric Intensity"
@@ -7812,7 +7812,6 @@ Objects {
   ChildIds: 8831573564287532491
   ChildIds: 15490266006603392136
   ChildIds: 5669095274605866202
-  ChildIds: 1214359523725428264
   ChildIds: 3788802220405503418
   ChildIds: 16547182314979185776
   ChildIds: 10933570621607004763
@@ -9296,71 +9295,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1214359523725428264
-  Name: "Mobile Fake Shadow: Shapes"
-  Transform {
-    Location {
-      X: -1896.16211
-      Y: 278.219238
-      Z: 751.146545
-    }
-    Rotation {
-      Yaw: 0.524205685
-    }
-    Scale {
-      X: 2.7708652
-      Y: 5.78472614
-      Z: 3.79666
-    }
-  }
-  ParentId: 902804370627847270
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 3
-    }
-    Overrides {
-      Name: "bp:Darkness"
-      Float: 5
-    }
-    Overrides {
-      Name: "bp:Falloff Gradient Type"
-      Enum {
-        Value: "mc:egradientfallofftype:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Power"
-      Float: 0.823148966
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 3052501555928748136
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 5669095274605866202
   Name: "Mobile Fake Shadow: Shapes"
   Transform {
@@ -10308,7 +10242,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Darkness"
-      Float: 2.7453866
+      Float: 0.0388185233
     }
     Overrides {
       Name: "bp:Falloff Gradient Type"
@@ -13501,7 +13435,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Darkness"
-      Float: 0.399996907
+      Float: 0.331745327
     }
     Overrides {
       Name: "bp:Falloff Gradient Type"

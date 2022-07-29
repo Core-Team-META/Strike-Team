@@ -152,6 +152,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16628730901845472849
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
   Id: 16626931919023374994
   Name: "Stair Bannister - Mid"
   PlatformAssetType: 1
@@ -194,15 +203,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_foundation_001_ref"
-  }
-}
-Assets {
-  Id: 16435456726063022908
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {
@@ -530,15 +530,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12905923173550510229
-  Name: "Cylinder - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_test_001"
-  }
-}
-Assets {
   Id: 12638322602440850207
   Name: "Fantasy Castle Trim - Parapet 01 4m"
   PlatformAssetType: 1
@@ -635,15 +626,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_crenellated_6m_002"
-  }
-}
-Assets {
-  Id: 12056825294615652422
-  Name: "Simple Crate 150cm"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_crate_simple_150cm_001"
   }
 }
 Assets {
@@ -1184,15 +1166,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_railing_001_ref"
-  }
-}
-Assets {
-  Id: 4794041361382728409
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {

@@ -9,29 +9,54 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 0.244792
-          G: 0.203817904
-          B: 0.0212968923
+          R: 0.538000047
+          G: 0.30877617
+          B: 0.0468060412
           A: 1
         }
       }
       Overrides {
         Name: "color_roots"
         Color {
-          R: 0.152926
-          G: 0.1268989
-          B: 0.0109599959
+          R: 0.41900003
+          G: 0.19858323
+          B: 0.0300291814
           A: 1
         }
       }
       Overrides {
         Name: "sss"
         Color {
-          R: 1
-          G: 0.510400057
-          B: 0.135999978
+          R: 0.692000031
+          G: 0.531156182
+          B: 0.184072033
           A: 1
         }
+      }
+      Overrides {
+        Name: "wind_weight"
+        Float: 0.189032167
+      }
+      Overrides {
+        Name: "color_variation_primary"
+        Color {
+          R: 0.549999952
+          G: 0.273178816
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "color_variation_secondary"
+        Color {
+          R: 1
+          G: 0.600066304
+          B: 0.00999999
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "material_scale"
+        Float: 50
       }
     }
     Assets {

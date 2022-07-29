@@ -1,6 +1,41 @@
 Name: "Gameplay Settings"
 RootId: 16962308734055015238
 Objects {
+  Id: 11402808854416828442
+  Name: "LootBox"
+  Transform {
+    Location {
+      Y: 2672.61377
+      Z: -3971.25049
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16962308734055015238
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LootBox_1"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 16392366717281177648
   Name: "CosmeticEquiper"
   Transform {
@@ -694,41 +729,6 @@ Objects {
     ScriptAsset {
       Id: 3804181868104109480
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5617173817285069347
-  Name: "LootBox"
-  Transform {
-    Location {
-      Y: 2672.61377
-      Z: -3971.25049
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16962308734055015238
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "LootBox_1"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

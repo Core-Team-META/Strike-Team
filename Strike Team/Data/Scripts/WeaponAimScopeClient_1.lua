@@ -236,6 +236,16 @@ function OnBindingReleased(player, actionName)
 	end
 end
 
+function ToggleScoping(player)
+    if WEAPON.owner ~= player then return end
+    
+    if not player.clientUserData.isScoping and CAN_AIM and not player.isDead then
+        EnableScoping(player)
+    elseif player.clientUserData.isScoping and CAN_AIM and not player.isDead then
+        ResetScoping(player)
+    end
+end
+
 
 function OnEquipped(weapon, player)
     if not CAN_AIM  then return end  
@@ -299,9 +309,12 @@ end
 -- Initialize
 WEAPON.unequippedEvent:Connect(OnUnequipped)
 
+print(script.name,script.parent.name,script.parent.parent.name)
+
 Connections = {
     Events.Connect("LivingStateChange",function(state) OnPlayerDied() end) ,
     WEAPON.clientUserData.RELOAD_ABILITY.castEvent:Connect(OnReload),
+    Events.Connect("MobileWeaponAiming",ToggleScoping),
 }
 
 script.destroyEvent:Connect(function(OBJ) 

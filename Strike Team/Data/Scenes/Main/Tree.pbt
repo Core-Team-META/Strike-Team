@@ -1996,7 +1996,7 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "8edd2fed1ead41019436d32a2e4e8634"
+        Key: "5e3bcf6396564efcb31cd9a1b234aa70"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -2005,7 +2005,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "87549caed3d84861abb8fbe58e767195"
+        Key: "67440290c6e94c8e93f1ac72459e7281"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -2014,7 +2014,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "5413cb06a7c84e9aaf7c41818ed7a6b5"
+        Key: "c01c2b7776fd4305a9dabd13fd7bd5e7"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -2023,7 +2023,7 @@ Objects {
     Overrides {
       Name: "cs:MiscKey"
       NetReference {
-        Key: "f1508ced4a35475b8accc76ca5b7b4af"
+        Key: "682b2f70a32e47dda554166ef02d6a4b"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -2032,7 +2032,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "f952861989fc40f48b31c6e914ebac4f"
+        Key: "25b27fb72c2d431fb16df6568844b7fd"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -2239,6 +2239,56 @@ Objects {
     VoxelSize: 100
     OctreeDepth: 5
     GeneratorID: "DEPRECATED"
+    Foliage {
+      Asset {
+        Id: 5253811867366632597
+      }
+      DistanceBetweenInstances: 120
+      MaterialChannel: 1
+      SpawnDistance: 22400
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      AffectDistanceFieldLighting: true
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 0.4
+          Max: 0.8
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Grass"
+        value {
+          Id: 13365951277651285937
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
     MaxLOD: 32
   }
   NetworkRelevanceDistance {

@@ -1,7 +1,7 @@
 Name: "LootBox_1"
-RootId: 5617173817285069347
+RootId: 11402808854416828442
 Objects {
-  Id: 6728131202771066704
+  Id: 7188461901553866376
   Name: "LootBoxRoom"
   Transform {
     Location {
@@ -17,24 +17,27 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5617173817285069347
-  ChildIds: 11661386959985381078
-  ChildIds: 13312968730169739503
-  ChildIds: 1080041930251190330
-  ChildIds: 12364013678315307602
-  ChildIds: 16043337057797711592
-  ChildIds: 9389482555970267027
-  ChildIds: 13309741089414672189
-  ChildIds: 2689276434929835398
-  ChildIds: 3868279880579774857
-  ChildIds: 16218160109114130686
-  ChildIds: 5949598175265046926
-  ChildIds: 3149958264925581044
-  ChildIds: 13930059164489424935
-  ChildIds: 14156671739150355912
-  ChildIds: 12877616351124108327
-  ChildIds: 10424106255448611013
-  ChildIds: 3258719957917654463
+  ParentId: 11402808854416828442
+  ChildIds: 13531760272632153564
+  ChildIds: 12109258207941530080
+  ChildIds: 5693996042935236789
+  ChildIds: 4713677895230846476
+  ChildIds: 16500077239776019832
+  ChildIds: 8316180989608499578
+  ChildIds: 14648554773883402049
+  ChildIds: 8979669984700914313
+  ChildIds: 3517428988457401573
+  ChildIds: 5756514194255312588
+  ChildIds: 13050397340917936468
+  ChildIds: 15428848947222156913
+  ChildIds: 1146955046023632111
+  ChildIds: 4392247241595918710
+  ChildIds: 16066692062809082800
+  ChildIds: 10268799872962466841
+  ChildIds: 34910549698029435
+  ChildIds: 16386912624891526279
+  ChildIds: 3871867722585053684
+  ChildIds: 13412928582982615750
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -53,7 +56,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3258719957917654463
+  Id: 13412928582982615750
   Name: "Cube"
   Transform {
     Location {
@@ -70,7 +73,7 @@ Objects {
       Z: 0.404975653
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -116,7 +119,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -124,7 +127,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10424106255448611013
+  Id: 3871867722585053684
   Name: "Cube"
   Transform {
     Location {
@@ -141,7 +144,7 @@ Objects {
       Z: 0.404975653
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -187,7 +190,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -195,8 +198,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12877616351124108327
-  Name: "Cube - Rounded Bottom-Aligned"
+  Id: 16386912624891526279
+  Name: "Military Radio Tray"
   Transform {
     Location {
       X: 51.8740234
@@ -214,7 +217,7 @@ Objects {
       Z: 0.122637555
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -257,7 +260,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -265,7 +268,71 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14156671739150355912
+  Id: 34910549698029435
+  Name: "Military Radio Tray"
+  Transform {
+    Location {
+      X: 51.8179932
+      Y: -138.415985
+      Z: 140.891449
+    }
+    Rotation {
+      Pitch: 0.20712547
+      Yaw: -30.8352966
+      Roll: -0.1980896
+    }
+    Scale {
+      X: 0.288708299
+      Y: 0.533416152
+      Z: 0.122637235
+    }
+  }
+  ParentId: 7188461901553866376
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15729223555630295767
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10268799872962466841
   Name: "Group"
   Transform {
     Location {
@@ -282,18 +349,18 @@ Objects {
       Z: 0.250522673
     }
   }
-  ParentId: 6728131202771066704
-  ChildIds: 13835816682793637841
-  ChildIds: 10420002508428227441
-  ChildIds: 11195626018794218909
-  ChildIds: 7515549171900894848
-  ChildIds: 5000192214488917941
-  ChildIds: 5361031174305872866
-  ChildIds: 8561407809354511008
-  ChildIds: 11801114090136700518
-  ChildIds: 3610582664691739329
-  ChildIds: 8919782977633150018
-  ChildIds: 16062410848059554740
+  ParentId: 7188461901553866376
+  ChildIds: 604598859703843532
+  ChildIds: 10204440553533802859
+  ChildIds: 14721544977294344593
+  ChildIds: 7842575801765203892
+  ChildIds: 14823300527677048173
+  ChildIds: 17823044077786280143
+  ChildIds: 9780039545422305339
+  ChildIds: 11316004426441852754
+  ChildIds: 8814112326480218
+  ChildIds: 14675096153922673760
+  ChildIds: 12715538369407964400
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -312,8 +379,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16062410848059554740
-  Name: "Cube - Bottom-Aligned"
+  Id: 12715538369407964400
+  Name: "Military Common Crate Base"
   Transform {
     Location {
       X: -139.965012
@@ -331,7 +398,7 @@ Objects {
       Z: 0.0859292597
     }
   }
-  ParentId: 14156671739150355912
+  ParentId: 10268799872962466841
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -392,7 +459,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -400,7 +467,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8919782977633150018
+  Id: 14675096153922673760
   Name: "Group"
   Transform {
     Location {
@@ -419,9 +486,11 @@ Objects {
       Z: 1.17118275
     }
   }
-  ParentId: 14156671739150355912
-  ChildIds: 10634419438160590183
-  ChildIds: 10140570701631056813
+  ParentId: 10268799872962466841
+  ChildIds: 11629972903890536132
+  ChildIds: 7570181091825353583
+  ChildIds: 9511601774848561376
+  ChildIds: 1076189167105532780
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -440,8 +509,302 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10140570701631056813
-  Name: "Plane 1m - One Sided"
+  Id: 1076189167105532780
+  Name: "Group"
+  Transform {
+    Location {
+      X: 28.1611366
+      Y: -6.0452
+      Z: 11.8722334
+    }
+    Rotation {
+      Pitch: 0.144349217
+      Yaw: 89.7389679
+      Roll: 145.771957
+    }
+    Scale {
+      X: 1.35699284
+      Y: 1.35699284
+      Z: 1.35699284
+    }
+  }
+  ParentId: 14675096153922673760
+  ChildIds: 17997191204835045474
+  ChildIds: 7448880350826584313
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7448880350826584313
+  Name: "Military Common Crate Base"
+  Transform {
+    Location {
+      X: 9.7071832e-05
+      Y: -0.000132284156
+      Z: 12.591795
+    }
+    Rotation {
+      Pitch: 0.00039615095
+      Yaw: -0.000167338658
+      Roll: 0.000278329622
+    }
+    Scale {
+      X: 0.0265971906
+      Y: 0.0265978165
+      Z: 0.0411038771
+    }
+  }
+  ParentId: 1076189167105532780
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11436023202306815330
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 5390120376389660115
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.22020483
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.201666
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.415000021
+        G: 0.26243943
+        B: 0.16185
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5701804612298539034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17997191204835045474
+  Name: "Military Common Crate Base"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.0265972391
+      Y: 0.0265963227
+      Z: 0.252673984
+    }
+  }
+  ParentId: 1076189167105532780
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11436023202306815330
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 5390120376389660115
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.22020483
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.201666
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.950000048
+        G: 0.509602666
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8930532401678162557
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9511601774848561376
+  Name: "Military Common Crate Base"
+  Transform {
+    Location {
+      X: 6.09078161e-05
+      Y: -15.0058603
+      Z: 51.8028908
+    }
+    Rotation {
+      Pitch: -0.000662528328
+      Yaw: 3.3711915e-06
+      Roll: 74.3419266
+    }
+    Scale {
+      X: 0.754863262
+      Y: 1.16420579
+      Z: 0.416496783
+    }
+  }
+  ParentId: 14675096153922673760
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.0382039957
+        G: 0.0555305295
+        B: 0.056128
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14212988502358508072
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 14212988502358508072
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5669060659521149461
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7570181091825353583
+  Name: "Military Common Crate Base"
   Transform {
     Location {
       X: -0.0257371217
@@ -459,7 +822,7 @@ Objects {
       Z: 0.0165028647
     }
   }
-  ParentId: 8919782977633150018
+  ParentId: 14675096153922673760
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -520,7 +883,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -528,8 +891,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10634419438160590183
-  Name: "Military Tank Historic Armor Plate 01 - Mid"
+  Id: 11629972903890536132
+  Name: "Military Common Crate Base"
   Transform {
     Location {
       Z: -3.0453908e-05
@@ -542,7 +905,7 @@ Objects {
       Z: 1.88647676
     }
   }
-  ParentId: 8919782977633150018
+  ParentId: 14675096153922673760
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -586,7 +949,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -594,8 +957,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3610582664691739329
-  Name: "Military Tank Historic Armor Plate 01 - Mid"
+  Id: 8814112326480218
+  Name: "Military Common Crate Base"
   Transform {
     Location {
       X: 145.335678
@@ -611,7 +974,7 @@ Objects {
       Z: 3.80000043
     }
   }
-  ParentId: 14156671739150355912
+  ParentId: 10268799872962466841
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -654,7 +1017,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -662,7 +1025,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11801114090136700518
+  Id: 11316004426441852754
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -679,7 +1042,7 @@ Objects {
       Z: 2.81143594
     }
   }
-  ParentId: 14156671739150355912
+  ParentId: 10268799872962466841
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -740,7 +1103,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -748,7 +1111,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8561407809354511008
+  Id: 9780039545422305339
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -764,7 +1127,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 14156671739150355912
+  ParentId: 10268799872962466841
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -825,7 +1188,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -833,7 +1196,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5361031174305872866
+  Id: 17823044077786280143
   Name: "Cube"
   Transform {
     Location {
@@ -850,7 +1213,7 @@ Objects {
       Z: 3.66401315
     }
   }
-  ParentId: 14156671739150355912
+  ParentId: 10268799872962466841
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -896,7 +1259,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -904,7 +1267,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5000192214488917941
+  Id: 14823300527677048173
   Name: "Counter Drawer"
   Transform {
     Location {
@@ -920,7 +1283,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 14156671739150355912
+  ParentId: 10268799872962466841
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -975,7 +1338,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -983,7 +1346,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7515549171900894848
+  Id: 7842575801765203892
   Name: "Counter Drawer"
   Transform {
     Location {
@@ -999,7 +1362,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 14156671739150355912
+  ParentId: 10268799872962466841
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1054,7 +1417,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1062,7 +1425,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11195626018794218909
+  Id: 14721544977294344593
   Name: "Counter Drawer"
   Transform {
     Location {
@@ -1078,7 +1441,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 14156671739150355912
+  ParentId: 10268799872962466841
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1133,7 +1496,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1141,7 +1504,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10420002508428227441
+  Id: 10204440553533802859
   Name: "Counter Drawer"
   Transform {
     Location {
@@ -1157,7 +1520,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 14156671739150355912
+  ParentId: 10268799872962466841
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1212,7 +1575,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1220,7 +1583,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13835816682793637841
+  Id: 604598859703843532
   Name: "Cube"
   Transform {
     Location {
@@ -1237,7 +1600,7 @@ Objects {
       Z: 3.66401315
     }
   }
-  ParentId: 14156671739150355912
+  ParentId: 10268799872962466841
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1283,7 +1646,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1291,7 +1654,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13930059164489424935
+  Id: 16066692062809082800
   Name: "Group"
   Transform {
     Location {
@@ -1308,32 +1671,32 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6728131202771066704
-  ChildIds: 5141253057431397810
-  ChildIds: 14695954912374329023
-  ChildIds: 12992164207995487432
-  ChildIds: 9033113033782935106
-  ChildIds: 10957003161879941954
-  ChildIds: 9225563781133291251
-  ChildIds: 2079799520038521329
-  ChildIds: 2821664941625944625
-  ChildIds: 6402234996623328182
-  ChildIds: 9315059734801566721
-  ChildIds: 8986056237456419112
-  ChildIds: 4388311767811430210
-  ChildIds: 6178417172119150309
-  ChildIds: 5561086467283573419
-  ChildIds: 8102990156892687444
-  ChildIds: 9581527932639943410
-  ChildIds: 2769867552952850935
-  ChildIds: 16048044736734107717
-  ChildIds: 3640056367925821954
-  ChildIds: 9919683148464810318
-  ChildIds: 10883744558379146325
-  ChildIds: 16739075511810957729
-  ChildIds: 10969532174880315208
-  ChildIds: 10652119940372613341
-  ChildIds: 8737356714250736892
+  ParentId: 7188461901553866376
+  ChildIds: 12322193912772607673
+  ChildIds: 6558910161336408997
+  ChildIds: 17510100132073627958
+  ChildIds: 1889416627153509827
+  ChildIds: 7302317601569461857
+  ChildIds: 3718601262141424365
+  ChildIds: 13294748691882433432
+  ChildIds: 9095915746808578525
+  ChildIds: 17057187194649934592
+  ChildIds: 10068302695480493901
+  ChildIds: 14421898154543696535
+  ChildIds: 15713697023756442127
+  ChildIds: 13496625194670202689
+  ChildIds: 2434331356871517772
+  ChildIds: 7679675980782902987
+  ChildIds: 4479983745987527544
+  ChildIds: 7285830055545980277
+  ChildIds: 10776650864231648444
+  ChildIds: 939793917420962087
+  ChildIds: 3346744215057043651
+  ChildIds: 9713909143641641845
+  ChildIds: 16534367834734275775
+  ChildIds: 16269383142226958492
+  ChildIds: 18115603809477601685
+  ChildIds: 12555199684281888369
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1352,7 +1715,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8737356714250736892
+  Id: 12555199684281888369
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1369,7 +1732,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1403,7 +1766,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1411,7 +1774,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10652119940372613341
+  Id: 18115603809477601685
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1428,7 +1791,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1462,7 +1825,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1470,7 +1833,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10969532174880315208
+  Id: 16269383142226958492
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1487,7 +1850,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1521,7 +1884,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1529,7 +1892,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16739075511810957729
+  Id: 16534367834734275775
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1546,7 +1909,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1580,7 +1943,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1588,7 +1951,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10883744558379146325
+  Id: 9713909143641641845
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1605,7 +1968,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1639,7 +2002,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1647,7 +2010,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9919683148464810318
+  Id: 3346744215057043651
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1664,7 +2027,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1698,7 +2061,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1706,7 +2069,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3640056367925821954
+  Id: 939793917420962087
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1723,7 +2086,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1757,7 +2120,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1765,7 +2128,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16048044736734107717
+  Id: 10776650864231648444
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1782,7 +2145,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1816,7 +2179,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1824,7 +2187,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2769867552952850935
+  Id: 7285830055545980277
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1841,7 +2204,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1875,7 +2238,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1883,7 +2246,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9581527932639943410
+  Id: 4479983745987527544
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1900,7 +2263,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1934,7 +2297,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1942,7 +2305,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8102990156892687444
+  Id: 7679675980782902987
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1959,7 +2322,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1993,7 +2356,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2001,7 +2364,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5561086467283573419
+  Id: 2434331356871517772
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -2018,7 +2381,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -2052,7 +2415,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2060,7 +2423,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6178417172119150309
+  Id: 13496625194670202689
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -2077,9 +2440,9 @@ Objects {
       Z: 0.369199067
     }
   }
-  ParentId: 13930059164489424935
-  ChildIds: 3524793930299001428
-  ChildIds: 3516920331800737656
+  ParentId: 16066692062809082800
+  ChildIds: 5908464055767610501
+  ChildIds: 17353353272859960872
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2098,7 +2461,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3516920331800737656
+  Id: 17353353272859960872
   Name: "Lid"
   Transform {
     Location {
@@ -2114,10 +2477,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6178417172119150309
-  ChildIds: 11289092047811920532
-  ChildIds: 16566126543545501840
-  ChildIds: 3297094546060607305
+  ParentId: 13496625194670202689
+  ChildIds: 2121062684187328118
+  ChildIds: 2003504515827402879
+  ChildIds: 12412818747789852340
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2136,7 +2499,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3297094546060607305
+  Id: 12412818747789852340
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -2152,7 +2515,7 @@ Objects {
       Z: 0.617726266
     }
   }
-  ParentId: 3516920331800737656
+  ParentId: 17353353272859960872
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2197,7 +2560,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2205,8 +2568,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16566126543545501840
-  Name: "Military Crate Hinge 02"
+  Id: 2003504515827402879
+  Name: "Military Epic Crate Hinge"
   Transform {
     Location {
       X: -40.5653076
@@ -2219,7 +2582,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 3516920331800737656
+  ParentId: 17353353272859960872
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2245,7 +2608,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2253,8 +2616,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11289092047811920532
-  Name: "Military Crate Hinge 02"
+  Id: 2121062684187328118
+  Name: "Military Epic Crate Hinge"
   Transform {
     Location {
       X: 40.5653076
@@ -2267,7 +2630,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 3516920331800737656
+  ParentId: 17353353272859960872
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2293,7 +2656,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2301,7 +2664,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3524793930299001428
+  Id: 5908464055767610501
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -2314,7 +2677,7 @@ Objects {
       Z: 0.530064285
     }
   }
-  ParentId: 6178417172119150309
+  ParentId: 13496625194670202689
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2359,7 +2722,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2367,7 +2730,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4388311767811430210
+  Id: 15713697023756442127
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -2384,9 +2747,9 @@ Objects {
       Z: 0.369199067
     }
   }
-  ParentId: 13930059164489424935
-  ChildIds: 2480638991741730019
-  ChildIds: 6826730612314952129
+  ParentId: 16066692062809082800
+  ChildIds: 1869833261385410248
+  ChildIds: 18246240825413256665
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2405,7 +2768,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6826730612314952129
+  Id: 18246240825413256665
   Name: "Lid"
   Transform {
     Location {
@@ -2421,10 +2784,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4388311767811430210
-  ChildIds: 15985563671200867052
-  ChildIds: 16996309918357145144
-  ChildIds: 17280684559967723046
+  ParentId: 15713697023756442127
+  ChildIds: 1582586363378229679
+  ChildIds: 1841316911888907063
+  ChildIds: 2765467920745826294
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2443,7 +2806,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17280684559967723046
+  Id: 2765467920745826294
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -2459,7 +2822,7 @@ Objects {
       Z: 0.617726266
     }
   }
-  ParentId: 6826730612314952129
+  ParentId: 18246240825413256665
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2504,7 +2867,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2512,8 +2875,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16996309918357145144
-  Name: "Military Crate Hinge 02"
+  Id: 1841316911888907063
+  Name: "Military Epic Crate Hinge"
   Transform {
     Location {
       X: -40.5653076
@@ -2526,7 +2889,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 6826730612314952129
+  ParentId: 18246240825413256665
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2552,7 +2915,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2560,8 +2923,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15985563671200867052
-  Name: "Military Crate Hinge 02"
+  Id: 1582586363378229679
+  Name: "Military Epic Crate Hinge"
   Transform {
     Location {
       X: 40.5653076
@@ -2574,7 +2937,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 6826730612314952129
+  ParentId: 18246240825413256665
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2600,7 +2963,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2608,7 +2971,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2480638991741730019
+  Id: 1869833261385410248
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -2621,7 +2984,7 @@ Objects {
       Z: 0.530064285
     }
   }
-  ParentId: 4388311767811430210
+  ParentId: 15713697023756442127
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2666,7 +3029,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2674,7 +3037,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8986056237456419112
+  Id: 14421898154543696535
   Name: "Street Utility Box 01"
   Transform {
     Location {
@@ -2692,7 +3055,7 @@ Objects {
       Z: 0.243718699
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2718,7 +3081,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2726,7 +3089,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9315059734801566721
+  Id: 10068302695480493901
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -2743,9 +3106,9 @@ Objects {
       Z: 0.369199067
     }
   }
-  ParentId: 13930059164489424935
-  ChildIds: 1177843171120626533
-  ChildIds: 9628784615187312356
+  ParentId: 16066692062809082800
+  ChildIds: 15802606918756952027
+  ChildIds: 5681817877387009487
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2764,7 +3127,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9628784615187312356
+  Id: 5681817877387009487
   Name: "Lid"
   Transform {
     Location {
@@ -2780,10 +3143,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9315059734801566721
-  ChildIds: 6784826059797971309
-  ChildIds: 804263796405995758
-  ChildIds: 7198157553599822050
+  ParentId: 10068302695480493901
+  ChildIds: 15572017195267705844
+  ChildIds: 7075549093202610843
+  ChildIds: 780522212807744967
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2802,7 +3165,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7198157553599822050
+  Id: 780522212807744967
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -2818,7 +3181,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9628784615187312356
+  ParentId: 5681817877387009487
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2864,7 +3227,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2872,8 +3235,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 804263796405995758
-  Name: "Military Crate Hinge 02"
+  Id: 7075549093202610843
+  Name: "Military Epic Crate Hinge"
   Transform {
     Location {
       X: -40.5653076
@@ -2886,7 +3249,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 9628784615187312356
+  ParentId: 5681817877387009487
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2912,7 +3275,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2920,8 +3283,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6784826059797971309
-  Name: "Military Crate Hinge 02"
+  Id: 15572017195267705844
+  Name: "Military Epic Crate Hinge"
   Transform {
     Location {
       X: 40.5653076
@@ -2934,7 +3297,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 9628784615187312356
+  ParentId: 5681817877387009487
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2960,7 +3323,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2968,7 +3331,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1177843171120626533
+  Id: 15802606918756952027
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -2981,7 +3344,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9315059734801566721
+  ParentId: 10068302695480493901
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3027,7 +3390,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3035,7 +3398,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6402234996623328182
+  Id: 17057187194649934592
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -3052,9 +3415,9 @@ Objects {
       Z: 0.369199067
     }
   }
-  ParentId: 13930059164489424935
-  ChildIds: 2312974350219614423
-  ChildIds: 12320812046504344732
+  ParentId: 16066692062809082800
+  ChildIds: 16919394820542862250
+  ChildIds: 7306215249833428685
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3073,7 +3436,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12320812046504344732
+  Id: 7306215249833428685
   Name: "Lid"
   Transform {
     Location {
@@ -3089,10 +3452,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6402234996623328182
-  ChildIds: 7506200516950144407
-  ChildIds: 3987285974071232754
-  ChildIds: 11054361388762544575
+  ParentId: 17057187194649934592
+  ChildIds: 18355188769438867850
+  ChildIds: 7296472613390046562
+  ChildIds: 18096760442296083008
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3111,7 +3474,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11054361388762544575
+  Id: 18096760442296083008
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -3127,7 +3490,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12320812046504344732
+  ParentId: 7306215249833428685
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3173,7 +3536,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3181,8 +3544,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3987285974071232754
-  Name: "Military Crate Hinge 02"
+  Id: 7296472613390046562
+  Name: "Military Epic Crate Hinge"
   Transform {
     Location {
       X: -40.5653076
@@ -3195,7 +3558,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 12320812046504344732
+  ParentId: 7306215249833428685
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3221,7 +3584,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3229,8 +3592,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7506200516950144407
-  Name: "Military Crate Hinge 02"
+  Id: 18355188769438867850
+  Name: "Military Epic Crate Hinge"
   Transform {
     Location {
       X: 40.5653076
@@ -3243,7 +3606,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 12320812046504344732
+  ParentId: 7306215249833428685
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3269,7 +3632,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3277,7 +3640,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2312974350219614423
+  Id: 16919394820542862250
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -3290,7 +3653,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6402234996623328182
+  ParentId: 17057187194649934592
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3336,7 +3699,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3344,7 +3707,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2821664941625944625
+  Id: 9095915746808578525
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -3361,7 +3724,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -3395,7 +3758,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3403,7 +3766,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2079799520038521329
+  Id: 13294748691882433432
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -3420,7 +3783,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -3454,7 +3817,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3462,7 +3825,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9225563781133291251
+  Id: 3718601262141424365
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -3479,9 +3842,9 @@ Objects {
       Z: 0.369199067
     }
   }
-  ParentId: 13930059164489424935
-  ChildIds: 1172619279088539766
-  ChildIds: 9594807093350567877
+  ParentId: 16066692062809082800
+  ChildIds: 12064803316760618559
+  ChildIds: 3294478237707371470
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3500,7 +3863,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9594807093350567877
+  Id: 3294478237707371470
   Name: "Lid"
   Transform {
     Location {
@@ -3516,10 +3879,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9225563781133291251
-  ChildIds: 16965630945707238586
-  ChildIds: 8812386460494919980
-  ChildIds: 13709525139341307886
+  ParentId: 3718601262141424365
+  ChildIds: 11689991716889174221
+  ChildIds: 14168994194036647441
+  ChildIds: 7887348696265340124
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3538,7 +3901,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13709525139341307886
+  Id: 7887348696265340124
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -3554,7 +3917,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9594807093350567877
+  ParentId: 3294478237707371470
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3580,7 +3943,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3588,8 +3951,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8812386460494919980
-  Name: "Military Crate Hinge 02"
+  Id: 14168994194036647441
+  Name: "Military Epic Crate Hinge"
   Transform {
     Location {
       X: -40.5653076
@@ -3602,7 +3965,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 9594807093350567877
+  ParentId: 3294478237707371470
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3628,7 +3991,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3636,8 +3999,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16965630945707238586
-  Name: "Military Crate Hinge 02"
+  Id: 11689991716889174221
+  Name: "Military Epic Crate Hinge"
   Transform {
     Location {
       X: 40.5653076
@@ -3650,7 +4013,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 9594807093350567877
+  ParentId: 3294478237707371470
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3676,7 +4039,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3684,7 +4047,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1172619279088539766
+  Id: 12064803316760618559
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -3697,7 +4060,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9225563781133291251
+  ParentId: 3718601262141424365
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3723,7 +4086,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3731,7 +4094,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10957003161879941954
+  Id: 7302317601569461857
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -3748,7 +4111,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -3782,7 +4145,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3790,7 +4153,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9033113033782935106
+  Id: 1889416627153509827
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -3807,7 +4170,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -3841,7 +4204,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3849,7 +4212,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12992164207995487432
+  Id: 17510100132073627958
   Name: "Street Utility Box 01"
   Transform {
     Location {
@@ -3867,7 +4230,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 13930059164489424935
+  ParentId: 16066692062809082800
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3893,7 +4256,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3901,7 +4264,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14695954912374329023
+  Id: 6558910161336408997
   Name: "Group"
   Transform {
     Location {
@@ -3915,13 +4278,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13930059164489424935
-  ChildIds: 18013805492139584736
-  ChildIds: 8818889461649878560
-  ChildIds: 3165003706884435634
-  ChildIds: 16570967440183734426
-  ChildIds: 18086479240008341272
-  ChildIds: 15428295023737360129
+  ParentId: 16066692062809082800
+  ChildIds: 15888721024966693060
+  ChildIds: 1807762606176835316
+  ChildIds: 11070811064207588098
+  ChildIds: 10684255168832971211
+  ChildIds: 13429120496930414042
+  ChildIds: 18064256631287612037
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3940,7 +4303,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15428295023737360129
+  Id: 18064256631287612037
   Name: "Group"
   Transform {
     Location {
@@ -3956,10 +4319,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14695954912374329023
-  ChildIds: 13443063271262917485
-  ChildIds: 6321593987164303192
-  ChildIds: 13211658113450673797
+  ParentId: 6558910161336408997
+  ChildIds: 14666690485638000290
+  ChildIds: 5227606468108380768
+  ChildIds: 13148268805188314535
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3978,7 +4341,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13211658113450673797
+  Id: 13148268805188314535
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -3997,7 +4360,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 15428295023737360129
+  ParentId: 18064256631287612037
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4024,7 +4387,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4032,7 +4395,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6321593987164303192
+  Id: 5227606468108380768
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4050,7 +4413,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 15428295023737360129
+  ParentId: 18064256631287612037
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4077,7 +4440,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4085,7 +4448,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13443063271262917485
+  Id: 14666690485638000290
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -4101,12 +4464,12 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 15428295023737360129
+  ParentId: 18064256631287612037
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13171200732535708403
+        Id: 539670975280601370
       }
     }
     Overrides {
@@ -4147,7 +4510,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4155,7 +4518,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18086479240008341272
+  Id: 13429120496930414042
   Name: "Group"
   Transform {
     Location {
@@ -4171,10 +4534,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14695954912374329023
-  ChildIds: 13701149460807400537
-  ChildIds: 8813519109473986116
-  ChildIds: 1588738478836618698
+  ParentId: 6558910161336408997
+  ChildIds: 2701865703347415440
+  ChildIds: 10095953336726215770
+  ChildIds: 9895918390911235653
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4193,7 +4556,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1588738478836618698
+  Id: 9895918390911235653
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4212,7 +4575,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 18086479240008341272
+  ParentId: 13429120496930414042
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4239,7 +4602,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4247,7 +4610,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8813519109473986116
+  Id: 10095953336726215770
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4265,7 +4628,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 18086479240008341272
+  ParentId: 13429120496930414042
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4292,7 +4655,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4300,7 +4663,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13701149460807400537
+  Id: 2701865703347415440
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -4316,12 +4679,12 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 18086479240008341272
+  ParentId: 13429120496930414042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13171200732535708403
+        Id: 539670975280601370
       }
     }
     Overrides {
@@ -4362,7 +4725,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4370,7 +4733,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16570967440183734426
+  Id: 10684255168832971211
   Name: "Group"
   Transform {
     Location {
@@ -4385,10 +4748,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14695954912374329023
-  ChildIds: 6343639167905814876
-  ChildIds: 11410035457853301186
-  ChildIds: 11300787291597073391
+  ParentId: 6558910161336408997
+  ChildIds: 8441251634214832789
+  ChildIds: 8281513941224144083
+  ChildIds: 16009177954925396450
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4407,7 +4770,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11300787291597073391
+  Id: 16009177954925396450
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4426,7 +4789,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 16570967440183734426
+  ParentId: 10684255168832971211
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4453,7 +4816,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4461,7 +4824,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11410035457853301186
+  Id: 8281513941224144083
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4479,7 +4842,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 16570967440183734426
+  ParentId: 10684255168832971211
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4506,7 +4869,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4514,7 +4877,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6343639167905814876
+  Id: 8441251634214832789
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -4530,12 +4893,12 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 16570967440183734426
+  ParentId: 10684255168832971211
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13171200732535708403
+        Id: 539670975280601370
       }
     }
     Overrides {
@@ -4576,7 +4939,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4584,8 +4947,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3165003706884435634
-  Name: "Urban Fence Gate 01"
+  Id: 11070811064207588098
+  Name: "Military Fence Gate 01"
   Transform {
     Location {
       Y: -1.76409912
@@ -4599,7 +4962,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 14695954912374329023
+  ParentId: 6558910161336408997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:utile"
@@ -4637,7 +5000,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4645,8 +5008,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8818889461649878560
-  Name: "Urban Fence Crossbar - Gate"
+  Id: 1807762606176835316
+  Name: "Military Fence Crossbar - Gate"
   Transform {
     Location {
       Y: 3.52825928
@@ -4660,7 +5023,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 14695954912374329023
+  ParentId: 6558910161336408997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4686,7 +5049,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4694,8 +5057,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18013805492139584736
-  Name: "Urban Fence Pole - Gate End"
+  Id: 15888721024966693060
+  Name: "Military Fence Pole - Gate End"
   Transform {
     Location {
       Y: -1.76409912
@@ -4710,7 +5073,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 14695954912374329023
+  ParentId: 6558910161336408997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4736,7 +5099,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4744,7 +5107,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5141253057431397810
+  Id: 12322193912772607673
   Name: "Group"
   Transform {
     Location {
@@ -4757,13 +5120,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13930059164489424935
-  ChildIds: 18132094438479478756
-  ChildIds: 15753164401209133745
-  ChildIds: 383720301489115558
-  ChildIds: 3345188414481912682
-  ChildIds: 9856165315318838759
-  ChildIds: 9623017458778670144
+  ParentId: 16066692062809082800
+  ChildIds: 14749823774268635956
+  ChildIds: 1460768808300921308
+  ChildIds: 3596197134627980835
+  ChildIds: 14857175314497329607
+  ChildIds: 2330594257235058894
+  ChildIds: 1083630592618756340
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4782,7 +5145,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9623017458778670144
+  Id: 1083630592618756340
   Name: "Group"
   Transform {
     Location {
@@ -4798,10 +5161,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5141253057431397810
-  ChildIds: 11989813615147576054
-  ChildIds: 17691119609479253051
-  ChildIds: 6951836139382785393
+  ParentId: 12322193912772607673
+  ChildIds: 9048279661836211557
+  ChildIds: 6402802767602787785
+  ChildIds: 13168953777556137153
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4820,7 +5183,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6951836139382785393
+  Id: 13168953777556137153
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4839,7 +5202,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 9623017458778670144
+  ParentId: 1083630592618756340
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4866,7 +5229,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4874,7 +5237,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17691119609479253051
+  Id: 6402802767602787785
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4892,7 +5255,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 9623017458778670144
+  ParentId: 1083630592618756340
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4919,7 +5282,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4927,7 +5290,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11989813615147576054
+  Id: 9048279661836211557
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -4943,12 +5306,12 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 9623017458778670144
+  ParentId: 1083630592618756340
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13171200732535708403
+        Id: 539670975280601370
       }
     }
     Overrides {
@@ -4989,7 +5352,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4997,7 +5360,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9856165315318838759
+  Id: 2330594257235058894
   Name: "Group"
   Transform {
     Location {
@@ -5013,10 +5376,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5141253057431397810
-  ChildIds: 1656620527957361755
-  ChildIds: 9447981138154848548
-  ChildIds: 3363549290345480976
+  ParentId: 12322193912772607673
+  ChildIds: 7475946552507244379
+  ChildIds: 18100644511620433874
+  ChildIds: 3480990428021091268
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5035,7 +5398,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3363549290345480976
+  Id: 3480990428021091268
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -5054,7 +5417,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 9856165315318838759
+  ParentId: 2330594257235058894
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5081,7 +5444,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5089,7 +5452,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9447981138154848548
+  Id: 18100644511620433874
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -5107,7 +5470,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 9856165315318838759
+  ParentId: 2330594257235058894
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5134,7 +5497,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5142,7 +5505,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1656620527957361755
+  Id: 7475946552507244379
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -5158,12 +5521,12 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 9856165315318838759
+  ParentId: 2330594257235058894
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13171200732535708403
+        Id: 539670975280601370
       }
     }
     Overrides {
@@ -5204,7 +5567,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5212,7 +5575,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3345188414481912682
+  Id: 14857175314497329607
   Name: "Group"
   Transform {
     Location {
@@ -5227,10 +5590,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5141253057431397810
-  ChildIds: 9397351982279186093
-  ChildIds: 5585715985918279980
-  ChildIds: 7190640800943899745
+  ParentId: 12322193912772607673
+  ChildIds: 13426018990003826152
+  ChildIds: 6811250016366260533
+  ChildIds: 15595749579944435538
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5249,7 +5612,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7190640800943899745
+  Id: 15595749579944435538
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -5268,7 +5631,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 3345188414481912682
+  ParentId: 14857175314497329607
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5295,7 +5658,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5303,7 +5666,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5585715985918279980
+  Id: 6811250016366260533
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -5321,7 +5684,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 3345188414481912682
+  ParentId: 14857175314497329607
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5348,7 +5711,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5356,7 +5719,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9397351982279186093
+  Id: 13426018990003826152
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -5372,12 +5735,12 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 3345188414481912682
+  ParentId: 14857175314497329607
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13171200732535708403
+        Id: 539670975280601370
       }
     }
     Overrides {
@@ -5418,7 +5781,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5426,8 +5789,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 383720301489115558
-  Name: "Urban Fence Gate 01"
+  Id: 3596197134627980835
+  Name: "Military Fence Gate 01"
   Transform {
     Location {
       Y: -1.76409912
@@ -5441,7 +5804,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 5141253057431397810
+  ParentId: 12322193912772607673
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:utile"
@@ -5479,7 +5842,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5487,8 +5850,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15753164401209133745
-  Name: "Urban Fence Crossbar - Gate"
+  Id: 1460768808300921308
+  Name: "Military Fence Crossbar - Gate"
   Transform {
     Location {
       Y: 3.52825928
@@ -5502,7 +5865,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 5141253057431397810
+  ParentId: 12322193912772607673
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5528,7 +5891,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5536,8 +5899,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18132094438479478756
-  Name: "Urban Fence Pole - Gate End"
+  Id: 14749823774268635956
+  Name: "Military Fence Pole - Gate End"
   Transform {
     Location {
       Y: -1.76409912
@@ -5552,7 +5915,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 5141253057431397810
+  ParentId: 12322193912772607673
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5578,7 +5941,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5586,7 +5949,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3149958264925581044
+  Id: 4392247241595918710
   Name: "Worklight"
   Transform {
     Location {
@@ -5604,11 +5967,12 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 6728131202771066704
-  ChildIds: 14777698386502512172
-  ChildIds: 14510238187347607334
-  ChildIds: 8541128329996343684
-  ChildIds: 5564225416532031973
+  ParentId: 7188461901553866376
+  ChildIds: 8697329713007162601
+  ChildIds: 15111530896689599930
+  ChildIds: 8067009682880303167
+  ChildIds: 14845057317660367992
+  ChildIds: 790591669410900831
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5627,8 +5991,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5564225416532031973
-  Name: "Pipe - Half Thick"
+  Id: 790591669410900831
+  Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
       X: -68.8402786
@@ -5645,7 +6009,7 @@ Objects {
       Z: 6.11826563
     }
   }
-  ParentId: 3149958264925581044
+  ParentId: 4392247241595918710
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5680,7 +6044,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5688,7 +6052,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8541128329996343684
+  Id: 14845057317660367992
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
@@ -5706,7 +6070,7 @@ Objects {
       Z: 0.316025048
     }
   }
-  ParentId: 3149958264925581044
+  ParentId: 4392247241595918710
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5741,7 +6105,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5749,7 +6113,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14510238187347607334
+  Id: 8067009682880303167
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
@@ -5767,7 +6131,7 @@ Objects {
       Z: 0.316025048
     }
   }
-  ParentId: 3149958264925581044
+  ParentId: 4392247241595918710
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5802,7 +6166,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5810,7 +6174,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14777698386502512172
+  Id: 15111530896689599930
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
@@ -5827,7 +6191,7 @@ Objects {
       Z: 6.0751276
     }
   }
-  ParentId: 3149958264925581044
+  ParentId: 4392247241595918710
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5870,7 +6234,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -5878,7 +6242,68 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5949598175265046926
+  Id: 8697329713007162601
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: -79.506073
+      Y: 56.0863228
+      Z: 29.506073
+    }
+    Rotation {
+      Pitch: -45
+    }
+    Scale {
+      X: 3.33333325
+      Y: 3.33333325
+      Z: 3.33333325
+    }
+  }
+  ParentId: 4392247241595918710
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 3.54144573
+    Color {
+      R: 1
+      G: 0.366666675
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 100
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 162.143341
+        AreaLight {
+          BarnDoorAngle: 43.5360718
+          BarnDoorLength: 20
+          SourceWidth: 147.970322
+          SourceHeight: 0.01
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1146955046023632111
   Name: "MiniMonitors"
   Transform {
     Location {
@@ -5894,9 +6319,10 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 6728131202771066704
-  ChildIds: 2926798216664748517
-  ChildIds: 498829533059588852
+  ParentId: 7188461901553866376
+  ChildIds: 12103481935376988293
+  ChildIds: 14748839491779757043
+  ChildIds: 13588671169766886013
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5915,7 +6341,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 498829533059588852
+  Id: 13588671169766886013
   Name: "Group"
   Transform {
     Location {
@@ -5933,9 +6359,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5949598175265046926
-  ChildIds: 11819534534941312018
-  ChildIds: 10525381537983785498
+  ParentId: 1146955046023632111
+  ChildIds: 10584472769081018631
+  ChildIds: 719705656141670445
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5954,8 +6380,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10525381537983785498
-  Name: "Cube - Rounded Bottom-Aligned"
+  Id: 719705656141670445
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       Y: 163.922516
@@ -5969,7 +6395,7 @@ Objects {
       Z: 0.36099273
     }
   }
-  ParentId: 498829533059588852
+  ParentId: 13588671169766886013
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6003,7 +6429,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6011,7 +6437,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11819534534941312018
+  Id: 10584472769081018631
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -6027,7 +6453,7 @@ Objects {
       Z: 5.59999847
     }
   }
-  ParentId: 498829533059588852
+  ParentId: 13588671169766886013
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -6079,7 +6505,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6087,7 +6513,70 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2926798216664748517
+  Id: 14748839491779757043
+  Name: "AreaLight_MiniMonitor"
+  Transform {
+    Location {
+      X: -3.17545557
+      Y: 152.000824
+      Z: 55.1107254
+    }
+    Rotation {
+      Pitch: -9.09338379
+      Yaw: 92.5066528
+    }
+    Scale {
+      X: 3.33333325
+      Y: 3.33333325
+      Z: 3.33333325
+    }
+  }
+  ParentId: 1146955046023632111
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 25.0840816
+    Color {
+      G: 0.279999942
+      B: 0.840000033
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 127.325798
+        AreaLight {
+          BarnDoorAngle: 75.1273117
+          BarnDoorLength: 20
+          SourceWidth: 23.5306206
+          SourceHeight: 23.5306206
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    CastVolumetricShadows: true
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12103481935376988293
   Name: "Monitor_Mini"
   Transform {
     Location {
@@ -6105,7 +6594,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5949598175265046926
+  ParentId: 1146955046023632111
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6124,7 +6613,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16218160109114130686
+  Id: 15428848947222156913
   Name: "Cube"
   Transform {
     Location {
@@ -6141,7 +6630,7 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6175,7 +6664,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6183,7 +6672,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3868279880579774857
+  Id: 13050397340917936468
   Name: "Cube"
   Transform {
     Location {
@@ -6200,25 +6689,13 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 6317093348408192352
       }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 4.79304934
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 5.03275919
     }
   }
   Collidable_v2 {
@@ -6246,7 +6723,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6254,7 +6731,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2689276434929835398
+  Id: 5756514194255312588
   Name: "Cube"
   Transform {
     Location {
@@ -6271,25 +6748,13 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 6317093348408192352
       }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 4.79304934
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 5.03275919
     }
   }
   Collidable_v2 {
@@ -6317,7 +6782,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6325,7 +6790,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13309741089414672189
+  Id: 3517428988457401573
   Name: "LightMidTable"
   Transform {
     Location {
@@ -6340,11 +6805,26 @@ Objects {
       Z: 0.282881647
     }
   }
-  ParentId: 6728131202771066704
-  ChildIds: 15870830295886494544
-  ChildIds: 8161122581606424795
-  ChildIds: 17697668911763313667
-  ChildIds: 4699982837887156758
+  ParentId: 7188461901553866376
+  ChildIds: 10164653582469810432
+  ChildIds: 14440556355882396125
+  ChildIds: 4522208821758325478
+  ChildIds: 7087593796069645928
+  ChildIds: 17712113421651765847
+  ChildIds: 16860389094617205973
+  ChildIds: 3279079152620059231
+  ChildIds: 624264458152381843
+  ChildIds: 2929725442115761313
+  ChildIds: 9858572928105861358
+  ChildIds: 11897241892184582576
+  ChildIds: 11396415137683234667
+  ChildIds: 10952155754022876717
+  ChildIds: 12153806506011274244
+  ChildIds: 6564221745868933352
+  ChildIds: 18093594361216428366
+  ChildIds: 18327683039354334857
+  ChildIds: 17806304908038076384
+  ChildIds: 18283694131659177340
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6363,8 +6843,132 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4699982837887156758
-  Name: "Cube"
+  Id: 18283694131659177340
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: -888.075317
+      Y: -13.3783331
+      Z: -436.618469
+    }
+    Rotation {
+      Pitch: -18.675415
+    }
+    Scale {
+      X: 2.32436299
+      Y: 1.85956454
+      Z: 2.36579585
+    }
+  }
+  ParentId: 3517428988457401573
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 1
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    VolumetricIntensity: 5.43134499
+    TeamSettings {
+    }
+    Light {
+      UseTemperature: true
+      Temperature: 7328.50879
+      LocalLight {
+        AttenuationRadius: 447.064758
+        AreaLight {
+          BarnDoorAngle: 34.1327362
+          SourceWidth: 28.8149204
+          SourceHeight: 0.01
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    CastVolumetricShadows: true
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17806304908038076384
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 576.212708
+      Y: -57.0700645
+      Z: -434.810822
+    }
+    Rotation {
+      Pitch: -161.112122
+    }
+    Scale {
+      X: 3.27495503
+      Y: 2.62006903
+      Z: 3.33333278
+    }
+  }
+  ParentId: 3517428988457401573
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 4
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    VolumetricIntensity: 5.43134499
+    TeamSettings {
+    }
+    Light {
+      UseTemperature: true
+      Temperature: 7328.50879
+      LocalLight {
+        AttenuationRadius: 447.064758
+        AreaLight {
+          BarnDoorAngle: 34.1327362
+          SourceWidth: 28.8149204
+          SourceHeight: 0.01
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    CastVolumetricShadows: true
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18327683039354334857
+  Name: "Cube - Chamfered Large"
   Transform {
     Location {
       X: -0.583420873
@@ -6379,7 +6983,7 @@ Objects {
       Z: 0.112560093
     }
   }
-  ParentId: 13309741089414672189
+  ParentId: 3517428988457401573
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6422,7 +7026,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6430,8 +7034,679 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17697668911763313667
-  Name: "Container - Rectangle Thin 01"
+  Id: 18093594361216428366
+  Name: "grid"
+  Transform {
+    Location {
+      X: 21.3826237
+      Y: 41.3447762
+      Z: -20.9062748
+    }
+    Rotation {
+      Yaw: 90
+      Roll: 180
+    }
+    Scale {
+      X: 3.38952923
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6564221745868933352
+  Name: "grid"
+  Transform {
+    Location {
+      X: -13.9678488
+      Y: 41.3447762
+      Z: -20.9062748
+    }
+    Rotation {
+      Yaw: 89.9999619
+      Roll: -179.999969
+    }
+    Scale {
+      X: 3.38952923
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12153806506011274244
+  Name: "grid"
+  Transform {
+    Location {
+      X: -0.904205263
+      Y: 184.725204
+      Z: -19.9697056
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.936838269
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10952155754022876717
+  Name: "grid"
+  Transform {
+    Location {
+      X: -0.904205263
+      Y: 149.374741
+      Z: -21.1266212
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.936838269
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11396415137683234667
+  Name: "grid"
+  Transform {
+    Location {
+      X: -0.904205263
+      Y: 114.024261
+      Z: -21.1266212
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.936838269
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11897241892184582576
+  Name: "grid"
+  Transform {
+    Location {
+      X: -0.904205263
+      Y: 78.67379
+      Z: -21.1266212
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.936838269
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9858572928105861358
+  Name: "grid"
+  Transform {
+    Location {
+      X: -0.904205263
+      Y: 43.3233147
+      Z: -21.1266212
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.936838269
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2929725442115761313
+  Name: "grid"
+  Transform {
+    Location {
+      X: -0.904205263
+      Y: 7.97284365
+      Z: -21.1266212
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.936838269
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 624264458152381843
+  Name: "grid"
+  Transform {
+    Location {
+      X: -0.904205263
+      Y: -27.3776302
+      Z: -21.1266212
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.936838269
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3279079152620059231
+  Name: "grid"
+  Transform {
+    Location {
+      X: -0.904205263
+      Y: -62.7281036
+      Z: -21.1266212
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.936838269
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16860389094617205973
+  Name: "grid"
+  Transform {
+    Location {
+      X: -0.904205263
+      Y: -98.0785751
+      Z: -21.1266212
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.936838269
+      Y: 0.019479502
+      Z: 0.354710728
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14054176190919042885
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17712113421651765847
+  Name: "Box"
   Transform {
     Location {
       X: 0.82156837
@@ -6448,7 +7723,7 @@ Objects {
       Z: 0.35471046
     }
   }
-  ParentId: 13309741089414672189
+  ParentId: 3517428988457401573
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6482,7 +7757,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6490,8 +7765,85 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8161122581606424795
-  Name: "Cylinder - Bottom-Aligned"
+  Id: 7087593796069645928
+  Name: "Military Common Crate Base"
+  Transform {
+    Location {
+      X: -5.62367916
+      Y: 41.5908546
+      Z: -34.0858383
+    }
+    Rotation {
+      Yaw: 89.9999847
+      Roll: -89.9999847
+    }
+    Scale {
+      X: 0.956665754
+      Y: 1.35883117
+      Z: 1.42001772
+    }
+  }
+  ParentId: 3517428988457401573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.0382039957
+        G: 0.0555305295
+        B: 0.056128
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1928150346551514706
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.130012766
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.400856048
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17328743352741039281
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4522208821758325478
+  Name: "Cylinder"
   Transform {
     Location {
       X: -0.904205263
@@ -6506,7 +7858,7 @@ Objects {
       Z: 5.30334282
     }
   }
-  ParentId: 13309741089414672189
+  ParentId: 3517428988457401573
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6540,7 +7892,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6548,8 +7900,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15870830295886494544
-  Name: "Cylinder - Bottom-Aligned"
+  Id: 14440556355882396125
+  Name: "Cylinder"
   Transform {
     Location {
       X: -0.904205263
@@ -6564,7 +7916,7 @@ Objects {
       Z: 5.30334282
     }
   }
-  ParentId: 13309741089414672189
+  ParentId: 3517428988457401573
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6598,7 +7950,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6606,7 +7958,70 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9389482555970267027
+  Id: 10164653582469810432
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: -4.68268633
+      Y: 51.3399582
+      Z: -69.5862656
+    }
+    Rotation {
+      Pitch: -90
+    }
+    Scale {
+      X: 3.27495503
+      Y: 3.23599434
+      Z: 3.33333325
+    }
+  }
+  ParentId: 3517428988457401573
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 3.72113895
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 5.43134499
+    TeamSettings {
+    }
+    Light {
+      UseTemperature: true
+      Temperature: 7328.50879
+      LocalLight {
+        AttenuationRadius: 447.064758
+        AreaLight {
+          BarnDoorAngle: 34.1327362
+          SourceWidth: 100.556442
+          SourceHeight: 0.01
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    CastVolumetricShadows: true
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8979669984700914313
   Name: "Cube"
   Transform {
     Location {
@@ -6622,7 +8037,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6656,7 +8071,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6664,7 +8079,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16043337057797711592
+  Id: 14648554773883402049
   Name: "Cube"
   Transform {
     Location {
@@ -6681,7 +8096,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6715,7 +8130,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6723,7 +8138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12364013678315307602
+  Id: 8316180989608499578
   Name: "Cube"
   Transform {
     Location {
@@ -6740,7 +8155,7 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6774,7 +8189,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6782,7 +8197,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1080041930251190330
+  Id: 16500077239776019832
   Name: "Cube"
   Transform {
     Location {
@@ -6799,25 +8214,13 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 6317093348408192352
       }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 2.42042804
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 5.5487442
     }
   }
   Collidable_v2 {
@@ -6845,7 +8248,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6853,7 +8256,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13312968730169739503
+  Id: 4713677895230846476
   Name: "Cube"
   Transform {
     Location {
@@ -6870,7 +8273,7 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6904,7 +8307,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6912,7 +8315,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11661386959985381078
+  Id: 5693996042935236789
   Name: "Cube"
   Transform {
     Location {
@@ -6928,25 +8331,25 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6728131202771066704
+  ParentId: 7188461901553866376
   UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 10.4645338
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 19.7353897
-    }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 6317093348408192352
+        Id: 11839338173871968665
       }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 5
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 5
     }
   }
   Collidable_v2 {
@@ -6974,7 +8377,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -6982,7 +8385,143 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2281097317350458785
+  Id: 12109258207941530080
+  Name: "Spotlight"
+  Transform {
+    Location {
+      X: -105.710815
+      Y: -114.690552
+      Z: 50
+    }
+    Rotation {
+      Pitch: 25.4998341
+      Yaw: 42.2333679
+      Roll: 9.11155415
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7188461901553866376
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 2.72859716
+    Color {
+      R: 1
+      G: 0.778543055
+      B: 0.62
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1000
+        SpotLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+          InnerConeAngle: 30
+          OuterConeAngle: 14.6036701
+          Profile {
+            Value: "mc:espotlightprofile:basicspotlight"
+          }
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13531760272632153564
+  Name: "Spotlight"
+  Transform {
+    Location {
+      X: -110.989746
+      Y: 188.283234
+      Z: 50
+    }
+    Rotation {
+      Pitch: 26.4841194
+      Yaw: -39.3041687
+      Roll: -13.3529663
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7188461901553866376
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 2.72859716
+    Color {
+      R: 1
+      G: 0.778543055
+      B: 0.62
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1000
+        SpotLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+          InnerConeAngle: 30
+          OuterConeAngle: 14.6036701
+          Profile {
+            Value: "mc:espotlightprofile:basicspotlight"
+          }
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10954894593804201518
   Name: "ClientContext"
   Transform {
     Location {
@@ -6995,11 +8534,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5617173817285069347
-  ChildIds: 15852115877668489473
-  ChildIds: 10669133238409873043
-  ChildIds: 104293857434480479
-  ChildIds: 14939028698409500371
+  ParentId: 11402808854416828442
+  ChildIds: 1410679217781176481
+  ChildIds: 11546488462309505084
+  ChildIds: 9556483998034294242
+  ChildIds: 2199383220130149503
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -7023,7 +8562,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14939028698409500371
+  Id: 2199383220130149503
   Name: "LootBoxMachine"
   Transform {
     Location {
@@ -7039,15 +8578,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2281097317350458785
-  ChildIds: 3471345693647759669
-  ChildIds: 9244234116845083546
-  ChildIds: 1725532127197323484
-  ChildIds: 17106248640519313154
-  ChildIds: 11393337366769926727
-  ChildIds: 11232928678171058209
-  ChildIds: 6169980151358858621
-  ChildIds: 3266144266158921177
+  ParentId: 10954894593804201518
+  ChildIds: 11810544674320980690
+  ChildIds: 4147980360204012380
+  ChildIds: 2612377185817376984
+  ChildIds: 12784854124300917112
+  ChildIds: 7002636573816097945
+  ChildIds: 9386992091081180036
+  ChildIds: 5973868977125239764
+  ChildIds: 3521953287449921532
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7066,7 +8605,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3266144266158921177
+  Id: 3521953287449921532
   Name: "Doo2"
   Transform {
     Location {
@@ -7079,8 +8618,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14939028698409500371
-  ChildIds: 14984150798924095029
+  ParentId: 2199383220130149503
+  ChildIds: 3050126860090778995
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7099,7 +8638,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14984150798924095029
+  Id: 3050126860090778995
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
@@ -7116,7 +8655,7 @@ Objects {
       Z: 0.694894493
     }
   }
-  ParentId: 3266144266158921177
+  ParentId: 3521953287449921532
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -7161,7 +8700,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7169,7 +8708,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6169980151358858621
+  Id: 5973868977125239764
   Name: "Door1"
   Transform {
     Location {
@@ -7182,8 +8721,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14939028698409500371
-  ChildIds: 3396285239113535508
+  ParentId: 2199383220130149503
+  ChildIds: 11573899845738915908
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7202,7 +8741,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3396285239113535508
+  Id: 11573899845738915908
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
@@ -7219,7 +8758,7 @@ Objects {
       Z: 0.694894493
     }
   }
-  ParentId: 6169980151358858621
+  ParentId: 5973868977125239764
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -7264,7 +8803,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7272,7 +8811,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11232928678171058209
+  Id: 9386992091081180036
   Name: "WeaponRackHolders"
   Transform {
     Location {
@@ -7285,15 +8824,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14939028698409500371
-  ChildIds: 11045894091637176605
-  ChildIds: 18238856506931297613
-  ChildIds: 5517089868410422626
-  ChildIds: 17555292681282467241
-  ChildIds: 4616374188876205693
-  ChildIds: 3840113780527738789
-  ChildIds: 8870143856150397728
-  ChildIds: 3116608914134137116
+  ParentId: 2199383220130149503
+  ChildIds: 4674686794616041544
+  ChildIds: 3808444500261530790
+  ChildIds: 12226423191902886034
+  ChildIds: 885925365817609432
+  ChildIds: 12131964557205642793
+  ChildIds: 15222278021891047321
+  ChildIds: 12108230284859788856
+  ChildIds: 17880982638294296917
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7312,7 +8851,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3116608914134137116
+  Id: 17880982638294296917
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -7328,14 +8867,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11232928678171058209
-  ChildIds: 8772481029070028805
-  ChildIds: 17900373997700095963
-  ChildIds: 16487052812544243094
-  ChildIds: 14681992031090632228
-  ChildIds: 17391445083820992987
-  ChildIds: 3451015595795830360
-  ChildIds: 12834649282890738837
+  ParentId: 9386992091081180036
+  ChildIds: 9700062186064565986
+  ChildIds: 6396483539290502767
+  ChildIds: 13087896824159658955
+  ChildIds: 15223158418811277262
+  ChildIds: 10521663877287065036
+  ChildIds: 17519513319501305883
+  ChildIds: 12238124774839039495
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7354,7 +8893,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12834649282890738837
+  Id: 12238124774839039495
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -7371,7 +8910,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 3116608914134137116
+  ParentId: 17880982638294296917
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7399,7 +8938,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7407,7 +8946,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3451015595795830360
+  Id: 17519513319501305883
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -7423,7 +8962,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3116608914134137116
+  ParentId: 17880982638294296917
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7442,7 +8981,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17391445083820992987
+  Id: 10521663877287065036
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -7459,7 +8998,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 3116608914134137116
+  ParentId: 17880982638294296917
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7487,7 +9026,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7495,7 +9034,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14681992031090632228
+  Id: 15223158418811277262
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -7511,7 +9050,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 3116608914134137116
+  ParentId: 17880982638294296917
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7539,7 +9078,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7547,7 +9086,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16487052812544243094
+  Id: 13087896824159658955
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -7564,7 +9103,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 3116608914134137116
+  ParentId: 17880982638294296917
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -7600,7 +9139,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7608,7 +9147,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17900373997700095963
+  Id: 6396483539290502767
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -7624,7 +9163,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 3116608914134137116
+  ParentId: 17880982638294296917
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -7660,7 +9199,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7668,7 +9207,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8772481029070028805
+  Id: 9700062186064565986
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -7683,7 +9222,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 3116608914134137116
+  ParentId: 17880982638294296917
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7711,7 +9250,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7719,7 +9258,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8870143856150397728
+  Id: 12108230284859788856
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -7734,14 +9273,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11232928678171058209
-  ChildIds: 1396762474513003693
-  ChildIds: 11772930565657994001
-  ChildIds: 6483445468486560081
-  ChildIds: 7983419516312548163
-  ChildIds: 6807728089307018278
-  ChildIds: 10797235926282333
-  ChildIds: 4026042219753052441
+  ParentId: 9386992091081180036
+  ChildIds: 15236063332962041476
+  ChildIds: 3782947748530311376
+  ChildIds: 3143628475274695004
+  ChildIds: 16654297476695953755
+  ChildIds: 7666887050242092934
+  ChildIds: 9125074868485226415
+  ChildIds: 13053011966483593220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7760,7 +9299,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4026042219753052441
+  Id: 13053011966483593220
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -7777,7 +9316,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 8870143856150397728
+  ParentId: 12108230284859788856
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7805,7 +9344,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7813,7 +9352,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10797235926282333
+  Id: 9125074868485226415
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -7828,7 +9367,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8870143856150397728
+  ParentId: 12108230284859788856
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7847,7 +9386,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6807728089307018278
+  Id: 7666887050242092934
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -7864,7 +9403,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 8870143856150397728
+  ParentId: 12108230284859788856
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7892,7 +9431,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7900,7 +9439,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7983419516312548163
+  Id: 16654297476695953755
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -7916,7 +9455,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 8870143856150397728
+  ParentId: 12108230284859788856
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7944,7 +9483,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7952,7 +9491,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6483445468486560081
+  Id: 3143628475274695004
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -7969,7 +9508,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 8870143856150397728
+  ParentId: 12108230284859788856
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -8005,7 +9544,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8013,7 +9552,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11772930565657994001
+  Id: 3782947748530311376
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -8029,7 +9568,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 8870143856150397728
+  ParentId: 12108230284859788856
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -8065,7 +9604,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8073,7 +9612,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1396762474513003693
+  Id: 15236063332962041476
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -8088,7 +9627,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 8870143856150397728
+  ParentId: 12108230284859788856
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8116,7 +9655,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8124,7 +9663,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3840113780527738789
+  Id: 15222278021891047321
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -8140,14 +9679,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11232928678171058209
-  ChildIds: 994975035428307991
-  ChildIds: 2348965703349069110
-  ChildIds: 659192039886216222
-  ChildIds: 2157729294137620627
-  ChildIds: 16334507772436754648
-  ChildIds: 16535902164440170915
-  ChildIds: 7409817069128226442
+  ParentId: 9386992091081180036
+  ChildIds: 18222962789617305572
+  ChildIds: 14095731605789271496
+  ChildIds: 11904595033185807514
+  ChildIds: 4870713216011905400
+  ChildIds: 15209473551785087573
+  ChildIds: 4344506721991541991
+  ChildIds: 18055910871057368832
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8166,7 +9705,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7409817069128226442
+  Id: 18055910871057368832
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -8183,7 +9722,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 3840113780527738789
+  ParentId: 15222278021891047321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8211,7 +9750,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8219,7 +9758,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16535902164440170915
+  Id: 4344506721991541991
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -8235,7 +9774,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3840113780527738789
+  ParentId: 15222278021891047321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8254,7 +9793,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16334507772436754648
+  Id: 15209473551785087573
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -8271,7 +9810,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 3840113780527738789
+  ParentId: 15222278021891047321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8299,7 +9838,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8307,7 +9846,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2157729294137620627
+  Id: 4870713216011905400
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -8323,7 +9862,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 3840113780527738789
+  ParentId: 15222278021891047321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8351,7 +9890,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8359,7 +9898,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 659192039886216222
+  Id: 11904595033185807514
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -8376,7 +9915,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 3840113780527738789
+  ParentId: 15222278021891047321
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -8412,7 +9951,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8420,7 +9959,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2348965703349069110
+  Id: 14095731605789271496
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -8436,7 +9975,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 3840113780527738789
+  ParentId: 15222278021891047321
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -8472,7 +10011,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8480,7 +10019,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 994975035428307991
+  Id: 18222962789617305572
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -8495,7 +10034,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 3840113780527738789
+  ParentId: 15222278021891047321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8523,7 +10062,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8531,7 +10070,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4616374188876205693
+  Id: 12131964557205642793
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -8545,14 +10084,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11232928678171058209
-  ChildIds: 6731850050748895525
-  ChildIds: 9777033994352756214
-  ChildIds: 3396519435381958135
-  ChildIds: 15458923696391095386
-  ChildIds: 2257658958937359043
-  ChildIds: 2425487832743297058
-  ChildIds: 10299202279907841699
+  ParentId: 9386992091081180036
+  ChildIds: 15167262027449269606
+  ChildIds: 10567125818496809125
+  ChildIds: 6130739601162857206
+  ChildIds: 3376635780040532717
+  ChildIds: 13742678295202983970
+  ChildIds: 242579266465453083
+  ChildIds: 13997890592351472729
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8571,7 +10110,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10299202279907841699
+  Id: 13997890592351472729
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -8588,7 +10127,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 4616374188876205693
+  ParentId: 12131964557205642793
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8616,7 +10155,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8624,7 +10163,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2425487832743297058
+  Id: 242579266465453083
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -8639,7 +10178,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4616374188876205693
+  ParentId: 12131964557205642793
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8658,7 +10197,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2257658958937359043
+  Id: 13742678295202983970
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -8675,7 +10214,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 4616374188876205693
+  ParentId: 12131964557205642793
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8703,7 +10242,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8711,7 +10250,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15458923696391095386
+  Id: 3376635780040532717
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -8727,7 +10266,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 4616374188876205693
+  ParentId: 12131964557205642793
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8755,7 +10294,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8763,7 +10302,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3396519435381958135
+  Id: 6130739601162857206
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -8780,7 +10319,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 4616374188876205693
+  ParentId: 12131964557205642793
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -8816,7 +10355,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8824,7 +10363,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9777033994352756214
+  Id: 10567125818496809125
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -8840,7 +10379,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 4616374188876205693
+  ParentId: 12131964557205642793
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -8876,7 +10415,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8884,7 +10423,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6731850050748895525
+  Id: 15167262027449269606
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -8899,7 +10438,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 4616374188876205693
+  ParentId: 12131964557205642793
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8927,7 +10466,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -8935,7 +10474,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17555292681282467241
+  Id: 885925365817609432
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -8951,14 +10490,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11232928678171058209
-  ChildIds: 10935130463614450854
-  ChildIds: 13278937867634074526
-  ChildIds: 5168812567784793930
-  ChildIds: 9154167996302766185
-  ChildIds: 15970936143927026398
-  ChildIds: 8602136256843232365
-  ChildIds: 13781884962978155128
+  ParentId: 9386992091081180036
+  ChildIds: 4143596415390666814
+  ChildIds: 15675682442989217562
+  ChildIds: 1356264475528187328
+  ChildIds: 13908285234385379389
+  ChildIds: 18073825016650386276
+  ChildIds: 11700345416219738947
+  ChildIds: 5435035393050550114
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8977,7 +10516,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13781884962978155128
+  Id: 5435035393050550114
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -8994,7 +10533,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 17555292681282467241
+  ParentId: 885925365817609432
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9022,7 +10561,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9030,7 +10569,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8602136256843232365
+  Id: 11700345416219738947
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -9046,7 +10585,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17555292681282467241
+  ParentId: 885925365817609432
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9065,7 +10604,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15970936143927026398
+  Id: 18073825016650386276
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9082,7 +10621,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 17555292681282467241
+  ParentId: 885925365817609432
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9110,7 +10649,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9118,7 +10657,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9154167996302766185
+  Id: 13908285234385379389
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9134,7 +10673,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 17555292681282467241
+  ParentId: 885925365817609432
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9162,7 +10701,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9170,7 +10709,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5168812567784793930
+  Id: 1356264475528187328
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -9187,7 +10726,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 17555292681282467241
+  ParentId: 885925365817609432
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -9223,7 +10762,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9231,7 +10770,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13278937867634074526
+  Id: 15675682442989217562
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -9247,7 +10786,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 17555292681282467241
+  ParentId: 885925365817609432
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -9283,7 +10822,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9291,7 +10830,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10935130463614450854
+  Id: 4143596415390666814
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -9306,7 +10845,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17555292681282467241
+  ParentId: 885925365817609432
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9334,7 +10873,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9342,7 +10881,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5517089868410422626
+  Id: 12226423191902886034
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -9357,14 +10896,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11232928678171058209
-  ChildIds: 11095860590440787125
-  ChildIds: 8356503686077056915
-  ChildIds: 13186623742873083958
-  ChildIds: 14046473972071333601
-  ChildIds: 22036965515461096
-  ChildIds: 15096992936703913480
-  ChildIds: 15823327097381129201
+  ParentId: 9386992091081180036
+  ChildIds: 2291253847651985947
+  ChildIds: 15361845485634051389
+  ChildIds: 2649629023235980182
+  ChildIds: 1378390496772043957
+  ChildIds: 109032808558500269
+  ChildIds: 3817792850174299895
+  ChildIds: 15750262617473398724
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9383,7 +10922,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15823327097381129201
+  Id: 15750262617473398724
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -9400,7 +10939,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 5517089868410422626
+  ParentId: 12226423191902886034
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9428,7 +10967,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9436,7 +10975,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15096992936703913480
+  Id: 3817792850174299895
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -9451,7 +10990,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5517089868410422626
+  ParentId: 12226423191902886034
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9470,7 +11009,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 22036965515461096
+  Id: 109032808558500269
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9487,7 +11026,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 5517089868410422626
+  ParentId: 12226423191902886034
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9515,7 +11054,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9523,7 +11062,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14046473972071333601
+  Id: 1378390496772043957
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9539,7 +11078,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 5517089868410422626
+  ParentId: 12226423191902886034
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9567,7 +11106,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9575,7 +11114,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13186623742873083958
+  Id: 2649629023235980182
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -9592,7 +11131,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 5517089868410422626
+  ParentId: 12226423191902886034
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -9628,7 +11167,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9636,7 +11175,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8356503686077056915
+  Id: 15361845485634051389
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -9652,7 +11191,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 5517089868410422626
+  ParentId: 12226423191902886034
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -9688,7 +11227,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9696,7 +11235,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11095860590440787125
+  Id: 2291253847651985947
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -9711,7 +11250,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 5517089868410422626
+  ParentId: 12226423191902886034
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9739,7 +11278,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9747,7 +11286,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18238856506931297613
+  Id: 3808444500261530790
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -9763,14 +11302,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11232928678171058209
-  ChildIds: 11990429449202698666
-  ChildIds: 4660406475721441989
-  ChildIds: 14032071328493116868
-  ChildIds: 15469185378273798443
-  ChildIds: 8404115217027441117
-  ChildIds: 7193834937199912005
-  ChildIds: 13982304487674388208
+  ParentId: 9386992091081180036
+  ChildIds: 3595661746295204732
+  ChildIds: 16915882791113987496
+  ChildIds: 1222841220683550438
+  ChildIds: 9851847891464879001
+  ChildIds: 13922656517153879247
+  ChildIds: 6956235242600383402
+  ChildIds: 17177308734726527211
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9789,7 +11328,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13982304487674388208
+  Id: 17177308734726527211
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -9806,7 +11345,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 18238856506931297613
+  ParentId: 3808444500261530790
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9834,7 +11373,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9842,7 +11381,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7193834937199912005
+  Id: 6956235242600383402
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -9858,7 +11397,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18238856506931297613
+  ParentId: 3808444500261530790
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9877,7 +11416,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8404115217027441117
+  Id: 13922656517153879247
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9894,7 +11433,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 18238856506931297613
+  ParentId: 3808444500261530790
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9922,7 +11461,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9930,7 +11469,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15469185378273798443
+  Id: 9851847891464879001
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9946,7 +11485,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 18238856506931297613
+  ParentId: 3808444500261530790
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9974,7 +11513,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -9982,7 +11521,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14032071328493116868
+  Id: 1222841220683550438
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -9999,7 +11538,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 18238856506931297613
+  ParentId: 3808444500261530790
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -10035,7 +11574,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10043,7 +11582,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4660406475721441989
+  Id: 16915882791113987496
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -10059,7 +11598,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 18238856506931297613
+  ParentId: 3808444500261530790
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -10095,7 +11634,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10103,7 +11642,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11990429449202698666
+  Id: 3595661746295204732
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -10118,7 +11657,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 18238856506931297613
+  ParentId: 3808444500261530790
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10146,7 +11685,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10154,7 +11693,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11045894091637176605
+  Id: 4674686794616041544
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -10169,14 +11708,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11232928678171058209
-  ChildIds: 8061591084071921319
-  ChildIds: 12514825037755441260
-  ChildIds: 10496084805228143337
-  ChildIds: 18250668160748692852
-  ChildIds: 9244067039012692101
-  ChildIds: 8579393027647416923
-  ChildIds: 871073654278669343
+  ParentId: 9386992091081180036
+  ChildIds: 14034473602928715437
+  ChildIds: 14503116500920160037
+  ChildIds: 5031246155483914969
+  ChildIds: 11227822654050564619
+  ChildIds: 13965976721783690970
+  ChildIds: 4655962425001043773
+  ChildIds: 4158711167858468093
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10195,7 +11734,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 871073654278669343
+  Id: 4158711167858468093
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -10212,7 +11751,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 11045894091637176605
+  ParentId: 4674686794616041544
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10240,7 +11779,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10248,7 +11787,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8579393027647416923
+  Id: 4655962425001043773
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -10264,7 +11803,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11045894091637176605
+  ParentId: 4674686794616041544
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10283,7 +11822,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9244067039012692101
+  Id: 13965976721783690970
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -10300,7 +11839,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 11045894091637176605
+  ParentId: 4674686794616041544
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10328,7 +11867,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10336,7 +11875,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18250668160748692852
+  Id: 11227822654050564619
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -10352,7 +11891,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 11045894091637176605
+  ParentId: 4674686794616041544
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10380,7 +11919,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10388,7 +11927,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10496084805228143337
+  Id: 5031246155483914969
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -10405,7 +11944,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 11045894091637176605
+  ParentId: 4674686794616041544
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -10441,7 +11980,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10449,7 +11988,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12514825037755441260
+  Id: 14503116500920160037
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -10465,7 +12004,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 11045894091637176605
+  ParentId: 4674686794616041544
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -10501,7 +12040,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10509,7 +12048,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8061591084071921319
+  Id: 14034473602928715437
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -10524,7 +12063,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 11045894091637176605
+  ParentId: 4674686794616041544
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10552,7 +12091,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10560,7 +12099,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11393337366769926727
+  Id: 7002636573816097945
   Name: "WeaponRackHousing"
   Transform {
     Location {
@@ -10573,11 +12112,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14939028698409500371
-  ChildIds: 12820349347375753590
-  ChildIds: 11216068720213175364
-  ChildIds: 5662369173996153546
-  ChildIds: 16278569614916356068
+  ParentId: 2199383220130149503
+  ChildIds: 1114899130751877919
+  ChildIds: 17641888644620092680
+  ChildIds: 5856194686789259841
+  ChildIds: 842271844273171139
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10596,7 +12135,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16278569614916356068
+  Id: 842271844273171139
   Name: "Stylish Raging Rock Music Stinger Set 01"
   Transform {
     Location {
@@ -10611,7 +12150,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11393337366769926727
+  ParentId: 7002636573816097945
   UnregisteredParameters {
     Overrides {
       Name: "bp:Type"
@@ -10648,7 +12187,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5662369173996153546
+  Id: 5856194686789259841
   Name: "Mechanical Gears Squeaky 01 SFX"
   Transform {
     Location {
@@ -10663,7 +12202,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11393337366769926727
+  ParentId: 7002636573816097945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10690,7 +12229,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11216068720213175364
+  Id: 17641888644620092680
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -10707,7 +12246,7 @@ Objects {
       Z: 2.2
     }
   }
-  ParentId: 11393337366769926727
+  ParentId: 7002636573816097945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10735,7 +12274,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10743,7 +12282,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12820349347375753590
+  Id: 1114899130751877919
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -10759,7 +12298,7 @@ Objects {
       Z: 2.2
     }
   }
-  ParentId: 11393337366769926727
+  ParentId: 7002636573816097945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10787,7 +12326,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10795,7 +12334,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17106248640519313154
+  Id: 12784854124300917112
   Name: "WeaponRackSpinner"
   Transform {
     Location {
@@ -10808,10 +12347,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14939028698409500371
-  ChildIds: 8286015569750174234
-  ChildIds: 5617735759019719061
-  ChildIds: 15607376268078338615
+  ParentId: 2199383220130149503
+  ChildIds: 4689478625518176864
+  ChildIds: 11740988836456448982
+  ChildIds: 8999795024603938243
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10830,7 +12369,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15607376268078338615
+  Id: 8999795024603938243
   Name: "Modern Weapon - Grenade Canister 03"
   Transform {
     Location {
@@ -10844,7 +12383,7 @@ Objects {
       Z: 9.40014267
     }
   }
-  ParentId: 17106248640519313154
+  ParentId: 12784854124300917112
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10872,7 +12411,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10880,7 +12419,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5617735759019719061
+  Id: 11740988836456448982
   Name: "Modern Weapon - Disc 01"
   Transform {
     Location {
@@ -10897,7 +12436,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 17106248640519313154
+  ParentId: 12784854124300917112
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10925,7 +12464,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10933,7 +12472,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8286015569750174234
+  Id: 4689478625518176864
   Name: "Modern Weapon - Disc 01"
   Transform {
     Location {
@@ -10950,7 +12489,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 17106248640519313154
+  ParentId: 12784854124300917112
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10978,7 +12517,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:high"
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -10986,7 +12525,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1725532127197323484
+  Id: 2612377185817376984
   Name: "ReloadPoint"
   Transform {
     Location {
@@ -11000,7 +12539,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14939028698409500371
+  ParentId: 2199383220130149503
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11019,7 +12558,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9244234116845083546
+  Id: 4147980360204012380
   Name: "DestinationPoint"
   Transform {
     Location {
@@ -11033,7 +12572,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14939028698409500371
+  ParentId: 2199383220130149503
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11052,7 +12591,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3471345693647759669
+  Id: 11810544674320980690
   Name: "LootBoxCamera"
   Transform {
     Location {
@@ -11069,8 +12608,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14939028698409500371
-  ChildIds: 9989791225582271591
+  ParentId: 2199383220130149503
+  ChildIds: 4228396914029131000
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11103,7 +12642,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9989791225582271591
+  Id: 4228396914029131000
   Name: "UI Container"
   Transform {
     Location {
@@ -11122,8 +12661,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3471345693647759669
-  ChildIds: 15964224683805211429
+  ParentId: 11810544674320980690
+  ChildIds: 5582949518287246812
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11170,7 +12709,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15964224683805211429
+  Id: 5582949518287246812
   Name: "WeaponText"
   Transform {
     Location {
@@ -11189,7 +12728,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9989791225582271591
+  ParentId: 4228396914029131000
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11242,7 +12781,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 104293857434480479
+  Id: 9556483998034294242
   Name: "OtherWeapons"
   Transform {
     Location {
@@ -11258,7 +12797,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2281097317350458785
+  ParentId: 10954894593804201518
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11277,7 +12816,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10669133238409873043
+  Id: 11546488462309505084
   Name: "SelectedWeapon"
   Transform {
     Location {
@@ -11293,7 +12832,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2281097317350458785
+  ParentId: 10954894593804201518
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11312,7 +12851,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15852115877668489473
+  Id: 1410679217781176481
   Name: "LootboxAnimator"
   Transform {
     Location {
@@ -11328,7 +12867,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2281097317350458785
+  ParentId: 10954894593804201518
   UnregisteredParameters {
     Overrides {
       Name: "cs:RollEvent"
@@ -11345,73 +12884,73 @@ Objects {
     Overrides {
       Name: "cs:SelectedWeapon"
       ObjectReference {
-        SelfId: 10669133238409873043
+        SelfId: 11546488462309505084
       }
     }
     Overrides {
       Name: "cs:OtherWeapons"
       ObjectReference {
-        SelfId: 104293857434480479
+        SelfId: 9556483998034294242
       }
     }
     Overrides {
       Name: "cs:WeaponRackSpinner"
       ObjectReference {
-        SelfId: 17106248640519313154
+        SelfId: 12784854124300917112
       }
     }
     Overrides {
       Name: "cs:WeaponRackHolders"
       ObjectReference {
-        SelfId: 11232928678171058209
+        SelfId: 9386992091081180036
       }
     }
     Overrides {
       Name: "cs:Door1"
       ObjectReference {
-        SelfId: 6169980151358858621
+        SelfId: 5973868977125239764
       }
     }
     Overrides {
       Name: "cs:Doo2"
       ObjectReference {
-        SelfId: 3266144266158921177
+        SelfId: 3521953287449921532
       }
     }
     Overrides {
       Name: "cs:LootBoxCamera"
       ObjectReference {
-        SelfId: 3471345693647759669
+        SelfId: 11810544674320980690
       }
     }
     Overrides {
       Name: "cs:DestinationPoint"
       ObjectReference {
-        SelfId: 9244234116845083546
+        SelfId: 4147980360204012380
       }
     }
     Overrides {
       Name: "cs:ReloadPoint"
       ObjectReference {
-        SelfId: 1725532127197323484
+        SelfId: 2612377185817376984
       }
     }
     Overrides {
       Name: "cs:RackSFX"
       ObjectReference {
-        SelfId: 5662369173996153546
+        SelfId: 5856194686789259841
       }
     }
     Overrides {
       Name: "cs:ChuggSFX"
       ObjectReference {
-        SelfId: 16278569614916356068
+        SelfId: 842271844273171139
       }
     }
     Overrides {
       Name: "cs:WEAPON_TEXT"
       ObjectReference {
-        SelfId: 15964224683805211429
+        SelfId: 5582949518287246812
       }
     }
     Overrides {

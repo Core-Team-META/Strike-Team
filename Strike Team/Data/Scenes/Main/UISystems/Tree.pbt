@@ -204,6 +204,39 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 1984789635035270879
+  Name: "LootBox"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15900364157994414074
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LootBoxUI"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 10571487338689186403
   Name: "META Activity Feed Enhanced"
   Transform {
@@ -12956,6 +12989,10 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
+    }
   }
   InstanceHistory {
     SelfId: 17613436469969624018
@@ -13001,6 +13038,10 @@ Objects {
     }
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
     }
   }
   InstanceHistory {
@@ -13048,6 +13089,10 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
+    }
   }
   InstanceHistory {
     SelfId: 7992230025817283535
@@ -13093,6 +13138,10 @@ Objects {
     }
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
     }
   }
   InstanceHistory {
@@ -13140,6 +13189,10 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
+    }
   }
   InstanceHistory {
     SelfId: 832642202958923794
@@ -13185,6 +13238,10 @@ Objects {
     }
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
     }
   }
   InstanceHistory {
@@ -13232,6 +13289,10 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
+    }
   }
   InstanceHistory {
     SelfId: 3608836049834744636
@@ -13277,6 +13338,10 @@ Objects {
     }
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
     }
   }
   InstanceHistory {
