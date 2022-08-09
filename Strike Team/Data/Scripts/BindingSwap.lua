@@ -8,8 +8,10 @@ local BindingToSlot = {
 
 function UpdateEnabled(int,player)
     if player == Ability.owner then 
-        if int == Slot 
-            then Ability.isEnabled = false else Ability.isEnabled = true
+        if int == Slot then 
+            Ability.isEnabled = false 
+        else 
+            Ability.isEnabled = true
         end
     end
 end
@@ -22,13 +24,24 @@ function SwapWeapon()
         Events.Broadcast("UpdateAbiltity",Slot,Ability.owner )
     end
 end
+
+
+
 local Connections
 
 Connections = {
-script.destroyEvent:Connect(function()
-	for k,v in pairs(Connections) do
-		v:Disconnect()
-	end end),
-Ability.executeEvent:Connect(SwapWeapon),
-Events.Connect("UpdateAbiltity",UpdateEnabled)
+    script.destroyEvent:Connect(function()
+        for k,v in pairs(Connections) do
+            v:Disconnect()
+        end end),
+
+    Ability.executeEvent:Connect(SwapWeapon),
+    Events.Connect("UpdateAbiltity",UpdateEnabled),
+    
+    Events.ConnectForPlayer("MobileWeaponSwap",function(player,slotIndex)
+        if Object.IsValid(Ability) and Ability.owner == player and Slot == tonumber(slotIndex) then
+            UpdateEnabled(player,slotIndex)
+            SwapWeapon()
+        end
+    end)
 }

@@ -519,8 +519,8 @@ Objects {
   ChildIds: 6607182352912236424
   ChildIds: 8920997563789057124
   ChildIds: 14100364665580412959
-  ChildIds: 346485021552436543
-  ChildIds: 18153877756779371013
+  ChildIds: 8627173594374570726
+  ChildIds: 6508840793961366074
   ChildIds: 5745186603314986140
   ChildIds: 225281253244608170
   ChildIds: 6302636340349047844
@@ -10292,6 +10292,110 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 6508840793961366074
+  Name: "UI Button"
+  Transform {
+    Location {
+      X: -5351.33
+      Y: -1747.16809
+    }
+    Rotation {
+      Yaw: -47.0336189
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12681686908102921934
+  ChildIds: 1528329336233821688
+  ChildIds: 18153877756779371013
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 249
+    Height: 73
+    UIX: -333.563721
+    UIY: -50.0001221
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    IsHittable: true
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
+      }
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 18153877756779371013
   Name: "HOVERPANEL"
   Transform {
@@ -10306,7 +10410,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12681686908102921934
+  ParentId: 6508840793961366074
   ChildIds: 9534605127507365684
   ChildIds: 4645568238191592973
   ChildIds: 16050886866258087386
@@ -10325,8 +10429,8 @@ Objects {
   Control {
     Width: 150
     Height: 75
-    UIX: -279.647644
-    UIY: -50
+    UIX: 53.9160156
+    UIY: 0.000122070312
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -10892,6 +10996,271 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 1528329336233821688
+  Name: "UIMobileButton"
+  Transform {
+    Location {
+      X: -3917.99268
+      Y: 41756.4414
+      Z: 3135.67847
+    }
+    Rotation {
+      Yaw: 63.0727577
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6508840793961366074
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ActivationButton"
+      ObjectReference {
+        SelfId: 6508840793961366074
+      }
+    }
+    Overrides {
+      Name: "cs:DirectionOfMovement"
+      Vector2 {
+        Y: 10
+      }
+    }
+    Overrides {
+      Name: "cs:EventValue"
+      String: "1"
+    }
+    Overrides {
+      Name: "cs:AnimationTime"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:IsAnimated"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:EventToBroadcast"
+      String: "MobileWeaponSwap"
+    }
+    Overrides {
+      Name: "cs:SendToServer"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:EventValue2"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12893856494884572240
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8627173594374570726
+  Name: "UI Button"
+  Transform {
+    Location {
+      X: -5351.33
+      Y: -1747.1665
+    }
+    Rotation {
+      Yaw: -47.0336342
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12681686908102921934
+  ChildIds: 346485021552436543
+  ChildIds: 11597698292954345576
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 252
+    Height: 72
+    UIX: 222.634262
+    UIY: -50
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    IsHittable: true
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
+      }
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11597698292954345576
+  Name: "UIMobileButton"
+  Transform {
+    Location {
+      X: -30857.0195
+      Y: 30699.5488
+      Z: 3135.67847
+    }
+    Rotation {
+      Yaw: 110.106346
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8627173594374570726
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ActivationButton"
+      ObjectReference {
+        SelfId: 8627173594374570726
+      }
+    }
+    Overrides {
+      Name: "cs:DirectionOfMovement"
+      Vector2 {
+        Y: 10
+      }
+    }
+    Overrides {
+      Name: "cs:EventValue"
+      String: "2"
+    }
+    Overrides {
+      Name: "cs:AnimationTime"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:IsAnimated"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:EventToBroadcast"
+      String: "MobileWeaponSwap"
+    }
+    Overrides {
+      Name: "cs:SendToServer"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:EventValue2"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12893856494884572240
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 346485021552436543
   Name: "HOVERPANEL"
   Transform {
@@ -10906,7 +11275,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12681686908102921934
+  ParentId: 8627173594374570726
   ChildIds: 8894830474931908622
   ChildIds: 13788102704430332215
   ChildIds: 2441308855521030880
@@ -10925,8 +11294,7 @@ Objects {
   Control {
     Width: 150
     Height: 75
-    UIX: 277.327515
-    UIY: -50
+    UIX: 54.6932373
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -11510,8 +11878,8 @@ Objects {
     }
   }
   ParentId: 12681686908102921934
-  ChildIds: 6153324052329897438
   ChildIds: 15296741414201953715
+  ChildIds: 6153324052329897438
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11525,9 +11893,9 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 150
+    Width: 247
     Height: 75
-    UIX: -6.10351562e-05
+    UIX: -55
     UIY: -50.0001221
     RenderTransformPivot {
       Anchor {
@@ -11597,85 +11965,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15296741414201953715
-  Name: "UIMobileButton"
-  Transform {
-    Location {
-      X: 13549.8711
-      Y: -34717.1719
-      Z: 4445.3623
-    }
-    Rotation {
-      Yaw: -76.7974396
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14100364665580412959
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ActivationButton"
-      ObjectReference {
-        SelfId: 14100364665580412959
-      }
-    }
-    Overrides {
-      Name: "cs:DirectionOfMovement"
-      Vector2 {
-        Y: 10
-      }
-    }
-    Overrides {
-      Name: "cs:EventValue"
-      String: "ability_extra_2"
-    }
-    Overrides {
-      Name: "cs:AnimationTime"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "cs:IsAnimated"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:EventToBroadcast"
-      String: "EquipWeapon"
-    }
-    Overrides {
-      Name: "cs:SendToServer"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:EventValue2"
-      String: ""
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 12893856494884572240
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 6153324052329897438
   Name: "HOVERPANEL"
   Transform {
@@ -11704,6 +11993,7 @@ Objects {
   Control {
     Width: 150
     Height: 75
+    UIX: 55
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -12257,6 +12547,85 @@ Objects {
     SubobjectId: 16498983927694532297
     InstanceId: 1000879004361878162
     TemplateId: 5616367231959331895
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15296741414201953715
+  Name: "UIMobileButton"
+  Transform {
+    Location {
+      X: 13549.8711
+      Y: -34717.1719
+      Z: 4445.3623
+    }
+    Rotation {
+      Yaw: -76.7974396
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14100364665580412959
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ActivationButton"
+      ObjectReference {
+        SelfId: 14100364665580412959
+      }
+    }
+    Overrides {
+      Name: "cs:DirectionOfMovement"
+      Vector2 {
+        Y: 10
+      }
+    }
+    Overrides {
+      Name: "cs:EventValue"
+      String: "3"
+    }
+    Overrides {
+      Name: "cs:AnimationTime"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:IsAnimated"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:EventToBroadcast"
+      String: "MobileWeaponSwap"
+    }
+    Overrides {
+      Name: "cs:SendToServer"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:EventValue2"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12893856494884572240
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

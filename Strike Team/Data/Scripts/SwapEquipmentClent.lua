@@ -6,8 +6,14 @@ local BindingToSlot = {
 }
 
 
+
+
+
 LOCAL_PLAYER.bindingPressedEvent:Connect(function(player, bindingPressed)
     if(BindingToSlot[bindingPressed]) then
         Events.BroadcastToServer("SwapEquipment",BindingToSlot[bindingPressed])
+        print("Button Pressed:",BindingToSlot[bindingPressed])
+        print("Binding",bindingPressed)
     end
 end)
+
